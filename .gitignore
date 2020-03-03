@@ -1,0 +1,10 @@
+# secrets
+secrets.env
+
+# osx user
+.DS_Store
+
+# make
+out
+*.tar.gz
+go-signs
