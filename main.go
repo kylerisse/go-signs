@@ -6,7 +6,7 @@ import (
 	"os"
 	"time"
 
-	"./signs"
+	"github.com/kylerisse/go-signs/signs"
 )
 
 func run(c signs.Config) error {
