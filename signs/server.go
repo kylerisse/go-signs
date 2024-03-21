@@ -15,7 +15,7 @@ type Server struct {
 	httpd *http.Server
 }
 
-// NewServer sets up the cron runs for schedule, twitter, and sponsors returns the *Server
+// NewServer sets up the cron runs for schedule and sponsors returns the *Server
 func NewServer(c Config) *Server {
 	cron := cron.New()
 
@@ -31,17 +31,9 @@ func NewServer(c Config) *Server {
 		sch.updateFromJSON()
 	}
 
-	// clean this up
-	var twit *Twitter
-	if c.TwitterPubUpdate != "" {
-		twit = newTwitter(c)
-		twit.getTweets()
-		cron.AddFunc(c.TwitterPubUpdate, twit.getTweets)
-	}
-
 	r := mux.NewRouter()
 	r.Use(middlewareLogging)
-	createRoutes(r, sch, twit)
+	createRoutes(r, sch)
 
 	srv := &http.Server{
 		Handler:      r,
