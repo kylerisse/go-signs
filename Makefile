@@ -50,3 +50,8 @@ clean:
 mrproper: clean
 	# make: mrproper
 	rm -f $(BINARY)-v*.tar.gz
+
+.PHONY: deps
+deps:
+	go mod verify
+	go mod tidy
