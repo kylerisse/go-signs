@@ -25,7 +25,6 @@ type Event struct {
 	Location    string
 	StartTime   time.Time
 	EndTime     time.Time
-	//Sponsors    []sponsors
 }
 
 // Presentation is an extension of event with speakers and a topic

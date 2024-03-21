@@ -2,12 +2,10 @@ BINARY := go-signs
 VERSION := 0.1
 BUILDOS := "darwin" # builder OS [darwin or linux]
 BIN_DIR := $(GOPATH)/bin
-GOMETALINTER := $(BIN_DIR)/gometalinter
-ESLINT := /usr/local/bin/eslint
 
 .PHONY: info
 info:
-	# please use make lint, make test, make clean, or make build
+	# please use make test, make clean, or make build
 
 # TODO eval broken in linux, build uses os specific parameter for tar [-s darwin / --transform linux]
 .PHONY: build
@@ -21,27 +19,9 @@ build: test clean releases resources
 	fi
 
 .PHONY: test
-test: lint
+test:
 	# make: test
-	go test --race -v ./server/...
-
-.PHONY: lint
-lint: lint-js lint-go
-
-.PHONY: lint-js
-lint-js: $(ESLINT)
-	#eslint client/*.js
-
-$(ESLINT):
-	npm install -g eslint prettier eslint-plugin-prettier eslint-config-prettier
-
-PHONY: lint-go
-lint-go: $(GOMETALINTER)
-	gometalinter ./...
-
-$(GOMETALINTER):
-	go get -v -u github.com/alecthomas/gometalinter
-	gometalinter --install
+	go test --race -v ./...
 
 .PHONY: releases
 releases: test
@@ -56,10 +36,8 @@ releases: test
 resources:
 	# make: resources
 	mkdir -p out
-	cp -rv client out/client
 	cp -rv images out/images
 	cp -v LICENSE.md out/
-	cp -v config.json out/
 
 .PHONY: clean
 clean:
@@ -71,3 +49,8 @@ clean:
 mrproper: clean
 	# make: mrproper
 	rm -f $(BINARY)-v*.tar.gz
+
+.PHONY: deps
+deps:
+	go mod verify
+	go mod tidy

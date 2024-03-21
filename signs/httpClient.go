@@ -34,9 +34,10 @@ func fetch(url string) ([]byte, error) {
 	defer func() {
 		err = resp.Body.Close()
 		if err != nil {
-			log.Printf("unable to close reponse body %v", err)
+			log.Printf("unable to close response body %v", err)
 		}
 	}()
+	// TODO: ioutil.ReadAll is deprecated
 	body, err := ioutil.ReadAll(resp.Body)
 	if err != nil {
 		return nil, err
