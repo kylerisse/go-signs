@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/kylerisse/go-signs/signs"
+	"github.com/kylerisse/go-signs/pkg/signs"
 )
 
 func run(c signs.Config) error {
