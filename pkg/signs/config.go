@@ -1,5 +1,7 @@
 package signs
 
+import "fmt"
+
 // Config server configuration
 type Config struct {
 	Address            string
@@ -10,10 +12,10 @@ type Config struct {
 }
 
 // NewServerConfig for Sign Server at SCaLE
-func NewServerConfig() Config {
+func NewServerConfig(listenPort string, xmlEndpoint string) Config {
 	return Config{
-		Address:           ":8080",
-		ScheduleXMLurl:    "http://www.socallinuxexpo.org/scale/21x/sign.xml",
+		Address:           fmt.Sprintf(":%v", listenPort),
+		ScheduleXMLurl:    xmlEndpoint,
 		ScheduleXMLupdate: "@every 5m",
 	}
 }

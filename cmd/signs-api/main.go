@@ -1,6 +1,7 @@
 package main
 
 import (
+	"flag"
 	"log"
 
 	"github.com/kylerisse/go-signs/pkg/signs"
@@ -16,8 +17,11 @@ func run(c signs.Config) error {
 }
 
 func main() {
+	listenPort := flag.String("port", "2017", "Port to listen on")
+	xmlEndpoint := flag.String("xml", "http://www.socallinuxexpo.org/scale/21x/sign.xml", "URL to Drupal XML endpoint")
+	flag.Parse()
 
-	conf := signs.NewServerConfig()
+	conf := signs.NewServerConfig(*listenPort, *xmlEndpoint)
 	err := run(conf)
 	if err != nil {
 		log.Fatal(err)
