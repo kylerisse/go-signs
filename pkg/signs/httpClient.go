@@ -1,7 +1,7 @@
 package signs
 
 import (
-	"io/ioutil"
+	"io"
 	"log"
 	"net"
 	"net/http"
@@ -37,8 +37,7 @@ func fetch(url string) ([]byte, error) {
 			log.Printf("unable to close response body %v", err)
 		}
 	}()
-	// TODO: ioutil.ReadAll is deprecated
-	body, err := ioutil.ReadAll(resp.Body)
+	body, err := io.ReadAll(resp.Body)
 	if err != nil {
 		return nil, err
 	}

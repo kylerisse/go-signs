@@ -1,10 +1,6 @@
-# secrets
-secrets.env
+# direnv
+.direnv/*
 
-# osx user
-.DS_Store
-
-# make
-out
-*.tar.gz
-go-signs
+# artifacts
+out/*
+data/*
