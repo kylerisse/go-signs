@@ -11,7 +11,7 @@ import (
 // Schedule contains all presentations and events
 type Schedule struct {
 	Presentations []Presentation
-	mutex         *sync.Mutex
+	mutex         *sync.RWMutex
 	xmlURL        string
 	xmlRaw        string
 }
@@ -35,7 +35,7 @@ type Presentation struct {
 // NewSchedule produces a new Schedule
 func newSchedule() *Schedule {
 	var sch Schedule
-	sch.mutex = &sync.Mutex{}
+	sch.mutex = &sync.RWMutex{}
 	return &sch
 }
 
@@ -69,10 +69,10 @@ func (s *Schedule) updateFromXML() {
 func (s *Schedule) handleScheduleAll(w http.ResponseWriter, req *http.Request) {
 	enc := json.NewEncoder(w)
 	enc.SetEscapeHTML(false)
-	s.mutex.Lock()
+	s.mutex.RLock()
 	err := enc.Encode(s)
 	if err != nil {
 		log.Println("handleScheduleAll cannot encode schedule")
 	}
-	s.mutex.Unlock()
+	s.mutex.RUnlock()
 }
