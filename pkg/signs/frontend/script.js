@@ -91,23 +91,25 @@ function displaySchedule(schedule) {
   });
 }
 
-// Auto-scroll function that scrolls the schedule container
+// Auto-scroll function that creates a seamless wrap-around effect
 function autoScroll() {
   const container = document.getElementById('schedule-container');
+
+  // Duplicate the content to allow for seamless scrolling if not already done.
+  // We use a data attribute flag to ensure we only duplicate once.
+  if (!container.dataset.duplicated) {
+    container.dataset.duplicated = "true";
+    container.innerHTML += container.innerHTML;
+  }
+
   const scrollStep = 1;         // pixels to scroll each step
   const scrollInterval = 20;      // time in ms between steps
-  const bottomPause = 2000;       // pause in ms when bottom is reached
 
-  let scrollTimer = setInterval(() => {
+  setInterval(() => {
     container.scrollTop += scrollStep;
-    // Check if we've reached the bottom of the container
-    if (container.scrollTop + container.clientHeight >= container.scrollHeight) {
-      clearInterval(scrollTimer);
-      // Pause, then reset scroll to top and restart auto-scroll
-      setTimeout(() => {
-        container.scrollTop = 0;
-        autoScroll();
-      }, bottomPause);
+    // When scrollTop reaches half the scrollHeight, we've reached the end of the first copy.
+    if (container.scrollTop >= container.scrollHeight / 2) {
+      container.scrollTop = 0;
     }
   }, scrollInterval);
 }
