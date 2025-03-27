@@ -42,8 +42,9 @@ func newSchedule() *Schedule {
 func (s *Schedule) updateSchedule(ps []Presentation) {
 	s.mutex.Lock()
 	s.Presentations = ps
+	count := len(ps)
 	s.mutex.Unlock()
-	log.Printf("Schedule updated")
+	log.Printf("Schedule updated with %d sessions", count)
 }
 
 func (s *Schedule) updateFromXML() {
