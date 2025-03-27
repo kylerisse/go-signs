@@ -91,6 +91,15 @@ function displaySchedule(schedule) {
   });
 }
 
+// Update the clock to show the current hour and minute only
+function updateClock() {
+  const clockEl = document.getElementById('clock');
+  const now = new Date();
+  // Options to show only hour and minute
+  const options = { hour: '2-digit', minute: '2-digit' };
+  clockEl.textContent = now.toLocaleTimeString([], options);
+}
+
 // Auto-scroll function that creates a seamless wrap-around effect
 function autoScroll() {
   const container = document.getElementById('schedule-container');
@@ -118,6 +127,9 @@ async function init() {
   const schedule = await fetchSchedule();
   displaySchedule(schedule);
   autoScroll();
+  updateClock();
+  // Update clock every minute (60,000 ms)
+  setInterval(updateClock, 60000);
 }
 
 // Initialize the page once the DOM is loaded
