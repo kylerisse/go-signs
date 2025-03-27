@@ -4,11 +4,9 @@ import "fmt"
 
 // Config server configuration
 type Config struct {
-	Address            string
-	ScheduleXMLurl     string
-	ScheduleXMLupdate  string
-	ScheduleJSONurl    string
-	ScheduleJSONupdate string
+	Address           string
+	ScheduleXMLurl    string
+	ScheduleXMLupdate string
 }
 
 // NewServerConfig for Sign Server at SCaLE

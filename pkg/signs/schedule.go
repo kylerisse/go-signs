@@ -14,8 +14,6 @@ type Schedule struct {
 	mutex         *sync.Mutex
 	xmlURL        string
 	xmlRaw        string
-	jsonURL       string
-	jsonRaw       string
 }
 
 // Event is basic scheduling primitive
@@ -66,27 +64,6 @@ func (s *Schedule) updateFromXML() {
 	}
 	s.xmlRaw = string(body)
 	s.updateSchedule(ps)
-}
-
-func (s *Schedule) updateFromJSON() {
-	log.Printf("Update Schedule from %v", s.jsonURL)
-	body, err := fetch(s.jsonURL)
-	if err != nil {
-		log.Printf("error %v", err)
-		return
-	}
-	if string(body) == s.jsonRaw {
-		log.Printf("no change to JSON schedule")
-		return
-	}
-	var tmp Schedule
-	err = json.Unmarshal(body, &tmp)
-	if err != nil {
-		log.Printf("Unmarshal error %v", err)
-		return
-	}
-	s.jsonRaw = string(body)
-	s.updateSchedule([]Presentation(tmp.Presentations))
 }
 
 func (s *Schedule) handleScheduleAll(w http.ResponseWriter, req *http.Request) {

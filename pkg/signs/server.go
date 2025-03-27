@@ -20,16 +20,9 @@ func NewServer(c Config) *Server {
 	cron := cron.New()
 
 	sch := newSchedule()
-	if c.ScheduleXMLurl != "" && c.ScheduleXMLupdate != "" {
-		sch.xmlURL = c.ScheduleXMLurl
-		cron.AddFunc(c.ScheduleXMLupdate, sch.updateFromXML)
-		sch.updateFromXML()
-	}
-	if c.ScheduleJSONurl != "" && c.ScheduleJSONupdate != "" {
-		sch.jsonURL = c.ScheduleJSONurl
-		cron.AddFunc(c.ScheduleJSONupdate, sch.updateFromJSON)
-		sch.updateFromJSON()
-	}
+	sch.xmlURL = c.ScheduleXMLurl
+	cron.AddFunc(c.ScheduleXMLupdate, sch.updateFromXML)
+	sch.updateFromXML()
 
 	r := mux.NewRouter()
 	r.Use(middlewareLogging)
