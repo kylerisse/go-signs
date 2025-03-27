@@ -20,7 +20,7 @@ func NewServer(c Config) *Server {
 
 	go func() {
 		sch.updateFromXML()
-		ticker := time.NewTicker(5 * time.Minute)
+		ticker := time.NewTicker(c.RefreshInterval)
 		defer ticker.Stop()
 		for range ticker.C {
 			sch.updateFromXML()
