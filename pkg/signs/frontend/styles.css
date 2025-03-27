@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+main {
+  padding: 1rem;
+}
+
+#schedule-container {
+  max-height: 80vh;
+  overflow-y: auto;
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  /* Hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+#schedule-container::-webkit-scrollbar {
+  display: none;
+}
+
+.presentation {
+  border-bottom: 1px solid #ddd;
+  padding: 0.5rem 0;
+}
+
+.presentation:last-child {
+  border-bottom: none;
+}
+
+.presentation h2 {
+  margin: 0 0 0.3rem;
+}
+
+.presentation .meta {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.presentation .description {
+  margin-top: 0.5rem;
+}
