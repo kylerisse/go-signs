@@ -6,30 +6,26 @@ import (
 	"time"
 
 	"github.com/gorilla/mux"
-	cron "gopkg.in/robfig/cron.v2"
 )
 
 // Server is the main webserver process
 type Server struct {
-	cron  *cron.Cron
 	httpd *http.Server
 }
 
 // NewServer sets up the cron runs for schedule and sponsors returns the *Server
 func NewServer(c Config) *Server {
-	cron := cron.New()
-
 	sch := newSchedule()
-	if c.ScheduleXMLurl != "" && c.ScheduleXMLupdate != "" {
-		sch.xmlURL = c.ScheduleXMLurl
-		cron.AddFunc(c.ScheduleXMLupdate, sch.updateFromXML)
+	sch.xmlURL = c.ScheduleXMLurl
+
+	go func() {
 		sch.updateFromXML()
-	}
-	if c.ScheduleJSONurl != "" && c.ScheduleJSONupdate != "" {
-		sch.jsonURL = c.ScheduleJSONurl
-		cron.AddFunc(c.ScheduleJSONupdate, sch.updateFromJSON)
-		sch.updateFromJSON()
-	}
+		ticker := time.NewTicker(c.RefreshInterval)
+		defer ticker.Stop()
+		for range ticker.C {
+			sch.updateFromXML()
+		}
+	}()
 
 	r := mux.NewRouter()
 	r.Use(middlewareLogging)
@@ -43,14 +39,12 @@ func NewServer(c Config) *Server {
 	}
 
 	return &Server{
-		cron:  cron,
 		httpd: srv,
 	}
 }
 
 // ListenAndServe the Server
 func (s *Server) ListenAndServe() error {
-	s.cron.Start()
 	log.Printf("Listening on %s", s.httpd.Addr)
 	return s.httpd.ListenAndServe()
 }
