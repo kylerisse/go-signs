@@ -166,13 +166,22 @@ function autoScroll() {
 }
 
 async function init() {
-  const schedule = await fetchSchedule();
-  displaySchedule(schedule);
-  autoScroll();
   initClock();
   updateClock();
-  // Update clock every minute (60,000 ms)
+  autoScroll();
+
+  // Fetch and display the schedule on initialization.
+  const schedule = await fetchSchedule();
+  displaySchedule(schedule);
+
+  // Update the clock every minute.
   setInterval(updateClock, 60000);
+
+  // Refresh the schedule every 5 minutes (300,000 milliseconds).
+  setInterval(async () => {
+    const refreshedSchedule = await fetchSchedule();
+    displaySchedule(refreshedSchedule);
+  }, 300000);
 }
 
 // Initialize the page once the DOM is loaded
