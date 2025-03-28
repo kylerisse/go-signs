@@ -91,13 +91,55 @@ function displaySchedule(schedule) {
   });
 }
 
-// Update the clock to show the current hour and minute only
+let baseTime;       // The starting time (overridden or current)
+let initTimestamp;  // The timestamp (in ms) when the clock was initialized
+
+// Initialize the clock with override values if provided
+function initClock() {
+  const urlParams = new URLSearchParams(window.location.search);
+  if (
+    urlParams.has('year') &&
+    urlParams.has('month') &&
+    urlParams.has('day') &&
+    urlParams.has('hour') &&
+    urlParams.has('minute')
+  ) {
+    const year = parseInt(urlParams.get('year'), 10);
+    // JavaScript months are 0-indexed (0 = January)
+    const month = parseInt(urlParams.get('month'), 10) - 1;
+    const day = parseInt(urlParams.get('day'), 10);
+    const hour = parseInt(urlParams.get('hour'), 10);
+    const minute = parseInt(urlParams.get('minute'), 10);
+    baseTime = new Date(year, month, day, hour, minute);
+  } else {
+    baseTime = new Date();
+  }
+  // Record the initialization time in milliseconds
+  initTimestamp = Date.now();
+}
+
+// Update the clock display based on the initial time plus elapsed time
 function updateClock() {
   const clockEl = document.getElementById('clock');
-  const now = new Date();
-  // Options to show only hour and minute
-  const options = { hour: '2-digit', minute: '2-digit' };
-  clockEl.textContent = now.toLocaleTimeString([], options);
+  // Calculate elapsed time in ms since the clock was initialized
+  const elapsed = Date.now() - initTimestamp;
+  // Compute the current time by adding elapsed time to the base time
+  const currentTime = new Date(baseTime.getTime() + elapsed);
+
+  // Format date without seconds and without extra words
+  const dateOptions = {
+    weekday: 'long',
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric'
+  };
+  const timeOptions = {
+    hour: '2-digit',
+    minute: '2-digit'
+  };
+  const dateString = currentTime.toLocaleDateString([], dateOptions);
+  const timeString = currentTime.toLocaleTimeString([], timeOptions);
+  clockEl.textContent = `${dateString} ${timeString}`;
 }
 
 // Auto-scroll function that creates a seamless wrap-around effect
@@ -124,12 +166,22 @@ function autoScroll() {
 }
 
 async function init() {
+  initClock();
+  updateClock();
+  autoScroll();
+
+  // Fetch and display the schedule on initialization.
   const schedule = await fetchSchedule();
   displaySchedule(schedule);
-  autoScroll();
-  updateClock();
-  // Update clock every minute (60,000 ms)
+
+  // Update the clock every minute.
   setInterval(updateClock, 60000);
+
+  // Refresh the schedule every 5 minutes (300,000 milliseconds).
+  setInterval(async () => {
+    const refreshedSchedule = await fetchSchedule();
+    displaySchedule(refreshedSchedule);
+  }, 300000);
 }
 
 // Initialize the page once the DOM is loaded
