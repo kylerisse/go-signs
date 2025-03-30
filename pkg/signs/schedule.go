@@ -33,8 +33,10 @@ type Presentation struct {
 }
 
 // NewSchedule produces a new Schedule
-func newSchedule() *Schedule {
-	var sch Schedule
+func NewSchedule(xmlUrl string) *Schedule {
+	sch := Schedule{
+		xmlURL: xmlUrl,
+	}
 	sch.mutex = &sync.RWMutex{}
 	return &sch
 }
@@ -47,7 +49,7 @@ func (s *Schedule) updateSchedule(ps []Presentation) {
 	log.Printf("Schedule updated with %d sessions", count)
 }
 
-func (s *Schedule) updateFromXML() {
+func (s *Schedule) UpdateFromXML() {
 	log.Printf("Update Schedule from %v", s.xmlURL)
 	body, err := fetch(s.xmlURL)
 	if err != nil {

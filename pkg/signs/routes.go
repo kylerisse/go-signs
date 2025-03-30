@@ -20,7 +20,7 @@ var imagesFS embed.FS
 //go:embed frontend/*
 var frontendFS embed.FS
 
-func createRoutes(r *mux.Router, s *Schedule) {
+func CreateRoutes(r *mux.Router, s *Schedule) {
 	// Create a sub filesystem rooted at "frontend"
 	frontendDir, err := fs.Sub(frontendFS, "frontend")
 	if err != nil {

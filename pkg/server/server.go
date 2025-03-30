@@ -1,4 +1,4 @@
-package signs
+package server
 
 import (
 	"log"
@@ -6,6 +6,7 @@ import (
 	"time"
 
 	"github.com/gorilla/mux"
+	"github.com/kylerisse/go-signs/pkg/signs"
 )
 
 // Server is the main webserver process
@@ -15,21 +16,20 @@ type Server struct {
 
 // NewServer sets up the cron runs for schedule and sponsors returns the *Server
 func NewServer(c Config) *Server {
-	sch := newSchedule()
-	sch.xmlURL = c.ScheduleXMLurl
+	sch := signs.NewSchedule(c.ScheduleXMLurl)
 
 	go func() {
-		sch.updateFromXML()
+		sch.UpdateFromXML()
 		ticker := time.NewTicker(c.RefreshInterval)
 		defer ticker.Stop()
 		for range ticker.C {
-			sch.updateFromXML()
+			sch.UpdateFromXML()
 		}
 	}()
 
 	r := mux.NewRouter()
 	r.Use(middlewareLogging)
-	createRoutes(r, sch)
+	signs.CreateRoutes(r, sch)
 
 	srv := &http.Server{
 		Handler:      r,
