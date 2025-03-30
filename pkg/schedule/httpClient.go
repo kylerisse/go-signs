@@ -1,4 +1,4 @@
-package signs
+package schedule
 
 import (
 	"io"

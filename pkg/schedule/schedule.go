@@ -1,4 +1,4 @@
-package signs
+package schedule
 
 import (
 	"encoding/json"
@@ -69,7 +69,7 @@ func (s *Schedule) UpdateFromXML() {
 	s.updateSchedule(ps)
 }
 
-func (s *Schedule) handleScheduleAll(w http.ResponseWriter, req *http.Request) {
+func (s *Schedule) HandleScheduleAll(w http.ResponseWriter, req *http.Request) {
 	enc := json.NewEncoder(w)
 	enc.SetEscapeHTML(false)
 	s.mutex.RLock()

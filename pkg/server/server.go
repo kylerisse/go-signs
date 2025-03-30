@@ -6,6 +6,7 @@ import (
 	"time"
 
 	"github.com/gorilla/mux"
+	"github.com/kylerisse/go-signs/pkg/schedule"
 	"github.com/kylerisse/go-signs/pkg/signs"
 )
 
@@ -16,7 +17,7 @@ type Server struct {
 
 // NewServer sets up the cron runs for schedule and sponsors returns the *Server
 func NewServer(c Config) *Server {
-	sch := signs.NewSchedule(c.ScheduleXMLurl)
+	sch := schedule.NewSchedule(c.ScheduleXMLurl)
 
 	go func() {
 		sch.UpdateFromXML()

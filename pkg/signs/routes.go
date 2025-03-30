@@ -8,6 +8,7 @@ import (
 
 	// TODO: switch to gin or something else
 	"github.com/gorilla/mux"
+	"github.com/kylerisse/go-signs/pkg/schedule"
 )
 
 // Embed all files in the images folder
@@ -20,7 +21,7 @@ var imagesFS embed.FS
 //go:embed frontend/*
 var frontendFS embed.FS
 
-func CreateRoutes(r *mux.Router, s *Schedule) {
+func CreateRoutes(r *mux.Router, s *schedule.Schedule) {
 	// Create a sub filesystem rooted at "frontend"
 	frontendDir, err := fs.Sub(frontendFS, "frontend")
 	if err != nil {
@@ -34,6 +35,6 @@ func CreateRoutes(r *mux.Router, s *Schedule) {
 	}
 
 	r.PathPrefix("/images/").Handler(http.StripPrefix("/images/", http.FileServer(http.FS(imagesDir))))
-	r.HandleFunc("/schedule/", s.handleScheduleAll)
+	r.HandleFunc("/schedule/", s.HandleScheduleAll)
 	r.PathPrefix("/").Handler(http.StripPrefix("/", http.FileServer(http.FS(frontendDir))))
 }
