@@ -15,6 +15,7 @@
         buildInputs = with pkgs; [
           gnumake
           go
+          go-tools
           gopls
         ];
       };
