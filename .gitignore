@@ -4,3 +4,6 @@
 # artifacts
 out/*
 data/*
+
+# air
+tmp/*
