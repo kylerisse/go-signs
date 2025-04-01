@@ -19,6 +19,8 @@ func setupRoutes(r *mux.Router, s *schedule.Schedule) {
 	}
 
 	// Configure all routes
+	r.HandleFunc("/sponsors/platinum", sponsorManager.HandlePlatinum)
+	r.HandleFunc("/sponsors/gold", sponsorManager.HandleGold)
 	r.PathPrefix("/sponsors/images/").Handler(http.StripPrefix("/sponsors/images/", sponsorManager.ImageHandler()))
 	r.HandleFunc("/schedule/", s.HandleScheduleAll)
 	r.PathPrefix("/").Handler(http.StripPrefix("/", frontend.Handler()))
