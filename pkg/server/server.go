@@ -7,7 +7,6 @@ import (
 
 	"github.com/gorilla/mux"
 	"github.com/kylerisse/go-signs/pkg/schedule"
-	"github.com/kylerisse/go-signs/pkg/signs"
 )
 
 // Server is the main webserver process
@@ -30,7 +29,7 @@ func NewServer(c Config) *Server {
 
 	r := mux.NewRouter()
 	r.Use(middlewareLogging)
-	signs.CreateRoutes(r, sch)
+	setupRoutes(r, sch)
 
 	srv := &http.Server{
 		Handler:      r,
