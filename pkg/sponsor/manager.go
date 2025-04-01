@@ -25,6 +25,12 @@ func NewManager() (*Manager, error) {
 	}, nil
 }
 
+// ImageHandler returns a http.Handler for the embedded images
 func (m *Manager) ImageHandler() http.Handler {
 	return http.FileServer(http.FS(m.images))
+}
+
+// GetFS returns the embedded file system
+func (m *Manager) GetFS() http.FileSystem {
+	return http.FS(m.images)
 }

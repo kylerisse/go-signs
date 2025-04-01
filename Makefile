@@ -1,10 +1,10 @@
 # go-signs
 
 test:
-	go test --race -v ./...
+	go test -count=1 --race -v ./...
 
 build: test
-	go build -o out/signs-api cmd/signs-api/main.go
+	go build -o out/go-signs cmd/go-signs/main.go
 
 deps:
 	go mod verify

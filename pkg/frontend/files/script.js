@@ -1,5 +1,5 @@
 // URL of the schedule endpoint (adjust if needed)
-const SCHEDULE_API_URL = '/schedule/';
+const SCHEDULE_API_URL = '/schedule';
 
 async function fetchSchedule() {
   try {
