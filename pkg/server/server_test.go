@@ -39,7 +39,10 @@ func TestServer(t *testing.T) {
 
 	// Configure the main server to use our local XML server
 	xmlURL := fmt.Sprintf("http://localhost:%s/sign.xml", xmlPort)
-	conf := NewConfig(port, xmlURL, 1)
+	conf, err := NewConfig(port, xmlURL, 1)
+	if err != nil {
+		t.Fatalf("❌ Failed to create server config (%v)", err)
+	}
 
 	// Create a new server instance
 	server := NewServer(conf)
