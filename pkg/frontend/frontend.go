@@ -22,3 +22,14 @@ func Handler() http.Handler {
 
 	return http.FileServer(http.FS(frontendDir))
 }
+
+// GetFS returns the frontend filesystem for use with web frameworks
+func GetFS() http.FileSystem {
+	// Create a sub filesystem rooted at "frontend"
+	frontendDir, err := fs.Sub(frontendFS, "files")
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	return http.FS(frontendDir)
+}
