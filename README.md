@@ -74,7 +74,7 @@ make build
 
 ### Available Endpoints
 
-- `/schedule/` - Returns complete schedule data as JSON
+- `/schedule` - Returns complete schedule data as JSON
 - `/sponsors/images/` - Serves sponsor image assets
 - `/` - Serves the web-based display interface
 

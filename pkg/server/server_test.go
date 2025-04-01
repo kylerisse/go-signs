@@ -88,7 +88,7 @@ func TestServer(t *testing.T) {
 
 	// 2. Test that the schedule is served correctly and has 296 sessions
 	t.Run("Schedule", func(t *testing.T) {
-		resp, err := http.Get(baseURL + "/schedule/")
+		resp, err := http.Get(baseURL + "/schedule")
 		if err != nil {
 			t.Fatalf("❌ Failed to get schedule: %v", err)
 		}

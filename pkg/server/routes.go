@@ -23,7 +23,7 @@ func setupRoutes(r *gin.Engine, s *schedule.Schedule) {
 	r.GET("/sponsors/gold", gin.WrapF(sponsorManager.HandleGold))
 	r.StaticFS("/sponsors/images", sponsorManager.GetFS())
 
-	r.GET("/schedule/*filepath", gin.WrapF(s.HandleScheduleAll))
+	r.GET("/schedule", gin.WrapF(s.HandleScheduleAll))
 
 	// Static files - this must come last as it's a catch-all
 	// Use a NoRoute handler instead of StaticFS to avoid path conflicts
