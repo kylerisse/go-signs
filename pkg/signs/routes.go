@@ -9,6 +9,7 @@ import (
 	// TODO: switch to gin or something else
 	"github.com/gorilla/mux"
 	"github.com/kylerisse/go-signs/pkg/schedule"
+	"github.com/kylerisse/go-signs/pkg/sponsor"
 )
 
 // Embed all files in the images folder
@@ -34,6 +35,12 @@ func CreateRoutes(r *mux.Router, s *schedule.Schedule) {
 		log.Fatal(err)
 	}
 
+	sponsorManager, err := sponsor.NewManager()
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	r.PathPrefix("/sponsor/images/").Handler(http.StripPrefix("/sponsors/images/", sponsorManager.ImageHandler()))
 	r.PathPrefix("/images/").Handler(http.StripPrefix("/images/", http.FileServer(http.FS(imagesDir))))
 	r.HandleFunc("/schedule/", s.HandleScheduleAll)
 	r.PathPrefix("/").Handler(http.StripPrefix("/", http.FileServer(http.FS(frontendDir))))
