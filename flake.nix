@@ -18,6 +18,7 @@
           go
           go-tools
           gopls
+          govulncheck
         ];
       };
     };

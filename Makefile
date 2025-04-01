@@ -15,3 +15,10 @@ clean:
 
 mrproper: clean
 	rm -rfi data/* || exit 0
+
+check-go-vulns:
+	govulncheck -show verbose ./...
+
+bump-go-vulns:
+	go get -u=patch ./...
+	govulncheck -show verbose ./...

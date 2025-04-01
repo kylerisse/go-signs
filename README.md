@@ -22,7 +22,7 @@ The system offers a clean separation between data sources and presentation:
 
 ## Requirements
 
-- Go 1.21.6 or later
+- Go 1.24 or later
 
 ## Development Environment
 
@@ -109,6 +109,8 @@ This is particularly useful for testing schedule displays for specific times or 
 - `make deps` - Verify and tidy dependencies
 - `make clean` - Clean build artifacts
 - `make mrproper` - Deep clean (build artifacts and data)
+- `make check-go-vulns` - Run vulnerability checks using govulncheck
+- `make bump-go-vulns` - Update patch-level dependencies and run vulnerability checks
 
 ## License
 
