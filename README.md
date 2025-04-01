@@ -42,7 +42,7 @@ If you're not using Nix:
 go mod download
 
 # Run the server
-go run cmd/signs-api/main.go
+go run cmd/go-signs/main.go
 ```
 
 ### Using Air for Hot Reloads
@@ -66,10 +66,10 @@ air
 make build
 
 # Run the server
-./out/signs-api
+./out/go-signs
 
 # Command-line options
-./out/signs-api -port 8080 -xml https://example.com/schedule.xml -refresh 10
+./out/go-signs -port 8080 -xml https://example.com/schedule.xml -refresh 10
 ```
 
 ### Available Endpoints
