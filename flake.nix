@@ -19,6 +19,8 @@
           go-tools
           gopls
           govulncheck
+          nodejs
+          typescript
         ];
       };
     };
