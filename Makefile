@@ -1,6 +1,7 @@
 # go-signs
 
 test: build-react
+	cd react-display && npm run lint
 	go test -count=1 --race -v ./...
 
 build-react:
