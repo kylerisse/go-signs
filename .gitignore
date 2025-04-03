@@ -4,6 +4,7 @@
 # artifacts
 out/*
 data/*
+pkg/display/dist/**
 
 # air
 tmp/*
