@@ -1,19 +1,27 @@
 # go-signs
 
-test:
+test: build-react
+	cd react-display && npm run lint
 	go test -count=1 --race -v ./...
 
-build: test
+build-react:
+	cd react-display && npm install && npm run build
+
+build-go:
 	go build -o out/go-signs cmd/go-signs/main.go
+
+build: clean build-react build-go
 
 deps:
 	go mod verify
 	go mod tidy
 
 clean:
-	rm -rfi out/* || exit 0
+	rm -rf pkgs/display/dist/* || exit 0
+	rm -rf out/* || exit 0
 
 mrproper: clean
+	rm -rf react-display/node_modules || exit 0
 	rm -rfi data/* || exit 0
 
 check-go-vulns:

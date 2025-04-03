@@ -5,7 +5,7 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/kylerisse/go-signs/pkg/frontend"
+	"github.com/kylerisse/go-signs/pkg/display"
 	"github.com/kylerisse/go-signs/pkg/schedule"
 	"github.com/kylerisse/go-signs/pkg/sponsor"
 )
@@ -28,7 +28,7 @@ func setupRoutes(r *gin.Engine, s *schedule.Schedule) {
 	// Static files - this must come last as it's a catch-all
 	// Use a NoRoute handler instead of StaticFS to avoid path conflicts
 	r.NoRoute(func(c *gin.Context) {
-		fileServer := http.FileServer(frontend.GetFS())
+		fileServer := http.FileServer(display.GetFS())
 		fileServer.ServeHTTP(c.Writer, c.Request)
 	})
 }
