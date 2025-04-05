@@ -21,6 +21,7 @@ func setupRoutes(r *gin.Engine, s *schedule.Schedule) {
 	// Configure all routes
 	r.GET("/sponsors/platinum", gin.WrapF(sponsorManager.HandlePlatinum))
 	r.GET("/sponsors/gold", gin.WrapF(sponsorManager.HandleGold))
+	r.GET("/sponsors/all", gin.WrapF(sponsorManager.HandleAllSponsors))
 	r.StaticFS("/sponsors/images", sponsorManager.GetFS())
 
 	r.GET("/schedule", gin.WrapF(s.HandleScheduleAll))
