@@ -20,8 +20,8 @@ function App() {
           <h1>SCaLE Display</h1>
           <Clock />
 
-          {/* Sponsor banner showing 3 sponsors that rotate every 30 seconds */}
-          <SponsorBanner displayCount={3} rotationInterval={30000} />
+          {/* Sponsor banner showing 3 sponsors that rotate every 10 seconds */}
+          <SponsorBanner displayCount={3} rotationInterval={10000} />
         </div>
       </SponsorProvider>
     </TimeProvider>

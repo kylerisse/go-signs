@@ -1,18 +1,18 @@
+/* react-display/src/components/SponsorBanner/SponsorBanner.tsx */
+
 import { useState, useEffect } from 'react';
 import { useSponsor } from '../../contexts/SponsorContext';
-import nocPenguin from '../../assets/noc-penguin.png';
+import { SponsorItem } from './SponsorItem';
 import './SponsorBanner.css';
 
 interface SponsorBannerProps {
-  // How many sponsors to display at once
   displayCount?: number;
-  // How often to rotate sponsors (in milliseconds)
   rotationInterval?: number;
 }
 
 export function SponsorBanner({
   displayCount = 3,
-  rotationInterval = 10000  // 10 seconds by default
+  rotationInterval = 10000
 }: SponsorBannerProps) {
   const { getRandomSponsorUrls, isLoading, error } = useSponsor();
   const [sponsorUrls, setSponsorUrls] = useState<string[]>([]);
@@ -32,10 +32,7 @@ export function SponsorBanner({
       setSponsorUrls(getRandomSponsorUrls(displayCount));
     }, rotationInterval);
 
-    // Clean up the timer when the component unmounts
-    return () => {
-      clearInterval(rotationTimer);
-    };
+    return () => { clearInterval(rotationTimer); }
   }, [isLoading, error, getRandomSponsorUrls, displayCount, rotationInterval]);
 
   if (isLoading) {
@@ -43,38 +40,20 @@ export function SponsorBanner({
   }
 
   if (error) {
-    return <div className="sponsor-banner-error">Failed to load sponsors: {error.message}</div>;
+    return (
+      <div className="sponsor-banner-error">
+        Failed to load sponsors: {error.message}
+      </div>
+    );
   }
 
   return (
-    <>
-      <div className="sponsor-banner">
-        <div className="sponsor-banner-container">
-          {sponsorUrls.map((url) => {
-            // Extract filename from the URL to use as a more reliable key
-            const filename = url.split('/').pop() ?? url;
-            return (
-              <div className="sponsor-item" key={filename}>
-                <img
-                  src={url}
-                  alt="Sponsor"
-                  className="sponsor-image"
-                  onError={(e) => {
-                    const target = e.target as HTMLImageElement;
-                    // Use the bundled nocPenguin image as a fallback
-                    target.src = nocPenguin;
-                    target.alt = 'Sponsor (image unavailable)';
-                  }}
-                />
-              </div>
-            );
-          })}
-        </div>
+    <div className="sponsor-banner">
+      <div className="sponsor-banner-container">
+        {sponsorUrls.map((url) => (
+          <SponsorItem key={url.split('/').pop() ?? url} url={url} />
+        ))}
       </div>
-      {/* Hidden preloading of fallback image */}
-      <div style={{ display: 'none' }}>
-        <img src={nocPenguin} alt="preload nocPenguin" />
-      </div>
-    </>
+    </div>
   );
 }
