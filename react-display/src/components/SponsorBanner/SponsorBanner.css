@@ -1,0 +1,78 @@
+/* react-display/src/components/SponsorBanner/SponsorBanner.css */
+
+.sponsor-banner {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sponsor-banner-title {
+  font-size: 1.5rem;
+  margin: 0 0 1rem 0;
+  text-align: center;
+  color: #333;
+}
+
+.sponsor-banner-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.sponsor-item {
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.sponsor-item:hover {
+  transform: scale(1.05);
+}
+
+.sponsor-image {
+  max-width: 2200px;
+  max-height: 2200px;
+  object-fit: contain;
+}
+
+.sponsor-banner-loading,
+.sponsor-banner-error {
+  width: 100%;
+  padding: 2rem;
+  text-align: center;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  margin: 1rem 0;
+}
+
+.sponsor-banner-loading {
+  color: #777;
+}
+
+.sponsor-banner-error {
+  color: #d8000c;
+  background-color: #ffbaba;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .sponsor-banner-container {
+    flex-direction: column;
+  }
+
+  .sponsor-image {
+    max-width: 140px;
+    max-height: 90px;
+  }
+}
