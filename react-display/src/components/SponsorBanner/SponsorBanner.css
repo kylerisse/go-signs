@@ -25,15 +25,13 @@
 }
 
 .sponsor-item {
-  flex: 0 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: relative;       /* Enable absolute positioning of children */
+  width: 220px;             /* Fixed width */
+  height: 220px;            /* Fixed height */
   background-color: white;
-  padding: 1rem;
   border-radius: 6px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease-in-out;
+  overflow: hidden;         /* Hide any overflow from overlapping images */
 }
 
 .sponsor-item:hover {
@@ -41,9 +39,29 @@
 }
 
 .sponsor-image {
-  max-width: 2200px;
-  max-height: 2200px;
+  position: absolute;       /* Stack images on top of each other */
+  top: 0;
+  left: 0;
+  width: 220px;             /* Ensure images fill the container */
+  height: 220px;
   object-fit: contain;
+  opacity: 0;               /* Start hidden */
+  transition: opacity 0.8s ease-in-out;
+
+}
+
+.sponsor-image.fade-in {
+  opacity: 1;
+  z-index: 2;
+}
+
+.sponsor-image.fade-out {
+  opacity: 0;
+  z-index: 1;
+}
+
+.sponsor-image.preload {
+  opacity: 0;
 }
 
 .sponsor-banner-loading,
