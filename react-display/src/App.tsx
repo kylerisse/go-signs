@@ -5,6 +5,8 @@ import { TimeProvider } from './contexts/TimeContext';
 import { SponsorProvider } from './contexts/SponsorContext';
 import { Clock } from './components/Clock';
 import { SponsorBanner } from './components/SponsorBanner';
+import scaleLogo from './assets/logo.png';
+import scaleWifi from './assets/wifi.png';
 
 function App() {
   return (
@@ -12,8 +14,8 @@ function App() {
       <SponsorProvider>
         <div className="app-container">
           <div>
-            <img src="./logo.png" className="logo" alt="Logo"/>
-            <img src="./wifi.png" className="wifi" alt="WiFi"/>
+            <img src={scaleLogo} className="logo" alt="Logo"/>
+            <img src={scaleWifi} className="wifi" alt="WiFi"/>
           </div>
           <h1>SCaLE Display</h1>
           <Clock />
