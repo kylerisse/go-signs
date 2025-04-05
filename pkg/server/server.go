@@ -46,6 +46,7 @@ func NewServer(c Config) *Server {
 		}
 	}()
 
+	gin.SetMode(gin.ReleaseMode)
 	router := gin.Default()
 	setupRoutes(router, sch)
 
