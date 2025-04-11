@@ -6,12 +6,12 @@ import { SponsorContextType } from './types';
 
 // Custom hook to use the SponsorContext
 export function useSponsor(): SponsorContextType {
-  // Using React 19's 'use' API for context
-  const context = React.use(SponsorContext);
+	// Using React 19's 'use' API for context
+	const context = React.use(SponsorContext);
 
-  if (context === undefined) {
-    throw new Error('useSponsor must be used within a SponsorProvider');
-  }
+	if (context === undefined) {
+		throw new Error('useSponsor must be used within a SponsorProvider');
+	}
 
-  return context;
+	return context;
 }

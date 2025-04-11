@@ -1,96 +1,95 @@
 /* react-display/src/components/SponsorBanner/SponsorBanner.css */
 
 .sponsor-banner {
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
-  border-radius: 8px;
-  padding: 1.5rem;
-  margin: 1rem 0;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	border-radius: 8px;
+	padding: 1.5rem;
+	margin: 1rem 0;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .sponsor-banner-title {
-  font-size: 1.5rem;
-  margin: 0 0 1rem 0;
-  text-align: center;
-  color: #333;
+	font-size: 1.5rem;
+	margin: 0 0 1rem 0;
+	text-align: center;
+	color: #333;
 }
 
 .sponsor-banner-container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 1.5rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 1.5rem;
 }
 
 .sponsor-item {
-  position: relative;       /* Enable absolute positioning of children */
-  width: 220px;             /* Fixed width */
-  height: 220px;            /* Fixed height */
-  background-color: white;
-  border-radius: 6px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-  overflow: hidden;         /* Hide any overflow from overlapping images */
+	position: relative; /* Enable absolute positioning of children */
+	width: 220px; /* Fixed width */
+	height: 220px; /* Fixed height */
+	background-color: white;
+	border-radius: 6px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+	overflow: hidden; /* Hide any overflow from overlapping images */
 }
 
 .sponsor-item:hover {
-  transform: scale(1.05);
+	transform: scale(1.05);
 }
 
 .sponsor-image {
-  position: absolute;       /* Stack images on top of each other */
-  top: 0;
-  left: 0;
-  width: 220px;             /* Ensure images fill the container */
-  height: 220px;
-  object-fit: contain;
-  opacity: 0;               /* Start hidden */
-  transition: opacity 0.8s ease-in-out;
-
+	position: absolute; /* Stack images on top of each other */
+	top: 0;
+	left: 0;
+	width: 220px; /* Ensure images fill the container */
+	height: 220px;
+	object-fit: contain;
+	opacity: 0; /* Start hidden */
+	transition: opacity 0.8s ease-in-out;
 }
 
 .sponsor-image.fade-in {
-  opacity: 1;
-  z-index: 2;
+	opacity: 1;
+	z-index: 2;
 }
 
 .sponsor-image.fade-out {
-  opacity: 0;
-  z-index: 1;
+	opacity: 0;
+	z-index: 1;
 }
 
 .sponsor-image.preload {
-  opacity: 0;
+	opacity: 0;
 }
 
 .sponsor-banner-loading,
 .sponsor-banner-error {
-  width: 100%;
-  padding: 2rem;
-  text-align: center;
-  background-color: #f8f8f8;
-  border-radius: 8px;
-  margin: 1rem 0;
+	width: 100%;
+	padding: 2rem;
+	text-align: center;
+	background-color: #f8f8f8;
+	border-radius: 8px;
+	margin: 1rem 0;
 }
 
 .sponsor-banner-loading {
-  color: #777;
+	color: #777;
 }
 
 .sponsor-banner-error {
-  color: #d8000c;
-  background-color: #ffbaba;
+	color: #d8000c;
+	background-color: #ffbaba;
 }
 
 /* Responsive styles */
 @media (max-width: 768px) {
-  .sponsor-banner-container {
-    flex-direction: column;
-  }
+	.sponsor-banner-container {
+		flex-direction: column;
+	}
 
-  .sponsor-image {
-    max-width: 140px;
-    max-height: 90px;
-  }
+	.sponsor-image {
+		max-width: 140px;
+		max-height: 90px;
+	}
 }
