@@ -40,6 +40,7 @@ nix develop    # To manually enter the shell
 ```
 
 The Nix development shell provides:
+
 - Go toolchain
 - Air (for hot reloading)
 - Node.js and npm
@@ -79,14 +80,14 @@ make build
 
 ### Available Endpoints
 
-| Endpoint | Description |
-|----------|-------------|
-| `/` | Main web interface showing the schedule |
-| `/schedule` | JSON API endpoint for complete schedule data |
+| Endpoint             | Description                                   |
+| -------------------- | --------------------------------------------- |
+| `/`                  | Main web interface showing the schedule       |
+| `/schedule`          | JSON API endpoint for complete schedule data  |
 | `/sponsors/platinum` | JSON list of platinum sponsor image filenames |
-| `/sponsors/gold` | JSON list of gold sponsor image filenames |
-| `/sponsors/all` | JSON list of all sponsor image filenames |
-| `/sponsors/images/*` | Serves embedded sponsor image assets |
+| `/sponsors/gold`     | JSON list of gold sponsor image filenames     |
+| `/sponsors/all`      | JSON list of all sponsor image filenames      |
+| `/sponsors/images/*` | Serves embedded sponsor image assets          |
 
 ### Time Override
 

@@ -1,18 +1,20 @@
 .app-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 2rem;
 }
 
-.logo, .wifi {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+.logo,
+.wifi {
+	height: 6em;
+	padding: 1.5em;
+	will-change: filter;
+	transition: filter 300ms;
 }
 
-.logo:hover, .wifi:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.logo:hover,
+.wifi:hover {
+	filter: drop-shadow(0 0 2em #646cffaa);
 }
