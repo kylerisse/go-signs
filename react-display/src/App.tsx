@@ -16,11 +16,10 @@ function App() {
 
 				<div className='flex flex-1 bg-gray-100 overflow-hidden'>
 					{/* Main content area - 80% width */}
-					<div className='w-4/5 p-4 overflow-y-auto'>
+					<div className='w-4/5 p-2 overflow-y-auto'>
 						{/* Schedule Carousel showing current and upcoming sessions */}
 						<ScheduleProvider refreshInterval={60000}>
 							<ScheduleCarousel
-								title='Current & Upcoming Sessions'
 								maxDisplay={6}
 								rotationInterval={15000}
 							/>
