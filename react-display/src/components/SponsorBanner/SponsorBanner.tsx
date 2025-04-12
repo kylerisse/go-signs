@@ -3,7 +3,6 @@
 import { useState, useEffect } from 'react';
 import { useSponsor } from '../../contexts/SponsorContext';
 import { SponsorItem } from './SponsorItem';
-import './SponsorBanner.css';
 
 interface SponsorBannerProps {
 	displayCount?: number;
@@ -38,20 +37,24 @@ export function SponsorBanner({
 	}, [isLoading, error, getRandomSponsorUrls, displayCount, rotationInterval]);
 
 	if (isLoading) {
-		return <div className='sponsor-banner-loading'>Loading sponsors...</div>;
+		return (
+			<div className='w-full p-8 text-center bg-gray-100 rounded-lg my-4'>
+				Loading sponsors...
+			</div>
+		);
 	}
 
 	if (error) {
 		return (
-			<div className='sponsor-banner-error'>
+			<div className='w-full p-8 text-center bg-red-100 text-red-800 rounded-lg my-4'>
 				Failed to load sponsors: {error.message}
 			</div>
 		);
 	}
 
 	return (
-		<div className='sponsor-banner'>
-			<div className='sponsor-banner-container'>
+		<div className='w-full bg-black bg-opacity-70 rounded-lg p-6 my-4 shadow-md'>
+			<div className='flex justify-around items-center flex-wrap gap-6'>
 				{sponsorUrls.map((url) => (
 					<SponsorItem
 						key={url.split('/').pop() ?? url}
