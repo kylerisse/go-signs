@@ -14,25 +14,30 @@ function App() {
 				{/* Header with logo, clock and wifi info */}
 				<Header />
 
-				<div className='flex-1 bg-gray-100 p-4 overflow-y-auto'>
-					{/* Schedule Carousel showing current and upcoming sessions */}
-					<ScheduleProvider refreshInterval={60000}>
-						<ScheduleCarousel
-							title='Current & Upcoming Sessions'
-							maxDisplay={3}
-							rotationInterval={15000}
-						/>
-					</ScheduleProvider>
+				<div className='flex flex-1 bg-gray-100 overflow-hidden'>
+					{/* Main content area - 80% width */}
+					<div className='w-4/5 p-4 overflow-y-auto'>
+						{/* Schedule Carousel showing current and upcoming sessions */}
+						<ScheduleProvider refreshInterval={60000}>
+							<ScheduleCarousel
+								title='Current & Upcoming Sessions'
+								maxDisplay={6}
+								rotationInterval={15000}
+							/>
+						</ScheduleProvider>
+					</div>
+
+					{/* Sponsor banner - 20% width, vertically aligned */}
+					<div className='w-1/5 p-2'>
+						<SponsorProvider>
+							<SponsorBanner
+								displayCount={3}
+								rotationInterval={10000}
+							/>
+						</SponsorProvider>
+					</div>
 				</div>
 			</TimeProvider>
-
-			{/* Sponsor banner showing 3 sponsors that rotate every 10 seconds */}
-			<SponsorProvider>
-				<SponsorBanner
-					displayCount={3}
-					rotationInterval={10000}
-				/>
-			</SponsorProvider>
 		</div>
 	);
 }
