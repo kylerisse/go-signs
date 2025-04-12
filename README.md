@@ -126,6 +126,7 @@ go-signs/
 │  ├─ src/
 │  │  ├─ components/           # React UI components
 │  │  │  ├─ Clock/             # Time display component
+│  │  │  ├─ Header/            # Header component with logo, clock and WiFi info
 │  │  │  ├─ ScheduleCarousel/  # Schedule display component
 │  │  │  └─ SponsorBanner/     # Sponsor image rotation display
 │  │  ├─ contexts/             # React contexts for state management
