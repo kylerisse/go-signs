@@ -48,6 +48,7 @@ The Nix development shell provides:
 - ESLint
 - GNU Make
 - Go tools and linters
+- Prettier
 
 ## Development
 
@@ -115,22 +116,24 @@ This is particularly useful for testing schedule displays for specific times or 
 
 ```
 go-signs/
-├─ cmd/go-signs/             # Main application entry point
-├─ pkg/                      # Backend packages
-│  ├─ display/               # Handles embedding React frontend
-│  ├─ schedule/              # Schedule data handling and XML parsing
-│  ├─ server/                # HTTP server and routes
-│  └─ sponsor/               # Sponsor management and image serving
-├─ react-display/            # React frontend application
+├─ cmd/go-signs/               # Main application entry point
+├─ pkg/                        # Backend packages
+│  ├─ display/                 # Handles embedding React frontend
+│  ├─ schedule/                # Schedule data handling and XML parsing
+│  ├─ server/                  # HTTP server and routes
+│  └─ sponsor/                 # Sponsor management and image serving
+├─ react-display/              # React frontend application
 │  ├─ src/
-│  │  ├─ components/         # React UI components
-│  │  │  ├─ Clock/           # Time display component
-│  │  │  └─ SponsorBanner/   # Sponsor image rotation display
-│  │  ├─ contexts/           # React contexts for state management
-│  │  │  ├─ TimeContext/     # Date/time management with URL override
-│  │  │  └─ SponsorContext/  # Sponsor image loading and rotation
-│  │  └─ assets/             # Static assets (logo, images)
-└─ .github/workflows/        # GitHub Actions CI configuration
+│  │  ├─ components/           # React UI components
+│  │  │  ├─ Clock/             # Time display component
+│  │  │  ├─ ScheduleCarousel/  # Schedule display component
+│  │  │  └─ SponsorBanner/     # Sponsor image rotation display
+│  │  ├─ contexts/             # React contexts for state management
+│  │  │  ├─ TimeContext/       # Date/time management with URL override
+│  │  │  ├─ ScheduleContext/   # Schedule data management
+│  │  │  └─ SponsorContext/    # Sponsor image loading and rotation
+│  │  └─ assets/               # Static assets (logo, images)
+└─ .github/workflows/          # GitHub Actions CI configuration
 ```
 
 ## License
