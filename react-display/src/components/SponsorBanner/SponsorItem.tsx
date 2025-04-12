@@ -1,4 +1,4 @@
-/* react-display/src/components/SponsorBanner/SponsorItem.tsx */
+// react-display/src/components/SponsorBanner/SponsorItem.tsx
 
 import { useState, useEffect } from 'react';
 import nocPenguin from '../../assets/noc-penguin.png';
@@ -30,13 +30,13 @@ export function SponsorItem({ url }: SponsorItemProps) {
 	}, [url, currentUrl]);
 
 	return (
-		<div className='relative w-56 h-56 bg-white rounded-md shadow-sm overflow-hidden transition-transform'>
+		<div className='relative w-full aspect-square bg-white rounded-md shadow-sm overflow-hidden transition-transform'>
 			{/* Render previous image for fade-out, if available */}
 			{prevUrl && (
 				<img
 					src={prevUrl}
 					alt='Sponsor fading out'
-					className='absolute top-0 left-0 w-56 h-56 object-contain opacity-0 transition-opacity duration-1000 z-10'
+					className='absolute inset-0 w-full h-full object-contain opacity-0 transition-opacity duration-1000 z-10'
 					onError={(e) => {
 						const target = e.target as HTMLImageElement;
 						target.src = nocPenguin;
@@ -47,7 +47,7 @@ export function SponsorItem({ url }: SponsorItemProps) {
 			<img
 				src={currentUrl}
 				alt='Sponsor'
-				className={`absolute top-0 left-0 w-56 h-56 object-contain transition-opacity duration-1000 ${
+				className={`absolute inset-0 w-full h-full object-contain transition-opacity duration-1000 ${
 					loaded ? 'opacity-100 z-20' : 'opacity-0'
 				}`}
 				onLoad={() => {

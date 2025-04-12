@@ -1,4 +1,4 @@
-/* react-display/src/components/SponsorBanner/SponsorBanner.tsx */
+// react-display/src/components/SponsorBanner/SponsorBanner.tsx
 
 import { useState, useEffect } from 'react';
 import { useSponsor } from '../../contexts/SponsorContext';
@@ -38,7 +38,7 @@ export function SponsorBanner({
 
 	if (isLoading) {
 		return (
-			<div className='w-full p-8 text-center bg-gray-100 rounded-lg my-4'>
+			<div className='h-full w-full p-4 text-center bg-gray-100 rounded-lg flex items-center justify-center'>
 				Loading sponsors...
 			</div>
 		);
@@ -46,20 +46,22 @@ export function SponsorBanner({
 
 	if (error) {
 		return (
-			<div className='w-full p-8 text-center bg-red-100 text-red-800 rounded-lg my-4'>
+			<div className='h-full w-full p-4 text-center bg-red-100 text-red-800 rounded-lg flex items-center justify-center'>
 				Failed to load sponsors: {error.message}
 			</div>
 		);
 	}
 
 	return (
-		<div className='w-full bg-black bg-opacity-70 rounded-lg p-6 my-4 shadow-md'>
-			<div className='flex justify-around items-center flex-wrap gap-6'>
+		<div className='h-full w-full bg-black/70 rounded-lg p-4 shadow-md'>
+			<div className='flex flex-col justify-around items-center h-full gap-4'>
 				{sponsorUrls.map((url) => (
-					<SponsorItem
+					<div
 						key={url.split('/').pop() ?? url}
-						url={url}
-					/>
+						className='w-full max-w-[200px] mx-auto'
+					>
+						<SponsorItem url={url} />
+					</div>
 				))}
 			</div>
 		</div>
