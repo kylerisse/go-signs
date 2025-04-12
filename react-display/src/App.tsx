@@ -3,39 +3,29 @@
 import { TimeProvider } from './contexts/TimeContext';
 import { SponsorProvider } from './contexts/SponsorContext';
 import { ScheduleProvider } from './contexts/ScheduleContext';
-import { Clock } from './components/Clock';
+import { Header } from './components/Header';
 import { SponsorBanner } from './components/SponsorBanner';
 import { ScheduleCarousel } from './components/ScheduleCarousel';
-import scaleLogo from './assets/logo.png';
-import scaleWifi from './assets/wifi.png';
 
 function App() {
 	return (
-		<div className='flex flex-col items-center justify-center p-8'>
+		<div className='flex flex-col h-screen w-full overflow-hidden'>
 			<TimeProvider>
-				<div>
-					<img
-						src={scaleLogo}
-						className='h-24 p-6 transition-all duration-300'
-						alt='Logo'
-					/>
-					<Clock />
-					<img
-						src={scaleWifi}
-						className='h-24 p-6 transition-all duration-300'
-						alt='WiFi'
-					/>
-				</div>
+				{/* Header with logo, clock and wifi info */}
+				<Header />
 
-				{/* Schedule Carousel showing current and upcoming sessions */}
-				<ScheduleProvider refreshInterval={60000}>
-					<ScheduleCarousel
-						title=''
-						maxDisplay={3}
-						rotationInterval={15000}
-					/>
-				</ScheduleProvider>
+				<div className='flex-1 bg-gray-100 p-4 overflow-y-auto'>
+					{/* Schedule Carousel showing current and upcoming sessions */}
+					<ScheduleProvider refreshInterval={60000}>
+						<ScheduleCarousel
+							title='Current & Upcoming Sessions'
+							maxDisplay={3}
+							rotationInterval={15000}
+						/>
+					</ScheduleProvider>
+				</div>
 			</TimeProvider>
+
 			{/* Sponsor banner showing 3 sponsors that rotate every 10 seconds */}
 			<SponsorProvider>
 				<SponsorBanner
