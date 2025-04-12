@@ -33,6 +33,7 @@
               gopls
               govulncheck
               nodejs
+              nodePackages.prettier
               typescript
             ];
           };
