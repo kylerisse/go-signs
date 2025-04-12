@@ -4,7 +4,6 @@ import { useState, useEffect, useRef } from 'react';
 import { useSchedule } from '../../contexts/ScheduleContext';
 import { SessionWithStatus } from '../../contexts/ScheduleContext/types';
 import { useTime } from '../../contexts/TimeContext';
-import './ScheduleCarousel.css';
 
 interface ScheduleCarouselProps {
 	title?: string;
@@ -79,18 +78,18 @@ export function ScheduleCarousel({
 
 	if (isLoading && sessions.length === 0) {
 		return (
-			<div className='schedule-carousel'>
-				<h2 className='schedule-carousel-title'>{title}</h2>
-				<div className='schedule-carousel-loading'>Loading schedule...</div>
+			<div className='w-full bg-black/70 rounded-lg p-6 my-4 shadow-md'>
+				<h2 className='text-2xl mb-4 text-center'>{title}</h2>
+				<div className='p-8 text-center text-gray-400'>Loading schedule...</div>
 			</div>
 		);
 	}
 
 	if (error) {
 		return (
-			<div className='schedule-carousel'>
-				<h2 className='schedule-carousel-title'>{title}</h2>
-				<div className='schedule-carousel-error'>
+			<div className='w-full bg-black/70 rounded-lg p-6 my-4 shadow-md'>
+				<h2 className='text-2xl mb-4 text-center'>{title}</h2>
+				<div className='p-8 text-center text-red-300'>
 					Failed to load schedule: {error.message}
 				</div>
 			</div>
@@ -99,9 +98,9 @@ export function ScheduleCarousel({
 
 	if (sessions.length === 0) {
 		return (
-			<div className='schedule-carousel'>
-				<h2 className='schedule-carousel-title'>{title}</h2>
-				<div className='schedule-carousel-empty'>
+			<div className='w-full bg-black/70 rounded-lg p-6 my-4 shadow-md'>
+				<h2 className='text-2xl mb-4 text-center'>{title}</h2>
+				<div className='p-8 text-center text-gray-400 italic'>
 					No current or upcoming sessions found.
 				</div>
 			</div>
@@ -124,30 +123,24 @@ export function ScheduleCarousel({
 			: '';
 
 	return (
-		<div className='schedule-carousel'>
-			<h2 className='schedule-carousel-title'>
+		<div className='w-full bg-black/70 rounded-lg p-6 my-4 shadow-md text-white'>
+			<h2 className='text-xl md:text-2xl mb-4 text-center border-b border-white/30 pb-2'>
 				{title}
 				{paginationInfo && (
-					<span
-						style={{
-							fontSize: '0.8rem',
-							fontWeight: 'normal',
-							marginLeft: '1rem',
-						}}
-					>
-						{paginationInfo}
-					</span>
+					<span className='text-sm font-normal ml-4'>{paginationInfo}</span>
 				)}
 			</h2>
 
 			{displaySessions.map((session) => (
 				<div
 					key={`${session.Name}-${session.StartTime}`}
-					className='session-card'
+					className='bg-white/10 rounded-md p-4 mb-4 transition-transform duration-200 animate-[fadeIn_0.5s_ease-out]'
 				>
-					<div className='session-header'>
-						<div className='session-name'>{session.Name}</div>
-						<div className='session-time'>
+					<div className='flex flex-col md:flex-row justify-between items-start'>
+						<div className='text-xl font-bold text-white flex-1'>
+							{session.Name}
+						</div>
+						<div className='flex flex-col items-start md:items-end mt-2 md:mt-0 text-sm'>
 							<div>
 								{formatTime(session.StartTime)} - {formatTime(session.EndTime)}
 								{isDifferentDay(session.StartTime, session.EndTime) && (
@@ -157,34 +150,34 @@ export function ScheduleCarousel({
 
 							{/* Status indicator */}
 							{session.status.isInProgress && (
-								<span className='session-status status-in-progress'>
+								<span className='text-xs font-bold py-1 px-2 rounded-md whitespace-nowrap bg-green-600 text-green-900 mt-1'>
 									In Progress ({String(session.status.minutesRemaining)} min
 									remaining)
 								</span>
 							)}
 							{session.status.isStartingSoon && (
-								<span className='session-status status-starting-soon'>
+								<span className='text-xs font-bold py-1 px-2 rounded-md whitespace-nowrap bg-orange-500 text-orange-900 mt-1'>
 									Starting Soon ({String(session.status.minutesUntilStart)} min)
 								</span>
 							)}
 							{!session.status.isInProgress &&
 								!session.status.isStartingSoon && (
-									<span className='session-status status-upcoming'>
+									<span className='text-xs font-bold py-1 px-2 rounded-md whitespace-nowrap bg-blue-500 text-blue-900 mt-1'>
 										Upcoming ({String(session.status.minutesUntilStart)} min)
 									</span>
 								)}
 						</div>
 					</div>
 
-					<div className='session-meta'>
-						<div className='session-location'>{session.Location}</div>
-						<div className='session-speakers'>
-							{session.Speakers.join(', ')}
-						</div>
+					<div className='flex flex-col md:flex-row justify-between text-sm mt-2 text-gray-300'>
+						<div className='font-bold text-yellow-400'>{session.Location}</div>
+						<div className='italic'>{session.Speakers.join(', ')}</div>
 					</div>
 
 					{session.Topic && (
-						<div className='session-topic'>{session.Topic}</div>
+						<div className='bg-white/20 rounded px-2 py-1 inline-block text-xs text-yellow-400 mt-2'>
+							{session.Topic}
+						</div>
 					)}
 				</div>
 			))}

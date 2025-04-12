@@ -1,6 +1,5 @@
 // react-display/src/App.tsx
 
-import './App.css';
 import { TimeProvider } from './contexts/TimeContext';
 import { SponsorProvider } from './contexts/SponsorContext';
 import { ScheduleProvider } from './contexts/ScheduleContext';
@@ -12,41 +11,39 @@ import scaleWifi from './assets/wifi.png';
 
 function App() {
 	return (
-		<TimeProvider>
-			<SponsorProvider>
+		<div className='flex flex-col items-center justify-center p-8'>
+			<TimeProvider>
+				<div>
+					<img
+						src={scaleLogo}
+						className='h-24 p-6 transition-all duration-300'
+						alt='Logo'
+					/>
+					<Clock />
+					<img
+						src={scaleWifi}
+						className='h-24 p-6 transition-all duration-300'
+						alt='WiFi'
+					/>
+				</div>
+
+				{/* Schedule Carousel showing current and upcoming sessions */}
 				<ScheduleProvider refreshInterval={60000}>
-					<div className='app-container'>
-						<div>
-							<img
-								src={scaleLogo}
-								className='logo'
-								alt='Logo'
-							/>
-							<img
-								src={scaleWifi}
-								className='wifi'
-								alt='WiFi'
-							/>
-						</div>
-						<h1>SCaLE Display</h1>
-						<Clock />
-
-						{/* Schedule Carousel showing current and upcoming sessions */}
-						<ScheduleCarousel
-							title='Current & Upcoming Sessions'
-							maxDisplay={3}
-							rotationInterval={15000}
-						/>
-
-						{/* Sponsor banner showing 3 sponsors that rotate every 10 seconds */}
-						<SponsorBanner
-							displayCount={3}
-							rotationInterval={10000}
-						/>
-					</div>
+					<ScheduleCarousel
+						title=''
+						maxDisplay={3}
+						rotationInterval={15000}
+					/>
 				</ScheduleProvider>
+			</TimeProvider>
+			{/* Sponsor banner showing 3 sponsors that rotate every 10 seconds */}
+			<SponsorProvider>
+				<SponsorBanner
+					displayCount={3}
+					rotationInterval={10000}
+				/>
 			</SponsorProvider>
-		</TimeProvider>
+		</div>
 	);
 }
 

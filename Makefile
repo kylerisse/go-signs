@@ -18,7 +18,7 @@ deps:
 	go mod tidy
 
 clean:
-	rm -rf pkgs/display/dist/* || exit 0
+	rm -rf pkg/display/dist/* || exit 0
 	rm -rf out/* || exit 0
 
 mrproper: clean
