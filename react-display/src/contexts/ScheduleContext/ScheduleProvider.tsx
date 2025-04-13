@@ -42,25 +42,26 @@ export function ScheduleProvider({
 				return;
 			}
 
-			// If there are no presentations, don't update
+			// If there are no presentations, still update but keep loading=false
 			if (data.Presentations.length === 0) {
-				console.log('No presentations in schedule, not updating');
-				setIsLoading(false);
-				return;
+				console.log('No presentations in schedule, still updating');
+				setSchedule(data);
+				setLastHash(data.contentHash);
+			} else {
+				// Update the schedule state and hash
+				console.log(
+					`Updating schedule: ${String(
+						data.Presentations.length
+					)} sessions, hash: ${data.contentHash}`
+				);
+				setSchedule(data);
+				setLastHash(data.contentHash);
 			}
-
-			// Update the schedule state and hash
-			console.log(
-				`Updating schedule: ${String(
-					data.Presentations.length
-				)} sessions, hash: ${data.contentHash}`
-			);
-			setSchedule(data);
-			setLastHash(data.contentHash);
 		} catch (err) {
 			console.error('Error fetching schedule:', err);
 			setError(err instanceof Error ? err : new Error(String(err)));
 		} finally {
+			// Always set loading to false when done, regardless of success/error
 			setIsLoading(false);
 		}
 	}, [lastHash]);
@@ -96,13 +97,17 @@ export function ScheduleProvider({
 			// Check if session is currently in progress
 			const isInProgress = now >= startTimestamp && now <= endTimestamp;
 
+			// Check if session is in the past (ended)
+			const isPast = now > endTimestamp;
+
 			// Calculate minutes until start
 			const minutesUntilStart = isInProgress
 				? 0
 				: Math.max(0, Math.floor((startTimestamp - now) / 60000));
 
 			// Check if session is starting soon (within 10 minutes)
-			const isStartingSoon = !isInProgress && minutesUntilStart <= 10;
+			const isStartingSoon =
+				!isInProgress && !isPast && minutesUntilStart <= 10;
 
 			// Calculate minutes remaining for in-progress sessions
 			const minutesRemaining = isInProgress
@@ -112,6 +117,7 @@ export function ScheduleProvider({
 			return {
 				isInProgress,
 				isStartingSoon,
+				isPast,
 				minutesUntilStart,
 				minutesRemaining,
 			};
@@ -130,7 +136,6 @@ export function ScheduleProvider({
 		})
 			.filter((session) => {
 				// Include current sessions with > 5 minutes remaining
-				console.log(session);
 				if (
 					session.status.isInProgress &&
 					session.status.minutesRemaining > 5
@@ -141,7 +146,7 @@ export function ScheduleProvider({
 				// Include upcoming sessions starting within 45 minutes
 				if (
 					!session.status.isInProgress &&
-					session.status.minutesUntilStart > 0 &&
+					!session.status.isPast &&
 					session.status.minutesUntilStart <= 45
 				) {
 					return true;

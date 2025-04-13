@@ -4,6 +4,7 @@ import { useState, useEffect, useRef } from 'react';
 import { useSchedule } from '../../contexts/ScheduleContext';
 import { SessionWithStatus } from '../../contexts/ScheduleContext/types';
 import { useTime } from '../../contexts/TimeContext';
+import { Spinner } from '../Spinner';
 
 interface ScheduleCarouselProps {
 	maxDisplay?: number;
@@ -21,6 +22,8 @@ export function ScheduleCarousel({
 	const [sessions, setSessions] = useState<SessionWithStatus[]>([]);
 	const [startIndex, setStartIndex] = useState(0);
 	const lastRefreshTime = useRef<number>(0);
+
+	const showLoading = isLoading || (sessions.length === 0 && !error);
 
 	// Update sessions when the schedule or current time changes
 	useEffect(() => {
@@ -75,11 +78,13 @@ export function ScheduleCarousel({
 	};
 
 	// Calculate the slice of sessions to display, ensure we don't exceed array bounds
-	const safeStartIndex = Math.min(startIndex, Math.max(0, sessions.length - 1));
-	const displaySessions = sessions.slice(
-		safeStartIndex,
-		safeStartIndex + maxDisplay
-	);
+	const displaySessions =
+		sessions.length > 0
+			? sessions.slice(
+					Math.min(startIndex, Math.max(0, sessions.length - 1)),
+					Math.min(startIndex + maxDisplay, sessions.length)
+			  )
+			: [];
 
 	// Create a placeholder session object
 	const emptySession = (): SessionWithStatus => ({
@@ -109,13 +114,19 @@ export function ScheduleCarousel({
 		<div className='bg-black/70 w-full h-full rounded-lg overflow-hidden p-4'>
 			{/* Main content container */}
 			<div className='w-full h-full flex flex-col justify-between'>
-				{isLoading && sessions.length === 0 ? (
+				{showLoading ? (
 					<div className='flex items-center justify-center h-full'>
-						<div className='text-lg text-gray-400'>Loading schedule...</div>
+						<div className='flex flex-col items-center text-gray-300'>
+							<Spinner
+								size='lg'
+								className='text-white mb-4'
+							/>
+							<div className='text-lg'>Loading schedule...</div>
+						</div>
 					</div>
 				) : error ? (
 					<div className='flex items-center justify-center h-full'>
-						<div className='text-lg text-red-400'>
+						<div className='text-lg text-red-400 animate-bounce'>
 							Failed to load schedule: {error.message}
 						</div>
 					</div>
@@ -134,11 +145,9 @@ export function ScheduleCarousel({
 
 							return (
 								<div
-									key={
-										isEmpty
-											? `empty-${String(index)}`
-											: `${session.Name}-${session.StartTime}`
-									}
+									key={`session-${String(index)}-${
+										isEmpty ? 'empty' : encodeURIComponent(session.Name)
+									}`}
 									className={`rounded-md p-4 mb-2 transition-all duration-300 ${
 										!isEmpty ? 'bg-black/80 text-white' : 'bg-black/20' // Empty placeholder with slight visibility
 									}`}
