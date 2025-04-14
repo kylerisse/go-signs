@@ -1,6 +1,6 @@
 // react-display/src/components/SponsorBanner/SponsorBanner.tsx
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { useSponsor } from '../../contexts/SponsorContext';
 import { SponsorItem } from './SponsorItem';
 
@@ -15,6 +15,7 @@ export function SponsorBanner({
 }: SponsorBannerProps) {
 	const { getRandomSponsorUrls, isLoading, error } = useSponsor();
 	const [sponsorUrls, setSponsorUrls] = useState<string[]>([]);
+	const rotationTimerRef = useRef<number | null>(null);
 
 	// Initialize with random sponsor images
 	useEffect(() => {
@@ -27,12 +28,22 @@ export function SponsorBanner({
 	useEffect(() => {
 		if (isLoading || error) return;
 
-		const rotationTimer = setInterval(() => {
+		// Clear any existing timer when rotation interval or dependencies change
+		if (rotationTimerRef.current !== null) {
+			clearInterval(rotationTimerRef.current);
+		}
+
+		// Set up new rotation timer
+		rotationTimerRef.current = window.setInterval(() => {
 			setSponsorUrls(getRandomSponsorUrls(displayCount));
 		}, rotationInterval);
 
+		// Cleanup on unmount
 		return () => {
-			clearInterval(rotationTimer);
+			if (rotationTimerRef.current !== null) {
+				clearInterval(rotationTimerRef.current);
+				rotationTimerRef.current = null;
+			}
 		};
 	}, [isLoading, error, getRandomSponsorUrls, displayCount, rotationInterval]);
 
@@ -55,12 +66,15 @@ export function SponsorBanner({
 	return (
 		<div className='h-full w-full bg-black/70 rounded-lg p-4 shadow-md'>
 			<div className='flex flex-col justify-around items-center h-full gap-4'>
-				{sponsorUrls.map((url) => (
+				{sponsorUrls.map((url, index) => (
 					<div
-						key={url.split('/').pop() ?? url}
+						key={`${String(index)}-${url.split('/').pop() ?? url}`}
 						className='w-full max-w-[200px] mx-auto'
 					>
-						<SponsorItem url={url} />
+						<SponsorItem
+							url={url}
+							index={index}
+						/>
 					</div>
 				))}
 			</div>
