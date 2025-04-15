@@ -3,7 +3,7 @@ testdata_dir = "testdata"
 tmp_dir = "tmp"
 
 [build]
-  args_bin = ["-refresh", "1", "-xml", "http://www.socallinuxexpo.org/scale/22x/sign.xml"]
+  args_bin = ["-refresh", "1", "-xml", "https://www.socallinuxexpo.org/scale/22x/sign.xml"]
   bin = "./out/go-signs"
   cmd = "make build-go"
   delay = 1000
