@@ -100,7 +100,7 @@ func (s *Schedule) UpdateFromXML() {
 		return
 	}
 
-	ps, err := bytesToPresentations(body)
+	ps, err := BytesToPresentations(body)
 	if err != nil {
 		log.Printf("Unmarshal error: %v", err)
 		return
