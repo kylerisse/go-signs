@@ -8,6 +8,7 @@ import (
 	"net/http"
 	"os"
 	"path/filepath"
+	"time"
 
 	bolt "go.etcd.io/bbolt"
 )
@@ -37,6 +38,12 @@ func main() {
 	err = checkOrCreateXMLBucket(db)
 	if err != nil {
 		log.Fatalf("Failed to initialize XML data: %v", err)
+	}
+
+	// Check or create simulation bucket
+	err = checkOrCreateSimulationBucket(db)
+	if err != nil {
+		log.Fatalf("Failed to initialize simulation data: %v", err)
 	}
 
 	log.Printf("Discombobulator started with database %s on port %s", *dbPath, *port)
@@ -94,4 +101,60 @@ func fetchXML(url string) ([]byte, error) {
 	}
 
 	return io.ReadAll(resp.Body)
+}
+
+func checkOrCreateSimulationBucket(db *bolt.DB) error {
+	return db.Update(func(tx *bolt.Tx) error {
+		// Create simulation bucket if it doesn't exist
+		bucket, err := tx.CreateBucketIfNotExists([]byte("simulation"))
+		if err != nil {
+			return fmt.Errorf("create simulation bucket: %w", err)
+		}
+
+		today := time.Now()
+		resetNeeded := false
+
+		// Check if endDate key exists
+		endDateBytes := bucket.Get([]byte("endDate"))
+		if endDateBytes == nil {
+			// If endDate doesn't exist, we need to reset
+			resetNeeded = true
+			log.Println("No endDate found, will initialize simulation bucket")
+		} else {
+			// Check if today is past the endDate
+			endDateStr := string(endDateBytes)
+			endDate, err := time.Parse("2006-01-02", endDateStr)
+			if err != nil {
+				log.Printf("Invalid endDate format: %s, will reset", endDateStr)
+				resetNeeded = true
+			} else if today.After(endDate) {
+				log.Printf("Current date %s is past endDate %s, will reset simulation",
+					today.Format("2006-01-02"), endDateStr)
+				resetNeeded = true
+			} else {
+				log.Printf("Simulation bucket has valid endDate: %s", endDateStr)
+			}
+		}
+
+		// Reset the bucket if needed
+		if resetNeeded {
+			// First, delete all existing keys
+			c := bucket.Cursor()
+			for k, _ := c.First(); k != nil; k, _ = c.Next() {
+				if err := bucket.Delete(k); err != nil {
+					return fmt.Errorf("failed to delete key %s: %w", k, err)
+				}
+			}
+
+			// Then create a new endDate key with date 3 days from now (4 days including today)
+			endDateValue := today.AddDate(0, 0, 3).Format("2006-01-02")
+			if err := bucket.Put([]byte("endDate"), []byte(endDateValue)); err != nil {
+				return fmt.Errorf("failed to set endDate: %w", err)
+			}
+
+			log.Printf("Reset simulation bucket with new endDate: %s", endDateValue)
+		}
+
+		return nil
+	})
 }
