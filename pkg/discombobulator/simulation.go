@@ -1,6 +1,7 @@
 package discombobulator
 
 import (
+	"encoding/json"
 	"encoding/xml"
 	"fmt"
 	"log"
@@ -9,6 +10,7 @@ import (
 	"strings"
 	"time"
 
+	"github.com/kylerisse/go-signs/pkg/schedule"
 	bolt "go.etcd.io/bbolt"
 )
 
@@ -99,7 +101,6 @@ func createSimulatedConferenceData(tx *bolt.Tx, today time.Time) error {
 		return fmt.Errorf("no XML data found")
 	}
 
-	// Randomly select one XML key
 	selectedKey := xmlKeys[rand.Intn(len(xmlKeys))]
 	log.Printf("Selected %s for simulation", selectedKey)
 
@@ -122,33 +123,34 @@ func createSimulatedConferenceData(tx *bolt.Tx, today time.Time) error {
 
 	log.Printf("Created mockXML from %s with simulated dates starting from %s",
 		selectedKey, today.Format("2006-01-02"))
+
+	// Now use the schedule.BytesToPresentations function to parse the XML
+	// and store the result in the presentations key
+	presentations, err := schedule.BytesToPresentations(modifiedXML)
+	if err != nil {
+		return fmt.Errorf("failed to parse presentations from XML: %w", err)
+	}
+
+	// Serialize the presentations to JSON
+	presentationsJSON, err := json.Marshal(presentations)
+	if err != nil {
+		return fmt.Errorf("failed to serialize presentations: %w", err)
+	}
+
+	// Store the presentations in the simulation bucket
+	if err := simBucket.Put([]byte("presentations"), presentationsJSON); err != nil {
+		return fmt.Errorf("failed to store presentations: %w", err)
+	}
+
+	log.Printf("Parsed and stored %d presentations in simulation bucket", len(presentations))
+
 	return nil
 }
 
 // modifyXMLDates updates the Day and Time elements with simulated dates
 func modifyXMLDates(xmlData []byte, today time.Time) ([]byte, error) {
-	// Define XML structure to match the format
-	type Node struct {
-		XMLName       xml.Name `xml:"node"`
-		Title         string   `xml:"Title"`
-		Room          string   `xml:"Room"`
-		Day           string   `xml:"Day"`
-		Time          string   `xml:"Time"`
-		Speakers      string   `xml:"Speakers"`
-		SpeakerIDs    string   `xml:"Speaker-IDs"`
-		Topic         string   `xml:"Topic"`
-		ShortAbstract string   `xml:"Short-abstract"`
-		Photo         string   `xml:"Photo"`
-		Path          string   `xml:"Path"`
-	}
-
-	type Nodes struct {
-		XMLName xml.Name `xml:"nodes"`
-		Nodes   []Node   `xml:"node"`
-	}
-
-	// Parse the XML
-	var nodes Nodes
+	// Use the existing types from the schedule package
+	var nodes schedule.Nodes
 	if err := xml.Unmarshal(xmlData, &nodes); err != nil {
 		return nil, fmt.Errorf("error parsing XML: %w", err)
 	}
