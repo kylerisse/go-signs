@@ -142,18 +142,61 @@ func setupRoutes(r *gin.Engine, db *bolt.DB) {
 		})
 	})
 
-	// API endpoints
-	api := r.Group("/api")
-	{
-		api.GET("/status", func(c *gin.Context) {
-			c.JSON(http.StatusOK, gin.H{
-				"status": "operational",
-				"db":     db.Path(),
-			})
+	// Main endpoint to serve schedule JSON
+	r.GET("/", func(c *gin.Context) {
+		// Access the database to get presentations
+		var presentations []byte
+		err := db.View(func(tx *bolt.Tx) error {
+			bucket := tx.Bucket([]byte("simulation"))
+			if bucket == nil {
+				return fmt.Errorf("simulation bucket not found")
+			}
+			presentations = bucket.Get([]byte("presentations"))
+			if presentations == nil {
+				return fmt.Errorf("presentations not found in simulation bucket")
+			}
+			return nil
 		})
 
-		// Add more API endpoints here
-	}
+		if err != nil {
+			c.JSON(http.StatusInternalServerError, gin.H{
+				"error": err.Error(),
+			})
+			return
+		}
+
+		// Set the content type to application/json
+		c.Header("Content-Type", "application/json")
+		// Write the presentations JSON directly
+		c.Writer.Write(presentations)
+	})
+
+	// Endpoint to serve the XML data
+	r.GET("/sign.xml", func(c *gin.Context) {
+		// Access the database to get mockXML
+		var xmlData []byte
+		err := db.View(func(tx *bolt.Tx) error {
+			bucket := tx.Bucket([]byte("simulation"))
+			if bucket == nil {
+				return fmt.Errorf("simulation bucket not found")
+			}
+			xmlData = bucket.Get([]byte("mockXML"))
+			if xmlData == nil {
+				return fmt.Errorf("mockXML not found in simulation bucket")
+			}
+			return nil
+		})
+
+		if err != nil {
+			c.String(http.StatusInternalServerError, "Error: %v", err)
+			return
+		}
+
+		// Set the content type to application/xml
+		c.Header("Content-Type", "application/xml")
+		// Write the XML data directly
+		c.Writer.Write(xmlData)
+	})
 
 	// Serve static files for the frontend if needed
 	r.NoRoute(func(c *gin.Context) {
