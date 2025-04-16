@@ -34,6 +34,8 @@ export interface ScheduleContextType {
 	schedule: ScheduleData | null;
 	isLoading: boolean;
 	error: Error | null;
+	isStaleData: boolean;
+	lastRefreshTime: number;
 	refreshSchedule: () => Promise<void>;
 	getCurrentAndUpcomingSessions: () => SessionWithStatus[];
 }

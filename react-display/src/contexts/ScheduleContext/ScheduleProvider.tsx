@@ -19,10 +19,15 @@ export function ScheduleProvider({
 	const [isLoading, setIsLoading] = useState<boolean>(true);
 	const [error, setError] = useState<Error | null>(null);
 	const [lastHash, setLastHash] = useState<string>('');
+	const [lastRefreshTime, setLastRefreshTime] = useState<number>(0);
+	const [hasInitialLoad, setHasInitialLoad] = useState<boolean>(false);
 
 	const fetchSchedule = useCallback(async () => {
-		setIsLoading(true);
-		setError(null);
+		// Only show loading state on initial load
+		if (!hasInitialLoad) {
+			setIsLoading(true);
+		}
+
 		try {
 			const response = await fetch('/schedule');
 			if (!response.ok) {
@@ -38,33 +43,36 @@ export function ScheduleProvider({
 			// If hash matches, no need to update the state
 			if (data.contentHash === lastHash && lastHash !== '') {
 				console.log('Schedule hash matches, no update needed');
-				setIsLoading(false);
+				setError(null);
+				setLastRefreshTime(Date.now());
 				return;
 			}
 
-			// If there are no presentations, still update but keep loading=false
-			if (data.Presentations.length === 0) {
-				console.log('No presentations in schedule, still updating');
-				setSchedule(data);
-				setLastHash(data.contentHash);
-			} else {
-				// Update the schedule state and hash
-				console.log(
-					`Updating schedule: ${String(
-						data.Presentations.length
-					)} sessions, hash: ${data.contentHash}`
-				);
-				setSchedule(data);
-				setLastHash(data.contentHash);
-			}
+			// Update the schedule state and hash
+			console.log(
+				`Updating schedule: ${String(
+					data.Presentations.length || 0
+				)} sessions, hash: ${data.contentHash}`
+			);
+			setSchedule(data);
+			setLastHash(data.contentHash);
+			setError(null);
+			setLastRefreshTime(Date.now());
+			setHasInitialLoad(true);
 		} catch (err) {
 			console.error('Error fetching schedule:', err);
-			setError(err instanceof Error ? err : new Error(String(err)));
+			// Only set error state if we don't have any schedule data yet
+			if (!schedule) {
+				setError(err instanceof Error ? err : new Error(String(err)));
+			} else {
+				// If we already have data, just log the error but don't update error state
+				console.log('Fetch failed, using cached schedule data');
+			}
 		} finally {
-			// Always set loading to false when done, regardless of success/error
+			// Always set loading to false when done
 			setIsLoading(false);
 		}
-	}, [lastHash]);
+	}, [lastHash, schedule, hasInitialLoad]);
 
 	// Initial fetch and set up interval for refreshing
 	useEffect(() => {
@@ -103,7 +111,7 @@ export function ScheduleProvider({
 			// Calculate minutes until start
 			const minutesUntilStart = isInProgress
 				? 0
-				: Math.max(0, Math.floor((startTimestamp - now) / 60000));
+				: Math.max(0, Math.ceil((startTimestamp - now) / 60000));
 
 			// Check if session is starting soon (within 10 minutes)
 			const isStartingSoon =
@@ -111,7 +119,7 @@ export function ScheduleProvider({
 
 			// Calculate minutes remaining for in-progress sessions
 			const minutesRemaining = isInProgress
-				? Math.max(0, Math.floor((endTimestamp - now) / 60000))
+				? Math.max(0, Math.ceil((endTimestamp - now) / 60000))
 				: 0;
 
 			return {
@@ -126,7 +134,7 @@ export function ScheduleProvider({
 	);
 
 	const getCurrentAndUpcomingSessions = useCallback(() => {
-		if (!schedule?.Presentations) {
+		if (!schedule?.Presentations || schedule.Presentations.length === 0) {
 			return [];
 		}
 
@@ -172,16 +180,33 @@ export function ScheduleProvider({
 		return filteredSessions as SessionWithStatus[];
 	}, [schedule, getSessionStatus]);
 
+	// Check if we're using stale data (data older than 5 minutes)
+	const isStaleData = useMemo(() => {
+		if (!lastRefreshTime) return false;
+		return Date.now() - lastRefreshTime > 5 * 60 * 1000; // 5 minutes
+	}, [lastRefreshTime]);
+
 	// Memoize context value to prevent unnecessary renders
 	const contextValue = useMemo(
 		() => ({
 			schedule,
-			isLoading,
-			error,
+			isLoading: isLoading && !hasInitialLoad,
+			error: !schedule ? error : null, // Only show error if we have no schedule data
+			isStaleData,
+			lastRefreshTime,
 			refreshSchedule: fetchSchedule,
 			getCurrentAndUpcomingSessions,
 		}),
-		[schedule, isLoading, error, fetchSchedule, getCurrentAndUpcomingSessions]
+		[
+			schedule,
+			isLoading,
+			error,
+			isStaleData,
+			lastRefreshTime,
+			fetchSchedule,
+			getCurrentAndUpcomingSessions,
+			hasInitialLoad,
+		]
 	);
 
 	return <ScheduleContext value={contextValue}>{children}</ScheduleContext>;
