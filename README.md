@@ -128,6 +128,7 @@ go-signs/
 │  │  │  ├─ Clock/             # Time display component
 │  │  │  ├─ Header/            # Header component with logo, clock and WiFi info
 │  │  │  ├─ ScheduleCarousel/  # Schedule display component
+│  │  │  ├─ Spinner/           # Loading indicator component
 │  │  │  └─ SponsorBanner/     # Sponsor image rotation display
 │  │  ├─ contexts/             # React contexts for state management
 │  │  │  ├─ TimeContext/       # Date/time management with URL override

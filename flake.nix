@@ -26,6 +26,7 @@
           default = pkgs.mkShell {
             buildInputs = with pkgs; [
               air
+              boltbrowser
               eslint
               gnumake
               go

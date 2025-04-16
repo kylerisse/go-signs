@@ -27,7 +27,7 @@ type Node struct {
 	Path          string `xml:"Path"`
 }
 
-func bytesToPresentations(b []byte) ([]Presentation, error) {
+func BytesToPresentations(b []byte) ([]Presentation, error) {
 	var xmlnodes Nodes
 	err := xml.Unmarshal(b, &xmlnodes)
 	if err != nil {
