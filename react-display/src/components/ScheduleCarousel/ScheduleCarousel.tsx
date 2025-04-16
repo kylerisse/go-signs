@@ -27,10 +27,18 @@ export function ScheduleCarousel({
 
 	// Update sessions when the schedule or current time changes
 	useEffect(() => {
-		// Only refresh data if it's been at least 30 seconds since last refresh
-		// This prevents constant re-renders due to time updates
+		// On initial mount or when sessions are empty, immediately load data
+		if (sessions.length === 0) {
+			const currentAndUpcoming = getCurrentAndUpcomingSessions();
+			setSessions(currentAndUpcoming);
+			lastRefreshTime.current = Date.now();
+			return;
+		}
+
+		// For subsequent updates, only refresh if it's been at least 1 minute
 		const now = Date.now();
-		if (now - lastRefreshTime.current > 30000) {
+		if (now - lastRefreshTime.current > 60000) {
+			// 1 minute
 			const currentAndUpcoming = getCurrentAndUpcomingSessions();
 			setSessions(currentAndUpcoming);
 			// Only reset start index if we have a completely different set of sessions
