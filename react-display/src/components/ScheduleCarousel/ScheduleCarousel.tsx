@@ -103,7 +103,7 @@ export function ScheduleCarousel({
 	}
 
 	return (
-		<div className='bg-black/70 w-full h-full rounded-lg overflow-hidden p-4'>
+		<div className='bg-[#aeb0b5] w-full h-full rounded-lg overflow-hidden px-6 p-4'>
 			{/* Main content container */}
 			<div className='w-full h-full flex flex-col justify-between'>
 				{showLoading ? (
