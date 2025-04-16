@@ -111,7 +111,7 @@ export function ScheduleProvider({
 			// Calculate minutes until start
 			const minutesUntilStart = isInProgress
 				? 0
-				: Math.max(0, Math.floor((startTimestamp - now) / 60000));
+				: Math.max(0, Math.ceil((startTimestamp - now) / 60000));
 
 			// Check if session is starting soon (within 10 minutes)
 			const isStartingSoon =
@@ -119,7 +119,7 @@ export function ScheduleProvider({
 
 			// Calculate minutes remaining for in-progress sessions
 			const minutesRemaining = isInProgress
-				? Math.max(0, Math.floor((endTimestamp - now) / 60000))
+				? Math.max(0, Math.ceil((endTimestamp - now) / 60000))
 				: 0;
 
 			return {
