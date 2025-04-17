@@ -1,6 +1,7 @@
 // react-display/src/components/ScheduleCarousel/ScheduleItem.tsx
 
 import { SessionWithStatus } from '../../contexts/ScheduleContext/types';
+import { useTime } from '../../contexts/TimeContext';
 
 interface ScheduleItemProps {
 	session: SessionWithStatus;
@@ -8,6 +9,8 @@ interface ScheduleItemProps {
 }
 
 export function ScheduleItem({ session, isEmpty = false }: ScheduleItemProps) {
+	const { currentTime } = useTime();
+
 	// Skip rendering details for empty placeholders
 	if (isEmpty || !session.Name) {
 		return (
@@ -19,6 +22,20 @@ export function ScheduleItem({ session, isEmpty = false }: ScheduleItemProps) {
 	const formatTime = (timeString: string): string => {
 		const date = new Date(timeString);
 		return date.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+	};
+
+	// Check if session is tomorrow
+	const isTomorrow = (): boolean => {
+		const today = new Date(currentTime);
+		today.setHours(0, 0, 0, 0); // Start of today
+
+		const tomorrow = new Date(today);
+		tomorrow.setDate(tomorrow.getDate() + 1); // Start of tomorrow
+
+		const sessionDate = new Date(session.StartTime);
+		sessionDate.setHours(0, 0, 0, 0); // Start of session day
+
+		return sessionDate.getTime() === tomorrow.getTime();
 	};
 
 	return (
@@ -48,20 +65,29 @@ export function ScheduleItem({ session, isEmpty = false }: ScheduleItemProps) {
 				<div className='flex flex-col items-end min-w-[180px] py-1'>
 					{/* Status indicator */}
 					{session.status.isInProgress && (
-						<span className='text-xl font-bold py-1 px-4 py-1 rounded-md whitespace-nowrap bg-[#2e8540] -700 text-white mb-1'>
+						<span className='text-xl font-bold py-1 px-4 rounded-md whitespace-nowrap bg-[#2e8540] text-white mb-1'>
 							In Progress
 						</span>
 					)}
 					{session.status.isStartingSoon && (
-						<span className='text-xl font-bold py-1 px-4 py-1 rounded-md whitespace-nowrap bg-[#f9c642] text-[#212121] mb-1 animate-pulse'>
+						<span className='text-xl font-bold py-1 px-4 rounded-md whitespace-nowrap bg-[#f9c642] text-[#212121] mb-1 animate-pulse'>
 							Starting in {String(session.status.minutesUntilStart)} min
 						</span>
 					)}
-					{!session.status.isInProgress && !session.status.isStartingSoon && (
-						<span className='text-xl font-bold py-1 px-4 py-1 rounded-md whitespace-nowrap bg-[#205493] text-white mb-1'>
-							Upcoming in {String(session.status.minutesUntilStart)} min
-						</span>
-					)}
+					{!session.status.isInProgress &&
+						!session.status.isStartingSoon &&
+						isTomorrow() && (
+							<span className='text-xl font-bold py-1 px-4 rounded-md whitespace-nowrap bg-[#e31c3d] text-white mb-1'>
+								Tomorrow
+							</span>
+						)}
+					{!session.status.isInProgress &&
+						!session.status.isStartingSoon &&
+						!isTomorrow() && (
+							<span className='text-xl font-bold py-1 px-4 rounded-md whitespace-nowrap bg-[#205493] text-white mb-1'>
+								Upcoming in {String(session.status.minutesUntilStart)} min
+							</span>
+						)}
 
 					{/* Room and topic in a row */}
 					<div className='flex justify-end mt-1 text-xl mt-auto py-2'>
