@@ -6,7 +6,7 @@ import scaleWifi from '../../assets/wifi.png';
 
 export function Header() {
 	return (
-		<header className='w-full bg-white shadow-md flex justify-between items-center h-[10vh] px-6'>
+		<header className='w-full bg-white shadow-md flex justify-between items-center h-[10vh] py-2 px-2 p-2'>
 			<div className='flex items-center'>
 				<img
 					src={scaleLogo}

@@ -14,7 +14,7 @@ function App() {
 				{/* Header with logo, clock and wifi info */}
 				<Header />
 
-				<div className='flex flex-1 bg-gray-100 overflow-hidden'>
+				<div className='flex flex-1 bg-white overflow-hidden'>
 					{/* Main content area - 80% width */}
 					<div className='w-4/5 p-2 overflow-y-auto'>
 						{/* Schedule Carousel showing current and upcoming sessions */}

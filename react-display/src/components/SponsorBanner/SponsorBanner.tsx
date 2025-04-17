@@ -64,7 +64,7 @@ export function SponsorBanner({
 	}
 
 	return (
-		<div className='h-full w-full bg-black/70 rounded-lg p-4 shadow-md'>
+		<div className='h-full w-full bg-[#aeb0b5] rounded-lg p-4 shadow-md'>
 			<div className='flex flex-col justify-around items-center h-full gap-4'>
 				{sponsorUrls.map((url, index) => (
 					<div
