@@ -64,14 +64,14 @@ export function ScheduleItem({ session, isEmpty = false }: ScheduleItemProps) {
 					</div>
 
 					{/* Room and topic in a row */}
-					<div className='flex justify-start mt-1 text-xl px-2 py-2'>
+					<div className='flex flex-wrap mt-1 text-xl px-2 py-2'>
 						{session.Topic && (
-							<span className='bg-[#02bfe7] font-bold text-[#212121] px-2 py-1 rounded-md mr-2'>
+							<span className='bg-[#02bfe7] font-bold text-[#212121] px-2 py-1 rounded-md mr-2 whitespace-nowrap flex-shrink-0'>
 								{session.Topic}
 							</span>
 						)}
 						{/* Speaker names */}
-						<span className='text-xl text-white font-bold italic mb-1 mt-auto'>
+						<span className='text-xl text-white font-bold italic mb-1 break-words'>
 							{session.Speakers.join(', ')}
 						</span>
 					</div>
