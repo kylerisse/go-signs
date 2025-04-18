@@ -93,7 +93,7 @@ export function ScheduleItem({ session, isEmpty = false }: ScheduleItemProps) {
 					{!session.status.isInProgress &&
 						!session.status.isStartingSoon &&
 						isTomorrow() && (
-							<span className='text-xl font-bold py-1 px-4 rounded-md whitespace-nowrap bg-[#e31c3d] text-white mb-1'>
+							<span className='text-xl font-bold py-1 px-4 rounded-md whitespace-nowrap bg-[#f9dede] text-[#212121] mb-1'>
 								Tomorrow
 							</span>
 						)}
