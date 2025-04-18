@@ -101,7 +101,11 @@ export function ScheduleItem({ session, isEmpty = false }: ScheduleItemProps) {
 						!session.status.isStartingSoon &&
 						!isTomorrow() && (
 							<span className='text-xl font-bold py-1 px-4 rounded-md whitespace-nowrap bg-[#205493] text-white mb-1'>
-								Upcoming in {String(session.status.minutesUntilStart)} min
+								{session.status.minutesUntilStart > 59
+									? 'Upcoming'
+									: `Upcoming in ${String(
+											session.status.minutesUntilStart
+									  )} min`}
 							</span>
 						)}
 
