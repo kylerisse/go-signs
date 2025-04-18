@@ -54,7 +54,7 @@ export function ScheduleItem({ session, isEmpty = false }: ScheduleItemProps) {
 
 	return (
 		<div
-			className={`rounded-md p-4 mb-2 transition-all duration-300 ${bgColor} text-white ${keynoteClasses}`}
+			className={`rounded-md p-2 mb-2 transition-all duration-300 ${bgColor} text-white ${keynoteClasses}`}
 		>
 			<div className='flex justify-between items-start'>
 				{/* Left side - Session title and time */}
@@ -63,7 +63,7 @@ export function ScheduleItem({ session, isEmpty = false }: ScheduleItemProps) {
 						{session.Name}
 					</div>
 
-					{/* Room and topic in a row */}
+					{/* Speakers and topic in a row */}
 					<div className='flex flex-wrap mt-1 text-xl px-2 py-2'>
 						{session.Topic && (
 							<span className='bg-[#02bfe7] font-bold text-[#212121] px-2 py-1 rounded-md mr-2 whitespace-nowrap flex-shrink-0'>
@@ -71,13 +71,13 @@ export function ScheduleItem({ session, isEmpty = false }: ScheduleItemProps) {
 							</span>
 						)}
 						{/* Speaker names */}
-						<span className='text-xl text-white font-bold italic mb-1 break-words'>
+						<span className='text-xl text-white font-bold italic mb-1 break-words py-1'>
 							{session.Speakers.join(', ')}
 						</span>
 					</div>
 				</div>
 
-				{/* Right side - Room, status, and speakers */}
+				{/* Right side - Room, status, and time */}
 				<div className='flex flex-col items-end min-w-[180px] py-1'>
 					{/* Status indicator */}
 					{session.status.isInProgress && (
@@ -109,7 +109,7 @@ export function ScheduleItem({ session, isEmpty = false }: ScheduleItemProps) {
 							</span>
 						)}
 
-					{/* Room and topic in a row */}
+					{/* Room and time in a row */}
 					<div className='flex justify-end mt-1 text-xl mt-auto py-2'>
 						<span className='text-white text-l font-bold px-4 py-1'>
 							{formatTime(session.StartTime)} - {formatTime(session.EndTime)}
