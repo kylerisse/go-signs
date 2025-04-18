@@ -38,8 +38,24 @@ export function ScheduleItem({ session, isEmpty = false }: ScheduleItemProps) {
 		return sessionDate.getTime() === tomorrow.getTime();
 	};
 
+	// Check if this is a keynote session by topic only
+	const isKeynote = (): boolean => {
+		// Only check the topic field
+		return !!session.Topic.toLowerCase().includes('keynote');
+	};
+
+	// Determine background color based on keynote status
+	const bgColor = isKeynote() ? 'bg-[#2c2c42]' : 'bg-[#212121]';
+
+	// Apply keynote visual effects
+	const keynoteClasses = isKeynote()
+		? 'transform translate-y-[-2px] shadow-lg ring-2 ring-yellow-300 ring-opacity-50'
+		: '';
+
 	return (
-		<div className='rounded-md p-4 mb-2 transition-all duration-300 bg-[#212121] text-white'>
+		<div
+			className={`rounded-md p-4 mb-2 transition-all duration-300 ${bgColor} text-white ${keynoteClasses}`}
+		>
 			<div className='flex justify-between items-start'>
 				{/* Left side - Session title and time */}
 				<div className='flex-1 pr-4'>
