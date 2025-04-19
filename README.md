@@ -22,24 +22,31 @@ The system offers a clean separation between data sources and presentation:
 - **Display Package**: Embeds and serves the compiled React frontend
 - **Server Package**: Coordinates components and handles HTTP serving with graceful shutdown
 
-## Requirements
+## Contributing
 
-- Nix
+Contributions to go-signs are welcome! If you're interested in helping improve this project, please follow these steps:
 
-## Development Environment
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Ensure tests and linting pass (`make test`)
+5. Submit a pull request
 
-### Using Nix Development Shell
+### Development Environment
 
 This project includes a Nix flake for consistent development environments. If you have Nix with flakes enabled:
 
 ```sh
+# First make sure you have Nix with flakes enabled
+# Add "experimental-features = nix-command flakes" to your Nix configuration
+
 # Enter the development shell
 direnv allow   # If you have direnv installed
 # OR
 nix develop    # To manually enter the shell
 ```
 
-The Nix development shell provides:
+The Nix development shell provides all necessary tools:
 
 - Go toolchain
 - Air (for hot reloading)
@@ -50,7 +57,7 @@ The Nix development shell provides:
 - Go tools and linters
 - Prettier
 
-## Development
+### Development Workflow
 
 The recommended development workflow is:
 
@@ -60,11 +67,64 @@ air # before running for the first time, run a make test or make build
 
 # In another terminal
 make test  # or make build to bypass tests (not recommended)
-
-# Air will detect the changes to the compiled frontend and reload everything automatically.
 ```
 
-The React frontend sends API requests to the Go backend during development, making it easy to work on both parts of the system simultaneously.
+Air will detect the changes to the compiled frontend and reload everything automatically. The React frontend sends API requests to the Go backend during development, making it easy to work on both parts of the system simultaneously.
+
+### Using Time Override for Development
+
+During development, you'll often need to test how the schedule display behaves at different times. Instead of waiting for specific times or changing your system clock, use the time override feature:
+
+1. Open your development instance in a browser
+2. Add URL parameters to simulate a specific time:
+   ```
+   http://localhost:2017/?year=2025&month=3&day=20&hour=14&minute=30
+   ```
+3. The application will use this simulated time instead of the actual system time
+
+This feature is extremely useful for testing various schedule states like "in progress," "starting soon," and day transitions.
+
+### Code Style Guidelines
+
+#### Go Code
+
+- Follow the [Go Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments)
+- Run `staticcheck` on your code
+- Ensure `go fmt` and `go vet` pass
+
+#### React Code
+
+- Follow ESLint rules configured in the project
+- Format code with Prettier using these settings:
+  ```json
+  {
+  	"experimentalTernaries": true,
+  	"htmlWhitespaceSensitivity": "strict",
+  	"jsxSingleQuote": true,
+  	"singleAttributePerLine": true,
+  	"singleQuote": true,
+  	"useTabs": true
+  }
+  ```
+- Use functional components with hooks
+- Follow the established component structure
+
+### Development Tasks
+
+- `make test` - Run all tests with race detection
+- `make build` - Build the executable (runs frontend build first)
+- `make build-react` - Build just the React frontend
+- `make build-go` - Build just the Go backend
+- `make deps` - Verify and tidy dependencies
+- `make clean` - Clean build artifacts
+- `make mrproper` - Deep clean (build artifacts and data)
+- `make check-go-vulns` - Run go vulnerability checks using govulncheck
+- `make bump-go-vulns` - Update go patch-level dependencies
+
+## Requirements
+
+- Nix with flakes enabled (for development)
+- For running the compiled binary without Nix, any system that can run a Go binary
 
 ## Building and Running
 
@@ -90,27 +150,22 @@ make build
 | `/sponsors/all`      | JSON list of all sponsor image filenames      |
 | `/sponsors/images/*` | Serves embedded sponsor image assets          |
 
-### Time Override
+## Time Override for Development and Testing
 
-The web interface supports time simulation via URL parameters:
+The web interface includes a powerful time simulation feature that's especially useful during development and testing. This allows you to preview how the schedule display would appear at any specific date and time without changing your system clock.
+
+Simply add the following URL parameters:
 
 ```
 /?year=2025&month=3&day=20&hour=14&minute=30
 ```
 
-This is particularly useful for testing schedule displays for specific times or days.
+This feature enables:
 
-## Development Tasks
-
-- `make test` - Run all tests with race detection
-- `make build` - Build the executable (runs frontend build first)
-- `make build-react` - Build just the React frontend
-- `make build-go` - Build just the Go backend
-- `make deps` - Verify and tidy dependencies
-- `make clean` - Clean build artifacts
-- `make mrproper` - Deep clean (build artifacts and data)
-- `make check-go-vulns` - Run go vulnerability checks using govulncheck
-- `make bump-go-vulns` - Update go patch-level dependencies
+- Testing schedule displays for future conference dates
+- Verifying session transition animations and status indicators
+- Confirming correct handling of "starting soon" and "in progress" states
+- Checking day transition logic and multi-day event displays
 
 ## Project Structure
 
