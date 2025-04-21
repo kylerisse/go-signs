@@ -6,12 +6,12 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/kylerisse/go-signs/pkg/discombobulator"
+	"github.com/kylerisse/go-signs/pkg/simulator"
 )
 
 func main() {
 	// Parse command line arguments
-	dbPath := flag.String("db", "./data/discombobulator.db", "Path to BoltDB database file")
+	dbPath := flag.String("db", "./data/simulator.db", "Path to BoltDB database file")
 	port := flag.String("port", "2018", "Port to listen on")
 	flag.Parse()
 
@@ -23,13 +23,13 @@ func main() {
 		}
 	}
 
-	// Create and start the discombobulator server
-	server, err := discombobulator.NewServer(*dbPath, *port)
+	// Create and start the simulator server
+	server, err := simulator.NewServer(*dbPath, *port)
 	if err != nil {
 		log.Fatalf("Failed to create server: %v", err)
 	}
 
-	log.Printf("Discombobulator started with database %s on port %s", *dbPath, *port)
+	log.Printf("simulator started with database %s on port %s", *dbPath, *port)
 	if err := server.ListenAndServe(); err != nil {
 		log.Fatalf("Server error: %v", err)
 	}

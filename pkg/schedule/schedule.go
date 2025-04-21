@@ -106,6 +106,12 @@ func (s *Schedule) UpdateFromXML() {
 		return
 	}
 
+	// Only update the content hash and schedule if we have presentations
+	if len(ps) == 0 {
+		log.Printf("Parsed XML resulted in 0 presentations, keeping existing schedule")
+		return
+	}
+
 	// Update the content hash
 	s.mutex.Lock()
 	s.ContentHash = newContentHash

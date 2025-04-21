@@ -1,4 +1,4 @@
-package discombobulator
+package simulator
 
 import (
 	"fmt"

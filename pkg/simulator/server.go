@@ -1,4 +1,4 @@
-package discombobulator
+package simulator
 
 import (
 	"context"
@@ -14,14 +14,14 @@ import (
 	bolt "go.etcd.io/bbolt"
 )
 
-// Server is the main webserver process for the discombobulator
+// Server is the main webserver process for the simulator
 type Server struct {
 	httpd  *http.Server
 	db     *bolt.DB
 	dbPath string
 }
 
-// NewServer creates a new discombobulator server
+// NewServer creates a new simulator server
 func NewServer(dbPath, port string) (*Server, error) {
 	// Open or create the database
 	db, err := openDatabase(dbPath)
@@ -66,7 +66,7 @@ func (s *Server) ListenAndServe() error {
 	// Start HTTP server in a goroutine
 	serverErrors := make(chan error, 1)
 	go func() {
-		log.Printf("Discombobulator listening on %s", s.httpd.Addr)
+		log.Printf("simulator listening on %s", s.httpd.Addr)
 		if err := s.httpd.ListenAndServe(); err != nil && err != http.ErrServerClosed {
 			serverErrors <- err
 		}

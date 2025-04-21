@@ -9,7 +9,7 @@ build-react:
 	cd react-display && npm install && npm run build
 
 build-go:
-	go build -o out/discombobulator cmd/discombobulator/main.go
+	go build -o out/scale-simulator cmd/scale-simulator/main.go
 	go build -o out/go-signs cmd/go-signs/main.go
 
 build: clean build-react build-go
