@@ -3,6 +3,7 @@ with pkgs; [
   air
   boltbrowser
   eslint
+  gcc
   gnumake
   go
   go-tools
@@ -10,5 +11,6 @@ with pkgs; [
   govulncheck
   nodejs
   nodePackages.prettier
+  prefetch-npm-deps
   typescript
 ]
