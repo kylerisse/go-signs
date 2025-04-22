@@ -7,5 +7,6 @@
 
   outputs = inputs: {
     devShells = import ./nix/dev-shells.nix { inherit inputs; };
+    packages = import ./nix/packages.nix { inherit inputs; };
   };
 }

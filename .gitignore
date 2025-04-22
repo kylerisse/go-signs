@@ -8,3 +8,6 @@ pkg/display/dist/**
 
 # air
 tmp/*
+
+# nix
+result
