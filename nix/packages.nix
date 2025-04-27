@@ -57,6 +57,37 @@ inputs.nixpkgs.lib.genAttrs systems
 
     in
     {
+      scale-simulator = pkgs.buildGoModule rec {
+        pname = "scale-simulator";
+        version = "unstable";
+        src = builtins.path { path = ../.; };
+        goPackagePath = "github.com/kylerisse/go-signs";
+        vendorHash = goSumSha;
+        nativeBuildInputs = defaultPackages ++ [ npmDeps ];
+
+        checkPhase = commonCheckPhase;
+
+        buildPhase = lib.strings.concatStrings [
+          reactBuild
+          ''
+            mkdir -p out
+            go build -o out/scale-simulator cmd/scale-simulator/main.go
+          ''
+        ];
+
+        installPhase = ''
+          mkdir -p $out/bin/
+          cp out/scale-simulator $out/bin/
+        '';
+
+        meta = with lib; {
+          description = "SCaLE Schedule Simulator";
+          license = licenses.mit;
+          maintainers = [ "kylerisse" ];
+          mainProgram = "scale-simulator";
+        };
+      };
+
       go-signs-ci-release = pkgs.buildGoModule rec {
         pname = "go-signs-ci";
         version = "release";
