@@ -48,6 +48,26 @@ func checkOrCreateSimulationBucket(db *bolt.DB) error {
 			}
 		}
 
+		// If not resetting due to date, check if there are any running or upcoming presentations
+		if !resetNeeded {
+			presentationsBytes := bucket.Get([]byte("presentations"))
+			if presentationsBytes == nil {
+				resetNeeded = true
+				log.Println("No presentations found in simulation bucket, will reset")
+			} else {
+				// Check if there are any running or upcoming presentations
+				hasEvents, err := hasRunningOrUpcomingEvents(presentationsBytes, today)
+				if err != nil {
+					log.Printf("Error checking for events: %v", err)
+				} else if !hasEvents {
+					resetNeeded = true
+					log.Println("No running or upcoming events in simulation, will reset")
+				} else {
+					log.Println("Simulation has running or upcoming events, no reset needed")
+				}
+			}
+		}
+
 		// Reset the bucket if needed
 		if resetNeeded {
 			// First, delete all existing keys
@@ -74,6 +94,40 @@ func checkOrCreateSimulationBucket(db *bolt.DB) error {
 
 		return nil
 	})
+}
+
+// hasRunningOrUpcomingEvents checks if there are any presentations that are either
+// currently running or will start within the next 24 hours
+func hasRunningOrUpcomingEvents(presentationsJSON []byte, now time.Time) (bool, error) {
+	var presentations []schedule.Presentation
+	if err := json.Unmarshal(presentationsJSON, &presentations); err != nil {
+		return false, fmt.Errorf("failed to parse presentations JSON: %w", err)
+	}
+
+	// Set a cutoff time of 24 hours from now
+	cutoff := now.Add(24 * time.Hour)
+
+	for _, p := range presentations {
+		// The StartTime and EndTime in the Presentation struct are already time.Time values,
+		// so we don't need to parse them
+
+		// Check if the presentation is currently running
+		if now.After(p.StartTime) && now.Before(p.EndTime) {
+			log.Printf("Found currently running presentation: %s", p.Name)
+			return true, nil
+		}
+
+		// Check if the presentation will start within the next 24 hours
+		if p.StartTime.After(now) && p.StartTime.Before(cutoff) {
+			log.Printf("Found upcoming presentation within 24h: %s at %s",
+				p.Name, p.StartTime.Format("2006-01-02 15:04:05"))
+			return true, nil
+		}
+	}
+
+	// No running or upcoming events found
+	log.Println("No running or upcoming events found in the next 24 hours")
+	return false, nil
 }
 
 // createSimulatedConferenceData randomly selects and modifies a conference schedule
