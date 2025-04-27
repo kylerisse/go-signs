@@ -29,9 +29,9 @@ inputs.nixpkgs.lib.genAttrs systems
 
     in
     {
-      go-signs = pkgs.buildGoModule rec {
-        pname = "go-signs";
-        version = "unstable";
+      go-signs-ci-release = pkgs.buildGoModule rec {
+        pname = "go-signs-ci";
+        version = "release";
         src = builtins.path { path = ../.; };
         goPackagePath = "github.com/kylerisse/go-signs";
 
@@ -93,9 +93,16 @@ inputs.nixpkgs.lib.genAttrs systems
           # copy all cross-compiled versions
           mkdir -p $out/bin
           for f in out/*; do
-            cp "$f" $out/bin/
+            cp "$f" $out/
           done
+          cd $out && sha256sum go-signs-* scale-simulator-* > $out/checksums.txt
         '';
+
+        meta = with lib; {
+          description = "go-signs CI release";
+          license = licenses.mit;
+          maintainers = [ "kylerisse" ];
+        };
       };
     }
   )
