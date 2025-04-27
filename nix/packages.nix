@@ -88,6 +88,37 @@ inputs.nixpkgs.lib.genAttrs systems
         };
       };
 
+      go-signs = pkgs.buildGoModule rec {
+        pname = "go-signs";
+        version = "unstable";
+        src = builtins.path { path = ../.; };
+        goPackagePath = "github.com/kylerisse/go-signs";
+        vendorHash = goSumSha;
+        nativeBuildInputs = defaultPackages ++ [ npmDeps ];
+
+        checkPhase = commonCheckPhase;
+
+        buildPhase = lib.strings.concatStrings [
+          reactBuild
+          ''
+            mkdir -p out
+            go build -o out/go-signs cmd/go-signs/main.go
+          ''
+        ];
+
+        installPhase = ''
+          mkdir -p $out/bin/
+          cp out/go-signs $out/bin/
+        '';
+
+        meta = with lib; {
+          description = "SCaLE Digital Signage App";
+          license = licenses.mit;
+          maintainers = [ "kylerisse" ];
+          mainProgram = "go-signs";
+        };
+      };
+
       go-signs-ci-release = pkgs.buildGoModule rec {
         pname = "go-signs-ci";
         version = "release";
