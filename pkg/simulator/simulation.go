@@ -101,32 +101,78 @@ func createSimulatedConferenceData(tx *bolt.Tx, today time.Time) error {
 		return fmt.Errorf("no XML data found")
 	}
 
+	// Randomly select ONE conference to be the primary one with date shifting
 	selectedKey := xmlKeys[rand.Intn(len(xmlKeys))]
-	log.Printf("Selected %s for simulation", selectedKey)
+	log.Printf("Selected %s as primary conference with date shifting", selectedKey)
 
-	// Get the XML data
+	// Get the XML data for the selected conference
 	xmlData := xmlBucket.Get([]byte(selectedKey))
 	if xmlData == nil {
 		return fmt.Errorf("no data found for key %s", selectedKey)
 	}
 
-	// Parse and modify the XML data
+	// Parse and modify the XML data with date shifting
 	modifiedXML, err := modifyXMLDates(xmlData, today)
 	if err != nil {
 		return fmt.Errorf("failed to modify XML dates: %w", err)
 	}
 
-	// Store the modified XML in the simulation bucket
-	if err := simBucket.Put([]byte("mockXML"), modifiedXML); err != nil {
+	// AFTER modifying dates, now merge in all conferences
+
+	// Parse the modified XML back into nodes structure
+	var baseNodes schedule.Nodes
+	if err := xml.Unmarshal(modifiedXML, &baseNodes); err != nil {
+		return fmt.Errorf("error parsing modified XML: %w", err)
+	}
+
+	// Create a merged nodes structure starting with our date-shifted conference
+	mergedNodes := baseNodes
+
+	// Now merge in all the other conferences with their original dates
+	for _, key := range xmlKeys {
+
+		// Get the XML data for this conference
+		xmlData := xmlBucket.Get([]byte(key))
+		if xmlData == nil {
+			log.Printf("Warning: no data found for key %s, skipping", key)
+			continue
+		}
+
+		// Parse the XML data into nodes structure (keeping original dates)
+		var additionalNodes schedule.Nodes
+		if err := xml.Unmarshal(xmlData, &additionalNodes); err != nil {
+			log.Printf("Warning: error parsing XML for %s: %v, skipping", key, err)
+			continue
+		}
+
+		// Add these nodes to our merged structure
+		log.Printf("Adding %d nodes from %s with original dates", len(additionalNodes.Nodes), key)
+		mergedNodes.Nodes = append(mergedNodes.Nodes, additionalNodes.Nodes...)
+	}
+
+	log.Printf("Merged a total of %d nodes from all XML data sources", len(mergedNodes.Nodes))
+
+	// Marshal the merged nodes back to XML
+	finalXML, err := xml.MarshalIndent(mergedNodes, "", "  ")
+	if err != nil {
+		return fmt.Errorf("error marshaling merged XML: %w", err)
+	}
+
+	// Add XML declaration
+	xmlHeader := []byte(xml.Header)
+	finalXML = append(xmlHeader, finalXML...)
+
+	// Store the modified and merged XML in the simulation bucket
+	if err := simBucket.Put([]byte("mockXML"), finalXML); err != nil {
 		return fmt.Errorf("failed to store mockXML: %w", err)
 	}
 
-	log.Printf("Created mockXML from %s with simulated dates starting from %s",
-		selectedKey, today.Format("2006-01-02"))
+	log.Printf("Created mockXML from %s with date-shifted sessions plus original sessions from other conferences",
+		selectedKey)
 
 	// Now use the schedule.BytesToPresentations function to parse the XML
 	// and store the result in the presentations key
-	presentations, err := schedule.BytesToPresentations(modifiedXML)
+	presentations, err := schedule.BytesToPresentations(finalXML)
 	if err != nil {
 		return fmt.Errorf("failed to parse presentations from XML: %w", err)
 	}
