@@ -58,8 +58,8 @@ func checkOrCreateSimulationBucket(db *bolt.DB) error {
 				}
 			}
 
-			// Then create a new endDate key with date 3 days from now (4 days including today)
-			endDateValue := today.AddDate(0, 0, 3).Format("2006-01-02")
+			// Then create a new endDate key with date 4 days from now (5 days including today)
+			endDateValue := today.AddDate(0, 0, 4).Format("2006-01-02")
 			if err := bucket.Put([]byte("endDate"), []byte(endDateValue)); err != nil {
 				return fmt.Errorf("failed to set endDate: %w", err)
 			}
@@ -202,12 +202,13 @@ func modifyXMLDates(xmlData []byte, today time.Time) ([]byte, error) {
 	}
 
 	// Map days to new dates
-	// Today = Thursday, Tomorrow = Friday, etc.
+	// Today = Wednesday, Tomorrow = Thursday, etc.
 	dates := make(map[string]time.Time)
-	dates["Thursday"] = today
-	dates["Friday"] = today.AddDate(0, 0, 1)
-	dates["Saturday"] = today.AddDate(0, 0, 2)
-	dates["Sunday"] = today.AddDate(0, 0, 3)
+	dates["Wednesday"] = today
+	dates["Thursday"] = today.AddDate(0, 0, 1)
+	dates["Friday"] = today.AddDate(0, 0, 2)
+	dates["Saturday"] = today.AddDate(0, 0, 3)
+	dates["Sunday"] = today.AddDate(0, 0, 4)
 
 	// Regular expression to find content attributes with dates/times
 	dateRegex := regexp.MustCompile(`content="([0-9]{4}-[0-9]{2}-[0-9]{2})T([0-9]{2}:[0-9]{2}:[0-9]{2})([-+][0-9]{2}:[0-9]{2})?"`)
