@@ -150,23 +150,6 @@ make build
 | `/sponsors/all`      | JSON list of all sponsor image filenames      |
 | `/sponsors/images/*` | Serves embedded sponsor image assets          |
 
-## Time Override for Development and Testing
-
-The web interface includes a powerful time simulation feature that's especially useful during development and testing. This allows you to preview how the schedule display would appear at any specific date and time without changing your system clock.
-
-Simply add the following URL parameters:
-
-```
-/?year=2025&month=3&day=20&hour=14&minute=30
-```
-
-This feature enables:
-
-- Testing schedule displays for future conference dates
-- Verifying session transition animations and status indicators
-- Confirming correct handling of "starting soon" and "in progress" states
-- Checking day transition logic and multi-day event displays
-
 ## Project Structure
 
 ```
