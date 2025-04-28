@@ -16,9 +16,12 @@ import (
 
 // Server is the main webserver process for the simulator
 type Server struct {
-	httpd  *http.Server
-	db     *bolt.DB
-	dbPath string
+	httpd           *http.Server
+	db              *bolt.DB
+	dbPath          string
+	stopScheduler   chan struct{}
+	schedulerDone   chan struct{}
+	lastScheduleRun time.Time
 }
 
 // NewServer creates a new simulator server
@@ -39,9 +42,6 @@ func NewServer(dbPath, port string) (*Server, error) {
 	gin.SetMode(gin.ReleaseMode)
 	router := gin.Default()
 
-	// Add routes
-	setupRoutes(router, db)
-
 	// Create HTTP server
 	srv := &http.Server{
 		Handler:      router,
@@ -50,11 +50,61 @@ func NewServer(dbPath, port string) (*Server, error) {
 		ReadTimeout:  15 * time.Second,
 	}
 
-	return &Server{
-		httpd:  srv,
-		db:     db,
-		dbPath: dbPath,
-	}, nil
+	// Create the server
+	server := &Server{
+		httpd:           srv,
+		db:              db,
+		dbPath:          dbPath,
+		stopScheduler:   make(chan struct{}),
+		schedulerDone:   make(chan struct{}),
+		lastScheduleRun: time.Time{},
+	}
+
+	// Add routes
+	setupRoutes(router, db, server)
+
+	// Start the scheduler
+	go server.runScheduler(5 * time.Minute)
+
+	return server, nil
+}
+
+// runScheduler runs a periodic check of the simulation
+func (s *Server) runScheduler(interval time.Duration) {
+	defer close(s.schedulerDone)
+
+	// Run initial check
+	s.runScheduledCheck()
+
+	// Set up ticker for periodic checks
+	ticker := time.NewTicker(interval)
+	defer ticker.Stop()
+
+	log.Printf("Scheduler started with interval of %v", interval)
+
+	for {
+		select {
+		case <-ticker.C:
+			s.runScheduledCheck()
+		case <-s.stopScheduler:
+			log.Println("Scheduler stopping...")
+			return
+		}
+	}
+}
+
+// runScheduledCheck performs a single simulation check
+func (s *Server) runScheduledCheck() {
+	now := time.Now()
+	log.Printf("Running scheduled simulation check at %s", now.Format("2006-01-02 15:04:05"))
+
+	if err := checkOrCreateSimulationBucket(s.db); err != nil {
+		log.Printf("Error in simulation check: %v", err)
+	} else {
+		log.Println("Simulation check completed successfully")
+	}
+
+	s.lastScheduleRun = now
 }
 
 // ListenAndServe starts the server and sets up graceful shutdown
@@ -88,6 +138,17 @@ func (s *Server) ListenAndServe() error {
 	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
 	defer cancel()
 
+	// Stop the scheduler
+	close(s.stopScheduler)
+
+	// Wait for scheduler to finish with timeout
+	select {
+	case <-s.schedulerDone:
+		log.Println("Scheduler stopped successfully")
+	case <-time.After(5 * time.Second):
+		log.Println("Scheduler stop timed out")
+	}
+
 	// Close database connection
 	if err := s.db.Close(); err != nil {
 		log.Printf("Error closing database: %v", err)
@@ -110,11 +171,6 @@ func initializeDatabase(db *bolt.DB) error {
 		return fmt.Errorf("failed to initialize XML data: %w", err)
 	}
 
-	// Initialize simulation bucket
-	if err := checkOrCreateSimulationBucket(db); err != nil {
-		return fmt.Errorf("failed to initialize simulation bucket: %w", err)
-	}
-
 	return nil
 }
 
@@ -133,12 +189,20 @@ func openDatabase(dbPath string) (*bolt.DB, error) {
 }
 
 // setupRoutes configures all routes for the application
-func setupRoutes(r *gin.Engine, db *bolt.DB) {
+func setupRoutes(r *gin.Engine, db *bolt.DB, server *Server) {
 	// Health check endpoint
 	r.GET("/health", func(c *gin.Context) {
+		schedulerStatus := "Never run"
+
+		if !server.lastScheduleRun.IsZero() {
+			schedulerStatus = fmt.Sprintf("Last check: %s",
+				server.lastScheduleRun.Format("2006-01-02 15:04:05"))
+		}
+
 		c.JSON(http.StatusOK, gin.H{
-			"status": "ok",
-			"time":   time.Now().Format(time.RFC3339),
+			"status":    "ok",
+			"time":      time.Now().Format(time.RFC3339),
+			"scheduler": schedulerStatus,
 		})
 	})
 
