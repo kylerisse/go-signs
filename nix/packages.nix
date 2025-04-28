@@ -38,7 +38,13 @@ inputs.nixpkgs.lib.genAttrs systems
         export XDG_CACHE_HOME=$TMPDIR
         mkdir -p $XDG_CACHE_HOME/staticcheck
         staticcheck ./...
-        go test -count=1 --race -v ./...
+        # avoid race detection for aarch64
+        # https://github.com/golang/go/issues/29948
+        if [ "${system}" != "aarch64-linux" ]; then
+          go test --count=1 --race -v ./...
+        else
+          go test --count=1 -v ./...
+        fi
       '';
 
       reactBuild = ''
