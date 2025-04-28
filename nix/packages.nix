@@ -4,7 +4,6 @@ let
   systems = [
     "x86_64-linux"
     "aarch64-linux"
-    "aarch64-darwin"
   ];
 in
 inputs.nixpkgs.lib.genAttrs systems
@@ -141,7 +140,6 @@ inputs.nixpkgs.lib.genAttrs systems
         targets = [
           "linux/amd64"
           "linux/arm64"
-          "darwin/arm64"
         ];
 
         # custom buildPhase: React → cross‑compile Go
@@ -151,8 +149,8 @@ inputs.nixpkgs.lib.genAttrs systems
             # cross‑compile every GOOS/GOARCH
             export CGO_ENABLED=0
             mkdir -p out
-            for triple in ${lib.concatStringsSep " " targets}; do
-              IFS="/" read goos goarch <<< "$triple"
+            for arch in ${lib.concatStringsSep " " targets}; do
+              IFS="/" read goos goarch <<< "$arch"
               echo "→ building go-signs for $goos/$goarch"
               GOOS=$goos GOARCH=$goarch go build \
                 -o out/go-signs-$goos-$goarch \
