@@ -4,7 +4,6 @@ let
   systems = [
     "x86_64-linux"
     "aarch64-linux"
-    "aarch64-darwin"
   ];
 in
 inputs.nixpkgs.lib.genAttrs systems
@@ -38,7 +37,13 @@ inputs.nixpkgs.lib.genAttrs systems
         export XDG_CACHE_HOME=$TMPDIR
         mkdir -p $XDG_CACHE_HOME/staticcheck
         staticcheck ./...
-        go test -count=1 --race -v ./...
+        # avoid race detection for aarch64
+        # https://github.com/golang/go/issues/29948
+        if [ "${system}" != "aarch64-linux" ]; then
+          go test --count=1 --race -v ./...
+        else
+          go test --count=1 -v ./...
+        fi
       '';
 
       reactBuild = ''
@@ -135,7 +140,6 @@ inputs.nixpkgs.lib.genAttrs systems
         targets = [
           "linux/amd64"
           "linux/arm64"
-          "darwin/arm64"
         ];
 
         # custom buildPhase: React → cross‑compile Go
@@ -145,8 +149,8 @@ inputs.nixpkgs.lib.genAttrs systems
             # cross‑compile every GOOS/GOARCH
             export CGO_ENABLED=0
             mkdir -p out
-            for triple in ${lib.concatStringsSep " " targets}; do
-              IFS="/" read goos goarch <<< "$triple"
+            for arch in ${lib.concatStringsSep " " targets}; do
+              IFS="/" read goos goarch <<< "$arch"
               echo "→ building go-signs for $goos/$goarch"
               GOOS=$goos GOARCH=$goarch go build \
                 -o out/go-signs-$goos-$goarch \
