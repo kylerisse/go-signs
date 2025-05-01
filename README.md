@@ -1,32 +1,43 @@
 # go-signs
 
-`go-signs` is a modern Go-based service designed to power the digital signage system for the Southern California Linux Expo (SCaLE). It's specifically built to run on Raspberry Pi devices distributed throughout the venue, with each Pi serving as a standalone digital sign displaying conference schedules, speaker information, and event logistics.
+`go-signs` is a modern Go-based service designed to power the digital signage system for the Southern California Linux Expo (SCaLE). It is specifically built to run as a single binary on Raspberry Pi devices distributed throughout the venue. Each Pi serves as a standalone digital sign displaying conference schedules, speaker information, and event logistics.
 
-This project is the successor to [scale-signs](https://github.com/socallinuxexpo/scale-signs), a PHP 5.4 application that has served SCaLE well for many years.
+This project is the successor to [scale-signs](https://github.com/socallinuxexpo/scale-signs), which has served SCaLE well for many years.
 
 ## Demo
 
-A [DEMO](https://demo.go-signs.org) of this application is available online. It leverages the [SCaLE Simulator](./docs/SIMULATOR.md)
+A [DEMO](https://demo.go-signs.org) of this application is available online. It leverages the [SCaLE Simulator](./docs/SIMULATOR.md).
 
-> Please note that this is currently meant to run at 1080p only. Responsive design to support 720p -> 4k is planned for a later release.
+> Please note that `go-signs` is currently meant to be displayed at 1080p only. Responsive design to support 720p -> 4k is planned for a later release.
 
 ## Features
 
 - **Real-time Schedule Updates**: Pulls schedule data from the SCaLE Drupal CMS via XML endpoint
 - **Responsive React Frontend**: Clean, auto-scrolling display of schedule information
-- **Sponsor Showcase**: Dedicated endpoints for different sponsor tiers with automatic rotation
+- **Sponsor Showcase**: Sponsors are prominently displayed at all time near the conference schedule
 - **Embedded Assets**: Single binary includes all web assets and sponsor images
 - **Clock Override**: Support for time simulation via URL parameters for testing
 - **Automatic Refresh**: Self-updating schedule and continuous display rotation
+- **Modern Technology Stack**: Go 1.24, React 19, Typescript 5.7, TailwindCSS 4.1, and Nix Unstable
 
-## Architecture
+### Using Time Override
 
-The system offers a clean separation between data sources and presentation:
+During development, you will often need to test how the schedule display behaves at different times. Instead of waiting for specific times or changing your system clock, use the time override feature:
 
-- **Schedule Package**: Handles XML parsing, data transformation, and schedule endpoint
-- **Sponsor Package**: Manages sponsor images and tiered sponsor endpoints
-- **Display Package**: Embeds and serves the compiled React frontend
-- **Server Package**: Coordinates components and handles HTTP serving with graceful shutdown
+1. Open your development instance in a browser
+2. Add URL parameters to simulate a specific time:
+   ```
+   https://demo.go-signs.org/?year=2025&month=3&day=6&hour=13&minute=53
+   ```
+3. The application will use this simulated time instead of the actual system time
+
+This feature is extremely useful for testing various schedule states like "in progress," "starting soon," and day transitions. Also be sure to take time zone differences into account. SCaLE talks tend to take place at GMT-8 or GMT-7 depending on the date.
+
+- `year`
+- `month`
+- `day`
+- `hour`
+- `minute`
 
 ## Contributing
 
@@ -76,19 +87,6 @@ make test  # or make build to bypass tests (not recommended)
 ```
 
 Air will detect the changes to the compiled frontend and reload everything automatically. The React frontend sends API requests to the Go backend during development, making it easy to work on both parts of the system simultaneously.
-
-### Using Time Override for Development
-
-During development, you'll often need to test how the schedule display behaves at different times. Instead of waiting for specific times or changing your system clock, use the time override feature:
-
-1. Open your development instance in a browser
-2. Add URL parameters to simulate a specific time:
-   ```
-   http://localhost:2017/?year=2025&month=3&day=20&hour=14&minute=30
-   ```
-3. The application will use this simulated time instead of the actual system time
-
-This feature is extremely useful for testing various schedule states like "in progress," "starting soon," and day transitions.
 
 ### Code Style Guidelines
 
@@ -161,9 +159,11 @@ make build
 ```
 go-signs/
 ├─ cmd/go-signs/               # Main application entry point
+├─ nix/                        # Nix devShells and Packages
 ├─ pkg/                        # Backend packages
 │  ├─ display/                 # Handles embedding React frontend
 │  ├─ schedule/                # Schedule data handling and XML parsing
+|  ├─ simulator/               # scale-simulator specific server
 │  ├─ server/                  # HTTP server and routes
 │  └─ sponsor/                 # Sponsor management and image serving
 ├─ react-display/              # React frontend application
