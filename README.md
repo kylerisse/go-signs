@@ -20,6 +20,8 @@ A [DEMO](https://demo.go-signs.org) of this application is available online. It 
 - **Automatic Refresh**: Self-updating schedule and continuous display rotation
 - **Modern Technology Stack**: Go 1.24, React 19, Typescript 5.7, TailwindCSS 4.1, and Nix Unstable
 
+> Future features and milestones are located in the [Roadmap](./docs/ROADMAP.md) doc.
+
 ## Usage
 
 ```sh
@@ -85,4 +87,4 @@ go-signs/
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License. See the [LICENSE.md](LICENSE.md) file for details.
