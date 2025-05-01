@@ -17,10 +17,10 @@ inputs.nixpkgs.lib.genAttrs systems
       # prefetch-npm-deps react-display/package-lock.json
       npmDeps = pkgs.fetchNpmDeps {
         src = builtins.path { path = ../react-display; };
-        hash = "sha256-FLPr0AbSyPDtl4CLJus4l9wCmXEQlCHLStuTw5K1hFI=";
+        hash = "sha256-nbaKfjVbE/1sozUzuebbHi5+vCQS13nQKkO7hI0AXHc=";
       };
 
-      goSumSha = "sha256-mrHfOS9EoM8o9RXQBYVLGFR+uGITI3v/aRAKBq3/wc0=";
+      goSumSha = "sha256-auVRCuCsmvEDZxertSpACa/kkgR0ofqHLtzA+dXivxo=";
 
       commonCheckPhase = ''
         # point npm at the offline cache
