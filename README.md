@@ -4,6 +4,12 @@
 
 This project is the successor to [scale-signs](https://github.com/socallinuxexpo/scale-signs), a PHP 5.4 application that has served SCaLE well for many years.
 
+## Demo
+
+A [DEMO](https://demo.go-signs.org) of this application is available online. It leverages the [SCaLE Simulator](./docs/SIMULATOR.md)
+
+> Please note that this is currently meant to run at 1080p only. Responsive design to support 720p -> 4k is planned for a later release.
+
 ## Features
 
 - **Real-time Schedule Updates**: Pulls schedule data from the SCaLE Drupal CMS via XML endpoint
