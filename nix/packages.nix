@@ -17,7 +17,7 @@ inputs.nixpkgs.lib.genAttrs systems
       # prefetch-npm-deps react-display/package-lock.json
       npmDeps = pkgs.fetchNpmDeps {
         src = builtins.path { path = ../react-display; };
-        hash = "sha256-nbaKfjVbE/1sozUzuebbHi5+vCQS13nQKkO7hI0AXHc=";
+        hash = "sha256-+mesZieB+4bcVdwidqnAXPSAh7pL+j4qfDHym2TblJg=";
       };
 
       goSumSha = "sha256-auVRCuCsmvEDZxertSpACa/kkgR0ofqHLtzA+dXivxo=";
@@ -64,7 +64,7 @@ inputs.nixpkgs.lib.genAttrs systems
     {
       scale-simulator = pkgs.buildGoModule rec {
         pname = "scale-simulator";
-        version = "unstable";
+        version = "0.1.0";
         src = builtins.path { path = ../.; };
         goPackagePath = "github.com/kylerisse/go-signs";
         vendorHash = goSumSha;
@@ -95,7 +95,7 @@ inputs.nixpkgs.lib.genAttrs systems
 
       go-signs = pkgs.buildGoModule rec {
         pname = "go-signs";
-        version = "unstable";
+        version = "0.1.0";
         src = builtins.path { path = ../.; };
         goPackagePath = "github.com/kylerisse/go-signs";
         vendorHash = goSumSha;
