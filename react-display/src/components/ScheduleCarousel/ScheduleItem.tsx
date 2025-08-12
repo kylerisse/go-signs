@@ -41,7 +41,7 @@ export function ScheduleItem({ session, isEmpty = false }: ScheduleItemProps) {
 	// Check if this is a keynote session by topic only
 	const isKeynote = (): boolean => {
 		// Only check the topic field
-		return !!session.Topic.toLowerCase().includes('keynote');
+		return session.Topic.toLowerCase().includes('keynote');
 	};
 
 	// Determine background color based on keynote status
