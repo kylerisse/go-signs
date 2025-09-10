@@ -34,3 +34,6 @@ bump-go-vulns:
 	govulncheck -show verbose ./...
 	go mod verify
 	go mod tidy
+
+ci-test:
+	nix build -L --show-trace .#go-signs-ci-release

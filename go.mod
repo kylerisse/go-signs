@@ -4,14 +4,14 @@ go 1.24
 
 require (
 	github.com/gin-gonic/gin v1.10.1
-	go.etcd.io/bbolt v1.4.2
+	go.etcd.io/bbolt v1.4.3
 )
 
 require (
 	github.com/bytedance/sonic v1.11.9 // indirect
 	github.com/bytedance/sonic/loader v0.3.0 // indirect
 	github.com/cloudwego/base64x v0.1.6 // indirect
-	github.com/gabriel-vasile/mimetype v1.4.9 // indirect
+	github.com/gabriel-vasile/mimetype v1.4.10 // indirect
 	github.com/gin-contrib/sse v0.1.0 // indirect
 	github.com/go-playground/locales v0.14.1 // indirect
 	github.com/go-playground/universal-translator v0.18.1 // indirect
