@@ -11,6 +11,7 @@ func TestNewConfig(t *testing.T) {
 	tests := []struct {
 		name            string
 		port            string
+		jsonEndpoint    string
 		xmlEndpoint     string
 		refreshInterval int
 		wantErr         bool
@@ -20,6 +21,7 @@ func TestNewConfig(t *testing.T) {
 		{
 			name:            "Valid configuration",
 			port:            "8080",
+			jsonEndpoint:    "https://example.com/schedule.json",
 			xmlEndpoint:     "https://example.com/schedule.xml",
 			refreshInterval: 5,
 			wantErr:         false,
@@ -27,6 +29,7 @@ func TestNewConfig(t *testing.T) {
 		{
 			name:            "Valid configuration with minimum values",
 			port:            "1",
+			jsonEndpoint:    "http://localhost/schedule.json",
 			xmlEndpoint:     "http://localhost/schedule.xml",
 			refreshInterval: 1,
 			wantErr:         false,
@@ -34,6 +37,7 @@ func TestNewConfig(t *testing.T) {
 		{
 			name:            "Valid configuration with maximum port",
 			port:            "65535",
+			jsonEndpoint:    "https://example.com/schedule.json",
 			xmlEndpoint:     "https://example.com/schedule.xml",
 			refreshInterval: 10,
 			wantErr:         false,
@@ -43,6 +47,7 @@ func TestNewConfig(t *testing.T) {
 		{
 			name:            "Invalid port - not a number",
 			port:            "abc",
+			jsonEndpoint:    "https://example.com/schedule.json",
 			xmlEndpoint:     "https://example.com/schedule.xml",
 			refreshInterval: 5,
 			wantErr:         true,
@@ -51,6 +56,7 @@ func TestNewConfig(t *testing.T) {
 		{
 			name:            "Invalid port - zero",
 			port:            "0",
+			jsonEndpoint:    "https://example.com/schedule.json",
 			xmlEndpoint:     "https://example.com/schedule.xml",
 			refreshInterval: 5,
 			wantErr:         true,
@@ -59,6 +65,7 @@ func TestNewConfig(t *testing.T) {
 		{
 			name:            "Invalid port - negative",
 			port:            "-80",
+			jsonEndpoint:    "https://example.com/schedule.json",
 			xmlEndpoint:     "https://example.com/schedule.xml",
 			refreshInterval: 5,
 			wantErr:         true,
@@ -67,6 +74,7 @@ func TestNewConfig(t *testing.T) {
 		{
 			name:            "Invalid port - too large",
 			port:            "65536",
+			jsonEndpoint:    "https://example.com/schedule.json",
 			xmlEndpoint:     "https://example.com/schedule.xml",
 			refreshInterval: 5,
 			wantErr:         true,
@@ -75,42 +83,65 @@ func TestNewConfig(t *testing.T) {
 
 		// Invalid URL cases
 		{
-			name:            "Invalid URL - empty",
+			name:            "Invalid XML URL - empty",
 			port:            "8080",
+			jsonEndpoint:    "https://example.com/schedule.json",
 			xmlEndpoint:     "",
 			refreshInterval: 5,
 			wantErr:         true,
 			errContains:     "invalid URL format",
 		},
 		{
-			name:            "Invalid URL - no scheme",
+			name:            "Invalid JSON URL - empty",
 			port:            "8080",
+			jsonEndpoint:    "",
+			xmlEndpoint:     "https://example.com/schedule.xml",
+			refreshInterval: 5,
+			wantErr:         true,
+			errContains:     "invalid URL format",
+		},
+		{
+			name:            "Invalid XML URL - no scheme",
+			port:            "8080",
+			jsonEndpoint:    "https://example.com/schedule.json",
 			xmlEndpoint:     "example.com/schedule.xml",
 			refreshInterval: 5,
 			wantErr:         true,
 			errContains:     "invalid URL format",
 		},
 		{
-			name:            "Invalid URL - wrong scheme",
+			name:            "Invalid JSON URL - no scheme",
 			port:            "8080",
+			jsonEndpoint:    "example.com/schedule.json",
+			xmlEndpoint:     "https://example.com/schedule.xml",
+			refreshInterval: 5,
+			wantErr:         true,
+			errContains:     "invalid URL format",
+		},
+		{
+			name:            "Invalid XML URL - wrong scheme",
+			port:            "8080",
+			jsonEndpoint:    "https://example.com/schedule.json",
 			xmlEndpoint:     "ftp://example.com/schedule.xml",
 			refreshInterval: 5,
 			wantErr:         true,
 			errContains:     "URL scheme must be http or https",
 		},
 		{
-			name:            "Invalid URL - no host",
+			name:            "Invalid JSON URL - wrong scheme",
 			port:            "8080",
-			xmlEndpoint:     "http:///schedule.xml",
+			jsonEndpoint:    "ftp://example.com/schedule.json",
+			xmlEndpoint:     "https://example.com/schedule.xml",
 			refreshInterval: 5,
 			wantErr:         true,
-			errContains:     "URL must have a host",
+			errContains:     "URL scheme must be http or https",
 		},
 
 		// Invalid refresh interval cases
 		{
 			name:            "Invalid refresh interval - zero",
 			port:            "8080",
+			jsonEndpoint:    "https://example.com/schedule.json",
 			xmlEndpoint:     "https://example.com/schedule.xml",
 			refreshInterval: 0,
 			wantErr:         true,
@@ -119,6 +150,7 @@ func TestNewConfig(t *testing.T) {
 		{
 			name:            "Invalid refresh interval - negative",
 			port:            "8080",
+			jsonEndpoint:    "https://example.com/schedule.json",
 			xmlEndpoint:     "https://example.com/schedule.xml",
 			refreshInterval: -5,
 			wantErr:         true,
@@ -129,7 +161,7 @@ func TestNewConfig(t *testing.T) {
 	// Run tests
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			config, err := NewConfig(tt.port, tt.xmlEndpoint, tt.refreshInterval)
+			config, err := NewConfig(tt.port, tt.jsonEndpoint, tt.xmlEndpoint, tt.refreshInterval)
 
 			// Check if error was expected
 			if tt.wantErr {
@@ -163,6 +195,12 @@ func TestNewConfig(t *testing.T) {
 				t.Errorf("❌ ScheduleXMLurl = %v, want %v", config.ScheduleXMLurl, tt.xmlEndpoint)
 			} else {
 				t.Logf("✅ ScheduleXMLurl correctly set to %v", config.ScheduleXMLurl)
+			}
+
+			if config.ScheduleJSONurl != tt.jsonEndpoint {
+				t.Errorf("❌ ScheduleJSONurl = %v, want %v", config.ScheduleJSONurl, tt.jsonEndpoint)
+			} else {
+				t.Logf("✅ ScheduleJSONurl correctly set to %v", config.ScheduleJSONurl)
 			}
 
 			expectedDuration := time.Duration(tt.refreshInterval) * time.Minute
