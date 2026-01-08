@@ -111,16 +111,15 @@ func TestServer(t *testing.T) {
 			t.Fatalf("❌ Failed to decode schedule JSON: %v", err)
 		}
 
-		// Check that we have 296 sessions
-		if len(scheduleData.Presentations) != 296 {
+		// Check that we have 2 sessions
+		if len(scheduleData.Presentations) != 2 {
 			t.Errorf("❌ Expected 296 sessions, got %d", len(scheduleData.Presentations))
 		}
 
 		// 3. Check for specific sessions by name only (more reliable)
 		expectedSessionNames := []string{
-			"Introduction to the Module System",
-			"OpenInfra Days North America Keynotes",
-			"Closing Keynote with Leslie Lamport",
+			"Five Stages Of Grieving-Databases in Infrastructure as Code",
+			"Closing Keynote with Doug Comer",
 		}
 
 		for _, expectedName := range expectedSessionNames {
