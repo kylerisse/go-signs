@@ -18,17 +18,21 @@ func TestServer(t *testing.T) {
 	// Use a fixed port for local testing
 	port := "7102"
 	testXMLPath := filepath.Join("testdata", "sign.xml")
+	testJSONPath := filepath.Join("testdata", "sign.json")
 
-	// Create a file server to serve the test XML
-	xmlServer := http.NewServeMux()
-	xmlServer.HandleFunc("/sign.xml", func(w http.ResponseWriter, r *http.Request) {
+	// Create a file server to serve the test XML and JSON
+	localServer := http.NewServeMux()
+	localServer.HandleFunc("/sign.xml", func(w http.ResponseWriter, r *http.Request) {
 		http.ServeFile(w, r, testXMLPath)
+	})
+	localServer.HandleFunc("/sign.json", func(w http.ResponseWriter, r *http.Request) {
+		http.ServeFile(w, r, testJSONPath)
 	})
 
 	// Start the XML server on a different port
-	xmlPort := "7103"
+	localPort := "7103"
 	go func() {
-		err := http.ListenAndServe(":"+xmlPort, xmlServer)
+		err := http.ListenAndServe(":"+localPort, localServer)
 		if err != nil {
 			t.Logf("XML server stopped: %v", err)
 		}
@@ -38,8 +42,9 @@ func TestServer(t *testing.T) {
 	time.Sleep(2 * time.Second)
 
 	// Configure the main server to use our local XML server
-	xmlURL := fmt.Sprintf("http://localhost:%s/sign.xml", xmlPort)
-	conf, err := NewConfig(port, xmlURL, 1)
+	xmlURL := fmt.Sprintf("http://localhost:%s/sign.xml", localPort)
+	jsonURL := fmt.Sprintf("http://localhost:%s/sign.json", localPort)
+	conf, err := NewConfig(port, jsonURL, xmlURL, 1)
 	if err != nil {
 		t.Fatalf("❌ Failed to create server config (%v)", err)
 	}
