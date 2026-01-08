@@ -31,7 +31,6 @@ check-go-vulns:
 
 bump-go-vulns:
 	go get -u=patch ./...
-	govulncheck -show verbose ./...
 	go mod verify
 	go mod tidy
 
