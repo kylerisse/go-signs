@@ -19,6 +19,7 @@ type Schedule struct {
 	SessionCount    int            `json:"sessionCount"`    // Number of presentations
 	mutex           *sync.RWMutex  `json:"-"`               // Don't include in JSON
 	xmlURL          string         `json:"-"`               // Don't include in JSON
+	jsonURL         string         `json:"-"`               // Don't include in JSON
 }
 
 // Event is basic scheduling primitive
@@ -38,8 +39,9 @@ type Presentation struct {
 }
 
 // NewSchedule produces a new Schedule
-func NewSchedule(xmlUrl string) *Schedule {
+func NewSchedule(jsonUrl string, xmlUrl string) *Schedule {
 	sch := Schedule{
+		jsonURL:     jsonUrl,
 		xmlURL:      xmlUrl,
 		ContentHash: "",
 	}
@@ -70,6 +72,54 @@ func (s *Schedule) updateSchedule(ps []Presentation) {
 	s.LastUpdateTime = formatTime(time.Now())
 
 	log.Printf("Schedule updated with %d sessions, hash: %s", s.SessionCount, s.ContentHash)
+}
+
+// UpdateFromJSON fetches and processes the schedule JSON
+func (s *Schedule) UpdateFromJSON() {
+	log.Printf("Updating Schedule from %v", s.jsonURL)
+
+	// Always update the refresh time
+	s.mutex.Lock()
+	s.LastRefreshTime = formatTime(time.Now())
+	s.mutex.Unlock()
+
+	body, err := fetch(s.jsonURL)
+	if err != nil {
+		log.Printf("Error fetching schedule: %v", err)
+		return
+	}
+
+	// Calculate hash of the raw JSON content
+	newContentHash := calculateContentHash(body)
+
+	// Check if XML content has changed by comparing hashes
+	s.mutex.RLock()
+	currentHash := s.ContentHash
+	s.mutex.RUnlock()
+
+	if currentHash == newContentHash && currentHash != "" {
+		log.Printf("No change to JSON schedule (hash: %s)", newContentHash)
+		return
+	}
+
+	ps, err := DrupalToPresentations(body)
+	if err != nil {
+		log.Printf("Unmarshal error: %v", err)
+		return
+	}
+
+	// Only update the content hash and schedule if we have presentations
+	if len(ps) == 0 {
+		log.Printf("Parsed JSON resulted in 0 presentations, keeping existing schedule")
+		return
+	}
+
+	// Update the content hash
+	s.mutex.Lock()
+	s.ContentHash = newContentHash
+	s.mutex.Unlock()
+
+	s.updateSchedule(ps)
 }
 
 // UpdateFromXML fetches and processes the schedule XML
