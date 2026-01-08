@@ -22,7 +22,7 @@ type Server struct {
 
 // NewServer sets up the cron runs for schedule and sponsors returns the *Server
 func NewServer(c Config) *Server {
-	sch := schedule.NewSchedule(c.ScheduleXMLurl)
+	sch := schedule.NewSchedule(c.ScheduleJSONurl, c.ScheduleXMLurl)
 
 	// Channels for coordinating shutdown
 	stopRefresh := make(chan struct{})
@@ -30,7 +30,7 @@ func NewServer(c Config) *Server {
 
 	// Start the schedule refresh goroutine
 	go func() {
-		sch.UpdateFromXML()
+		sch.UpdateFromJSON()
 		ticker := time.NewTicker(c.RefreshInterval)
 		defer ticker.Stop()
 		defer close(refreshDone)
@@ -38,7 +38,7 @@ func NewServer(c Config) *Server {
 		for {
 			select {
 			case <-ticker.C:
-				sch.UpdateFromXML()
+				sch.UpdateFromJSON()
 			case <-stopRefresh:
 				log.Println("Schedule refresh routine stopping...")
 				return
