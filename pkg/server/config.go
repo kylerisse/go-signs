@@ -11,14 +11,20 @@ import (
 // Config server configuration
 type Config struct {
 	Address         string
+	ScheduleJSONurl string
 	ScheduleXMLurl  string
 	RefreshInterval time.Duration
 }
 
 // NewConfig creates a new Config with validation
-func NewConfig(listenPort string, xmlEndpoint string, refreshInterval int) (Config, error) {
+func NewConfig(listenPort string, jsonEndpoint string, xmlEndpoint string, refreshInterval int) (Config, error) {
 	// Validate port
 	if err := validatePort(listenPort); err != nil {
+		return Config{}, fmt.Errorf("invalid port: %w", err)
+	}
+
+	// Validate JSON endpoint URL
+	if err := validateURL(jsonEndpoint); err != nil {
 		return Config{}, fmt.Errorf("invalid port: %w", err)
 	}
 
@@ -34,6 +40,7 @@ func NewConfig(listenPort string, xmlEndpoint string, refreshInterval int) (Conf
 
 	return Config{
 		Address:         fmt.Sprintf(":%v", listenPort),
+		ScheduleJSONurl: jsonEndpoint,
 		ScheduleXMLurl:  xmlEndpoint,
 		RefreshInterval: time.Duration(refreshInterval) * time.Minute,
 	}, nil

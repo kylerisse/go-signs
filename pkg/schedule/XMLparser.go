@@ -52,16 +52,6 @@ func (n *Node) toPresentation() Presentation {
 	return p
 }
 
-func cleanupNewlinesAndSpaces(s string) string {
-	rs := strings.TrimPrefix(s, "\n")
-	rs = strings.TrimSuffix(rs, "\n")
-	rs = strings.Replace(rs, "\n", " ", -1)
-	rs = strings.Join(strings.Fields(rs), " ")
-	rs = strings.TrimPrefix(rs, " ")
-	rs = strings.TrimSuffix(rs, " ")
-	return rs
-}
-
 func removeHTMLTags(s string) string {
 	re := regexp.MustCompile(`<[^>]*>`)
 	return re.ReplaceAllString(s, "")
@@ -87,12 +77,4 @@ func extractStartTime(s string) time.Time {
 
 func extractEndTime(s string) time.Time {
 	return extractTimeByIndex(s, 12)
-}
-
-func extractSpeakers(speakers string) []string {
-	var rs []string
-	for _, s := range strings.Split(speakers, ",") {
-		rs = append(rs, cleanupNewlinesAndSpaces(s))
-	}
-	return rs
 }
