@@ -47,7 +47,7 @@ func NewServer(dbPath, port string) (*Server, error) {
 	}
 
 	// Initialize database structure
-	if err := initializeDatabase(db); err != nil {
+	if err := initializeDatabase(db, archiveDir); err != nil {
 		db.Close()
 		return nil, fmt.Errorf("failed to initialize database: %w", err)
 	}
@@ -180,10 +180,14 @@ func (s *Server) ListenAndServe() error {
 }
 
 // Initialize database structure and buckets
-func initializeDatabase(db *bolt.DB) error {
+func initializeDatabase(db *bolt.DB, archiveDir fs.FS) error {
 	// Initialize XML data bucket
 	if err := checkOrCreateXMLBucket(db); err != nil {
 		return fmt.Errorf("failed to initialize XML data: %w", err)
+	}
+
+	if err := checkOrCreateJSONBucket(db, archiveDir); err != nil {
+		return fmt.Errorf("failed to initialize JSON data: %w", err)
 	}
 
 	return nil
