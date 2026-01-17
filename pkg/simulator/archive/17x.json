@@ -5,9 +5,7 @@
     "Location": "Room 107",
     "StartTime": "2019-03-07T10:00:00-08:00",
     "EndTime": "2019-03-07T11:00:00-08:00",
-    "Speakers": [
-      "Jennifer Scheuerell"
-    ],
+    "Speakers": "Jennifer Scheuerell",
     "Topic": "PostgreSQL"
   },
   {
@@ -16,9 +14,7 @@
     "Location": "Room 106",
     "StartTime": "2019-03-07T10:00:00-08:00",
     "EndTime": "2019-03-07T11:00:00-08:00",
-    "Speakers": [
-      "Morgan Howes"
-    ],
+    "Speakers": "Morgan Howes",
     "Topic": "PostgreSQL"
   },
   {
@@ -27,9 +23,7 @@
     "Location": "Ballroom A",
     "StartTime": "2019-03-07T10:00:00-08:00",
     "EndTime": "2019-03-07T11:00:00-08:00",
-    "Speakers": [
-      "Samuel Coleman"
-    ],
+    "Speakers": "Samuel Coleman",
     "Topic": "Ubucon"
   },
   {
@@ -38,9 +32,7 @@
     "Location": "Room 209",
     "StartTime": "2019-03-07T10:00:00-08:00",
     "EndTime": "2019-03-07T13:00:00-08:00",
-    "Speakers": [
-      "Cullen Taylor"
-    ],
+    "Speakers": "Cullen Taylor",
     "Topic": "Container and Orchestrators"
   },
   {
@@ -49,9 +41,7 @@
     "Location": "Room 212",
     "StartTime": "2019-03-07T10:00:00-08:00",
     "EndTime": "2019-03-07T13:00:00-08:00",
-    "Speakers": [
-      "Saishruthi Swaminathan"
-    ],
+    "Speakers": "Saishruthi Swaminathan",
     "Topic": "Sponsored"
   },
   {
@@ -60,9 +50,7 @@
     "Location": "Room 104",
     "StartTime": "2019-03-07T10:00:00-08:00",
     "EndTime": "2019-03-07T11:30:00-08:00",
-    "Speakers": [
-      "Nova King"
-    ],
+    "Speakers": "Nova King",
     "Topic": "Embedded Linux"
   },
   {
@@ -71,9 +59,7 @@
     "Location": "Room 211",
     "StartTime": "2019-03-07T10:00:00-08:00",
     "EndTime": "2019-03-07T17:00:00-08:00",
-    "Speakers": [
-      "Ken Hilmen"
-    ],
+    "Speakers": "Ken Hilmen",
     "Topic": "Sponsored"
   },
   {
@@ -82,9 +68,7 @@
     "Location": "Room 105",
     "StartTime": "2019-03-07T10:00:00-08:00",
     "EndTime": "2019-03-07T11:30:00-08:00",
-    "Speakers": [
-      "Jason Kridner"
-    ],
+    "Speakers": "Jason Kridner",
     "Topic": "Embedded Linux"
   },
   {
@@ -93,10 +77,7 @@
     "Location": "Ballroom B",
     "StartTime": "2019-03-07T10:00:00-08:00",
     "EndTime": "2019-03-07T10:30:00-08:00",
-    "Speakers": [
-      "Jeremy Lewi",
-      "Thea Lamkin"
-    ],
+    "Speakers": "Jeremy Lewi, Thea Lamkin",
     "Topic": ""
   },
   {
@@ -105,9 +86,7 @@
     "Location": "Room 101",
     "StartTime": "2019-03-07T10:00:00-08:00",
     "EndTime": "2019-03-07T11:00:00-08:00",
-    "Speakers": [
-      "Bronwyn Mauldin"
-    ],
+    "Speakers": "Bronwyn Mauldin",
     "Topic": "Open Government"
   },
   {
@@ -116,9 +95,7 @@
     "Location": "Ballroom B",
     "StartTime": "2019-03-07T10:30:00-08:00",
     "EndTime": "2019-03-07T11:00:00-08:00",
-    "Speakers": [
-      "Timo Mechler"
-    ],
+    "Speakers": "Timo Mechler",
     "Topic": "Kubeflow"
   },
   {
@@ -127,9 +104,7 @@
     "Location": "Room 107",
     "StartTime": "2019-03-07T11:00:00-08:00",
     "EndTime": "2019-03-07T12:00:00-08:00",
-    "Speakers": [
-      "Craig Kerstiens"
-    ],
+    "Speakers": "Craig Kerstiens",
     "Topic": "PostgreSQL"
   },
   {
@@ -138,9 +113,7 @@
     "Location": "Room 106",
     "StartTime": "2019-03-07T11:00:00-08:00",
     "EndTime": "2019-03-07T12:00:00-08:00",
-    "Speakers": [
-      "Josh Berkus"
-    ],
+    "Speakers": "Josh Berkus",
     "Topic": "PostgreSQL"
   },
   {
@@ -149,9 +122,7 @@
     "Location": "Ballroom B",
     "StartTime": "2019-03-07T11:00:00-08:00",
     "EndTime": "2019-03-07T11:30:00-08:00",
-    "Speakers": [
-      "Vangelis Koukis"
-    ],
+    "Speakers": "Vangelis Koukis",
     "Topic": "Kubeflow"
   },
   {
@@ -160,9 +131,7 @@
     "Location": "Room 101",
     "StartTime": "2019-03-07T11:00:00-08:00",
     "EndTime": "2019-03-07T12:00:00-08:00",
-    "Speakers": [
-      "Bond Harper"
-    ],
+    "Speakers": "Bond Harper",
     "Topic": "Open Government"
   },
   {
@@ -171,9 +140,7 @@
     "Location": "Ballroom A",
     "StartTime": "2019-03-07T11:30:00-08:00",
     "EndTime": "2019-03-07T12:30:00-08:00",
-    "Speakers": [
-      "der hans"
-    ],
+    "Speakers": "der hans",
     "Topic": "Ubucon"
   },
   {
@@ -182,12 +149,7 @@
     "Location": "Ballroom B",
     "StartTime": "2019-03-07T11:30:00-08:00",
     "EndTime": "2019-03-07T12:00:00-08:00",
-    "Speakers": [
-      "Andrew Pierno",
-      "Vincent Anderson",
-      "Sam Fishman",
-      "Sumi Devi"
-    ],
+    "Speakers": "Andrew Pierno, Vincent Anderson, Sam Fishman, Sumi Devi",
     "Topic": ""
   },
   {
@@ -196,9 +158,7 @@
     "Location": "Ballroom B",
     "StartTime": "2019-03-07T12:00:00-08:00",
     "EndTime": "2019-03-07T12:30:00-08:00",
-    "Speakers": [
-      "Carmine Rimi"
-    ],
+    "Speakers": "Carmine Rimi",
     "Topic": ""
   },
   {
@@ -207,9 +167,7 @@
     "Location": "Room 104",
     "StartTime": "2019-03-07T13:00:00-08:00",
     "EndTime": "2019-03-07T14:30:00-08:00",
-    "Speakers": [
-      "Thea Aldrich"
-    ],
+    "Speakers": "Thea Aldrich",
     "Topic": "Embedded Linux"
   },
   {
@@ -218,9 +176,7 @@
     "Location": "Room 105",
     "StartTime": "2019-03-07T13:00:00-08:00",
     "EndTime": "2019-03-07T14:30:00-08:00",
-    "Speakers": [
-      "Stephanie Lockwood-Childs"
-    ],
+    "Speakers": "Stephanie Lockwood-Childs",
     "Topic": "Embedded Linux"
   },
   {
@@ -229,9 +185,7 @@
     "Location": "Ballroom A",
     "StartTime": "2019-03-07T13:30:00-08:00",
     "EndTime": "2019-03-07T14:30:00-08:00",
-    "Speakers": [
-      "Dave Chiluk"
-    ],
+    "Speakers": "Dave Chiluk",
     "Topic": "Ubucon"
   },
   {
@@ -240,9 +194,7 @@
     "Location": "Room 103",
     "StartTime": "2019-03-07T13:30:00-08:00",
     "EndTime": "2019-03-07T17:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Sponsored"
   },
   {
@@ -251,9 +203,7 @@
     "Location": "Ballroom B",
     "StartTime": "2019-03-07T13:30:00-08:00",
     "EndTime": "2019-03-07T14:00:00-08:00",
-    "Speakers": [
-      "Debo Dutta"
-    ],
+    "Speakers": "Debo Dutta",
     "Topic": ""
   },
   {
@@ -262,9 +212,7 @@
     "Location": "Room 106",
     "StartTime": "2019-03-07T14:00:00-08:00",
     "EndTime": "2019-03-07T15:00:00-08:00",
-    "Speakers": [
-      "Magnus Hagander"
-    ],
+    "Speakers": "Magnus Hagander",
     "Topic": "PostgreSQL"
   },
   {
@@ -273,10 +221,7 @@
     "Location": "Room 209",
     "StartTime": "2019-03-07T14:00:00-08:00",
     "EndTime": "2019-03-07T17:00:00-08:00",
-    "Speakers": [
-      "Michael Hrivnak",
-      "Matt Dorn"
-    ],
+    "Speakers": "Michael Hrivnak, Matt Dorn",
     "Topic": "Container and Orchestrators"
   },
   {
@@ -285,9 +230,7 @@
     "Location": "Room 101",
     "StartTime": "2019-03-07T14:00:00-08:00",
     "EndTime": "2019-03-07T15:00:00-08:00",
-    "Speakers": [
-      "Jason Hibbets"
-    ],
+    "Speakers": "Jason Hibbets",
     "Topic": "Open Government"
   },
   {
@@ -296,9 +239,7 @@
     "Location": "Room 212",
     "StartTime": "2019-03-07T14:00:00-08:00",
     "EndTime": "2019-03-07T17:00:00-08:00",
-    "Speakers": [
-      "Michael Ducy"
-    ],
+    "Speakers": "Michael Ducy",
     "Topic": "Container and Orchestrators"
   },
   {
@@ -307,10 +248,7 @@
     "Location": "Ballroom B",
     "StartTime": "2019-03-07T14:00:00-08:00",
     "EndTime": "2019-03-07T14:30:00-08:00",
-    "Speakers": [
-      "Rita Zhang",
-      "Sertac Ozercan"
-    ],
+    "Speakers": "Rita Zhang, Sertac Ozercan",
     "Topic": "Kubeflow"
   },
   {
@@ -319,9 +257,7 @@
     "Location": "Ballroom B",
     "StartTime": "2019-03-07T14:30:00-08:00",
     "EndTime": "2019-03-07T15:00:00-08:00",
-    "Speakers": [
-      "Pete MacKinnon"
-    ],
+    "Speakers": "Pete MacKinnon",
     "Topic": "Kubeflow"
   },
   {
@@ -330,9 +266,7 @@
     "Location": "Room 107",
     "StartTime": "2019-03-07T15:00:00-08:00",
     "EndTime": "2019-03-07T16:00:00-08:00",
-    "Speakers": [
-      "Mark Wong"
-    ],
+    "Speakers": "Mark Wong",
     "Topic": "PostgreSQL"
   },
   {
@@ -341,9 +275,7 @@
     "Location": "Ballroom A",
     "StartTime": "2019-03-07T15:00:00-08:00",
     "EndTime": "2019-03-07T16:00:00-08:00",
-    "Speakers": [
-      "Lyn Perrine"
-    ],
+    "Speakers": "Lyn Perrine",
     "Topic": "Ubucon"
   },
   {
@@ -352,9 +284,7 @@
     "Location": "Room 106",
     "StartTime": "2019-03-07T15:00:00-08:00",
     "EndTime": "2019-03-07T16:00:00-08:00",
-    "Speakers": [
-      "Christophe Pettus"
-    ],
+    "Speakers": "Christophe Pettus",
     "Topic": "PostgreSQL"
   },
   {
@@ -363,9 +293,7 @@
     "Location": "Room 104",
     "StartTime": "2019-03-07T15:00:00-08:00",
     "EndTime": "2019-03-07T16:30:00-08:00",
-    "Speakers": [
-      "John Hawley"
-    ],
+    "Speakers": "John Hawley",
     "Topic": "Embedded Linux"
   },
   {
@@ -374,9 +302,7 @@
     "Location": "Room 105",
     "StartTime": "2019-03-07T15:00:00-08:00",
     "EndTime": "2019-03-07T16:30:00-08:00",
-    "Speakers": [
-      "Alan Ott"
-    ],
+    "Speakers": "Alan Ott",
     "Topic": "Embedded Linux"
   },
   {
@@ -385,9 +311,7 @@
     "Location": "Ballroom B",
     "StartTime": "2019-03-07T15:00:00-08:00",
     "EndTime": "2019-03-07T16:00:00-08:00",
-    "Speakers": [
-      "Fatih Nar"
-    ],
+    "Speakers": "Fatih Nar",
     "Topic": "Kubeflow"
   },
   {
@@ -396,9 +320,7 @@
     "Location": "Room 101",
     "StartTime": "2019-03-07T15:00:00-08:00",
     "EndTime": "2019-03-07T16:00:00-08:00",
-    "Speakers": [
-      "Patty Jula"
-    ],
+    "Speakers": "Patty Jula",
     "Topic": "Open Government"
   },
   {
@@ -407,9 +329,7 @@
     "Location": "Room 107",
     "StartTime": "2019-03-07T16:00:00-08:00",
     "EndTime": "2019-03-07T17:00:00-08:00",
-    "Speakers": [
-      "Dmitrii Dolgov"
-    ],
+    "Speakers": "Dmitrii Dolgov",
     "Topic": "PostgreSQL"
   },
   {
@@ -418,9 +338,7 @@
     "Location": "Room 106",
     "StartTime": "2019-03-07T16:00:00-08:00",
     "EndTime": "2019-03-07T17:00:00-08:00",
-    "Speakers": [
-      "Jonathan Katz"
-    ],
+    "Speakers": "Jonathan Katz",
     "Topic": "PostgreSQL"
   },
   {
@@ -429,9 +347,7 @@
     "Location": "Ballroom B",
     "StartTime": "2019-03-07T16:00:00-08:00",
     "EndTime": "2019-03-07T17:00:00-08:00",
-    "Speakers": [
-      "Kenneth Koski"
-    ],
+    "Speakers": "Kenneth Koski",
     "Topic": "Kubeflow"
   },
   {
@@ -440,10 +356,7 @@
     "Location": "Room 101",
     "StartTime": "2019-03-07T16:00:00-08:00",
     "EndTime": "2019-03-07T17:00:00-08:00",
-    "Speakers": [
-      "Will Adler",
-      "Hannah Wheelen"
-    ],
+    "Speakers": "Will Adler, Hannah Wheelen",
     "Topic": "Open Government"
   },
   {
@@ -452,10 +365,7 @@
     "Location": "Ballroom A",
     "StartTime": "2019-03-07T16:30:00-08:00",
     "EndTime": "2019-03-07T17:30:00-08:00",
-    "Speakers": [
-      "Richard Gaskin",
-      "Nathan Haines"
-    ],
+    "Speakers": "Richard Gaskin, Nathan Haines",
     "Topic": "Ubucon"
   },
   {
@@ -464,9 +374,7 @@
     "Location": "Ballroom B",
     "StartTime": "2019-03-07T17:00:00-08:00",
     "EndTime": "2019-03-07T18:00:00-08:00",
-    "Speakers": [
-      "Vangelis Koukis"
-    ],
+    "Speakers": "Vangelis Koukis",
     "Topic": ""
   },
   {
@@ -475,9 +383,7 @@
     "Location": "Ballroom A",
     "StartTime": "2019-03-07T19:00:00-08:00",
     "EndTime": "2019-03-07T20:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -486,9 +392,7 @@
     "Location": "Ballroom B",
     "StartTime": "2019-03-07T19:00:00-08:00",
     "EndTime": "2019-03-07T20:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -497,9 +401,7 @@
     "Location": "Room 103",
     "StartTime": "2019-03-08T09:00:00-08:00",
     "EndTime": "2019-03-08T11:00:00-08:00",
-    "Speakers": [
-      "Aleksey Tsalolikhin"
-    ],
+    "Speakers": "Aleksey Tsalolikhin",
     "Topic": "Sponsored"
   },
   {
@@ -508,9 +410,7 @@
     "Location": "Room 101",
     "StartTime": "2019-03-08T10:00:00-08:00",
     "EndTime": "2019-03-08T11:00:00-08:00",
-    "Speakers": [
-      "Dave Stokes"
-    ],
+    "Speakers": "Dave Stokes",
     "Topic": "MySQL"
   },
   {
@@ -519,10 +419,7 @@
     "Location": "Room 107",
     "StartTime": "2019-03-08T10:00:00-08:00",
     "EndTime": "2019-03-08T11:00:00-08:00",
-    "Speakers": [
-      "Charles Finley",
-      "Jonathan Kinnersley"
-    ],
+    "Speakers": "Charles Finley, Jonathan Kinnersley",
     "Topic": "PostgreSQL"
   },
   {
@@ -531,9 +428,7 @@
     "Location": "Ballroom B",
     "StartTime": "2019-03-08T10:00:00-08:00",
     "EndTime": "2019-03-08T11:00:00-08:00",
-    "Speakers": [
-      "Kyle Anderson"
-    ],
+    "Speakers": "Kyle Anderson",
     "Topic": "Container and Orchestrators"
   },
   {
@@ -542,9 +437,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2019-03-08T10:00:00-08:00",
     "EndTime": "2019-03-08T10:45:00-08:00",
-    "Speakers": [
-      "Gareth Greenaway"
-    ],
+    "Speakers": "Gareth Greenaway",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -553,9 +446,7 @@
     "Location": "Ballroom C",
     "StartTime": "2019-03-08T10:00:00-08:00",
     "EndTime": "2019-03-08T11:00:00-08:00",
-    "Speakers": [
-      "Gabriel Covarrubias"
-    ],
+    "Speakers": "Gabriel Covarrubias",
     "Topic": "LibreGraphics"
   },
   {
@@ -564,10 +455,7 @@
     "Location": "Room 209",
     "StartTime": "2019-03-08T10:00:00-08:00",
     "EndTime": "2019-03-08T17:00:00-08:00",
-    "Speakers": [
-      "Deb Goodkin",
-      "Roller Angel"
-    ],
+    "Speakers": "Deb Goodkin, Roller Angel",
     "Topic": ""
   },
   {
@@ -576,9 +464,7 @@
     "Location": "Room 212",
     "StartTime": "2019-03-08T10:00:00-08:00",
     "EndTime": "2019-03-08T13:00:00-08:00",
-    "Speakers": [
-      "Horea Porutiu"
-    ],
+    "Speakers": "Horea Porutiu",
     "Topic": "Sponsored"
   },
   {
@@ -587,10 +473,7 @@
     "Location": "Room 211",
     "StartTime": "2019-03-08T10:00:00-08:00",
     "EndTime": "2019-03-08T13:00:00-08:00",
-    "Speakers": [
-      "Matteo Rebeschini",
-      "Cami Lewis"
-    ],
+    "Speakers": "Matteo Rebeschini, Cami Lewis",
     "Topic": "Security"
   },
   {
@@ -599,9 +482,7 @@
     "Location": "Room 105",
     "StartTime": "2019-03-08T10:00:00-08:00",
     "EndTime": "2019-03-08T11:30:00-08:00",
-    "Speakers": [
-      "Behan Webster"
-    ],
+    "Speakers": "Behan Webster",
     "Topic": "Embedded Linux"
   },
   {
@@ -610,9 +491,7 @@
     "Location": "Room 104",
     "StartTime": "2019-03-08T10:00:00-08:00",
     "EndTime": "2019-03-08T11:30:00-08:00",
-    "Speakers": [
-      "Jon Mason"
-    ],
+    "Speakers": "Jon Mason",
     "Topic": "Embedded Linux"
   },
   {
@@ -621,9 +500,7 @@
     "Location": "Ballroom F",
     "StartTime": "2019-03-08T10:00:00-08:00",
     "EndTime": "2019-03-08T11:00:00-08:00",
-    "Speakers": [
-      "Harry Hsiung"
-    ],
+    "Speakers": "Harry Hsiung",
     "Topic": "openSUSE"
   },
   {
@@ -632,9 +509,7 @@
     "Location": "Room 106",
     "StartTime": "2019-03-08T10:00:00-08:00",
     "EndTime": "2019-03-08T11:00:00-08:00",
-    "Speakers": [
-      "Dave Cramer"
-    ],
+    "Speakers": "Dave Cramer",
     "Topic": "PostgreSQL"
   },
   {
@@ -643,9 +518,7 @@
     "Location": "Room 107",
     "StartTime": "2019-03-08T11:00:00-08:00",
     "EndTime": "2019-03-08T12:00:00-08:00",
-    "Speakers": [
-      "Keith Fiske"
-    ],
+    "Speakers": "Keith Fiske",
     "Topic": "PostgreSQL"
   },
   {
@@ -654,9 +527,7 @@
     "Location": "Ballroom C",
     "StartTime": "2019-03-08T11:00:00-08:00",
     "EndTime": "2019-03-08T12:00:00-08:00",
-    "Speakers": [
-      "Scott Petrovic"
-    ],
+    "Speakers": "Scott Petrovic",
     "Topic": "LibreGraphics"
   },
   {
@@ -665,9 +536,7 @@
     "Location": "Room 101",
     "StartTime": "2019-03-08T11:00:00-08:00",
     "EndTime": "2019-03-08T12:00:00-08:00",
-    "Speakers": [
-      "Alexander Rubin"
-    ],
+    "Speakers": "Alexander Rubin",
     "Topic": "MySQL"
   },
   {
@@ -676,10 +545,7 @@
     "Location": "Ballroom B",
     "StartTime": "2019-03-08T11:00:00-08:00",
     "EndTime": "2019-03-08T12:00:00-08:00",
-    "Speakers": [
-      "Urvashi Mohnani",
-      "Sally OMalley"
-    ],
+    "Speakers": "Urvashi Mohnani, Sally OMalley",
     "Topic": "Container and Orchestrators"
   },
   {
@@ -688,9 +554,7 @@
     "Location": "Room 106",
     "StartTime": "2019-03-08T11:00:00-08:00",
     "EndTime": "2019-03-08T12:00:00-08:00",
-    "Speakers": [
-      "Darren Douglas"
-    ],
+    "Speakers": "Darren Douglas",
     "Topic": "PostgreSQL"
   },
   {
@@ -699,9 +563,7 @@
     "Location": "Room 103",
     "StartTime": "2019-03-08T11:00:00-08:00",
     "EndTime": "2019-03-08T12:00:00-08:00",
-    "Speakers": [
-      "Mike Weilgart"
-    ],
+    "Speakers": "Mike Weilgart",
     "Topic": "Sponsored"
   },
   {
@@ -710,9 +572,7 @@
     "Location": "Ballroom F",
     "StartTime": "2019-03-08T11:00:00-08:00",
     "EndTime": "2019-03-08T12:00:00-08:00",
-    "Speakers": [
-      "Craig Gardner"
-    ],
+    "Speakers": "Craig Gardner",
     "Topic": "openSUSE"
   },
   {
@@ -721,9 +581,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2019-03-08T11:00:00-08:00",
     "EndTime": "2019-03-08T11:45:00-08:00",
-    "Speakers": [
-      "Nikki Attea"
-    ],
+    "Speakers": "Nikki Attea",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -732,9 +590,7 @@
     "Location": "Ballroom A",
     "StartTime": "2019-03-08T11:30:00-08:00",
     "EndTime": "2019-03-08T12:30:00-08:00",
-    "Speakers": [
-      "Ted Gould"
-    ],
+    "Speakers": "Ted Gould",
     "Topic": "Ubucon"
   },
   {
@@ -743,9 +599,7 @@
     "Location": "Ballroom B",
     "StartTime": "2019-03-08T12:00:00-08:00",
     "EndTime": "2019-03-08T13:00:00-08:00",
-    "Speakers": [
-      "Steven Wong"
-    ],
+    "Speakers": "Steven Wong",
     "Topic": "Container and Orchestrators"
   },
   {
@@ -754,9 +608,7 @@
     "Location": "Ballroom F",
     "StartTime": "2019-03-08T12:00:00-08:00",
     "EndTime": "2019-03-08T12:45:00-08:00",
-    "Speakers": [
-      "Luis Falcon"
-    ],
+    "Speakers": "Luis Falcon",
     "Topic": "openSUSE"
   },
   {
@@ -765,9 +617,7 @@
     "Location": "Ballroom C",
     "StartTime": "2019-03-08T13:00:00-08:00",
     "EndTime": "2019-03-08T14:00:00-08:00",
-    "Speakers": [
-      "Brian Cluff"
-    ],
+    "Speakers": "Brian Cluff",
     "Topic": "LibreGraphics"
   },
   {
@@ -776,9 +626,7 @@
     "Location": "Room 101",
     "StartTime": "2019-03-08T13:00:00-08:00",
     "EndTime": "2019-03-08T14:00:00-08:00",
-    "Speakers": [
-      "Sam Dunster"
-    ],
+    "Speakers": "Sam Dunster",
     "Topic": "MySQL"
   },
   {
@@ -787,9 +635,7 @@
     "Location": "Ballroom F",
     "StartTime": "2019-03-08T13:00:00-08:00",
     "EndTime": "2019-03-08T14:00:00-08:00",
-    "Speakers": [
-      "Johannes Segitz"
-    ],
+    "Speakers": "Johannes Segitz",
     "Topic": ""
   },
   {
@@ -798,9 +644,7 @@
     "Location": "Room 105",
     "StartTime": "2019-03-08T13:00:00-08:00",
     "EndTime": "2019-03-08T14:30:00-08:00",
-    "Speakers": [
-      "Michael Welling"
-    ],
+    "Speakers": "Michael Welling",
     "Topic": "Embedded Linux"
   },
   {
@@ -809,9 +653,7 @@
     "Location": "Room 104",
     "StartTime": "2019-03-08T13:00:00-08:00",
     "EndTime": "2019-03-08T14:30:00-08:00",
-    "Speakers": [
-      "Nisha Kumar"
-    ],
+    "Speakers": "Nisha Kumar",
     "Topic": "Embedded Linux"
   },
   {
@@ -820,9 +662,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2019-03-08T13:30:00-08:00",
     "EndTime": "2019-03-08T13:45:00-08:00",
-    "Speakers": [
-      "Murriel Perez McCabe"
-    ],
+    "Speakers": "Murriel Perez McCabe",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -831,9 +671,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2019-03-08T13:45:00-08:00",
     "EndTime": "2019-03-08T14:00:00-08:00",
-    "Speakers": [
-      "Ryan Schaller"
-    ],
+    "Speakers": "Ryan Schaller",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -842,9 +680,7 @@
     "Location": "Ballroom C",
     "StartTime": "2019-03-08T14:00:00-08:00",
     "EndTime": "2019-03-08T15:00:00-08:00",
-    "Speakers": [
-      "Ryan Gorley"
-    ],
+    "Speakers": "Ryan Gorley",
     "Topic": "LibreGraphics"
   },
   {
@@ -853,9 +689,7 @@
     "Location": "Room 101",
     "StartTime": "2019-03-08T14:00:00-08:00",
     "EndTime": "2019-03-08T15:00:00-08:00",
-    "Speakers": [
-      "Peter Zaitsev"
-    ],
+    "Speakers": "Peter Zaitsev",
     "Topic": "MySQL"
   },
   {
@@ -864,9 +698,7 @@
     "Location": "Ballroom B",
     "StartTime": "2019-03-08T14:00:00-08:00",
     "EndTime": "2019-03-08T15:00:00-08:00",
-    "Speakers": [
-      "Tim Pepper"
-    ],
+    "Speakers": "Tim Pepper",
     "Topic": "Container and Orchestrators"
   },
   {
@@ -875,9 +707,7 @@
     "Location": "Room 106",
     "StartTime": "2019-03-08T14:00:00-08:00",
     "EndTime": "2019-03-08T15:00:00-08:00",
-    "Speakers": [
-      "Joe Conway"
-    ],
+    "Speakers": "Joe Conway",
     "Topic": "PostgreSQL"
   },
   {
@@ -886,9 +716,7 @@
     "Location": "Ballroom F",
     "StartTime": "2019-03-08T14:00:00-08:00",
     "EndTime": "2019-03-08T15:00:00-08:00",
-    "Speakers": [
-      "Patrick Swartz"
-    ],
+    "Speakers": "Patrick Swartz",
     "Topic": "openSUSE"
   },
   {
@@ -897,9 +725,7 @@
     "Location": "Room 211",
     "StartTime": "2019-03-08T14:00:00-08:00",
     "EndTime": "2019-03-08T17:30:00-08:00",
-    "Speakers": [
-      "Juni Mukherjee"
-    ],
+    "Speakers": "Juni Mukherjee",
     "Topic": "Sponsored"
   },
   {
@@ -908,9 +734,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2019-03-08T14:00:00-08:00",
     "EndTime": "2019-03-08T14:15:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -919,9 +743,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2019-03-08T14:45:00-08:00",
     "EndTime": "2019-03-08T15:30:00-08:00",
-    "Speakers": [
-      "Tori Wieldt"
-    ],
+    "Speakers": "Tori Wieldt",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -930,9 +752,7 @@
     "Location": "Room 107",
     "StartTime": "2019-03-08T15:00:00-08:00",
     "EndTime": "2019-03-08T16:00:00-08:00",
-    "Speakers": [
-      "Srivathsava Rangarajan"
-    ],
+    "Speakers": "Srivathsava Rangarajan",
     "Topic": "PostgreSQL"
   },
   {
@@ -941,9 +761,7 @@
     "Location": "Ballroom B",
     "StartTime": "2019-03-08T15:00:00-08:00",
     "EndTime": "2019-03-08T16:00:00-08:00",
-    "Speakers": [
-      "Robert Boll"
-    ],
+    "Speakers": "Robert Boll",
     "Topic": "Container and Orchestrators"
   },
   {
@@ -952,9 +770,7 @@
     "Location": "Room 106",
     "StartTime": "2019-03-08T15:00:00-08:00",
     "EndTime": "2019-03-08T16:00:00-08:00",
-    "Speakers": [
-      "Michael Meskes"
-    ],
+    "Speakers": "Michael Meskes",
     "Topic": "PostgreSQL"
   },
   {
@@ -963,9 +779,7 @@
     "Location": "Ballroom F",
     "StartTime": "2019-03-08T15:00:00-08:00",
     "EndTime": "2019-03-08T16:00:00-08:00",
-    "Speakers": [
-      "Craig Gardner"
-    ],
+    "Speakers": "Craig Gardner",
     "Topic": "openSUSE"
   },
   {
@@ -974,9 +788,7 @@
     "Location": "Room 105",
     "StartTime": "2019-03-08T15:00:00-08:00",
     "EndTime": "2019-03-08T16:30:00-08:00",
-    "Speakers": [
-      "Stephanie Lockwood-Childs"
-    ],
+    "Speakers": "Stephanie Lockwood-Childs",
     "Topic": "Embedded Linux"
   },
   {
@@ -985,9 +797,7 @@
     "Location": "Room 104",
     "StartTime": "2019-03-08T15:00:00-08:00",
     "EndTime": "2019-03-08T16:30:00-08:00",
-    "Speakers": [
-      "John Hawley"
-    ],
+    "Speakers": "John Hawley",
     "Topic": "Embedded Linux"
   },
   {
@@ -996,9 +806,7 @@
     "Location": "Ballroom A",
     "StartTime": "2019-03-08T15:00:00-08:00",
     "EndTime": "2019-03-08T16:00:00-08:00",
-    "Speakers": [
-      "José Antonio Rey"
-    ],
+    "Speakers": "José Antonio Rey",
     "Topic": "Ubucon"
   },
   {
@@ -1007,9 +815,7 @@
     "Location": "Ballroom C",
     "StartTime": "2019-03-08T15:30:00-08:00",
     "EndTime": "2019-03-08T16:30:00-08:00",
-    "Speakers": [
-      "Phillip Waclawski"
-    ],
+    "Speakers": "Phillip Waclawski",
     "Topic": "LibreGraphics"
   },
   {
@@ -1018,9 +824,7 @@
     "Location": "Room 101",
     "StartTime": "2019-03-08T15:30:00-08:00",
     "EndTime": "2019-03-08T16:30:00-08:00",
-    "Speakers": [
-      "Gabriela D'Ávila Ferrara"
-    ],
+    "Speakers": "Gabriela D'Ávila Ferrara",
     "Topic": "MySQL"
   },
   {
@@ -1029,9 +833,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2019-03-08T15:45:00-08:00",
     "EndTime": "2019-03-08T16:30:00-08:00",
-    "Speakers": [
-      "Joe Whitaker"
-    ],
+    "Speakers": "Joe Whitaker",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -1040,9 +842,7 @@
     "Location": "Room 107",
     "StartTime": "2019-03-08T16:00:00-08:00",
     "EndTime": "2019-03-08T17:00:00-08:00",
-    "Speakers": [
-      "Quinn Weaver"
-    ],
+    "Speakers": "Quinn Weaver",
     "Topic": "PostgreSQL"
   },
   {
@@ -1051,9 +851,7 @@
     "Location": "Room 106",
     "StartTime": "2019-03-08T16:00:00-08:00",
     "EndTime": "2019-03-08T17:00:00-08:00",
-    "Speakers": [
-      "Robert Treat"
-    ],
+    "Speakers": "Robert Treat",
     "Topic": "PostgreSQL"
   },
   {
@@ -1062,9 +860,7 @@
     "Location": "Ballroom B",
     "StartTime": "2019-03-08T16:00:00-08:00",
     "EndTime": "2019-03-08T17:00:00-08:00",
-    "Speakers": [
-      "Eduardo Silva"
-    ],
+    "Speakers": "Eduardo Silva",
     "Topic": "Container and Orchestrators"
   },
   {
@@ -1073,9 +869,7 @@
     "Location": "Ballroom A",
     "StartTime": "2019-03-08T16:00:00-08:00",
     "EndTime": "2019-03-08T17:00:00-08:00",
-    "Speakers": [
-      "Richard Gaskin"
-    ],
+    "Speakers": "Richard Gaskin",
     "Topic": "Ubucon"
   },
   {
@@ -1084,9 +878,7 @@
     "Location": "Ballroom F",
     "StartTime": "2019-03-08T16:00:00-08:00",
     "EndTime": "2019-03-08T16:30:00-08:00",
-    "Speakers": [
-      "Frank Karlitschek"
-    ],
+    "Speakers": "Frank Karlitschek",
     "Topic": "openSUSE"
   },
   {
@@ -1095,9 +887,7 @@
     "Location": "Ballroom C",
     "StartTime": "2019-03-08T16:30:00-08:00",
     "EndTime": "2019-03-08T17:30:00-08:00",
-    "Speakers": [
-      "Tom Lechner"
-    ],
+    "Speakers": "Tom Lechner",
     "Topic": "LibreGraphics"
   },
   {
@@ -1106,9 +896,7 @@
     "Location": "Room 101",
     "StartTime": "2019-03-08T16:30:00-08:00",
     "EndTime": "2019-03-08T17:30:00-08:00",
-    "Speakers": [
-      "Michael Marx"
-    ],
+    "Speakers": "Michael Marx",
     "Topic": "MySQL"
   },
   {
@@ -1117,9 +905,7 @@
     "Location": "Ballroom F",
     "StartTime": "2019-03-08T16:30:00-08:00",
     "EndTime": "2019-03-08T17:30:00-08:00",
-    "Speakers": [
-      "Matt McGraw"
-    ],
+    "Speakers": "Matt McGraw",
     "Topic": "openSUSE"
   },
   {
@@ -1128,9 +914,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2019-03-08T16:45:00-08:00",
     "EndTime": "2019-03-08T17:30:00-08:00",
-    "Speakers": [
-      "Michael Winslow"
-    ],
+    "Speakers": "Michael Winslow",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -1139,9 +923,7 @@
     "Location": "Ballroom B",
     "StartTime": "2019-03-08T17:00:00-08:00",
     "EndTime": "2019-03-08T18:00:00-08:00",
-    "Speakers": [
-      "Neil Peterson"
-    ],
+    "Speakers": "Neil Peterson",
     "Topic": "Container and Orchestrators"
   },
   {
@@ -1150,9 +932,7 @@
     "Location": "Ballroom C",
     "StartTime": "2019-03-08T19:00:00-08:00",
     "EndTime": "2019-03-08T20:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -1161,9 +941,7 @@
     "Location": "Ballroom B",
     "StartTime": "2019-03-08T19:00:00-08:00",
     "EndTime": "2019-03-08T20:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -1172,9 +950,7 @@
     "Location": "Ballroom C",
     "StartTime": "2019-03-08T20:00:00-08:00",
     "EndTime": "2019-03-08T21:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -1183,9 +959,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2019-03-09T10:00:00-08:00",
     "EndTime": "2019-03-09T11:00:00-08:00",
-    "Speakers": [
-      "Mitchell Hashimoto"
-    ],
+    "Speakers": "Mitchell Hashimoto",
     "Topic": "Keynote"
   },
   {
@@ -1194,9 +968,7 @@
     "Location": "Ballroom B",
     "StartTime": "2019-03-09T11:30:00-08:00",
     "EndTime": "2019-03-09T12:30:00-08:00",
-    "Speakers": [
-      "Ell Marquez"
-    ],
+    "Speakers": "Ell Marquez",
     "Topic": "Container and Orchestrators"
   },
   {
@@ -1205,10 +977,7 @@
     "Location": "Room 107",
     "StartTime": "2019-03-09T11:30:00-08:00",
     "EndTime": "2019-03-09T12:30:00-08:00",
-    "Speakers": [
-      "Brian Hsieh",
-      "Manrique Lopez"
-    ],
+    "Speakers": "Brian Hsieh, Manrique Lopez",
     "Topic": "Open Source in Enterprises"
   },
   {
@@ -1217,9 +986,7 @@
     "Location": "Ballroom F",
     "StartTime": "2019-03-09T11:30:00-08:00",
     "EndTime": "2019-03-09T12:30:00-08:00",
-    "Speakers": [
-      "Adrian Cole"
-    ],
+    "Speakers": "Adrian Cole",
     "Topic": "Observability"
   },
   {
@@ -1228,9 +995,7 @@
     "Location": "Room 103",
     "StartTime": "2019-03-09T11:30:00-08:00",
     "EndTime": "2019-03-09T12:30:00-08:00",
-    "Speakers": [
-      "Jason Hibbets"
-    ],
+    "Speakers": "Jason Hibbets",
     "Topic": "Mentoring"
   },
   {
@@ -1239,10 +1004,7 @@
     "Location": "Room 106",
     "StartTime": "2019-03-09T11:30:00-08:00",
     "EndTime": "2019-03-09T12:30:00-08:00",
-    "Speakers": [
-      "Lisa Woody",
-      "Joseph Lillo"
-    ],
+    "Speakers": "Lisa Woody, Joseph Lillo",
     "Topic": "Security"
   },
   {
@@ -1251,9 +1013,7 @@
     "Location": "Ballroom H",
     "StartTime": "2019-03-09T11:30:00-08:00",
     "EndTime": "2019-03-09T12:30:00-08:00",
-    "Speakers": [
-      "Kyle Rankin"
-    ],
+    "Speakers": "Kyle Rankin",
     "Topic": "General"
   },
   {
@@ -1262,9 +1022,7 @@
     "Location": "Room 104",
     "StartTime": "2019-03-09T11:30:00-08:00",
     "EndTime": "2019-03-09T12:30:00-08:00",
-    "Speakers": [
-      "Randall Hunt"
-    ],
+    "Speakers": "Randall Hunt",
     "Topic": "Open Data"
   },
   {
@@ -1273,9 +1031,7 @@
     "Location": "Ballroom A",
     "StartTime": "2019-03-09T11:30:00-08:00",
     "EndTime": "2019-03-09T12:30:00-08:00",
-    "Speakers": [
-      "Rami AlGhanmi"
-    ],
+    "Speakers": "Rami AlGhanmi",
     "Topic": "Cloud"
   },
   {
@@ -1284,9 +1040,7 @@
     "Location": "Room 101",
     "StartTime": "2019-03-09T11:30:00-08:00",
     "EndTime": "2019-03-09T12:30:00-08:00",
-    "Speakers": [
-      "Robert Hernandez"
-    ],
+    "Speakers": "Robert Hernandez",
     "Topic": "SysAdmin"
   },
   {
@@ -1295,9 +1049,7 @@
     "Location": "Ballroom G",
     "StartTime": "2019-03-09T11:30:00-08:00",
     "EndTime": "2019-03-09T12:30:00-08:00",
-    "Speakers": [
-      "Erica Brescia"
-    ],
+    "Speakers": "Erica Brescia",
     "Topic": "General"
   },
   {
@@ -1306,9 +1058,7 @@
     "Location": "Room 105",
     "StartTime": "2019-03-09T11:30:00-08:00",
     "EndTime": "2019-03-09T13:00:00-08:00",
-    "Speakers": [
-      "Matt Porter"
-    ],
+    "Speakers": "Matt Porter",
     "Topic": "Embedded Linux"
   },
   {
@@ -1317,11 +1067,7 @@
     "Location": "Room 212",
     "StartTime": "2019-03-09T11:30:00-08:00",
     "EndTime": "2019-03-09T12:30:00-08:00",
-    "Speakers": [
-      "Tiffany Kwak",
-      "Chul Hwang",
-      "Emmanuel Vargas"
-    ],
+    "Speakers": "Tiffany Kwak, Chul Hwang, Emmanuel Vargas",
     "Topic": "Next Generation"
   },
   {
@@ -1330,9 +1076,7 @@
     "Location": "Ballroom C",
     "StartTime": "2019-03-09T11:30:00-08:00",
     "EndTime": "2019-03-09T12:30:00-08:00",
-    "Speakers": [
-      "Chris Smith"
-    ],
+    "Speakers": "Chris Smith",
     "Topic": "Developer"
   },
   {
@@ -1341,9 +1085,7 @@
     "Location": "Room 104",
     "StartTime": "2019-03-09T13:30:00-08:00",
     "EndTime": "2019-03-09T14:30:00-08:00",
-    "Speakers": [
-      "Nicole Martinelli"
-    ],
+    "Speakers": "Nicole Martinelli",
     "Topic": "Open Data"
   },
   {
@@ -1352,9 +1094,7 @@
     "Location": "Room 103",
     "StartTime": "2019-03-09T13:30:00-08:00",
     "EndTime": "2019-03-09T14:30:00-08:00",
-    "Speakers": [
-      "Rikki Endsley"
-    ],
+    "Speakers": "Rikki Endsley",
     "Topic": "Mentoring"
   },
   {
@@ -1363,9 +1103,7 @@
     "Location": "Ballroom H",
     "StartTime": "2019-03-09T13:30:00-08:00",
     "EndTime": "2019-03-09T14:30:00-08:00",
-    "Speakers": [
-      "Louisa Bisio"
-    ],
+    "Speakers": "Louisa Bisio",
     "Topic": "General"
   },
   {
@@ -1374,9 +1112,7 @@
     "Location": "Ballroom F",
     "StartTime": "2019-03-09T13:30:00-08:00",
     "EndTime": "2019-03-09T14:30:00-08:00",
-    "Speakers": [
-      "KC Braunschweig"
-    ],
+    "Speakers": "KC Braunschweig",
     "Topic": "Observability"
   },
   {
@@ -1385,9 +1121,7 @@
     "Location": "Room 101",
     "StartTime": "2019-03-09T13:30:00-08:00",
     "EndTime": "2019-03-09T14:30:00-08:00",
-    "Speakers": [
-      "Dave Chiluk"
-    ],
+    "Speakers": "Dave Chiluk",
     "Topic": "SysAdmin"
   },
   {
@@ -1396,9 +1130,7 @@
     "Location": "Room 107",
     "StartTime": "2019-03-09T13:30:00-08:00",
     "EndTime": "2019-03-09T14:30:00-08:00",
-    "Speakers": [
-      "Stephen Walli"
-    ],
+    "Speakers": "Stephen Walli",
     "Topic": "Open Source in Enterprises"
   },
   {
@@ -1407,11 +1139,7 @@
     "Location": "Ballroom G",
     "StartTime": "2019-03-09T13:30:00-08:00",
     "EndTime": "2019-03-09T14:30:00-08:00",
-    "Speakers": [
-      "Patrick O'Connor",
-      "Jason Cox",
-      "Brian Scott"
-    ],
+    "Speakers": "Patrick O'Connor, Jason Cox, Brian Scott",
     "Topic": "General"
   },
   {
@@ -1420,12 +1148,7 @@
     "Location": "Ballroom B",
     "StartTime": "2019-03-09T13:30:00-08:00",
     "EndTime": "2019-03-09T14:30:00-08:00",
-    "Speakers": [
-      "Steven Wong",
-      "Guinevere Saenger",
-      "Ilan Rabinovitch",
-      "Michael Goodness"
-    ],
+    "Speakers": "Steven Wong, Guinevere Saenger, Ilan Rabinovitch, Michael Goodness",
     "Topic": "Container and Orchestrators"
   },
   {
@@ -1434,9 +1157,7 @@
     "Location": "Ballroom C",
     "StartTime": "2019-03-09T13:30:00-08:00",
     "EndTime": "2019-03-09T14:30:00-08:00",
-    "Speakers": [
-      "Dustin Laurence"
-    ],
+    "Speakers": "Dustin Laurence",
     "Topic": "Developer"
   },
   {
@@ -1445,9 +1166,7 @@
     "Location": "Room 106",
     "StartTime": "2019-03-09T13:30:00-08:00",
     "EndTime": "2019-03-09T14:30:00-08:00",
-    "Speakers": [
-      "Ty Shipman"
-    ],
+    "Speakers": "Ty Shipman",
     "Topic": "Security"
   },
   {
@@ -1456,11 +1175,7 @@
     "Location": "Room 212",
     "StartTime": "2019-03-09T13:30:00-08:00",
     "EndTime": "2019-03-09T14:30:00-08:00",
-    "Speakers": [
-      "Koda Kol",
-      "Rachel Macwan",
-      "Isabelle Wagenvoord"
-    ],
+    "Speakers": "Koda Kol, Rachel Macwan, Isabelle Wagenvoord",
     "Topic": "Next Generation"
   },
   {
@@ -1469,9 +1184,7 @@
     "Location": "Ballroom A",
     "StartTime": "2019-03-09T13:30:00-08:00",
     "EndTime": "2019-03-09T14:30:00-08:00",
-    "Speakers": [
-      "Kapil Thangavelu"
-    ],
+    "Speakers": "Kapil Thangavelu",
     "Topic": "Cloud"
   },
   {
@@ -1480,9 +1193,7 @@
     "Location": "Room 105",
     "StartTime": "2019-03-09T14:30:00-08:00",
     "EndTime": "2019-03-09T16:00:00-08:00",
-    "Speakers": [
-      "Trevor Woerner"
-    ],
+    "Speakers": "Trevor Woerner",
     "Topic": "Embedded Linux"
   },
   {
@@ -1491,11 +1202,7 @@
     "Location": "Room 212",
     "StartTime": "2019-03-09T14:30:00-08:00",
     "EndTime": "2019-03-09T15:30:00-08:00",
-    "Speakers": [
-      "Victor Jimenez",
-      "Euan Elemancil",
-      "Evir Andrade"
-    ],
+    "Speakers": "Victor Jimenez, Euan Elemancil, Evir Andrade",
     "Topic": "Next Generation"
   },
   {
@@ -1504,9 +1211,7 @@
     "Location": "Room 107",
     "StartTime": "2019-03-09T15:00:00-08:00",
     "EndTime": "2019-03-09T16:00:00-08:00",
-    "Speakers": [
-      "Frank Karlitschek"
-    ],
+    "Speakers": "Frank Karlitschek",
     "Topic": "Open Source in Enterprises"
   },
   {
@@ -1515,9 +1220,7 @@
     "Location": "Ballroom A",
     "StartTime": "2019-03-09T15:00:00-08:00",
     "EndTime": "2019-03-09T16:00:00-08:00",
-    "Speakers": [
-      "Yuki Sawa"
-    ],
+    "Speakers": "Yuki Sawa",
     "Topic": "Cloud"
   },
   {
@@ -1526,9 +1229,7 @@
     "Location": "Room 101",
     "StartTime": "2019-03-09T15:00:00-08:00",
     "EndTime": "2019-03-09T16:00:00-08:00",
-    "Speakers": [
-      "Alison Chaiken"
-    ],
+    "Speakers": "Alison Chaiken",
     "Topic": "SysAdmin"
   },
   {
@@ -1537,10 +1238,7 @@
     "Location": "Room 106",
     "StartTime": "2019-03-09T15:00:00-08:00",
     "EndTime": "2019-03-09T16:00:00-08:00",
-    "Speakers": [
-      "Mujibur Wahab",
-      "Henry Avetisyan"
-    ],
+    "Speakers": "Mujibur Wahab, Henry Avetisyan",
     "Topic": "Security"
   },
   {
@@ -1549,9 +1247,7 @@
     "Location": "Ballroom H",
     "StartTime": "2019-03-09T15:00:00-08:00",
     "EndTime": "2019-03-09T16:00:00-08:00",
-    "Speakers": [
-      "Michael Starch"
-    ],
+    "Speakers": "Michael Starch",
     "Topic": "General"
   },
   {
@@ -1560,10 +1256,7 @@
     "Location": "Room 104",
     "StartTime": "2019-03-09T15:00:00-08:00",
     "EndTime": "2019-03-09T16:00:00-08:00",
-    "Speakers": [
-      "Kegan Maher",
-      "Hunter Owens"
-    ],
+    "Speakers": "Kegan Maher, Hunter Owens",
     "Topic": "Open Data"
   },
   {
@@ -1572,10 +1265,7 @@
     "Location": "Room 103",
     "StartTime": "2019-03-09T15:00:00-08:00",
     "EndTime": "2019-03-09T16:00:00-08:00",
-    "Speakers": [
-      "Corey Quinn",
-      "Sonia Gupta"
-    ],
+    "Speakers": "Corey Quinn, Sonia Gupta",
     "Topic": "Mentoring"
   },
   {
@@ -1584,9 +1274,7 @@
     "Location": "Ballroom G",
     "StartTime": "2019-03-09T15:00:00-08:00",
     "EndTime": "2019-03-09T16:00:00-08:00",
-    "Speakers": [
-      "Jono Bacon"
-    ],
+    "Speakers": "Jono Bacon",
     "Topic": "General"
   },
   {
@@ -1595,9 +1283,7 @@
     "Location": "Ballroom C",
     "StartTime": "2019-03-09T15:00:00-08:00",
     "EndTime": "2019-03-09T16:00:00-08:00",
-    "Speakers": [
-      "Will Rosecrans"
-    ],
+    "Speakers": "Will Rosecrans",
     "Topic": "Developer"
   },
   {
@@ -1606,10 +1292,7 @@
     "Location": "Ballroom B",
     "StartTime": "2019-03-09T15:00:00-08:00",
     "EndTime": "2019-03-09T16:00:00-08:00",
-    "Speakers": [
-      "Josh Berkus",
-      "Matthias Clasen"
-    ],
+    "Speakers": "Josh Berkus, Matthias Clasen",
     "Topic": "Container and Orchestrators"
   },
   {
@@ -1618,9 +1301,7 @@
     "Location": "Ballroom F",
     "StartTime": "2019-03-09T15:00:00-08:00",
     "EndTime": "2019-03-09T16:00:00-08:00",
-    "Speakers": [
-      "Brendan Gregg"
-    ],
+    "Speakers": "Brendan Gregg",
     "Topic": "Observability"
   },
   {
@@ -1629,9 +1310,7 @@
     "Location": "Room 212",
     "StartTime": "2019-03-09T15:30:00-08:00",
     "EndTime": "2019-03-09T16:30:00-08:00",
-    "Speakers": [
-      "Austin Froelich"
-    ],
+    "Speakers": "Austin Froelich",
     "Topic": "Next Generation"
   },
   {
@@ -1640,10 +1319,7 @@
     "Location": "Ballroom G",
     "StartTime": "2019-03-09T16:30:00-08:00",
     "EndTime": "2019-03-09T17:30:00-08:00",
-    "Speakers": [
-      "Lan Dang",
-      "Roger Cheng"
-    ],
+    "Speakers": "Lan Dang, Roger Cheng",
     "Topic": "General"
   },
   {
@@ -1652,9 +1328,7 @@
     "Location": "Ballroom C",
     "StartTime": "2019-03-09T16:30:00-08:00",
     "EndTime": "2019-03-09T17:30:00-08:00",
-    "Speakers": [
-      "Tanmai Gopal"
-    ],
+    "Speakers": "Tanmai Gopal",
     "Topic": "Developer"
   },
   {
@@ -1663,9 +1337,7 @@
     "Location": "Room 212",
     "StartTime": "2019-03-09T16:30:00-08:00",
     "EndTime": "2019-03-09T17:30:00-08:00",
-    "Speakers": [
-      "Desmond Mantle"
-    ],
+    "Speakers": "Desmond Mantle",
     "Topic": "Next Generation"
   },
   {
@@ -1674,9 +1346,7 @@
     "Location": "Room 101",
     "StartTime": "2019-03-09T16:30:00-08:00",
     "EndTime": "2019-03-09T17:30:00-08:00",
-    "Speakers": [
-      "Damon Edwards"
-    ],
+    "Speakers": "Damon Edwards",
     "Topic": "SysAdmin"
   },
   {
@@ -1685,9 +1355,7 @@
     "Location": "Room 107",
     "StartTime": "2019-03-09T16:30:00-08:00",
     "EndTime": "2019-03-09T17:30:00-08:00",
-    "Speakers": [
-      "Duane O'Brien"
-    ],
+    "Speakers": "Duane O'Brien",
     "Topic": "Open Source in Enterprises"
   },
   {
@@ -1696,9 +1364,7 @@
     "Location": "Ballroom B",
     "StartTime": "2019-03-09T16:30:00-08:00",
     "EndTime": "2019-03-09T17:30:00-08:00",
-    "Speakers": [
-      "Saad Ali"
-    ],
+    "Speakers": "Saad Ali",
     "Topic": "Container and Orchestrators"
   },
   {
@@ -1707,9 +1373,7 @@
     "Location": "Room 103",
     "StartTime": "2019-03-09T16:30:00-08:00",
     "EndTime": "2019-03-09T17:30:00-08:00",
-    "Speakers": [
-      "John Mark"
-    ],
+    "Speakers": "John Mark",
     "Topic": "Mentoring"
   },
   {
@@ -1718,9 +1382,7 @@
     "Location": "Room 106",
     "StartTime": "2019-03-09T16:30:00-08:00",
     "EndTime": "2019-03-09T17:30:00-08:00",
-    "Speakers": [
-      "Federico Lucifredi"
-    ],
+    "Speakers": "Federico Lucifredi",
     "Topic": "Security"
   },
   {
@@ -1729,9 +1391,7 @@
     "Location": "Ballroom A",
     "StartTime": "2019-03-09T16:30:00-08:00",
     "EndTime": "2019-03-09T17:30:00-08:00",
-    "Speakers": [
-      "Joshua Shuster"
-    ],
+    "Speakers": "Joshua Shuster",
     "Topic": "Cloud"
   },
   {
@@ -1740,9 +1400,7 @@
     "Location": "Room 105",
     "StartTime": "2019-03-09T16:30:00-08:00",
     "EndTime": "2019-03-09T18:00:00-08:00",
-    "Speakers": [
-      "Bradley Kuhn"
-    ],
+    "Speakers": "Bradley Kuhn",
     "Topic": "Embedded Linux"
   },
   {
@@ -1751,10 +1409,7 @@
     "Location": "Ballroom F",
     "StartTime": "2019-03-09T16:30:00-08:00",
     "EndTime": "2019-03-09T17:30:00-08:00",
-    "Speakers": [
-      "Abraham Ingersoll",
-      "Michael Goodness"
-    ],
+    "Speakers": "Abraham Ingersoll, Michael Goodness",
     "Topic": "Observability"
   },
   {
@@ -1763,10 +1418,7 @@
     "Location": "Room 104",
     "StartTime": "2019-03-09T16:30:00-08:00",
     "EndTime": "2019-03-09T17:30:00-08:00",
-    "Speakers": [
-      "Dean Logan",
-      "Kenneth Bennett"
-    ],
+    "Speakers": "Dean Logan, Kenneth Bennett",
     "Topic": "Open Data"
   },
   {
@@ -1775,9 +1427,7 @@
     "Location": "Room 106",
     "StartTime": "2019-03-09T18:00:00-08:00",
     "EndTime": "2019-03-09T19:00:00-08:00",
-    "Speakers": [
-      "Michal Hrusecky"
-    ],
+    "Speakers": "Michal Hrusecky",
     "Topic": "Security"
   },
   {
@@ -1786,9 +1436,7 @@
     "Location": "Room 101",
     "StartTime": "2019-03-09T18:00:00-08:00",
     "EndTime": "2019-03-09T19:00:00-08:00",
-    "Speakers": [
-      "Maik Außendorf"
-    ],
+    "Speakers": "Maik Außendorf",
     "Topic": "SysAdmin"
   },
   {
@@ -1797,9 +1445,7 @@
     "Location": "Ballroom A",
     "StartTime": "2019-03-09T18:00:00-08:00",
     "EndTime": "2019-03-09T19:00:00-08:00",
-    "Speakers": [
-      "Owen O'Malley"
-    ],
+    "Speakers": "Owen O'Malley",
     "Topic": "Cloud"
   },
   {
@@ -1808,9 +1454,7 @@
     "Location": "Room 104",
     "StartTime": "2019-03-09T18:00:00-08:00",
     "EndTime": "2019-03-09T19:00:00-08:00",
-    "Speakers": [
-      "Peter Goldsborough"
-    ],
+    "Speakers": "Peter Goldsborough",
     "Topic": "Open Data"
   },
   {
@@ -1819,10 +1463,7 @@
     "Location": "Ballroom H",
     "StartTime": "2019-03-09T18:00:00-08:00",
     "EndTime": "2019-03-09T19:00:00-08:00",
-    "Speakers": [
-      "Sarah Newman",
-      "Chris Brannon"
-    ],
+    "Speakers": "Sarah Newman, Chris Brannon",
     "Topic": "General"
   },
   {
@@ -1831,9 +1472,7 @@
     "Location": "Ballroom B",
     "StartTime": "2019-03-09T18:00:00-08:00",
     "EndTime": "2019-03-09T19:00:00-08:00",
-    "Speakers": [
-      "Sonya Koptyev"
-    ],
+    "Speakers": "Sonya Koptyev",
     "Topic": "Container and Orchestrators"
   },
   {
@@ -1842,9 +1481,7 @@
     "Location": "Ballroom G",
     "StartTime": "2019-03-09T18:00:00-08:00",
     "EndTime": "2019-03-09T19:00:00-08:00",
-    "Speakers": [
-      "Ivan Chavero"
-    ],
+    "Speakers": "Ivan Chavero",
     "Topic": "General"
   },
   {
@@ -1853,9 +1490,7 @@
     "Location": "Ballroom C",
     "StartTime": "2019-03-09T18:00:00-08:00",
     "EndTime": "2019-03-09T19:00:00-08:00",
-    "Speakers": [
-      "Alexander Krizhanovsky"
-    ],
+    "Speakers": "Alexander Krizhanovsky",
     "Topic": "Developer"
   },
   {
@@ -1864,9 +1499,7 @@
     "Location": "Room 103",
     "StartTime": "2019-03-09T18:00:00-08:00",
     "EndTime": "2019-03-09T19:00:00-08:00",
-    "Speakers": [
-      "Nell Shamrell-Harrington"
-    ],
+    "Speakers": "Nell Shamrell-Harrington",
     "Topic": "Mentoring"
   },
   {
@@ -1875,9 +1508,7 @@
     "Location": "Room 107",
     "StartTime": "2019-03-09T18:00:00-08:00",
     "EndTime": "2019-03-09T19:00:00-08:00",
-    "Speakers": [
-      "Lee Calcote"
-    ],
+    "Speakers": "Lee Calcote",
     "Topic": "Open Source in Enterprises"
   },
   {
@@ -1886,9 +1517,7 @@
     "Location": "Ballroom B",
     "StartTime": "2019-03-09T19:00:00-08:00",
     "EndTime": "2019-03-09T20:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -1897,9 +1526,7 @@
     "Location": "Room 212",
     "StartTime": "2019-03-09T19:00:00-08:00",
     "EndTime": "2019-03-09T20:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -1908,9 +1535,7 @@
     "Location": "Ballroom C",
     "StartTime": "2019-03-09T19:00:00-08:00",
     "EndTime": "2019-03-09T20:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -1919,9 +1544,7 @@
     "Location": "Ballroom F",
     "StartTime": "2019-03-09T19:00:00-08:00",
     "EndTime": "2019-03-09T20:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -1930,9 +1553,7 @@
     "Location": "Ballroom A",
     "StartTime": "2019-03-09T19:00:00-08:00",
     "EndTime": "2019-03-09T20:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -1941,9 +1562,7 @@
     "Location": "Ballroom G",
     "StartTime": "2019-03-09T19:00:00-08:00",
     "EndTime": "2019-03-09T22:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -1952,9 +1571,7 @@
     "Location": "Ballroom H",
     "StartTime": "2019-03-09T19:00:00-08:00",
     "EndTime": "2019-03-09T20:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -1963,9 +1580,7 @@
     "Location": "Room 101",
     "StartTime": "2019-03-09T19:00:00-08:00",
     "EndTime": "2019-03-09T20:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -1974,9 +1589,7 @@
     "Location": "Ballroom A",
     "StartTime": "2019-03-09T20:00:00-08:00",
     "EndTime": "2019-03-09T21:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -1985,9 +1598,7 @@
     "Location": "Ballroom C",
     "StartTime": "2019-03-09T21:00:00-08:00",
     "EndTime": "2019-03-09T22:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -1996,14 +1607,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2019-03-10T10:00:00-07:00",
     "EndTime": "2019-03-10T11:00:00-07:00",
-    "Speakers": [
-      "Colin Charles",
-      "Peter Zaitsev",
-      "Yoshinori Matsunobu",
-      "Sunil Kamath",
-      "Jimmy Yang",
-      "Vicențiu Ciorbaru"
-    ],
+    "Speakers": "Colin Charles, Peter Zaitsev, Yoshinori Matsunobu, Sunil Kamath, Jimmy Yang, Vicențiu Ciorbaru",
     "Topic": "Keynote"
   },
   {
@@ -2012,9 +1616,7 @@
     "Location": "Ballroom G",
     "StartTime": "2019-03-10T11:30:00-07:00",
     "EndTime": "2019-03-10T12:30:00-07:00",
-    "Speakers": [
-      "Nisha Kumar"
-    ],
+    "Speakers": "Nisha Kumar",
     "Topic": "General"
   },
   {
@@ -2023,9 +1625,7 @@
     "Location": "Room 101",
     "StartTime": "2019-03-10T11:30:00-07:00",
     "EndTime": "2019-03-10T12:30:00-07:00",
-    "Speakers": [
-      "Steven Rostedt"
-    ],
+    "Speakers": "Steven Rostedt",
     "Topic": "SysAdmin"
   },
   {
@@ -2034,9 +1634,7 @@
     "Location": "Ballroom A",
     "StartTime": "2019-03-10T11:30:00-07:00",
     "EndTime": "2019-03-10T12:30:00-07:00",
-    "Speakers": [
-      "Erik Osterman"
-    ],
+    "Speakers": "Erik Osterman",
     "Topic": "Cloud"
   },
   {
@@ -2045,9 +1643,7 @@
     "Location": "Ballroom C",
     "StartTime": "2019-03-10T11:30:00-07:00",
     "EndTime": "2019-03-10T12:30:00-07:00",
-    "Speakers": [
-      "Christian Hergert"
-    ],
+    "Speakers": "Christian Hergert",
     "Topic": "Developer"
   },
   {
@@ -2056,9 +1652,7 @@
     "Location": "Room 106",
     "StartTime": "2019-03-10T11:30:00-07:00",
     "EndTime": "2019-03-10T12:30:00-07:00",
-    "Speakers": [
-      "Eric Brown"
-    ],
+    "Speakers": "Eric Brown",
     "Topic": "Security"
   },
   {
@@ -2067,9 +1661,7 @@
     "Location": "Room 211",
     "StartTime": "2019-03-10T11:30:00-07:00",
     "EndTime": "2019-03-10T12:30:00-07:00",
-    "Speakers": [
-      "Khem Raj"
-    ],
+    "Speakers": "Khem Raj",
     "Topic": "Embedded Linux"
   },
   {
@@ -2078,9 +1670,7 @@
     "Location": "Room 104",
     "StartTime": "2019-03-10T11:30:00-07:00",
     "EndTime": "2019-03-10T12:30:00-07:00",
-    "Speakers": [
-      "Larry Hignight"
-    ],
+    "Speakers": "Larry Hignight",
     "Topic": "Open Data"
   },
   {
@@ -2089,9 +1679,7 @@
     "Location": "Ballroom F",
     "StartTime": "2019-03-10T11:30:00-07:00",
     "EndTime": "2019-03-10T12:30:00-07:00",
-    "Speakers": [
-      "Matt Ingenthron"
-    ],
+    "Speakers": "Matt Ingenthron",
     "Topic": "Observability"
   },
   {
@@ -2100,9 +1688,7 @@
     "Location": "Ballroom H",
     "StartTime": "2019-03-10T11:30:00-07:00",
     "EndTime": "2019-03-10T12:30:00-07:00",
-    "Speakers": [
-      "Lance Albertson"
-    ],
+    "Speakers": "Lance Albertson",
     "Topic": "General"
   },
   {
@@ -2111,9 +1697,7 @@
     "Location": "Ballroom B",
     "StartTime": "2019-03-10T11:30:00-07:00",
     "EndTime": "2019-03-10T12:30:00-07:00",
-    "Speakers": [
-      "Jeffry Molanus"
-    ],
+    "Speakers": "Jeffry Molanus",
     "Topic": "Container and Orchestrators"
   },
   {
@@ -2122,9 +1706,7 @@
     "Location": "Room 103",
     "StartTime": "2019-03-10T11:30:00-07:00",
     "EndTime": "2019-03-10T12:30:00-07:00",
-    "Speakers": [
-      "Karthik Gaekwad"
-    ],
+    "Speakers": "Karthik Gaekwad",
     "Topic": "Mentoring"
   },
   {
@@ -2133,9 +1715,7 @@
     "Location": "Room 212",
     "StartTime": "2019-03-10T11:30:00-07:00",
     "EndTime": "2019-03-10T12:30:00-07:00",
-    "Speakers": [
-      "Orv Beach"
-    ],
+    "Speakers": "Orv Beach",
     "Topic": "HAM Radio"
   },
   {
@@ -2144,9 +1724,7 @@
     "Location": "Room 105",
     "StartTime": "2019-03-10T11:30:00-07:00",
     "EndTime": "2019-03-10T14:00:00-07:00",
-    "Speakers": [
-      "Belinda Vennam"
-    ],
+    "Speakers": "Belinda Vennam",
     "Topic": "Sponsored"
   },
   {
@@ -2155,9 +1733,7 @@
     "Location": "Room 107",
     "StartTime": "2019-03-10T11:30:00-07:00",
     "EndTime": "2019-03-10T12:30:00-07:00",
-    "Speakers": [
-      "Lokesh Kumar Goel"
-    ],
+    "Speakers": "Lokesh Kumar Goel",
     "Topic": "Embedded Linux"
   },
   {
@@ -2166,9 +1742,7 @@
     "Location": "Ballroom C",
     "StartTime": "2019-03-10T13:30:00-07:00",
     "EndTime": "2019-03-10T14:30:00-07:00",
-    "Speakers": [
-      "Michelle Brenner"
-    ],
+    "Speakers": "Michelle Brenner",
     "Topic": "Developer"
   },
   {
@@ -2177,9 +1751,7 @@
     "Location": "Ballroom B",
     "StartTime": "2019-03-10T13:30:00-07:00",
     "EndTime": "2019-03-10T14:30:00-07:00",
-    "Speakers": [
-      "JOHN DOHONEY"
-    ],
+    "Speakers": "JOHN DOHONEY",
     "Topic": "Container and Orchestrators"
   },
   {
@@ -2188,9 +1760,7 @@
     "Location": "Room 104",
     "StartTime": "2019-03-10T13:30:00-07:00",
     "EndTime": "2019-03-10T14:30:00-07:00",
-    "Speakers": [
-      "Lucy Wyman"
-    ],
+    "Speakers": "Lucy Wyman",
     "Topic": "Open Data"
   },
   {
@@ -2199,9 +1769,7 @@
     "Location": "Ballroom G",
     "StartTime": "2019-03-10T13:30:00-07:00",
     "EndTime": "2019-03-10T14:30:00-07:00",
-    "Speakers": [
-      "Stuart Langridge"
-    ],
+    "Speakers": "Stuart Langridge",
     "Topic": "General"
   },
   {
@@ -2210,9 +1778,7 @@
     "Location": "Ballroom H",
     "StartTime": "2019-03-10T13:30:00-07:00",
     "EndTime": "2019-03-10T14:30:00-07:00",
-    "Speakers": [
-      "Bradley Kuhn"
-    ],
+    "Speakers": "Bradley Kuhn",
     "Topic": "General"
   },
   {
@@ -2221,9 +1787,7 @@
     "Location": "Room 211",
     "StartTime": "2019-03-10T13:30:00-07:00",
     "EndTime": "2019-03-10T14:30:00-07:00",
-    "Speakers": [
-      "Tom King"
-    ],
+    "Speakers": "Tom King",
     "Topic": "Embedded Linux"
   },
   {
@@ -2232,9 +1796,7 @@
     "Location": "Room 103",
     "StartTime": "2019-03-10T13:30:00-07:00",
     "EndTime": "2019-03-10T14:30:00-07:00",
-    "Speakers": [
-      "Lars Kurth"
-    ],
+    "Speakers": "Lars Kurth",
     "Topic": "Mentoring"
   },
   {
@@ -2243,9 +1805,7 @@
     "Location": "Room 106",
     "StartTime": "2019-03-10T13:30:00-07:00",
     "EndTime": "2019-03-10T14:30:00-07:00",
-    "Speakers": [
-      "der hans"
-    ],
+    "Speakers": "der hans",
     "Topic": "Security"
   },
   {
@@ -2254,9 +1814,7 @@
     "Location": "Ballroom F",
     "StartTime": "2019-03-10T13:30:00-07:00",
     "EndTime": "2019-03-10T14:30:00-07:00",
-    "Speakers": [
-      "Varun Varma"
-    ],
+    "Speakers": "Varun Varma",
     "Topic": "Observability"
   },
   {
@@ -2265,9 +1823,7 @@
     "Location": "Room 212",
     "StartTime": "2019-03-10T13:30:00-07:00",
     "EndTime": "2019-03-10T14:30:00-07:00",
-    "Speakers": [
-      "Paul Wilkinson"
-    ],
+    "Speakers": "Paul Wilkinson",
     "Topic": "HAM Radio"
   },
   {
@@ -2276,9 +1832,7 @@
     "Location": "Room 101",
     "StartTime": "2019-03-10T13:30:00-07:00",
     "EndTime": "2019-03-10T14:30:00-07:00",
-    "Speakers": [
-      "Brian weber"
-    ],
+    "Speakers": "Brian weber",
     "Topic": "SysAdmin"
   },
   {
@@ -2287,9 +1841,7 @@
     "Location": "Ballroom A",
     "StartTime": "2019-03-10T13:30:00-07:00",
     "EndTime": "2019-03-10T14:30:00-07:00",
-    "Speakers": [
-      "Adrian Otto"
-    ],
+    "Speakers": "Adrian Otto",
     "Topic": "Cloud"
   },
   {
@@ -2298,9 +1850,7 @@
     "Location": "Room 107",
     "StartTime": "2019-03-10T13:30:00-07:00",
     "EndTime": "2019-03-10T14:30:00-07:00",
-    "Speakers": [
-      "Drew Moseley"
-    ],
+    "Speakers": "Drew Moseley",
     "Topic": "Embedded Linux"
   },
   {
@@ -2309,9 +1859,7 @@
     "Location": "Room 104",
     "StartTime": "2019-03-10T15:00:00-07:00",
     "EndTime": "2019-03-10T16:00:00-07:00",
-    "Speakers": [
-      "Dima Kogan"
-    ],
+    "Speakers": "Dima Kogan",
     "Topic": "Open Data"
   },
   {
@@ -2320,9 +1868,7 @@
     "Location": "Room 103",
     "StartTime": "2019-03-10T15:00:00-07:00",
     "EndTime": "2019-03-10T16:00:00-07:00",
-    "Speakers": [
-      "Matty Stratton"
-    ],
+    "Speakers": "Matty Stratton",
     "Topic": "Mentoring"
   },
   {
@@ -2331,9 +1877,7 @@
     "Location": "Room 211",
     "StartTime": "2019-03-10T15:00:00-07:00",
     "EndTime": "2019-03-10T16:00:00-07:00",
-    "Speakers": [
-      "Ken Eshelby"
-    ],
+    "Speakers": "Ken Eshelby",
     "Topic": "Embedded Linux"
   },
   {
@@ -2342,9 +1886,7 @@
     "Location": "Room 101",
     "StartTime": "2019-03-10T15:00:00-07:00",
     "EndTime": "2019-03-10T16:00:00-07:00",
-    "Speakers": [
-      "Jithin Emmanuel"
-    ],
+    "Speakers": "Jithin Emmanuel",
     "Topic": "SysAdmin"
   },
   {
@@ -2353,9 +1895,7 @@
     "Location": "Room 106",
     "StartTime": "2019-03-10T15:00:00-07:00",
     "EndTime": "2019-03-10T16:00:00-07:00",
-    "Speakers": [
-      "Mandi Walls"
-    ],
+    "Speakers": "Mandi Walls",
     "Topic": "Security"
   },
   {
@@ -2364,9 +1904,7 @@
     "Location": "Ballroom G",
     "StartTime": "2019-03-10T15:00:00-07:00",
     "EndTime": "2019-03-10T16:00:00-07:00",
-    "Speakers": [
-      "Sriram Ramkrishna"
-    ],
+    "Speakers": "Sriram Ramkrishna",
     "Topic": "General"
   },
   {
@@ -2375,9 +1913,7 @@
     "Location": "Ballroom H",
     "StartTime": "2019-03-10T15:00:00-07:00",
     "EndTime": "2019-03-10T16:00:00-07:00",
-    "Speakers": [
-      "Aleksey Tsalolikhin"
-    ],
+    "Speakers": "Aleksey Tsalolikhin",
     "Topic": "General"
   },
   {
@@ -2386,9 +1922,7 @@
     "Location": "Ballroom F",
     "StartTime": "2019-03-10T15:00:00-07:00",
     "EndTime": "2019-03-10T16:00:00-07:00",
-    "Speakers": [
-      "Fred Moyer"
-    ],
+    "Speakers": "Fred Moyer",
     "Topic": "Observability"
   },
   {
@@ -2397,9 +1931,7 @@
     "Location": "Ballroom B",
     "StartTime": "2019-03-10T15:00:00-07:00",
     "EndTime": "2019-03-10T16:00:00-07:00",
-    "Speakers": [
-      "Michael Ducy"
-    ],
+    "Speakers": "Michael Ducy",
     "Topic": "Container and Orchestrators"
   },
   {
@@ -2408,9 +1940,7 @@
     "Location": "Ballroom C",
     "StartTime": "2019-03-10T15:00:00-07:00",
     "EndTime": "2019-03-10T16:00:00-07:00",
-    "Speakers": [
-      "Josiah Carlson"
-    ],
+    "Speakers": "Josiah Carlson",
     "Topic": "Developer"
   },
   {
@@ -2419,9 +1949,7 @@
     "Location": "Room 212",
     "StartTime": "2019-03-10T15:00:00-07:00",
     "EndTime": "2019-03-10T16:00:00-07:00",
-    "Speakers": [
-      "Ben Kuo"
-    ],
+    "Speakers": "Ben Kuo",
     "Topic": "HAM Radio"
   },
   {
@@ -2430,9 +1958,7 @@
     "Location": "Room 107",
     "StartTime": "2019-03-10T15:00:00-07:00",
     "EndTime": "2019-03-10T16:00:00-07:00",
-    "Speakers": [
-      "Alistair Francis"
-    ],
+    "Speakers": "Alistair Francis",
     "Topic": "Embedded Linux"
   },
   {
@@ -2441,9 +1967,7 @@
     "Location": "Room 106",
     "StartTime": "2019-03-10T16:30:00-07:00",
     "EndTime": "2019-03-10T17:30:00-07:00",
-    "Speakers": [
-      "Shawn McKinney"
-    ],
+    "Speakers": "Shawn McKinney",
     "Topic": "Security"
   },
   {
@@ -2452,9 +1976,7 @@
     "Location": "Room 103",
     "StartTime": "2019-03-10T16:30:00-07:00",
     "EndTime": "2019-03-10T17:30:00-07:00",
-    "Speakers": [
-      "Mary Thengvall"
-    ],
+    "Speakers": "Mary Thengvall",
     "Topic": "Mentoring"
   },
   {
@@ -2463,9 +1985,7 @@
     "Location": "Room 211",
     "StartTime": "2019-03-10T16:30:00-07:00",
     "EndTime": "2019-03-10T17:30:00-07:00",
-    "Speakers": [
-      "Hunyue Yau"
-    ],
+    "Speakers": "Hunyue Yau",
     "Topic": "Embedded Linux"
   },
   {
@@ -2474,9 +1994,7 @@
     "Location": "Room 104",
     "StartTime": "2019-03-10T16:30:00-07:00",
     "EndTime": "2019-03-10T17:30:00-07:00",
-    "Speakers": [
-      "Jon Neill"
-    ],
+    "Speakers": "Jon Neill",
     "Topic": "Open Data"
   },
   {
@@ -2485,9 +2003,7 @@
     "Location": "Ballroom G",
     "StartTime": "2019-03-10T16:30:00-07:00",
     "EndTime": "2019-03-10T17:30:00-07:00",
-    "Speakers": [
-      "Renee Lung"
-    ],
+    "Speakers": "Renee Lung",
     "Topic": "General"
   },
   {
@@ -2496,9 +2012,7 @@
     "Location": "Ballroom C",
     "StartTime": "2019-03-10T16:30:00-07:00",
     "EndTime": "2019-03-10T17:30:00-07:00",
-    "Speakers": [
-      "Guinevere Saenger"
-    ],
+    "Speakers": "Guinevere Saenger",
     "Topic": "Developer"
   },
   {
@@ -2507,9 +2021,7 @@
     "Location": "Room 101",
     "StartTime": "2019-03-10T16:30:00-07:00",
     "EndTime": "2019-03-10T17:30:00-07:00",
-    "Speakers": [
-      "Alan Ott"
-    ],
+    "Speakers": "Alan Ott",
     "Topic": "SysAdmin"
   },
   {
@@ -2518,9 +2030,7 @@
     "Location": "Ballroom H",
     "StartTime": "2019-03-10T16:30:00-07:00",
     "EndTime": "2019-03-10T17:30:00-07:00",
-    "Speakers": [
-      "Jacob Weinstock"
-    ],
+    "Speakers": "Jacob Weinstock",
     "Topic": "General"
   },
   {
@@ -2529,9 +2039,7 @@
     "Location": "Room 212",
     "StartTime": "2019-03-10T16:30:00-07:00",
     "EndTime": "2019-03-10T17:30:00-07:00",
-    "Speakers": [
-      "Joe Ayers"
-    ],
+    "Speakers": "Joe Ayers",
     "Topic": "HAM Radio"
   },
   {
@@ -2540,9 +2048,7 @@
     "Location": "Room 107",
     "StartTime": "2019-03-10T16:30:00-07:00",
     "EndTime": "2019-03-10T17:30:00-07:00",
-    "Speakers": [
-      "Jon Mason"
-    ],
+    "Speakers": "Jon Mason",
     "Topic": "Embedded Linux"
   },
   {
@@ -2551,9 +2057,7 @@
     "Location": "Ballroom A",
     "StartTime": "2019-03-10T16:30:00-07:00",
     "EndTime": "2019-03-10T17:30:00-07:00",
-    "Speakers": [
-      "Colin Charles"
-    ],
+    "Speakers": "Colin Charles",
     "Topic": "Cloud"
   }
 ]

@@ -2,7 +2,9 @@ package simulator
 
 import (
 	"context"
+	"embed"
 	"fmt"
+	"io/fs"
 	"log"
 	"net/http"
 	"os"
@@ -14,11 +16,17 @@ import (
 	bolt "go.etcd.io/bbolt"
 )
 
+// Embed 13x - 22x archive
+//
+//go:embed archive/*
+var archiveFS embed.FS
+
 // Server is the main webserver process for the simulator
 type Server struct {
 	httpd           *http.Server
 	db              *bolt.DB
 	dbPath          string
+	archiveDir      fs.FS
 	stopScheduler   chan struct{}
 	schedulerDone   chan struct{}
 	lastScheduleRun time.Time
@@ -26,6 +34,12 @@ type Server struct {
 
 // NewServer creates a new simulator server
 func NewServer(dbPath, port string) (*Server, error) {
+	// Create archivePath
+	archiveDir, err := fs.Sub(archiveFS, "archive")
+	if err != nil {
+		return nil, err
+	}
+
 	// Open or create the database
 	db, err := openDatabase(dbPath)
 	if err != nil {
@@ -33,7 +47,7 @@ func NewServer(dbPath, port string) (*Server, error) {
 	}
 
 	// Initialize database structure
-	if err := initializeDatabase(db); err != nil {
+	if err := initializeDatabase(db, archiveDir); err != nil {
 		db.Close()
 		return nil, fmt.Errorf("failed to initialize database: %w", err)
 	}
@@ -55,6 +69,7 @@ func NewServer(dbPath, port string) (*Server, error) {
 		httpd:           srv,
 		db:              db,
 		dbPath:          dbPath,
+		archiveDir:      archiveDir,
 		stopScheduler:   make(chan struct{}),
 		schedulerDone:   make(chan struct{}),
 		lastScheduleRun: time.Time{},
@@ -165,10 +180,14 @@ func (s *Server) ListenAndServe() error {
 }
 
 // Initialize database structure and buckets
-func initializeDatabase(db *bolt.DB) error {
+func initializeDatabase(db *bolt.DB, archiveDir fs.FS) error {
 	// Initialize XML data bucket
 	if err := checkOrCreateXMLBucket(db); err != nil {
 		return fmt.Errorf("failed to initialize XML data: %w", err)
+	}
+
+	if err := checkOrCreateJSONBucket(db, archiveDir); err != nil {
+		return fmt.Errorf("failed to initialize JSON data: %w", err)
 	}
 
 	return nil
@@ -205,6 +224,8 @@ func setupRoutes(r *gin.Engine, db *bolt.DB, server *Server) {
 			"scheduler": schedulerStatus,
 		})
 	})
+
+	r.StaticFS("/archive", http.FS(server.archiveDir))
 
 	// Main endpoint to serve schedule JSON
 	r.GET("/", func(c *gin.Context) {

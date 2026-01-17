@@ -5,15 +5,7 @@
     "Location": "Room 106",
     "StartTime": "2025-03-06T09:00:00-08:00",
     "EndTime": "2025-03-06T10:15:00-08:00",
-    "Speakers": [
-      "Allison Price",
-      "Gerald Bothello",
-      "Luke Repko",
-      "Chris Breu",
-      "Julia Kreger",
-      "James Blair",
-      "Ildiko Vancsa"
-    ],
+    "Speakers": "Allison Price, Gerald Bothello, Luke Repko, Chris Breu, Julia Kreger, James Blair, Ildiko Vancsa",
     "Topic": "OpenInfra Days"
   },
   {
@@ -22,10 +14,7 @@
     "Location": "Room 101",
     "StartTime": "2025-03-06T09:30:00-08:00",
     "EndTime": "2025-03-06T10:00:00-08:00",
-    "Speakers": [
-      "Ron Efroni",
-      "Kelsey Hightower"
-    ],
+    "Speakers": "Ron Efroni, Kelsey Hightower",
     "Topic": "PlanetNix"
   },
   {
@@ -34,9 +23,7 @@
     "Location": "Room 209",
     "StartTime": "2025-03-06T10:00:00-08:00",
     "EndTime": "2025-03-06T17:00:00-08:00",
-    "Speakers": [
-      "Steve Oualline"
-    ],
+    "Speakers": "Steve Oualline",
     "Topic": "Workshops"
   },
   {
@@ -45,9 +32,7 @@
     "Location": "Ballroom G",
     "StartTime": "2025-03-06T10:00:00-08:00",
     "EndTime": "2025-03-06T11:00:00-08:00",
-    "Speakers": [
-      "Magnus Hagander"
-    ],
+    "Speakers": "Magnus Hagander",
     "Topic": "PostgreSQL"
   },
   {
@@ -56,9 +41,7 @@
     "Location": "Ballroom A",
     "StartTime": "2025-03-06T10:00:00-08:00",
     "EndTime": "2025-03-06T13:00:00-08:00",
-    "Speakers": [
-      "Joe Thompson"
-    ],
+    "Speakers": "Joe Thompson",
     "Topic": "Cloud Native"
   },
   {
@@ -67,9 +50,7 @@
     "Location": "Room 208",
     "StartTime": "2025-03-06T10:00:00-08:00",
     "EndTime": "2025-03-06T13:00:00-08:00",
-    "Speakers": [
-      "Aleksey Tsalolikhin"
-    ],
+    "Speakers": "Aleksey Tsalolikhin",
     "Topic": "Workshops"
   },
   {
@@ -78,13 +59,7 @@
     "Location": "Room 211",
     "StartTime": "2025-03-06T10:00:00-08:00",
     "EndTime": "2025-03-06T13:00:00-08:00",
-    "Speakers": [
-      "Cynthia Lo",
-      "Avni Khatri",
-      "Margaret Tucker",
-      "Adam Holt",
-      "Rachel Stanik"
-    ],
+    "Speakers": "Cynthia Lo, Avni Khatri, Margaret Tucker, Adam Holt, Rachel Stanik",
     "Topic": "Workshops"
   },
   {
@@ -93,11 +68,7 @@
     "Location": "Ballroom B",
     "StartTime": "2025-03-06T10:00:00-08:00",
     "EndTime": "2025-03-06T13:00:00-08:00",
-    "Speakers": [
-      "Ryan Jarvinen",
-      "Evan Shortiss",
-      "Christian Hernandez"
-    ],
+    "Speakers": "Ryan Jarvinen, Evan Shortiss, Christian Hernandez",
     "Topic": "Cloud Native"
   },
   {
@@ -106,9 +77,7 @@
     "Location": "Room 101",
     "StartTime": "2025-03-06T10:00:00-08:00",
     "EndTime": "2025-03-06T10:30:00-08:00",
-    "Speakers": [
-      "Tristan Ross"
-    ],
+    "Speakers": "Tristan Ross",
     "Topic": "PlanetNix"
   },
   {
@@ -117,9 +86,7 @@
     "Location": "Room 104",
     "StartTime": "2025-03-06T10:00:00-08:00",
     "EndTime": "2025-03-06T10:30:00-08:00",
-    "Speakers": [
-      "Farid Zakaria"
-    ],
+    "Speakers": "Farid Zakaria",
     "Topic": "PlanetNix"
   },
   {
@@ -128,9 +95,7 @@
     "Location": "Room 212",
     "StartTime": "2025-03-06T10:00:00-08:00",
     "EndTime": "2025-03-06T11:45:00-08:00",
-    "Speakers": [
-      "Sam Johnston"
-    ],
+    "Speakers": "Sam Johnston",
     "Topic": "Kwaai Summit"
   },
   {
@@ -139,9 +104,7 @@
     "Location": "Room 105",
     "StartTime": "2025-03-06T10:00:00-08:00",
     "EndTime": "2025-03-06T12:00:00-08:00",
-    "Speakers": [
-      "Marco Palacios"
-    ],
+    "Speakers": "Marco Palacios",
     "Topic": "SunSecCon"
   },
   {
@@ -150,9 +113,7 @@
     "Location": "Room 107",
     "StartTime": "2025-03-06T11:00:00-08:00",
     "EndTime": "2025-03-06T11:30:00-08:00",
-    "Speakers": [
-      "Amy Marrich"
-    ],
+    "Speakers": "Amy Marrich",
     "Topic": "OpenInfra Days"
   },
   {
@@ -161,11 +122,7 @@
     "Location": "Room 106",
     "StartTime": "2025-03-06T11:00:00-08:00",
     "EndTime": "2025-03-06T11:30:00-08:00",
-    "Speakers": [
-      "Kendall Nelson",
-      "Stephen Walli",
-      "Corey Leong"
-    ],
+    "Speakers": "Kendall Nelson, Stephen Walli, Corey Leong",
     "Topic": "OpenInfra Days"
   },
   {
@@ -174,9 +131,7 @@
     "Location": "Room 101",
     "StartTime": "2025-03-06T11:00:00-08:00",
     "EndTime": "2025-03-06T11:30:00-08:00",
-    "Speakers": [
-      "Aneesh Agrawal"
-    ],
+    "Speakers": "Aneesh Agrawal",
     "Topic": "PlanetNix"
   },
   {
@@ -185,10 +140,7 @@
     "Location": "Room 104",
     "StartTime": "2025-03-06T11:00:00-08:00",
     "EndTime": "2025-03-06T11:30:00-08:00",
-    "Speakers": [
-      "Kenji Berthold",
-      "Lassulus ."
-    ],
+    "Speakers": "Kenji Berthold, Lassulus .",
     "Topic": "PlanetNix"
   },
   {
@@ -197,9 +149,7 @@
     "Location": "Ballroom G",
     "StartTime": "2025-03-06T11:15:00-08:00",
     "EndTime": "2025-03-06T12:15:00-08:00",
-    "Speakers": [
-      "Christophe Pettus"
-    ],
+    "Speakers": "Christophe Pettus",
     "Topic": "PostgreSQL"
   },
   {
@@ -208,9 +158,7 @@
     "Location": "Room 106",
     "StartTime": "2025-03-06T11:30:00-08:00",
     "EndTime": "2025-03-06T12:00:00-08:00",
-    "Speakers": [
-      "Jay Faulkner"
-    ],
+    "Speakers": "Jay Faulkner",
     "Topic": "OpenInfra Days"
   },
   {
@@ -219,9 +167,7 @@
     "Location": "Room 107",
     "StartTime": "2025-03-06T11:30:00-08:00",
     "EndTime": "2025-03-06T12:00:00-08:00",
-    "Speakers": [
-      "Georg Link"
-    ],
+    "Speakers": "Georg Link",
     "Topic": "OpenInfra Days"
   },
   {
@@ -230,9 +176,7 @@
     "Location": "Room 104",
     "StartTime": "2025-03-06T11:30:00-08:00",
     "EndTime": "2025-03-06T12:00:00-08:00",
-    "Speakers": [
-      "Tim Golden"
-    ],
+    "Speakers": "Tim Golden",
     "Topic": "PlanetNix"
   },
   {
@@ -241,9 +185,7 @@
     "Location": "Room 101",
     "StartTime": "2025-03-06T11:30:00-08:00",
     "EndTime": "2025-03-06T12:00:00-08:00",
-    "Speakers": [
-      "Rickard Nilsson"
-    ],
+    "Speakers": "Rickard Nilsson",
     "Topic": "PlanetNix"
   },
   {
@@ -252,9 +194,7 @@
     "Location": "Room 106",
     "StartTime": "2025-03-06T12:00:00-08:00",
     "EndTime": "2025-03-06T12:30:00-08:00",
-    "Speakers": [
-      "Jamie Parker"
-    ],
+    "Speakers": "Jamie Parker",
     "Topic": "OpenInfra Days"
   },
   {
@@ -263,9 +203,7 @@
     "Location": "Room 107",
     "StartTime": "2025-03-06T12:00:00-08:00",
     "EndTime": "2025-03-06T12:30:00-08:00",
-    "Speakers": [
-      "James Blair"
-    ],
+    "Speakers": "James Blair",
     "Topic": "OpenInfra Days"
   },
   {
@@ -274,10 +212,7 @@
     "Location": "Ballroom F",
     "StartTime": "2025-03-06T12:00:00-08:00",
     "EndTime": "2025-03-06T12:15:00-08:00",
-    "Speakers": [
-      "Matthew Small",
-      "Reza Rassool"
-    ],
+    "Speakers": "Matthew Small, Reza Rassool",
     "Topic": "Kwaai Summit"
   },
   {
@@ -286,9 +221,7 @@
     "Location": "Ballroom F",
     "StartTime": "2025-03-06T12:15:00-08:00",
     "EndTime": "2025-03-06T12:45:00-08:00",
-    "Speakers": [
-      "Nolan Bushnell"
-    ],
+    "Speakers": "Nolan Bushnell",
     "Topic": "Kwaai Summit"
   },
   {
@@ -297,10 +230,7 @@
     "Location": "Room 106",
     "StartTime": "2025-03-06T12:30:00-08:00",
     "EndTime": "2025-03-06T13:00:00-08:00",
-    "Speakers": [
-      "Michal Nasiadka",
-      "Bartosz Bezak"
-    ],
+    "Speakers": "Michal Nasiadka, Bartosz Bezak",
     "Topic": "OpenInfra Days"
   },
   {
@@ -309,9 +239,7 @@
     "Location": "Ballroom G",
     "StartTime": "2025-03-06T12:30:00-08:00",
     "EndTime": "2025-03-06T13:30:00-08:00",
-    "Speakers": [
-      "Peter Farkas"
-    ],
+    "Speakers": "Peter Farkas",
     "Topic": "PostgreSQL"
   },
   {
@@ -320,9 +248,7 @@
     "Location": "Room 107",
     "StartTime": "2025-03-06T12:30:00-08:00",
     "EndTime": "2025-03-06T13:00:00-08:00",
-    "Speakers": [
-      "olaph wagoner"
-    ],
+    "Speakers": "olaph wagoner",
     "Topic": "OpenInfra Days"
   },
   {
@@ -331,9 +257,7 @@
     "Location": "Ballroom F",
     "StartTime": "2025-03-06T12:45:00-08:00",
     "EndTime": "2025-03-06T13:00:00-08:00",
-    "Speakers": [
-      "Bruce Schneier"
-    ],
+    "Speakers": "Bruce Schneier",
     "Topic": "Kwaai Summit"
   },
   {
@@ -342,9 +266,7 @@
     "Location": "Ballroom F",
     "StartTime": "2025-03-06T13:00:00-08:00",
     "EndTime": "2025-03-06T13:15:00-08:00",
-    "Speakers": [
-      "Fay Arjomandi"
-    ],
+    "Speakers": "Fay Arjomandi",
     "Topic": "Kwaai Summit"
   },
   {
@@ -353,9 +275,7 @@
     "Location": "Room 105",
     "StartTime": "2025-03-06T13:00:00-08:00",
     "EndTime": "2025-03-06T15:00:00-08:00",
-    "Speakers": [
-      "Lenin Alevski"
-    ],
+    "Speakers": "Lenin Alevski",
     "Topic": "SunSecCon"
   },
   {
@@ -364,9 +284,7 @@
     "Location": "Ballroom F",
     "StartTime": "2025-03-06T13:15:00-08:00",
     "EndTime": "2025-03-06T13:30:00-08:00",
-    "Speakers": [
-      "Doc Searls"
-    ],
+    "Speakers": "Doc Searls",
     "Topic": "Kwaai Summit"
   },
   {
@@ -375,11 +293,7 @@
     "Location": "Room 208",
     "StartTime": "2025-03-06T14:00:00-08:00",
     "EndTime": "2025-03-06T17:00:00-08:00",
-    "Speakers": [
-      "Carl George",
-      "Shaun McCance",
-      "Jason Brooks"
-    ],
+    "Speakers": "Carl George, Shaun McCance, Jason Brooks",
     "Topic": "Workshops"
   },
   {
@@ -388,11 +302,7 @@
     "Location": "Room 211",
     "StartTime": "2025-03-06T14:00:00-08:00",
     "EndTime": "2025-03-06T17:00:00-08:00",
-    "Speakers": [
-      "Jonathan Haslam",
-      "Jordan Rome",
-      "Daniel Xu"
-    ],
+    "Speakers": "Jonathan Haslam, Jordan Rome, Daniel Xu",
     "Topic": "Workshops"
   },
   {
@@ -401,9 +311,7 @@
     "Location": "Ballroom A",
     "StartTime": "2025-03-06T14:00:00-08:00",
     "EndTime": "2025-03-06T17:00:00-08:00",
-    "Speakers": [
-      "Paul Yu"
-    ],
+    "Speakers": "Paul Yu",
     "Topic": "Cloud Native"
   },
   {
@@ -412,11 +320,7 @@
     "Location": "Ballroom B",
     "StartTime": "2025-03-06T14:00:00-08:00",
     "EndTime": "2025-03-06T17:00:00-08:00",
-    "Speakers": [
-      "Leigh Capili",
-      "Tanja Ulianova",
-      "Nick Lewis"
-    ],
+    "Speakers": "Leigh Capili, Tanja Ulianova, Nick Lewis",
     "Topic": "Cloud Native"
   },
   {
@@ -425,9 +329,7 @@
     "Location": "Room 101",
     "StartTime": "2025-03-06T14:00:00-08:00",
     "EndTime": "2025-03-06T14:30:00-08:00",
-    "Speakers": [
-      "Ross Turk"
-    ],
+    "Speakers": "Ross Turk",
     "Topic": "PlanetNix"
   },
   {
@@ -436,9 +338,7 @@
     "Location": "Room 104",
     "StartTime": "2025-03-06T14:00:00-08:00",
     "EndTime": "2025-03-06T15:30:00-08:00",
-    "Speakers": [
-      "Daniel Baker"
-    ],
+    "Speakers": "Daniel Baker",
     "Topic": "PlanetNix"
   },
   {
@@ -447,12 +347,7 @@
     "Location": "Ballroom F",
     "StartTime": "2025-03-06T14:00:00-08:00",
     "EndTime": "2025-03-06T14:30:00-08:00",
-    "Speakers": [
-      "Doc Searls",
-      "Fay Arjomandi",
-      "Reza Rassool",
-      "Nolan Bushnell"
-    ],
+    "Speakers": "Doc Searls, Fay Arjomandi, Reza Rassool, Nolan Bushnell",
     "Topic": "Kwaai Summit"
   },
   {
@@ -461,9 +356,7 @@
     "Location": "Ballroom G",
     "StartTime": "2025-03-06T14:30:00-08:00",
     "EndTime": "2025-03-06T15:30:00-08:00",
-    "Speakers": [
-      "Devrim Gunduz"
-    ],
+    "Speakers": "Devrim Gunduz",
     "Topic": "PostgreSQL"
   },
   {
@@ -472,9 +365,7 @@
     "Location": "Room 107",
     "StartTime": "2025-03-06T14:30:00-08:00",
     "EndTime": "2025-03-06T15:00:00-08:00",
-    "Speakers": [
-      "Maciej Lecki"
-    ],
+    "Speakers": "Maciej Lecki",
     "Topic": "OpenInfra Days"
   },
   {
@@ -483,11 +374,7 @@
     "Location": "Room 106",
     "StartTime": "2025-03-06T14:30:00-08:00",
     "EndTime": "2025-03-06T15:00:00-08:00",
-    "Speakers": [
-      "Goutham Pacha Ravi",
-      "Carlos Eduardo da Silva",
-      "Ashley Rodriguez"
-    ],
+    "Speakers": "Goutham Pacha Ravi, Carlos Eduardo da Silva, Ashley Rodriguez",
     "Topic": "OpenInfra Days"
   },
   {
@@ -496,9 +383,7 @@
     "Location": "Room 101",
     "StartTime": "2025-03-06T14:30:00-08:00",
     "EndTime": "2025-03-06T15:00:00-08:00",
-    "Speakers": [
-      "Thomas Bereknyei"
-    ],
+    "Speakers": "Thomas Bereknyei",
     "Topic": "PlanetNix"
   },
   {
@@ -507,9 +392,7 @@
     "Location": "Ballroom F",
     "StartTime": "2025-03-06T14:30:00-08:00",
     "EndTime": "2025-03-06T14:45:00-08:00",
-    "Speakers": [
-      "Liam Broza"
-    ],
+    "Speakers": "Liam Broza",
     "Topic": "Kwaai Summit"
   },
   {
@@ -518,9 +401,7 @@
     "Location": "Ballroom F",
     "StartTime": "2025-03-06T14:45:00-08:00",
     "EndTime": "2025-03-06T15:00:00-08:00",
-    "Speakers": [
-      "Greg Spektor"
-    ],
+    "Speakers": "Greg Spektor",
     "Topic": "Kwaai Summit"
   },
   {
@@ -529,9 +410,7 @@
     "Location": "Room 107",
     "StartTime": "2025-03-06T15:00:00-08:00",
     "EndTime": "2025-03-06T15:30:00-08:00",
-    "Speakers": [
-      "Ildiko Vancsa"
-    ],
+    "Speakers": "Ildiko Vancsa",
     "Topic": "OpenInfra Days"
   },
   {
@@ -540,9 +419,7 @@
     "Location": "Room 106",
     "StartTime": "2025-03-06T15:00:00-08:00",
     "EndTime": "2025-03-06T15:30:00-08:00",
-    "Speakers": [
-      "Todd Robinson"
-    ],
+    "Speakers": "Todd Robinson",
     "Topic": "OpenInfra Days"
   },
   {
@@ -551,9 +428,7 @@
     "Location": "Ballroom F",
     "StartTime": "2025-03-06T15:00:00-08:00",
     "EndTime": "2025-03-06T15:15:00-08:00",
-    "Speakers": [
-      "Jon Conners"
-    ],
+    "Speakers": "Jon Conners",
     "Topic": "Kwaai Summit"
   },
   {
@@ -562,9 +437,7 @@
     "Location": "Ballroom F",
     "StartTime": "2025-03-06T15:15:00-08:00",
     "EndTime": "2025-03-06T15:30:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Kwaai Summit"
   },
   {
@@ -573,9 +446,7 @@
     "Location": "Room 107",
     "StartTime": "2025-03-06T15:30:00-08:00",
     "EndTime": "2025-03-06T16:00:00-08:00",
-    "Speakers": [
-      "Patrick BEAUCAMP"
-    ],
+    "Speakers": "Patrick BEAUCAMP",
     "Topic": "OpenInfra Days"
   },
   {
@@ -584,9 +455,7 @@
     "Location": "Room 101",
     "StartTime": "2025-03-06T15:30:00-08:00",
     "EndTime": "2025-03-06T16:00:00-08:00",
-    "Speakers": [
-      "Adis Bladis"
-    ],
+    "Speakers": "Adis Bladis",
     "Topic": "PlanetNix"
   },
   {
@@ -595,9 +464,7 @@
     "Location": "Room 104",
     "StartTime": "2025-03-06T15:30:00-08:00",
     "EndTime": "2025-03-06T18:00:00-08:00",
-    "Speakers": [
-      "Jacek Galowicz"
-    ],
+    "Speakers": "Jacek Galowicz",
     "Topic": "PlanetNix"
   },
   {
@@ -606,9 +473,7 @@
     "Location": "Room 106",
     "StartTime": "2025-03-06T15:30:00-08:00",
     "EndTime": "2025-03-06T15:45:00-08:00",
-    "Speakers": [
-      "Sagy Volkov"
-    ],
+    "Speakers": "Sagy Volkov",
     "Topic": "OpenInfra Days"
   },
   {
@@ -617,9 +482,7 @@
     "Location": "Ballroom F",
     "StartTime": "2025-03-06T15:30:00-08:00",
     "EndTime": "2025-03-06T15:45:00-08:00",
-    "Speakers": [
-      "Diego Galeano"
-    ],
+    "Speakers": "Diego Galeano",
     "Topic": "Kwaai Summit"
   },
   {
@@ -628,9 +491,7 @@
     "Location": "Ballroom G",
     "StartTime": "2025-03-06T15:45:00-08:00",
     "EndTime": "2025-03-06T16:45:00-08:00",
-    "Speakers": [
-      "Hamid Akhtar"
-    ],
+    "Speakers": "Hamid Akhtar",
     "Topic": "PostgreSQL"
   },
   {
@@ -639,9 +500,7 @@
     "Location": "Ballroom F",
     "StartTime": "2025-03-06T15:45:00-08:00",
     "EndTime": "2025-03-06T16:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Kwaai Summit"
   },
   {
@@ -650,9 +509,7 @@
     "Location": "Room 106",
     "StartTime": "2025-03-06T15:45:00-08:00",
     "EndTime": "2025-03-06T16:00:00-08:00",
-    "Speakers": [
-      "Simon Dodsley"
-    ],
+    "Speakers": "Simon Dodsley",
     "Topic": "OpenInfra Days"
   },
   {
@@ -661,9 +518,7 @@
     "Location": "Room 101",
     "StartTime": "2025-03-06T16:00:00-08:00",
     "EndTime": "2025-03-06T16:30:00-08:00",
-    "Speakers": [
-      "Yannik Sander"
-    ],
+    "Speakers": "Yannik Sander",
     "Topic": "PlanetNix"
   },
   {
@@ -672,9 +527,7 @@
     "Location": "Ballroom F",
     "StartTime": "2025-03-06T16:00:00-08:00",
     "EndTime": "2025-03-06T16:15:00-08:00",
-    "Speakers": [
-      "Brian Ragazzi"
-    ],
+    "Speakers": "Brian Ragazzi",
     "Topic": "Kwaai Summit"
   },
   {
@@ -683,10 +536,7 @@
     "Location": "Room 105",
     "StartTime": "2025-03-06T16:00:00-08:00",
     "EndTime": "2025-03-06T18:00:00-08:00",
-    "Speakers": [
-      "Sandra Stibbards",
-      "Lee McWhorter"
-    ],
+    "Speakers": "Sandra Stibbards, Lee McWhorter",
     "Topic": "SunSecCon"
   },
   {
@@ -695,9 +545,7 @@
     "Location": "Ballroom F",
     "StartTime": "2025-03-06T16:15:00-08:00",
     "EndTime": "2025-03-06T16:45:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Kwaai Summit"
   },
   {
@@ -706,11 +554,7 @@
     "Location": "Room 106",
     "StartTime": "2025-03-06T16:30:00-08:00",
     "EndTime": "2025-03-06T17:00:00-08:00",
-    "Speakers": [
-      "Tom Yin",
-      "Vivekanandan Muthukrishnan",
-      "Amby Nagarajan"
-    ],
+    "Speakers": "Tom Yin, Vivekanandan Muthukrishnan, Amby Nagarajan",
     "Topic": "OpenInfra Days"
   },
   {
@@ -719,9 +563,7 @@
     "Location": "Room 107",
     "StartTime": "2025-03-06T16:30:00-08:00",
     "EndTime": "2025-03-06T17:00:00-08:00",
-    "Speakers": [
-      "Ken Crandall"
-    ],
+    "Speakers": "Ken Crandall",
     "Topic": "OpenInfra Days"
   },
   {
@@ -730,9 +572,7 @@
     "Location": "Ballroom F",
     "StartTime": "2025-03-06T16:45:00-08:00",
     "EndTime": "2025-03-06T17:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Kwaai Summit"
   },
   {
@@ -741,9 +581,7 @@
     "Location": "Room 106",
     "StartTime": "2025-03-06T17:00:00-08:00",
     "EndTime": "2025-03-06T17:30:00-08:00",
-    "Speakers": [
-      "Nathaniel Moore"
-    ],
+    "Speakers": "Nathaniel Moore",
     "Topic": "OpenInfra Days"
   },
   {
@@ -752,14 +590,7 @@
     "Location": "Ballroom G",
     "StartTime": "2025-03-06T17:00:00-08:00",
     "EndTime": "2025-03-06T18:00:00-08:00",
-    "Speakers": [
-      "Mark Wong",
-      "Stacey Haysler",
-      "Devrim Gunduz",
-      "Jimmy Angelakos",
-      "Magnus Hagander",
-      "Christophe Pettus"
-    ],
+    "Speakers": "Mark Wong, Stacey Haysler, Devrim Gunduz, Jimmy Angelakos, Magnus Hagander, Christophe Pettus",
     "Topic": "PostgreSQL"
   },
   {
@@ -768,9 +599,7 @@
     "Location": "Room 107",
     "StartTime": "2025-03-06T17:00:00-08:00",
     "EndTime": "2025-03-06T17:30:00-08:00",
-    "Speakers": [
-      "Kenneth Tan"
-    ],
+    "Speakers": "Kenneth Tan",
     "Topic": "OpenInfra Days"
   },
   {
@@ -779,9 +608,7 @@
     "Location": "Room 101",
     "StartTime": "2025-03-06T17:00:00-08:00",
     "EndTime": "2025-03-06T18:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "PlanetNix"
   },
   {
@@ -790,9 +617,7 @@
     "Location": "Ballroom F",
     "StartTime": "2025-03-06T17:00:00-08:00",
     "EndTime": "2025-03-06T17:15:00-08:00",
-    "Speakers": [
-      "Sam Johnston"
-    ],
+    "Speakers": "Sam Johnston",
     "Topic": "Kwaai Summit"
   },
   {
@@ -801,9 +626,7 @@
     "Location": "Ballroom F",
     "StartTime": "2025-03-06T17:15:00-08:00",
     "EndTime": "2025-03-06T17:30:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Kwaai Summit"
   },
   {
@@ -812,9 +635,7 @@
     "Location": "Room 107",
     "StartTime": "2025-03-06T17:30:00-08:00",
     "EndTime": "2025-03-06T18:00:00-08:00",
-    "Speakers": [
-      "Tony Breeds"
-    ],
+    "Speakers": "Tony Breeds",
     "Topic": "OpenInfra Days"
   },
   {
@@ -823,11 +644,7 @@
     "Location": "Room 106",
     "StartTime": "2025-03-06T17:30:00-08:00",
     "EndTime": "2025-03-06T18:00:00-08:00",
-    "Speakers": [
-      "Yuya Kuno",
-      "Toshiaki Takahashi",
-      "Yasufumi Ogawa"
-    ],
+    "Speakers": "Yuya Kuno, Toshiaki Takahashi, Yasufumi Ogawa",
     "Topic": "OpenInfra Days"
   },
   {
@@ -836,9 +653,7 @@
     "Location": "Ballroom F",
     "StartTime": "2025-03-06T17:30:00-08:00",
     "EndTime": "2025-03-06T17:45:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Kwaai Summit"
   },
   {
@@ -847,9 +662,7 @@
     "Location": "Ballroom F",
     "StartTime": "2025-03-06T17:45:00-08:00",
     "EndTime": "2025-03-06T18:00:00-08:00",
-    "Speakers": [
-      "Reza Rassool"
-    ],
+    "Speakers": "Reza Rassool",
     "Topic": "Kwaai Summit"
   },
   {
@@ -858,9 +671,7 @@
     "Location": "Ballroom C",
     "StartTime": "2025-03-06T18:00:00-08:00",
     "EndTime": "2025-03-06T19:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -869,9 +680,7 @@
     "Location": "Ballroom G",
     "StartTime": "2025-03-06T18:30:00-08:00",
     "EndTime": "2025-03-06T19:30:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -880,9 +689,7 @@
     "Location": "Ballroom F",
     "StartTime": "2025-03-06T18:30:00-08:00",
     "EndTime": "2025-03-06T19:30:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -891,9 +698,7 @@
     "Location": "Room 106",
     "StartTime": "2025-03-07T09:00:00-08:00",
     "EndTime": "2025-03-07T09:30:00-08:00",
-    "Speakers": [
-      "James Blair"
-    ],
+    "Speakers": "James Blair",
     "Topic": "OpenInfra Days"
   },
   {
@@ -902,11 +707,7 @@
     "Location": "Room 212",
     "StartTime": "2025-03-07T09:00:00-08:00",
     "EndTime": "2025-03-07T11:00:00-08:00",
-    "Speakers": [
-      "Federico Lucifredi",
-      "JC Lopez",
-      "Gregory Farnum"
-    ],
+    "Speakers": "Federico Lucifredi, JC Lopez, Gregory Farnum",
     "Topic": "OpenInfra Days"
   },
   {
@@ -915,9 +716,7 @@
     "Location": "Room 105",
     "StartTime": "2025-03-07T09:15:00-08:00",
     "EndTime": "2025-03-07T10:00:00-08:00",
-    "Speakers": [
-      "Anthony Scheller"
-    ],
+    "Speakers": "Anthony Scheller",
     "Topic": "SunSecCon"
   },
   {
@@ -926,9 +725,7 @@
     "Location": "Room 106",
     "StartTime": "2025-03-07T09:30:00-08:00",
     "EndTime": "2025-03-07T10:00:00-08:00",
-    "Speakers": [
-      "Chris Morgan"
-    ],
+    "Speakers": "Chris Morgan",
     "Topic": "OpenInfra Days"
   },
   {
@@ -937,9 +734,7 @@
     "Location": "Room 101",
     "StartTime": "2025-03-07T09:30:00-08:00",
     "EndTime": "2025-03-07T10:00:00-08:00",
-    "Speakers": [
-      "Michael Stahnke"
-    ],
+    "Speakers": "Michael Stahnke",
     "Topic": "PlanetNix"
   },
   {
@@ -948,9 +743,7 @@
     "Location": "Room 104",
     "StartTime": "2025-03-07T09:30:00-08:00",
     "EndTime": "2025-03-07T11:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "PlanetNix"
   },
   {
@@ -959,10 +752,7 @@
     "Location": "Room 103",
     "StartTime": "2025-03-07T09:30:00-08:00",
     "EndTime": "2025-03-07T10:00:00-08:00",
-    "Speakers": [
-      "Aaron Prisk",
-      "Jason Nucciarone"
-    ],
+    "Speakers": "Aaron Prisk, Jason Nucciarone",
     "Topic": "Ubucon"
   },
   {
@@ -971,9 +761,7 @@
     "Location": "Ballroom H",
     "StartTime": "2025-03-07T10:00:00-08:00",
     "EndTime": "2025-03-07T11:00:00-08:00",
-    "Speakers": [
-      "Alkin Tezuysal"
-    ],
+    "Speakers": "Alkin Tezuysal",
     "Topic": "MySQL"
   },
   {
@@ -982,9 +770,7 @@
     "Location": "Ballroom G",
     "StartTime": "2025-03-07T10:00:00-08:00",
     "EndTime": "2025-03-07T11:00:00-08:00",
-    "Speakers": [
-      "Henrietta Dombrovskaya"
-    ],
+    "Speakers": "Henrietta Dombrovskaya",
     "Topic": "PostgreSQL"
   },
   {
@@ -993,10 +779,7 @@
     "Location": "Ballroom B",
     "StartTime": "2025-03-07T10:00:00-08:00",
     "EndTime": "2025-03-07T11:00:00-08:00",
-    "Speakers": [
-      "Lori Lorusso",
-      "Katherine Druckman"
-    ],
+    "Speakers": "Lori Lorusso, Katherine Druckman",
     "Topic": "Cloud Native"
   },
   {
@@ -1005,9 +788,7 @@
     "Location": "Ballroom C",
     "StartTime": "2025-03-07T10:00:00-08:00",
     "EndTime": "2025-03-07T11:00:00-08:00",
-    "Speakers": [
-      "Federico Gonzalez-Waite"
-    ],
+    "Speakers": "Federico Gonzalez-Waite",
     "Topic": "Open Government"
   },
   {
@@ -1016,9 +797,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2025-03-07T10:00:00-08:00",
     "EndTime": "2025-03-07T10:45:00-08:00",
-    "Speakers": [
-      "Kathryn \"Casey\" Bouskill"
-    ],
+    "Speakers": "Kathryn \"Casey\" Bouskill",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -1027,9 +806,7 @@
     "Location": "Ballroom F",
     "StartTime": "2025-03-07T10:00:00-08:00",
     "EndTime": "2025-03-07T11:00:00-08:00",
-    "Speakers": [
-      "Matt Ingenthron"
-    ],
+    "Speakers": "Matt Ingenthron",
     "Topic": "Open Source AI"
   },
   {
@@ -1038,10 +815,7 @@
     "Location": "Room 106",
     "StartTime": "2025-03-07T10:00:00-08:00",
     "EndTime": "2025-03-07T10:30:00-08:00",
-    "Speakers": [
-      "Pooja Ghumre",
-      "Chris Jones"
-    ],
+    "Speakers": "Pooja Ghumre, Chris Jones",
     "Topic": "OpenInfra Days"
   },
   {
@@ -1050,9 +824,7 @@
     "Location": "Room 211",
     "StartTime": "2025-03-07T10:00:00-08:00",
     "EndTime": "2025-03-07T11:00:00-08:00",
-    "Speakers": [
-      "Alexandre Renchon"
-    ],
+    "Speakers": "Alexandre Renchon",
     "Topic": "Applied Science"
   },
   {
@@ -1061,9 +833,7 @@
     "Location": "Room 209",
     "StartTime": "2025-03-07T10:00:00-08:00",
     "EndTime": "2025-03-07T17:00:00-08:00",
-    "Speakers": [
-      "Steve Oualline"
-    ],
+    "Speakers": "Steve Oualline",
     "Topic": "Workshops"
   },
   {
@@ -1072,9 +842,7 @@
     "Location": "Room 101",
     "StartTime": "2025-03-07T10:00:00-08:00",
     "EndTime": "2025-03-07T10:30:00-08:00",
-    "Speakers": [
-      "Morgan Jones"
-    ],
+    "Speakers": "Morgan Jones",
     "Topic": "PlanetNix"
   },
   {
@@ -1083,9 +851,7 @@
     "Location": "Room 103",
     "StartTime": "2025-03-07T10:00:00-08:00",
     "EndTime": "2025-03-07T11:00:00-08:00",
-    "Speakers": [
-      "Ken VanDine"
-    ],
+    "Speakers": "Ken VanDine",
     "Topic": "Ubucon"
   },
   {
@@ -1094,9 +860,7 @@
     "Location": "Room 105",
     "StartTime": "2025-03-07T10:00:00-08:00",
     "EndTime": "2025-03-07T10:45:00-08:00",
-    "Speakers": [
-      "Roy Talyosef"
-    ],
+    "Speakers": "Roy Talyosef",
     "Topic": "SunSecCon"
   },
   {
@@ -1105,10 +869,7 @@
     "Location": "Ballroom A",
     "StartTime": "2025-03-07T10:00:00-08:00",
     "EndTime": "2025-03-07T11:00:00-08:00",
-    "Speakers": [
-      "Justin Garrison",
-      "Kelsey Hightower"
-    ],
+    "Speakers": "Justin Garrison, Kelsey Hightower",
     "Topic": "Cloud Native"
   },
   {
@@ -1117,9 +878,7 @@
     "Location": "Room 101",
     "StartTime": "2025-03-07T10:30:00-08:00",
     "EndTime": "2025-03-07T11:00:00-08:00",
-    "Speakers": [
-      "Mike Kelly"
-    ],
+    "Speakers": "Mike Kelly",
     "Topic": "PlanetNix"
   },
   {
@@ -1128,9 +887,7 @@
     "Location": "Room 106",
     "StartTime": "2025-03-07T10:30:00-08:00",
     "EndTime": "2025-03-07T11:00:00-08:00",
-    "Speakers": [
-      "DJ MIN"
-    ],
+    "Speakers": "DJ MIN",
     "Topic": "OpenInfra Days"
   },
   {
@@ -1139,9 +896,7 @@
     "Location": "Room 212",
     "StartTime": "2025-03-07T11:00:00-08:00",
     "EndTime": "2025-03-07T11:30:00-08:00",
-    "Speakers": [
-      "Michal Nasiadka"
-    ],
+    "Speakers": "Michal Nasiadka",
     "Topic": "OpenInfra Days"
   },
   {
@@ -1150,9 +905,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2025-03-07T11:00:00-08:00",
     "EndTime": "2025-03-07T11:45:00-08:00",
-    "Speakers": [
-      "Heather Osborn"
-    ],
+    "Speakers": "Heather Osborn",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -1161,9 +914,7 @@
     "Location": "Room 101",
     "StartTime": "2025-03-07T11:00:00-08:00",
     "EndTime": "2025-03-07T11:30:00-08:00",
-    "Speakers": [
-      "Ron Efroni"
-    ],
+    "Speakers": "Ron Efroni",
     "Topic": "PlanetNix"
   },
   {
@@ -1172,9 +923,7 @@
     "Location": "Room 103",
     "StartTime": "2025-03-07T11:00:00-08:00",
     "EndTime": "2025-03-07T12:00:00-08:00",
-    "Speakers": [
-      "Miona Aleksic"
-    ],
+    "Speakers": "Miona Aleksic",
     "Topic": "Ubucon"
   },
   {
@@ -1183,9 +932,7 @@
     "Location": "Room 105",
     "StartTime": "2025-03-07T11:00:00-08:00",
     "EndTime": "2025-03-07T11:45:00-08:00",
-    "Speakers": [
-      "Keyur Rajyaguru"
-    ],
+    "Speakers": "Keyur Rajyaguru",
     "Topic": "SunSecCon"
   },
   {
@@ -1194,9 +941,7 @@
     "Location": "Ballroom F",
     "StartTime": "2025-03-07T11:15:00-08:00",
     "EndTime": "2025-03-07T12:15:00-08:00",
-    "Speakers": [
-      "Masahji Stewart"
-    ],
+    "Speakers": "Masahji Stewart",
     "Topic": "Open Source AI"
   },
   {
@@ -1205,10 +950,7 @@
     "Location": "Ballroom H",
     "StartTime": "2025-03-07T11:15:00-08:00",
     "EndTime": "2025-03-07T12:15:00-08:00",
-    "Speakers": [
-      "Carmen Mason",
-      "Allan Mason"
-    ],
+    "Speakers": "Carmen Mason, Allan Mason",
     "Topic": "MySQL"
   },
   {
@@ -1217,9 +959,7 @@
     "Location": "Ballroom A",
     "StartTime": "2025-03-07T11:15:00-08:00",
     "EndTime": "2025-03-07T12:15:00-08:00",
-    "Speakers": [
-      "Gene Liverman"
-    ],
+    "Speakers": "Gene Liverman",
     "Topic": "Cloud Native"
   },
   {
@@ -1228,9 +968,7 @@
     "Location": "Room 211",
     "StartTime": "2025-03-07T11:15:00-08:00",
     "EndTime": "2025-03-07T12:15:00-08:00",
-    "Speakers": [
-      "Erik Wessel"
-    ],
+    "Speakers": "Erik Wessel",
     "Topic": "Applied Science"
   },
   {
@@ -1239,9 +977,7 @@
     "Location": "Ballroom B",
     "StartTime": "2025-03-07T11:15:00-08:00",
     "EndTime": "2025-03-07T12:15:00-08:00",
-    "Speakers": [
-      "Josh Berkus"
-    ],
+    "Speakers": "Josh Berkus",
     "Topic": "Cloud Native"
   },
   {
@@ -1250,9 +986,7 @@
     "Location": "Ballroom C",
     "StartTime": "2025-03-07T11:15:00-08:00",
     "EndTime": "2025-03-07T12:15:00-08:00",
-    "Speakers": [
-      "Simon Strohmenger"
-    ],
+    "Speakers": "Simon Strohmenger",
     "Topic": "Open Government"
   },
   {
@@ -1261,9 +995,7 @@
     "Location": "Ballroom G",
     "StartTime": "2025-03-07T11:15:00-08:00",
     "EndTime": "2025-03-07T12:15:00-08:00",
-    "Speakers": [
-      "Shaun Thomas"
-    ],
+    "Speakers": "Shaun Thomas",
     "Topic": "PostgreSQL"
   },
   {
@@ -1272,9 +1004,7 @@
     "Location": "Room 101",
     "StartTime": "2025-03-07T11:30:00-08:00",
     "EndTime": "2025-03-07T12:00:00-08:00",
-    "Speakers": [
-      "Nick Johnstone"
-    ],
+    "Speakers": "Nick Johnstone",
     "Topic": "PlanetNix"
   },
   {
@@ -1283,9 +1013,7 @@
     "Location": "Room 104",
     "StartTime": "2025-03-07T11:30:00-08:00",
     "EndTime": "2025-03-07T12:00:00-08:00",
-    "Speakers": [
-      "Matteo Fusi"
-    ],
+    "Speakers": "Matteo Fusi",
     "Topic": "PlanetNix"
   },
   {
@@ -1294,9 +1022,7 @@
     "Location": "Ballroom B",
     "StartTime": "2025-03-07T12:30:00-08:00",
     "EndTime": "2025-03-07T13:30:00-08:00",
-    "Speakers": [
-      "Shirley Wang"
-    ],
+    "Speakers": "Shirley Wang",
     "Topic": "Cloud Native"
   },
   {
@@ -1305,9 +1031,7 @@
     "Location": "Ballroom H",
     "StartTime": "2025-03-07T12:30:00-08:00",
     "EndTime": "2025-03-07T13:30:00-08:00",
-    "Speakers": [
-      "Scott Stroz"
-    ],
+    "Speakers": "Scott Stroz",
     "Topic": "MySQL"
   },
   {
@@ -1316,9 +1040,7 @@
     "Location": "Room 211",
     "StartTime": "2025-03-07T12:30:00-08:00",
     "EndTime": "2025-03-07T13:30:00-08:00",
-    "Speakers": [
-      "Travis Hughes"
-    ],
+    "Speakers": "Travis Hughes",
     "Topic": "Applied Science"
   },
   {
@@ -1327,9 +1049,7 @@
     "Location": "Ballroom A",
     "StartTime": "2025-03-07T12:30:00-08:00",
     "EndTime": "2025-03-07T13:30:00-08:00",
-    "Speakers": [
-      "Jussi Nummelin"
-    ],
+    "Speakers": "Jussi Nummelin",
     "Topic": "Cloud Native"
   },
   {
@@ -1338,10 +1058,7 @@
     "Location": "Ballroom C",
     "StartTime": "2025-03-07T12:30:00-08:00",
     "EndTime": "2025-03-07T13:30:00-08:00",
-    "Speakers": [
-      "Stephanie Lieggi",
-      "Tim Dennis"
-    ],
+    "Speakers": "Stephanie Lieggi, Tim Dennis",
     "Topic": "Open Government"
   },
   {
@@ -1350,10 +1067,7 @@
     "Location": "Ballroom G",
     "StartTime": "2025-03-07T12:30:00-08:00",
     "EndTime": "2025-03-07T13:30:00-08:00",
-    "Speakers": [
-      "Gulcin YildirimJelinek",
-      "Andrew Farries"
-    ],
+    "Speakers": "Gulcin YildirimJelinek, Andrew Farries",
     "Topic": "PostgreSQL"
   },
   {
@@ -1362,9 +1076,7 @@
     "Location": "Ballroom F",
     "StartTime": "2025-03-07T12:30:00-08:00",
     "EndTime": "2025-03-07T13:30:00-08:00",
-    "Speakers": [
-      "james healy"
-    ],
+    "Speakers": "james healy",
     "Topic": "Open Source AI"
   },
   {
@@ -1373,12 +1085,7 @@
     "Location": "Room 212",
     "StartTime": "2025-03-07T13:00:00-08:00",
     "EndTime": "2025-03-07T14:00:00-08:00",
-    "Speakers": [
-      "Amy Marrich",
-      "Julia Kreger",
-      "Jonathan Bryce",
-      "Mark Collier"
-    ],
+    "Speakers": "Amy Marrich, Julia Kreger, Jonathan Bryce, Mark Collier",
     "Topic": "OpenInfra Days"
   },
   {
@@ -1387,9 +1094,7 @@
     "Location": "Room 103",
     "StartTime": "2025-03-07T13:00:00-08:00",
     "EndTime": "2025-03-07T14:00:00-08:00",
-    "Speakers": [
-      "Noah Chelliah"
-    ],
+    "Speakers": "Noah Chelliah",
     "Topic": "Ubucon"
   },
   {
@@ -1398,9 +1103,7 @@
     "Location": "Room 105",
     "StartTime": "2025-03-07T13:00:00-08:00",
     "EndTime": "2025-03-07T13:45:00-08:00",
-    "Speakers": [
-      "Saurabh Sharma"
-    ],
+    "Speakers": "Saurabh Sharma",
     "Topic": "SunSecCon"
   },
   {
@@ -1409,9 +1112,7 @@
     "Location": "Room 106",
     "StartTime": "2025-03-07T13:30:00-08:00",
     "EndTime": "2025-03-07T14:00:00-08:00",
-    "Speakers": [
-      "Dave Stokes"
-    ],
+    "Speakers": "Dave Stokes",
     "Topic": "OpenInfra Days"
   },
   {
@@ -1420,9 +1121,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2025-03-07T13:30:00-08:00",
     "EndTime": "2025-03-07T13:45:00-08:00",
-    "Speakers": [
-      "Sara Huddleston"
-    ],
+    "Speakers": "Sara Huddleston",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -1431,9 +1130,7 @@
     "Location": "Room 101",
     "StartTime": "2025-03-07T13:30:00-08:00",
     "EndTime": "2025-03-07T14:00:00-08:00",
-    "Speakers": [
-      "Victor Fuentes"
-    ],
+    "Speakers": "Victor Fuentes",
     "Topic": "PlanetNix"
   },
   {
@@ -1442,9 +1139,7 @@
     "Location": "Room 104",
     "StartTime": "2025-03-07T13:30:00-08:00",
     "EndTime": "2025-03-07T14:00:00-08:00",
-    "Speakers": [
-      "Connor Baker"
-    ],
+    "Speakers": "Connor Baker",
     "Topic": "PlanetNix"
   },
   {
@@ -1453,9 +1148,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2025-03-07T13:45:00-08:00",
     "EndTime": "2025-03-07T14:00:00-08:00",
-    "Speakers": [
-      "Justin Reock"
-    ],
+    "Speakers": "Justin Reock",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -1464,11 +1157,7 @@
     "Location": "Room 212",
     "StartTime": "2025-03-07T14:00:00-08:00",
     "EndTime": "2025-03-07T15:30:00-08:00",
-    "Speakers": [
-      "Carlos Eduardo da Silva",
-      "Goutham Pacha Ravi",
-      "Ashley Rodriguez"
-    ],
+    "Speakers": "Carlos Eduardo da Silva, Goutham Pacha Ravi, Ashley Rodriguez",
     "Topic": "OpenInfra Days"
   },
   {
@@ -1477,9 +1166,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2025-03-07T14:00:00-08:00",
     "EndTime": "2025-03-07T14:45:00-08:00",
-    "Speakers": [
-      "Ben Rockwood"
-    ],
+    "Speakers": "Ben Rockwood",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -1488,10 +1175,7 @@
     "Location": "Room 106",
     "StartTime": "2025-03-07T14:00:00-08:00",
     "EndTime": "2025-03-07T14:30:00-08:00",
-    "Speakers": [
-      "Sukesh Behera",
-      "Jimmy McCrory"
-    ],
+    "Speakers": "Sukesh Behera, Jimmy McCrory",
     "Topic": "OpenInfra Days"
   },
   {
@@ -1500,9 +1184,7 @@
     "Location": "Room 101",
     "StartTime": "2025-03-07T14:00:00-08:00",
     "EndTime": "2025-03-07T14:30:00-08:00",
-    "Speakers": [
-      "Eelco Dolstra"
-    ],
+    "Speakers": "Eelco Dolstra",
     "Topic": "PlanetNix"
   },
   {
@@ -1511,9 +1193,7 @@
     "Location": "Room 104",
     "StartTime": "2025-03-07T14:00:00-08:00",
     "EndTime": "2025-03-07T14:30:00-08:00",
-    "Speakers": [
-      "John Ericson"
-    ],
+    "Speakers": "John Ericson",
     "Topic": "PlanetNix"
   },
   {
@@ -1522,9 +1202,7 @@
     "Location": "Room 103",
     "StartTime": "2025-03-07T14:00:00-08:00",
     "EndTime": "2025-03-07T15:00:00-08:00",
-    "Speakers": [
-      "Alastair Flynn"
-    ],
+    "Speakers": "Alastair Flynn",
     "Topic": "Ubucon"
   },
   {
@@ -1533,9 +1211,7 @@
     "Location": "Room 105",
     "StartTime": "2025-03-07T14:00:00-08:00",
     "EndTime": "2025-03-07T14:45:00-08:00",
-    "Speakers": [
-      "Andrew Amaro"
-    ],
+    "Speakers": "Andrew Amaro",
     "Topic": "SunSecCon"
   },
   {
@@ -1544,10 +1220,7 @@
     "Location": "Ballroom A",
     "StartTime": "2025-03-07T14:30:00-08:00",
     "EndTime": "2025-03-07T15:30:00-08:00",
-    "Speakers": [
-      "Adriana Villela",
-      "Reese Lee"
-    ],
+    "Speakers": "Adriana Villela, Reese Lee",
     "Topic": "Cloud Native"
   },
   {
@@ -1556,9 +1229,7 @@
     "Location": "Ballroom H",
     "StartTime": "2025-03-07T14:30:00-08:00",
     "EndTime": "2025-03-07T15:30:00-08:00",
-    "Speakers": [
-      "Syed Usman Ahmad"
-    ],
+    "Speakers": "Syed Usman Ahmad",
     "Topic": "MySQL"
   },
   {
@@ -1567,9 +1238,7 @@
     "Location": "Ballroom C",
     "StartTime": "2025-03-07T14:30:00-08:00",
     "EndTime": "2025-03-07T15:30:00-08:00",
-    "Speakers": [
-      "Monica Waggoner"
-    ],
+    "Speakers": "Monica Waggoner",
     "Topic": "Open Government"
   },
   {
@@ -1578,9 +1247,7 @@
     "Location": "Ballroom F",
     "StartTime": "2025-03-07T14:30:00-08:00",
     "EndTime": "2025-03-07T15:30:00-08:00",
-    "Speakers": [
-      "Nithish Raghunandanan"
-    ],
+    "Speakers": "Nithish Raghunandanan",
     "Topic": "Open Source AI"
   },
   {
@@ -1589,9 +1256,7 @@
     "Location": "Ballroom G",
     "StartTime": "2025-03-07T14:30:00-08:00",
     "EndTime": "2025-03-07T15:30:00-08:00",
-    "Speakers": [
-      "Nick Meyer"
-    ],
+    "Speakers": "Nick Meyer",
     "Topic": "PostgreSQL"
   },
   {
@@ -1600,10 +1265,7 @@
     "Location": "Ballroom B",
     "StartTime": "2025-03-07T14:30:00-08:00",
     "EndTime": "2025-03-07T15:30:00-08:00",
-    "Speakers": [
-      "Murriel Perez McCabe",
-      "Elizabeth Ponce"
-    ],
+    "Speakers": "Murriel Perez McCabe, Elizabeth Ponce",
     "Topic": "Cloud Native"
   },
   {
@@ -1612,9 +1274,7 @@
     "Location": "Room 211",
     "StartTime": "2025-03-07T14:30:00-08:00",
     "EndTime": "2025-03-07T15:30:00-08:00",
-    "Speakers": [
-      "Ryan Tam"
-    ],
+    "Speakers": "Ryan Tam",
     "Topic": "Applied Science"
   },
   {
@@ -1623,11 +1283,7 @@
     "Location": "Room 106",
     "StartTime": "2025-03-07T14:30:00-08:00",
     "EndTime": "2025-03-07T15:15:00-08:00",
-    "Speakers": [
-      "Jimmy McArthur",
-      "Ken Crandall",
-      "DJ MIN"
-    ],
+    "Speakers": "Jimmy McArthur, Ken Crandall, DJ MIN",
     "Topic": "OpenInfra Days"
   },
   {
@@ -1636,9 +1292,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2025-03-07T15:00:00-08:00",
     "EndTime": "2025-03-07T15:30:00-08:00",
-    "Speakers": [
-      "Annie Hedgpeth"
-    ],
+    "Speakers": "Annie Hedgpeth",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -1647,9 +1301,7 @@
     "Location": "Room 103",
     "StartTime": "2025-03-07T15:00:00-08:00",
     "EndTime": "2025-03-07T16:00:00-08:00",
-    "Speakers": [
-      "Jason Nucciarone"
-    ],
+    "Speakers": "Jason Nucciarone",
     "Topic": "Ubucon"
   },
   {
@@ -1658,9 +1310,7 @@
     "Location": "Room 105",
     "StartTime": "2025-03-07T15:00:00-08:00",
     "EndTime": "2025-03-07T15:45:00-08:00",
-    "Speakers": [
-      "Kennedy Toomey"
-    ],
+    "Speakers": "Kennedy Toomey",
     "Topic": "SunSecCon"
   },
   {
@@ -1669,9 +1319,7 @@
     "Location": "Room 106",
     "StartTime": "2025-03-07T15:15:00-08:00",
     "EndTime": "2025-03-07T15:30:00-08:00",
-    "Speakers": [
-      "Julian Pistorius"
-    ],
+    "Speakers": "Julian Pistorius",
     "Topic": "OpenInfra Days"
   },
   {
@@ -1680,9 +1328,7 @@
     "Location": "Room 212",
     "StartTime": "2025-03-07T15:30:00-08:00",
     "EndTime": "2025-03-07T16:00:00-08:00",
-    "Speakers": [
-      "Martial Michel"
-    ],
+    "Speakers": "Martial Michel",
     "Topic": "OpenInfra Days"
   },
   {
@@ -1691,9 +1337,7 @@
     "Location": "Room 106",
     "StartTime": "2025-03-07T15:30:00-08:00",
     "EndTime": "2025-03-07T16:00:00-08:00",
-    "Speakers": [
-      "Francisco Araya"
-    ],
+    "Speakers": "Francisco Araya",
     "Topic": "OpenInfra Days"
   },
   {
@@ -1702,9 +1346,7 @@
     "Location": "Ballroom H",
     "StartTime": "2025-03-07T15:45:00-08:00",
     "EndTime": "2025-03-07T16:45:00-08:00",
-    "Speakers": [
-      "Igor Donchovski"
-    ],
+    "Speakers": "Igor Donchovski",
     "Topic": "MySQL"
   },
   {
@@ -1713,9 +1355,7 @@
     "Location": "Ballroom C",
     "StartTime": "2025-03-07T15:45:00-08:00",
     "EndTime": "2025-03-07T16:45:00-08:00",
-    "Speakers": [
-      "Guillaume Saunier"
-    ],
+    "Speakers": "Guillaume Saunier",
     "Topic": "Open Government"
   },
   {
@@ -1724,10 +1364,7 @@
     "Location": "Room 211",
     "StartTime": "2025-03-07T15:45:00-08:00",
     "EndTime": "2025-03-07T16:45:00-08:00",
-    "Speakers": [
-      "Nikki-Rae Alkema",
-      "David vonThenen"
-    ],
+    "Speakers": "Nikki-Rae Alkema, David vonThenen",
     "Topic": "Applied Science"
   },
   {
@@ -1736,9 +1373,7 @@
     "Location": "Ballroom G",
     "StartTime": "2025-03-07T15:45:00-08:00",
     "EndTime": "2025-03-07T16:45:00-08:00",
-    "Speakers": [
-      "Jimmy Angelakos"
-    ],
+    "Speakers": "Jimmy Angelakos",
     "Topic": "PostgreSQL"
   },
   {
@@ -1747,9 +1382,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2025-03-07T15:45:00-08:00",
     "EndTime": "2025-03-07T16:00:00-08:00",
-    "Speakers": [
-      "Rob Fletcher"
-    ],
+    "Speakers": "Rob Fletcher",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -1758,9 +1391,7 @@
     "Location": "Ballroom A",
     "StartTime": "2025-03-07T15:45:00-08:00",
     "EndTime": "2025-03-07T16:45:00-08:00",
-    "Speakers": [
-      "Paul Yu"
-    ],
+    "Speakers": "Paul Yu",
     "Topic": "Cloud Native"
   },
   {
@@ -1769,9 +1400,7 @@
     "Location": "Ballroom F",
     "StartTime": "2025-03-07T15:45:00-08:00",
     "EndTime": "2025-03-07T16:45:00-08:00",
-    "Speakers": [
-      "Steve Pousty"
-    ],
+    "Speakers": "Steve Pousty",
     "Topic": "Open Source AI"
   },
   {
@@ -1780,9 +1409,7 @@
     "Location": "Ballroom B",
     "StartTime": "2025-03-07T15:45:00-08:00",
     "EndTime": "2025-03-07T16:45:00-08:00",
-    "Speakers": [
-      "Kyle Quest"
-    ],
+    "Speakers": "Kyle Quest",
     "Topic": "Cloud Native"
   },
   {
@@ -1791,9 +1418,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2025-03-07T16:00:00-08:00",
     "EndTime": "2025-03-07T16:45:00-08:00",
-    "Speakers": [
-      "kat gaines"
-    ],
+    "Speakers": "kat gaines",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -1802,9 +1427,7 @@
     "Location": "Room 106",
     "StartTime": "2025-03-07T16:00:00-08:00",
     "EndTime": "2025-03-07T16:30:00-08:00",
-    "Speakers": [
-      "Armstrong Foundjem"
-    ],
+    "Speakers": "Armstrong Foundjem",
     "Topic": "OpenInfra Days"
   },
   {
@@ -1813,10 +1436,7 @@
     "Location": "Room 103",
     "StartTime": "2025-03-07T16:00:00-08:00",
     "EndTime": "2025-03-07T17:00:00-08:00",
-    "Speakers": [
-      "Ken VanDine",
-      "Rajan Patel"
-    ],
+    "Speakers": "Ken VanDine, Rajan Patel",
     "Topic": "Ubucon"
   },
   {
@@ -1825,9 +1445,7 @@
     "Location": "Room 105",
     "StartTime": "2025-03-07T16:00:00-08:00",
     "EndTime": "2025-03-07T16:45:00-08:00",
-    "Speakers": [
-      "Max vonBlankenburg"
-    ],
+    "Speakers": "Max vonBlankenburg",
     "Topic": "SunSecCon"
   },
   {
@@ -1836,9 +1454,7 @@
     "Location": "Room 212",
     "StartTime": "2025-03-07T16:00:00-08:00",
     "EndTime": "2025-03-07T16:30:00-08:00",
-    "Speakers": [
-      "Julia Kreger"
-    ],
+    "Speakers": "Julia Kreger",
     "Topic": "OpenInfra Days"
   },
   {
@@ -1847,9 +1463,7 @@
     "Location": "Ballroom G",
     "StartTime": "2025-03-07T17:00:00-08:00",
     "EndTime": "2025-03-07T18:00:00-08:00",
-    "Speakers": [
-      "Matthias Crauwels"
-    ],
+    "Speakers": "Matthias Crauwels",
     "Topic": "MySQL"
   },
   {
@@ -1858,9 +1472,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2025-03-07T17:00:00-08:00",
     "EndTime": "2025-03-07T17:45:00-08:00",
-    "Speakers": [
-      "Scott Bly"
-    ],
+    "Speakers": "Scott Bly",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -1869,10 +1481,7 @@
     "Location": "Ballroom B",
     "StartTime": "2025-03-07T17:00:00-08:00",
     "EndTime": "2025-03-07T18:00:00-08:00",
-    "Speakers": [
-      "Adriana Villela",
-      "Ana Margarita Medina"
-    ],
+    "Speakers": "Adriana Villela, Ana Margarita Medina",
     "Topic": "Cloud Native"
   },
   {
@@ -1881,9 +1490,7 @@
     "Location": "Ballroom F",
     "StartTime": "2025-03-07T17:00:00-08:00",
     "EndTime": "2025-03-07T18:00:00-08:00",
-    "Speakers": [
-      "Nuri Halperin"
-    ],
+    "Speakers": "Nuri Halperin",
     "Topic": "Open Source AI"
   },
   {
@@ -1892,10 +1499,7 @@
     "Location": "Ballroom A",
     "StartTime": "2025-03-07T17:00:00-08:00",
     "EndTime": "2025-03-07T18:00:00-08:00",
-    "Speakers": [
-      "Amber Salome",
-      "Éamon Ryan"
-    ],
+    "Speakers": "Amber Salome, Éamon Ryan",
     "Topic": "Cloud Native"
   },
   {
@@ -1904,9 +1508,7 @@
     "Location": "Ballroom H",
     "StartTime": "2025-03-07T17:00:00-08:00",
     "EndTime": "2025-03-07T18:00:00-08:00",
-    "Speakers": [
-      "Mikaël Francoeur"
-    ],
+    "Speakers": "Mikaël Francoeur",
     "Topic": "MySQL"
   },
   {
@@ -1915,10 +1517,7 @@
     "Location": "Ballroom C",
     "StartTime": "2025-03-07T17:00:00-08:00",
     "EndTime": "2025-03-07T18:00:00-08:00",
-    "Speakers": [
-      "Chach Sikes",
-      "Nina Kin"
-    ],
+    "Speakers": "Chach Sikes, Nina Kin",
     "Topic": "Open Government"
   },
   {
@@ -1927,9 +1526,7 @@
     "Location": "Room 211",
     "StartTime": "2025-03-07T17:00:00-08:00",
     "EndTime": "2025-03-07T18:00:00-08:00",
-    "Speakers": [
-      "Julia Sloan"
-    ],
+    "Speakers": "Julia Sloan",
     "Topic": "Applied Science"
   },
   {
@@ -1938,12 +1535,7 @@
     "Location": "Room 106",
     "StartTime": "2025-03-07T17:00:00-08:00",
     "EndTime": "2025-03-07T17:45:00-08:00",
-    "Speakers": [
-      "Allison Price",
-      "Armstrong Foundjem",
-      "Todd Robinson",
-      "Kevin Carter"
-    ],
+    "Speakers": "Allison Price, Armstrong Foundjem, Todd Robinson, Kevin Carter",
     "Topic": "OpenInfra Days"
   },
   {
@@ -1952,10 +1544,7 @@
     "Location": "Room 103",
     "StartTime": "2025-03-07T17:00:00-08:00",
     "EndTime": "2025-03-07T17:30:00-08:00",
-    "Speakers": [
-      "Nathan Haines",
-      "Richard Gaskin"
-    ],
+    "Speakers": "Nathan Haines, Richard Gaskin",
     "Topic": "Ubucon"
   },
   {
@@ -1964,9 +1553,7 @@
     "Location": "Room 105",
     "StartTime": "2025-03-07T17:00:00-08:00",
     "EndTime": "2025-03-07T17:45:00-08:00",
-    "Speakers": [
-      "Andy Giron"
-    ],
+    "Speakers": "Andy Giron",
     "Topic": "SunSecCon"
   },
   {
@@ -1975,9 +1562,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2025-03-07T18:30:00-08:00",
     "EndTime": "2025-03-07T19:30:00-08:00",
-    "Speakers": [
-      "Hannah Anderson"
-    ],
+    "Speakers": "Hannah Anderson",
     "Topic": "UpSCALE"
   },
   {
@@ -1986,9 +1571,7 @@
     "Location": "Ballroom C",
     "StartTime": "2025-03-07T18:30:00-08:00",
     "EndTime": "2025-03-07T19:30:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -1997,9 +1580,7 @@
     "Location": "Ballroom F",
     "StartTime": "2025-03-07T18:30:00-08:00",
     "EndTime": "2025-03-07T19:30:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -2008,9 +1589,7 @@
     "Location": "Ballroom G",
     "StartTime": "2025-03-07T18:30:00-08:00",
     "EndTime": "2025-03-07T19:30:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -2019,9 +1598,7 @@
     "Location": "Ballroom H",
     "StartTime": "2025-03-07T18:30:00-08:00",
     "EndTime": "2025-03-07T19:30:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -2030,9 +1607,7 @@
     "Location": "Room 208",
     "StartTime": "2025-03-07T19:15:00-08:00",
     "EndTime": "2025-03-07T21:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -2041,9 +1616,7 @@
     "Location": "Ballroom C",
     "StartTime": "2025-03-07T20:00:00-08:00",
     "EndTime": "2025-03-07T21:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -2052,9 +1625,7 @@
     "Location": "Ballroom A",
     "StartTime": "2025-03-08T08:00:00-08:00",
     "EndTime": "2025-03-08T09:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -2063,9 +1634,7 @@
     "Location": "Room 208",
     "StartTime": "2025-03-08T09:30:00-08:00",
     "EndTime": "2025-03-08T13:00:00-08:00",
-    "Speakers": [
-      "Tom King"
-    ],
+    "Speakers": "Tom King",
     "Topic": "Workshops"
   },
   {
@@ -2074,9 +1643,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2025-03-08T10:00:00-08:00",
     "EndTime": "2025-03-08T11:00:00-08:00",
-    "Speakers": [
-      "Solomon Hykes"
-    ],
+    "Speakers": "Solomon Hykes",
     "Topic": "Keynote"
   },
   {
@@ -2085,9 +1652,7 @@
     "Location": "Room 106",
     "StartTime": "2025-03-08T11:15:00-08:00",
     "EndTime": "2025-03-08T12:15:00-08:00",
-    "Speakers": [
-      "Anita Zhang"
-    ],
+    "Speakers": "Anita Zhang",
     "Topic": "Systems & Infrastructure"
   },
   {
@@ -2096,9 +1661,7 @@
     "Location": "Room 107",
     "StartTime": "2025-03-08T11:15:00-08:00",
     "EndTime": "2025-03-08T12:15:00-08:00",
-    "Speakers": [
-      "Peter Boros"
-    ],
+    "Speakers": "Peter Boros",
     "Topic": "Observability"
   },
   {
@@ -2107,9 +1670,7 @@
     "Location": "Room 211",
     "StartTime": "2025-03-08T11:15:00-08:00",
     "EndTime": "2025-03-08T12:15:00-08:00",
-    "Speakers": [
-      "Alexander Krizhanovsky"
-    ],
+    "Speakers": "Alexander Krizhanovsky",
     "Topic": "Developer"
   },
   {
@@ -2118,9 +1679,7 @@
     "Location": "Ballroom C",
     "StartTime": "2025-03-08T11:15:00-08:00",
     "EndTime": "2025-03-08T12:15:00-08:00",
-    "Speakers": [
-      "Jordan Rome"
-    ],
+    "Speakers": "Jordan Rome",
     "Topic": "Kernel & Low Level Systems"
   },
   {
@@ -2129,10 +1688,7 @@
     "Location": "Ballroom B",
     "StartTime": "2025-03-08T11:15:00-08:00",
     "EndTime": "2025-03-08T12:15:00-08:00",
-    "Speakers": [
-      "Justin Marquis",
-      "Christian Hernandez"
-    ],
+    "Speakers": "Justin Marquis, Christian Hernandez",
     "Topic": "Cloud Native"
   },
   {
@@ -2141,9 +1697,7 @@
     "Location": "Ballroom G",
     "StartTime": "2025-03-08T11:15:00-08:00",
     "EndTime": "2025-03-08T12:15:00-08:00",
-    "Speakers": [
-      "Jared Bernard"
-    ],
+    "Speakers": "Jared Bernard",
     "Topic": "General"
   },
   {
@@ -2152,9 +1706,7 @@
     "Location": "Room 103",
     "StartTime": "2025-03-08T11:15:00-08:00",
     "EndTime": "2025-03-08T12:00:00-08:00",
-    "Speakers": [
-      "August Cho"
-    ],
+    "Speakers": "August Cho",
     "Topic": "Next Generation"
   },
   {
@@ -2163,9 +1715,7 @@
     "Location": "Room 101",
     "StartTime": "2025-03-08T11:15:00-08:00",
     "EndTime": "2025-03-08T12:15:00-08:00",
-    "Speakers": [
-      "Georg Link"
-    ],
+    "Speakers": "Georg Link",
     "Topic": "Security"
   },
   {
@@ -2174,9 +1724,7 @@
     "Location": "Ballroom H",
     "StartTime": "2025-03-08T11:15:00-08:00",
     "EndTime": "2025-03-08T12:15:00-08:00",
-    "Speakers": [
-      "Hazel Weakly"
-    ],
+    "Speakers": "Hazel Weakly",
     "Topic": "General"
   },
   {
@@ -2185,9 +1733,7 @@
     "Location": "Room 105",
     "StartTime": "2025-03-08T11:15:00-08:00",
     "EndTime": "2025-03-08T12:15:00-08:00",
-    "Speakers": [
-      "Matthew Sanabria"
-    ],
+    "Speakers": "Matthew Sanabria",
     "Topic": "FOSS @ HOME"
   },
   {
@@ -2196,10 +1742,7 @@
     "Location": "Ballroom A",
     "StartTime": "2025-03-08T11:15:00-08:00",
     "EndTime": "2025-03-08T12:15:00-08:00",
-    "Speakers": [
-      "Leigh Capili",
-      "Tom Bereknyei"
-    ],
+    "Speakers": "Leigh Capili, Tom Bereknyei",
     "Topic": "Cloud Native"
   },
   {
@@ -2208,9 +1751,7 @@
     "Location": "Ballroom F",
     "StartTime": "2025-03-08T11:15:00-08:00",
     "EndTime": "2025-03-08T12:15:00-08:00",
-    "Speakers": [
-      "Sinan Kefeli"
-    ],
+    "Speakers": "Sinan Kefeli",
     "Topic": "Open Source AI"
   },
   {
@@ -2219,9 +1760,7 @@
     "Location": "Room 103",
     "StartTime": "2025-03-08T12:15:00-08:00",
     "EndTime": "2025-03-08T12:45:00-08:00",
-    "Speakers": [
-      "Andrew Lim"
-    ],
+    "Speakers": "Andrew Lim",
     "Topic": "Next Generation"
   },
   {
@@ -2230,9 +1769,7 @@
     "Location": "Room 106",
     "StartTime": "2025-03-08T12:30:00-08:00",
     "EndTime": "2025-03-08T13:30:00-08:00",
-    "Speakers": [
-      "Patrick Shuff"
-    ],
+    "Speakers": "Patrick Shuff",
     "Topic": "Systems & Infrastructure"
   },
   {
@@ -2241,9 +1778,7 @@
     "Location": "Ballroom F",
     "StartTime": "2025-03-08T12:30:00-08:00",
     "EndTime": "2025-03-08T13:30:00-08:00",
-    "Speakers": [
-      "Bronwen Aker"
-    ],
+    "Speakers": "Bronwen Aker",
     "Topic": "Open Source AI"
   },
   {
@@ -2252,9 +1787,7 @@
     "Location": "Room 105",
     "StartTime": "2025-03-08T12:30:00-08:00",
     "EndTime": "2025-03-08T13:30:00-08:00",
-    "Speakers": [
-      "Joyce Lin"
-    ],
+    "Speakers": "Joyce Lin",
     "Topic": "FOSS @ HOME"
   },
   {
@@ -2263,9 +1796,7 @@
     "Location": "Room 211",
     "StartTime": "2025-03-08T12:30:00-08:00",
     "EndTime": "2025-03-08T13:30:00-08:00",
-    "Speakers": [
-      "Addison Hart"
-    ],
+    "Speakers": "Addison Hart",
     "Topic": "Developer"
   },
   {
@@ -2274,9 +1805,7 @@
     "Location": "Ballroom B",
     "StartTime": "2025-03-08T12:30:00-08:00",
     "EndTime": "2025-03-08T13:30:00-08:00",
-    "Speakers": [
-      "Scott Williams"
-    ],
+    "Speakers": "Scott Williams",
     "Topic": "Cloud Native"
   },
   {
@@ -2285,10 +1814,7 @@
     "Location": "Room 101",
     "StartTime": "2025-03-08T12:30:00-08:00",
     "EndTime": "2025-03-08T13:30:00-08:00",
-    "Speakers": [
-      "Divya KK",
-      "Srirama Sharma"
-    ],
+    "Speakers": "Divya KK, Srirama Sharma",
     "Topic": "Security"
   },
   {
@@ -2297,9 +1823,7 @@
     "Location": "Ballroom A",
     "StartTime": "2025-03-08T12:30:00-08:00",
     "EndTime": "2025-03-08T13:30:00-08:00",
-    "Speakers": [
-      "Jonathan Perry"
-    ],
+    "Speakers": "Jonathan Perry",
     "Topic": "Cloud Native"
   },
   {
@@ -2308,9 +1832,7 @@
     "Location": "Ballroom G",
     "StartTime": "2025-03-08T12:30:00-08:00",
     "EndTime": "2025-03-08T13:30:00-08:00",
-    "Speakers": [
-      "benny Vasquez"
-    ],
+    "Speakers": "benny Vasquez",
     "Topic": "General"
   },
   {
@@ -2319,10 +1841,7 @@
     "Location": "Ballroom C",
     "StartTime": "2025-03-08T12:30:00-08:00",
     "EndTime": "2025-03-08T13:30:00-08:00",
-    "Speakers": [
-      "Jake Hillion",
-      "Daniel Hodges"
-    ],
+    "Speakers": "Jake Hillion, Daniel Hodges",
     "Topic": "Kernel & Low Level Systems"
   },
   {
@@ -2331,12 +1850,7 @@
     "Location": "Ballroom H",
     "StartTime": "2025-03-08T12:30:00-08:00",
     "EndTime": "2025-03-08T13:30:00-08:00",
-    "Speakers": [
-      "Ron Efroni",
-      "Michael Stahnke",
-      "Kelsey Hightower",
-      "Katherine Druckman"
-    ],
+    "Speakers": "Ron Efroni, Michael Stahnke, Kelsey Hightower, Katherine Druckman",
     "Topic": "General"
   },
   {
@@ -2345,9 +1859,7 @@
     "Location": "Room 107",
     "StartTime": "2025-03-08T12:30:00-08:00",
     "EndTime": "2025-03-08T13:30:00-08:00",
-    "Speakers": [
-      "Eduardo Silva"
-    ],
+    "Speakers": "Eduardo Silva",
     "Topic": "Observability"
   },
   {
@@ -2356,10 +1868,7 @@
     "Location": "Room 103",
     "StartTime": "2025-03-08T13:00:00-08:00",
     "EndTime": "2025-03-08T13:30:00-08:00",
-    "Speakers": [
-      "Jonah Ibarra",
-      "Eisly Morales"
-    ],
+    "Speakers": "Jonah Ibarra, Eisly Morales",
     "Topic": "Next Generation"
   },
   {
@@ -2368,9 +1877,7 @@
     "Location": "Room 211",
     "StartTime": "2025-03-08T14:30:00-08:00",
     "EndTime": "2025-03-08T15:30:00-08:00",
-    "Speakers": [
-      "Gabriele Bozzola"
-    ],
+    "Speakers": "Gabriele Bozzola",
     "Topic": "Developer"
   },
   {
@@ -2379,9 +1886,7 @@
     "Location": "Ballroom A",
     "StartTime": "2025-03-08T14:30:00-08:00",
     "EndTime": "2025-03-08T15:30:00-08:00",
-    "Speakers": [
-      "Noel Miller"
-    ],
+    "Speakers": "Noel Miller",
     "Topic": "Cloud Native"
   },
   {
@@ -2390,9 +1895,7 @@
     "Location": "Ballroom C",
     "StartTime": "2025-03-08T14:30:00-08:00",
     "EndTime": "2025-03-08T15:30:00-08:00",
-    "Speakers": [
-      "Quentin Deslandes"
-    ],
+    "Speakers": "Quentin Deslandes",
     "Topic": "Kernel & Low Level Systems"
   },
   {
@@ -2401,9 +1904,7 @@
     "Location": "Ballroom G",
     "StartTime": "2025-03-08T14:30:00-08:00",
     "EndTime": "2025-03-08T15:30:00-08:00",
-    "Speakers": [
-      "Tarus Balog"
-    ],
+    "Speakers": "Tarus Balog",
     "Topic": "General"
   },
   {
@@ -2412,10 +1913,7 @@
     "Location": "Ballroom B",
     "StartTime": "2025-03-08T14:30:00-08:00",
     "EndTime": "2025-03-08T15:30:00-08:00",
-    "Speakers": [
-      "Ram Ellupuru",
-      "Boaz Ardel"
-    ],
+    "Speakers": "Ram Ellupuru, Boaz Ardel",
     "Topic": "Cloud Native"
   },
   {
@@ -2424,9 +1922,7 @@
     "Location": "Room 107",
     "StartTime": "2025-03-08T14:30:00-08:00",
     "EndTime": "2025-03-08T15:30:00-08:00",
-    "Speakers": [
-      "Jason Hand"
-    ],
+    "Speakers": "Jason Hand",
     "Topic": "Observability"
   },
   {
@@ -2435,9 +1931,7 @@
     "Location": "Room 101",
     "StartTime": "2025-03-08T14:30:00-08:00",
     "EndTime": "2025-03-08T15:30:00-08:00",
-    "Speakers": [
-      "Katherine Druckman"
-    ],
+    "Speakers": "Katherine Druckman",
     "Topic": "Security"
   },
   {
@@ -2446,9 +1940,7 @@
     "Location": "Ballroom H",
     "StartTime": "2025-03-08T14:30:00-08:00",
     "EndTime": "2025-03-08T15:30:00-08:00",
-    "Speakers": [
-      "maddog Hall"
-    ],
+    "Speakers": "maddog Hall",
     "Topic": "General"
   },
   {
@@ -2457,9 +1949,7 @@
     "Location": "Ballroom F",
     "StartTime": "2025-03-08T14:30:00-08:00",
     "EndTime": "2025-03-08T15:30:00-08:00",
-    "Speakers": [
-      "Bassam Chahine"
-    ],
+    "Speakers": "Bassam Chahine",
     "Topic": "Open Source AI"
   },
   {
@@ -2468,9 +1958,7 @@
     "Location": "Room 106",
     "StartTime": "2025-03-08T14:30:00-08:00",
     "EndTime": "2025-03-08T15:30:00-08:00",
-    "Speakers": [
-      "Kevin Mittman"
-    ],
+    "Speakers": "Kevin Mittman",
     "Topic": "Systems & Infrastructure"
   },
   {
@@ -2479,9 +1967,7 @@
     "Location": "Room 105",
     "StartTime": "2025-03-08T14:30:00-08:00",
     "EndTime": "2025-03-08T15:30:00-08:00",
-    "Speakers": [
-      "Jon Cruz"
-    ],
+    "Speakers": "Jon Cruz",
     "Topic": "FOSS @ HOME"
   },
   {
@@ -2490,9 +1976,7 @@
     "Location": "Room 103",
     "StartTime": "2025-03-08T14:30:00-08:00",
     "EndTime": "2025-03-08T15:15:00-08:00",
-    "Speakers": [
-      "Brady Hancock"
-    ],
+    "Speakers": "Brady Hancock",
     "Topic": "Next Generation"
   },
   {
@@ -2501,9 +1985,7 @@
     "Location": "Room 103",
     "StartTime": "2025-03-08T15:15:00-08:00",
     "EndTime": "2025-03-08T16:00:00-08:00",
-    "Speakers": [
-      "Alexander Moral"
-    ],
+    "Speakers": "Alexander Moral",
     "Topic": "Next Generation"
   },
   {
@@ -2512,9 +1994,7 @@
     "Location": "Room 105",
     "StartTime": "2025-03-08T15:45:00-08:00",
     "EndTime": "2025-03-08T16:45:00-08:00",
-    "Speakers": [
-      "Alex Kretzschmar"
-    ],
+    "Speakers": "Alex Kretzschmar",
     "Topic": "FOSS @ HOME"
   },
   {
@@ -2523,9 +2003,7 @@
     "Location": "Ballroom F",
     "StartTime": "2025-03-08T15:45:00-08:00",
     "EndTime": "2025-03-08T16:45:00-08:00",
-    "Speakers": [
-      "Thomas Charlon"
-    ],
+    "Speakers": "Thomas Charlon",
     "Topic": "Open Source AI"
   },
   {
@@ -2534,10 +2012,7 @@
     "Location": "Room 107",
     "StartTime": "2025-03-08T15:45:00-08:00",
     "EndTime": "2025-03-08T16:45:00-08:00",
-    "Speakers": [
-      "Vijay Samuel",
-      "Jing Hu"
-    ],
+    "Speakers": "Vijay Samuel, Jing Hu",
     "Topic": "Observability"
   },
   {
@@ -2546,9 +2021,7 @@
     "Location": "Ballroom A",
     "StartTime": "2025-03-08T15:45:00-08:00",
     "EndTime": "2025-03-08T16:45:00-08:00",
-    "Speakers": [
-      "Divine Odazie"
-    ],
+    "Speakers": "Divine Odazie",
     "Topic": "Cloud Native"
   },
   {
@@ -2557,9 +2030,7 @@
     "Location": "Room 106",
     "StartTime": "2025-03-08T15:45:00-08:00",
     "EndTime": "2025-03-08T16:45:00-08:00",
-    "Speakers": [
-      "Ildiko Vancsa"
-    ],
+    "Speakers": "Ildiko Vancsa",
     "Topic": "Systems & Infrastructure"
   },
   {
@@ -2568,10 +2039,7 @@
     "Location": "Ballroom C",
     "StartTime": "2025-03-08T15:45:00-08:00",
     "EndTime": "2025-03-08T16:45:00-08:00",
-    "Speakers": [
-      "Maya Singh",
-      "Jose Blanquicet"
-    ],
+    "Speakers": "Maya Singh, Jose Blanquicet",
     "Topic": "Kernel & Low Level Systems"
   },
   {
@@ -2580,9 +2048,7 @@
     "Location": "Room 211",
     "StartTime": "2025-03-08T15:45:00-08:00",
     "EndTime": "2025-03-08T16:45:00-08:00",
-    "Speakers": [
-      "Emily Le"
-    ],
+    "Speakers": "Emily Le",
     "Topic": "Developer"
   },
   {
@@ -2591,9 +2057,7 @@
     "Location": "Room 101",
     "StartTime": "2025-03-08T15:45:00-08:00",
     "EndTime": "2025-03-08T16:45:00-08:00",
-    "Speakers": [
-      "Alexander Rubin"
-    ],
+    "Speakers": "Alexander Rubin",
     "Topic": "Security"
   },
   {
@@ -2602,10 +2066,7 @@
     "Location": "Ballroom H",
     "StartTime": "2025-03-08T15:45:00-08:00",
     "EndTime": "2025-03-08T16:45:00-08:00",
-    "Speakers": [
-      "Jeremy Adams",
-      "Rebecca Dittmar"
-    ],
+    "Speakers": "Jeremy Adams, Rebecca Dittmar",
     "Topic": "General"
   },
   {
@@ -2614,9 +2075,7 @@
     "Location": "Ballroom G",
     "StartTime": "2025-03-08T15:45:00-08:00",
     "EndTime": "2025-03-08T16:45:00-08:00",
-    "Speakers": [
-      "Margaret Tucker"
-    ],
+    "Speakers": "Margaret Tucker",
     "Topic": "General"
   },
   {
@@ -2625,9 +2084,7 @@
     "Location": "Ballroom B",
     "StartTime": "2025-03-08T15:45:00-08:00",
     "EndTime": "2025-03-08T16:45:00-08:00",
-    "Speakers": [
-      "Fabrizio Sgura"
-    ],
+    "Speakers": "Fabrizio Sgura",
     "Topic": "Cloud Native"
   },
   {
@@ -2636,9 +2093,7 @@
     "Location": "Room 103",
     "StartTime": "2025-03-08T16:15:00-08:00",
     "EndTime": "2025-03-08T17:00:00-08:00",
-    "Speakers": [
-      "Alana Wu"
-    ],
+    "Speakers": "Alana Wu",
     "Topic": "Next Generation"
   },
   {
@@ -2647,10 +2102,7 @@
     "Location": "Room 105",
     "StartTime": "2025-03-08T17:00:00-08:00",
     "EndTime": "2025-03-08T18:00:00-08:00",
-    "Speakers": [
-      "Kyle Gospodnetich",
-      "Noel Miller"
-    ],
+    "Speakers": "Kyle Gospodnetich, Noel Miller",
     "Topic": "FOSS @ HOME"
   },
   {
@@ -2659,9 +2111,7 @@
     "Location": "Ballroom G",
     "StartTime": "2025-03-08T17:00:00-08:00",
     "EndTime": "2025-03-08T18:00:00-08:00",
-    "Speakers": [
-      "Jeremy Meiss"
-    ],
+    "Speakers": "Jeremy Meiss",
     "Topic": "General"
   },
   {
@@ -2670,9 +2120,7 @@
     "Location": "Room 101",
     "StartTime": "2025-03-08T17:00:00-08:00",
     "EndTime": "2025-03-08T18:00:00-08:00",
-    "Speakers": [
-      "Jimmy Zelinskie"
-    ],
+    "Speakers": "Jimmy Zelinskie",
     "Topic": "Security"
   },
   {
@@ -2681,9 +2129,7 @@
     "Location": "Ballroom B",
     "StartTime": "2025-03-08T17:00:00-08:00",
     "EndTime": "2025-03-08T18:00:00-08:00",
-    "Speakers": [
-      "Bryan Honof"
-    ],
+    "Speakers": "Bryan Honof",
     "Topic": "Cloud Native"
   },
   {
@@ -2692,12 +2138,7 @@
     "Location": "Ballroom H",
     "StartTime": "2025-03-08T17:00:00-08:00",
     "EndTime": "2025-03-08T18:00:00-08:00",
-    "Speakers": [
-      "Tyler Menezes",
-      "Kendall Nelson",
-      "Emily Lovell",
-      "Kevin Wang"
-    ],
+    "Speakers": "Tyler Menezes, Kendall Nelson, Emily Lovell, Kevin Wang",
     "Topic": "General"
   },
   {
@@ -2706,9 +2147,7 @@
     "Location": "Ballroom C",
     "StartTime": "2025-03-08T17:00:00-08:00",
     "EndTime": "2025-03-08T18:00:00-08:00",
-    "Speakers": [
-      "Angelina Vu"
-    ],
+    "Speakers": "Angelina Vu",
     "Topic": "Kernel & Low Level Systems"
   },
   {
@@ -2717,10 +2156,7 @@
     "Location": "Room 106",
     "StartTime": "2025-03-08T17:00:00-08:00",
     "EndTime": "2025-03-08T18:00:00-08:00",
-    "Speakers": [
-      "Shaun Hopper",
-      "Chandan Avdhut"
-    ],
+    "Speakers": "Shaun Hopper, Chandan Avdhut",
     "Topic": "Systems & Infrastructure"
   },
   {
@@ -2729,9 +2165,7 @@
     "Location": "Room 107",
     "StartTime": "2025-03-08T17:00:00-08:00",
     "EndTime": "2025-03-08T18:00:00-08:00",
-    "Speakers": [
-      "Hazel Weakly"
-    ],
+    "Speakers": "Hazel Weakly",
     "Topic": "Observability"
   },
   {
@@ -2740,10 +2174,7 @@
     "Location": "Room 211",
     "StartTime": "2025-03-08T17:00:00-08:00",
     "EndTime": "2025-03-08T18:00:00-08:00",
-    "Speakers": [
-      "Tanja Ulianova",
-      "Nick Lewis"
-    ],
+    "Speakers": "Tanja Ulianova, Nick Lewis",
     "Topic": "Developer"
   },
   {
@@ -2752,9 +2183,7 @@
     "Location": "Ballroom A",
     "StartTime": "2025-03-08T17:00:00-08:00",
     "EndTime": "2025-03-08T18:00:00-08:00",
-    "Speakers": [
-      "Kiran Gollu"
-    ],
+    "Speakers": "Kiran Gollu",
     "Topic": "Cloud Native"
   },
   {
@@ -2763,9 +2192,7 @@
     "Location": "Ballroom F",
     "StartTime": "2025-03-08T17:00:00-08:00",
     "EndTime": "2025-03-08T18:00:00-08:00",
-    "Speakers": [
-      "Xe iaso"
-    ],
+    "Speakers": "Xe iaso",
     "Topic": "Open Source AI"
   },
   {
@@ -2774,9 +2201,7 @@
     "Location": "Room 211",
     "StartTime": "2025-03-08T18:15:00-08:00",
     "EndTime": "2025-03-08T19:15:00-08:00",
-    "Speakers": [
-      "Autumn Nash"
-    ],
+    "Speakers": "Autumn Nash",
     "Topic": "Developer"
   },
   {
@@ -2785,9 +2210,7 @@
     "Location": "Room 106",
     "StartTime": "2025-03-08T18:15:00-08:00",
     "EndTime": "2025-03-08T19:15:00-08:00",
-    "Speakers": [
-      "Mandi Walls"
-    ],
+    "Speakers": "Mandi Walls",
     "Topic": "Systems & Infrastructure"
   },
   {
@@ -2796,9 +2219,7 @@
     "Location": "Room 107",
     "StartTime": "2025-03-08T18:15:00-08:00",
     "EndTime": "2025-03-08T19:15:00-08:00",
-    "Speakers": [
-      "Dave McAllister"
-    ],
+    "Speakers": "Dave McAllister",
     "Topic": "Observability"
   },
   {
@@ -2807,9 +2228,7 @@
     "Location": "Room 101",
     "StartTime": "2025-03-08T18:15:00-08:00",
     "EndTime": "2025-03-08T19:15:00-08:00",
-    "Speakers": [
-      "Murat Aydemir"
-    ],
+    "Speakers": "Murat Aydemir",
     "Topic": "Security"
   },
   {
@@ -2818,9 +2237,7 @@
     "Location": "Ballroom F",
     "StartTime": "2025-03-08T18:15:00-08:00",
     "EndTime": "2025-03-08T19:15:00-08:00",
-    "Speakers": [
-      "David vonThenen"
-    ],
+    "Speakers": "David vonThenen",
     "Topic": "Open Source AI"
   },
   {
@@ -2829,9 +2246,7 @@
     "Location": "Room 105",
     "StartTime": "2025-03-08T18:15:00-08:00",
     "EndTime": "2025-03-08T19:15:00-08:00",
-    "Speakers": [
-      "Sam Hanna"
-    ],
+    "Speakers": "Sam Hanna",
     "Topic": "FOSS @ HOME"
   },
   {
@@ -2840,10 +2255,7 @@
     "Location": "Ballroom A",
     "StartTime": "2025-03-08T18:15:00-08:00",
     "EndTime": "2025-03-08T19:15:00-08:00",
-    "Speakers": [
-      "Jayme Bird",
-      "Manish Gill"
-    ],
+    "Speakers": "Jayme Bird, Manish Gill",
     "Topic": "Cloud Native"
   },
   {
@@ -2852,9 +2264,7 @@
     "Location": "Ballroom B",
     "StartTime": "2025-03-08T18:15:00-08:00",
     "EndTime": "2025-03-08T19:15:00-08:00",
-    "Speakers": [
-      "Joe Allen"
-    ],
+    "Speakers": "Joe Allen",
     "Topic": "Cloud Native"
   },
   {
@@ -2863,9 +2273,7 @@
     "Location": "Ballroom G",
     "StartTime": "2025-03-08T18:15:00-08:00",
     "EndTime": "2025-03-08T19:15:00-08:00",
-    "Speakers": [
-      "Mark Hinkle"
-    ],
+    "Speakers": "Mark Hinkle",
     "Topic": "General"
   },
   {
@@ -2874,9 +2282,7 @@
     "Location": "Ballroom H",
     "StartTime": "2025-03-08T18:15:00-08:00",
     "EndTime": "2025-03-08T19:15:00-08:00",
-    "Speakers": [
-      "Paul Mekhedjian"
-    ],
+    "Speakers": "Paul Mekhedjian",
     "Topic": "General"
   },
   {
@@ -2885,9 +2291,7 @@
     "Location": "Ballroom C",
     "StartTime": "2025-03-08T18:15:00-08:00",
     "EndTime": "2025-03-08T19:15:00-08:00",
-    "Speakers": [
-      "Mohamed Elsakhawy"
-    ],
+    "Speakers": "Mohamed Elsakhawy",
     "Topic": "Kernel & Low Level Systems"
   },
   {
@@ -2896,9 +2300,7 @@
     "Location": "Room 208",
     "StartTime": "2025-03-08T18:30:00-08:00",
     "EndTime": "2025-03-08T20:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -2907,9 +2309,7 @@
     "Location": "Ballroom G",
     "StartTime": "2025-03-08T19:30:00-08:00",
     "EndTime": "2025-03-08T20:30:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -2918,9 +2318,7 @@
     "Location": "Ballroom C",
     "StartTime": "2025-03-08T19:30:00-08:00",
     "EndTime": "2025-03-08T20:30:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -2929,9 +2327,7 @@
     "Location": "Ballroom F",
     "StartTime": "2025-03-08T19:30:00-08:00",
     "EndTime": "2025-03-08T20:30:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -2940,9 +2336,7 @@
     "Location": "Ballroom G",
     "StartTime": "2025-03-08T21:00:00-08:00",
     "EndTime": "2025-03-08T22:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -2951,9 +2345,7 @@
     "Location": "Ballroom A",
     "StartTime": "2025-03-09T08:00:00-07:00",
     "EndTime": "2025-03-09T09:00:00-07:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -2962,9 +2354,7 @@
     "Location": "Room 209",
     "StartTime": "2025-03-09T09:30:00-07:00",
     "EndTime": "2025-03-09T11:00:00-07:00",
-    "Speakers": [
-      "Erik Mondrian"
-    ],
+    "Speakers": "Erik Mondrian",
     "Topic": "LibreGraphics"
   },
   {
@@ -2973,9 +2363,7 @@
     "Location": "Room 208",
     "StartTime": "2025-03-09T09:30:00-07:00",
     "EndTime": "2025-03-09T16:30:00-07:00",
-    "Speakers": [
-      "Tom King"
-    ],
+    "Speakers": "Tom King",
     "Topic": "Workshops"
   },
   {
@@ -2984,9 +2372,7 @@
     "Location": "Room 103",
     "StartTime": "2025-03-09T10:00:00-07:00",
     "EndTime": "2025-03-09T11:00:00-07:00",
-    "Speakers": [
-      "Mary Kypreos"
-    ],
+    "Speakers": "Mary Kypreos",
     "Topic": "Career Day"
   },
   {
@@ -2995,9 +2381,7 @@
     "Location": "Room 104",
     "StartTime": "2025-03-09T10:00:00-07:00",
     "EndTime": "2025-03-09T12:00:00-07:00",
-    "Speakers": [
-      "Jenson Crawford"
-    ],
+    "Speakers": "Jenson Crawford",
     "Topic": "Career Day"
   },
   {
@@ -3006,9 +2390,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2025-03-09T10:30:00-07:00",
     "EndTime": "2025-03-09T11:30:00-07:00",
-    "Speakers": [
-      "Denver Gingerich"
-    ],
+    "Speakers": "Denver Gingerich",
     "Topic": "Keynote"
   },
   {
@@ -3017,9 +2399,7 @@
     "Location": "Room 209",
     "StartTime": "2025-03-09T11:00:00-07:00",
     "EndTime": "2025-03-09T12:30:00-07:00",
-    "Speakers": [
-      "Tom Lechner"
-    ],
+    "Speakers": "Tom Lechner",
     "Topic": "LibreGraphics"
   },
   {
@@ -3028,9 +2408,7 @@
     "Location": "Room 103",
     "StartTime": "2025-03-09T11:00:00-07:00",
     "EndTime": "2025-03-09T12:00:00-07:00",
-    "Speakers": [
-      "Amy Marrich"
-    ],
+    "Speakers": "Amy Marrich",
     "Topic": "Career Day"
   },
   {
@@ -3039,9 +2417,7 @@
     "Location": "Room 101",
     "StartTime": "2025-03-09T11:45:00-07:00",
     "EndTime": "2025-03-09T12:45:00-07:00",
-    "Speakers": [
-      "Vincent Sloan"
-    ],
+    "Speakers": "Vincent Sloan",
     "Topic": "Security"
   },
   {
@@ -3050,9 +2426,7 @@
     "Location": "Room 211",
     "StartTime": "2025-03-09T11:45:00-07:00",
     "EndTime": "2025-03-09T12:45:00-07:00",
-    "Speakers": [
-      "Adam Christian"
-    ],
+    "Speakers": "Adam Christian",
     "Topic": "Developer"
   },
   {
@@ -3061,9 +2435,7 @@
     "Location": "Ballroom A",
     "StartTime": "2025-03-09T11:45:00-07:00",
     "EndTime": "2025-03-09T12:45:00-07:00",
-    "Speakers": [
-      "Daniil Fedotov"
-    ],
+    "Speakers": "Daniil Fedotov",
     "Topic": "Cloud Native"
   },
   {
@@ -3072,9 +2444,7 @@
     "Location": "Ballroom F",
     "StartTime": "2025-03-09T11:45:00-07:00",
     "EndTime": "2025-03-09T12:45:00-07:00",
-    "Speakers": [
-      "Zubair Talib"
-    ],
+    "Speakers": "Zubair Talib",
     "Topic": "Open Source AI"
   },
   {
@@ -3083,10 +2453,7 @@
     "Location": "Room 105",
     "StartTime": "2025-03-09T11:45:00-07:00",
     "EndTime": "2025-03-09T12:45:00-07:00",
-    "Speakers": [
-      "Adrian Todorov",
-      "Kerim Satirli"
-    ],
+    "Speakers": "Adrian Todorov, Kerim Satirli",
     "Topic": "FOSS @ HOME"
   },
   {
@@ -3095,10 +2462,7 @@
     "Location": "Room 106",
     "StartTime": "2025-03-09T11:45:00-07:00",
     "EndTime": "2025-03-09T12:45:00-07:00",
-    "Speakers": [
-      "Xpaul Vigil",
-      "Isaac Smothers"
-    ],
+    "Speakers": "Xpaul Vigil, Isaac Smothers",
     "Topic": "Systems & Infrastructure"
   },
   {
@@ -3107,9 +2471,7 @@
     "Location": "Ballroom B",
     "StartTime": "2025-03-09T11:45:00-07:00",
     "EndTime": "2025-03-09T12:45:00-07:00",
-    "Speakers": [
-      "Ryan Jarvinen"
-    ],
+    "Speakers": "Ryan Jarvinen",
     "Topic": "Cloud Native"
   },
   {
@@ -3118,9 +2480,7 @@
     "Location": "Ballroom G",
     "StartTime": "2025-03-09T11:45:00-07:00",
     "EndTime": "2025-03-09T12:45:00-07:00",
-    "Speakers": [
-      "Bradley Kuhn"
-    ],
+    "Speakers": "Bradley Kuhn",
     "Topic": "General"
   },
   {
@@ -3129,9 +2489,7 @@
     "Location": "Ballroom C",
     "StartTime": "2025-03-09T11:45:00-07:00",
     "EndTime": "2025-03-09T12:45:00-07:00",
-    "Speakers": [
-      "Sriram Nambakam"
-    ],
+    "Speakers": "Sriram Nambakam",
     "Topic": "Kernel & Low Level Systems"
   },
   {
@@ -3140,10 +2498,7 @@
     "Location": "Ballroom H",
     "StartTime": "2025-03-09T11:45:00-07:00",
     "EndTime": "2025-03-09T12:45:00-07:00",
-    "Speakers": [
-      "Atom Ramirez",
-      "Marie Ramirez"
-    ],
+    "Speakers": "Atom Ramirez, Marie Ramirez",
     "Topic": "General"
   },
   {
@@ -3152,10 +2507,7 @@
     "Location": "Room 107",
     "StartTime": "2025-03-09T11:45:00-07:00",
     "EndTime": "2025-03-09T12:45:00-07:00",
-    "Speakers": [
-      "Alok Ranjan",
-      "Paul Shen"
-    ],
+    "Speakers": "Alok Ranjan, Paul Shen",
     "Topic": "Observability"
   },
   {
@@ -3164,9 +2516,7 @@
     "Location": "Room 103",
     "StartTime": "2025-03-09T12:00:00-07:00",
     "EndTime": "2025-03-09T13:00:00-07:00",
-    "Speakers": [
-      "Krista Burdine"
-    ],
+    "Speakers": "Krista Burdine",
     "Topic": "Career Day"
   },
   {
@@ -3175,9 +2525,7 @@
     "Location": "Room 104",
     "StartTime": "2025-03-09T13:00:00-07:00",
     "EndTime": "2025-03-09T15:00:00-07:00",
-    "Speakers": [
-      "Jenson Crawford"
-    ],
+    "Speakers": "Jenson Crawford",
     "Topic": "Career Day"
   },
   {
@@ -3186,9 +2534,7 @@
     "Location": "Room 103",
     "StartTime": "2025-03-09T13:00:00-07:00",
     "EndTime": "2025-03-09T14:00:00-07:00",
-    "Speakers": [
-      "Adrianna Frick"
-    ],
+    "Speakers": "Adrianna Frick",
     "Topic": "Career Day"
   },
   {
@@ -3197,9 +2543,7 @@
     "Location": "Room 209",
     "StartTime": "2025-03-09T13:30:00-07:00",
     "EndTime": "2025-03-09T15:00:00-07:00",
-    "Speakers": [
-      "Mica Semrick"
-    ],
+    "Speakers": "Mica Semrick",
     "Topic": "LibreGraphics"
   },
   {
@@ -3208,9 +2552,7 @@
     "Location": "Ballroom H",
     "StartTime": "2025-03-09T13:45:00-07:00",
     "EndTime": "2025-03-09T14:45:00-07:00",
-    "Speakers": [
-      "Carl Richell"
-    ],
+    "Speakers": "Carl Richell",
     "Topic": "General"
   },
   {
@@ -3219,9 +2561,7 @@
     "Location": "Ballroom G",
     "StartTime": "2025-03-09T13:45:00-07:00",
     "EndTime": "2025-03-09T14:45:00-07:00",
-    "Speakers": [
-      "James Huang"
-    ],
+    "Speakers": "James Huang",
     "Topic": "General"
   },
   {
@@ -3230,9 +2570,7 @@
     "Location": "Ballroom B",
     "StartTime": "2025-03-09T13:45:00-07:00",
     "EndTime": "2025-03-09T14:45:00-07:00",
-    "Speakers": [
-      "Vahan Melikyan"
-    ],
+    "Speakers": "Vahan Melikyan",
     "Topic": "Cloud Native"
   },
   {
@@ -3241,9 +2579,7 @@
     "Location": "Room 211",
     "StartTime": "2025-03-09T13:45:00-07:00",
     "EndTime": "2025-03-09T14:45:00-07:00",
-    "Speakers": [
-      "Tim Quinlan"
-    ],
+    "Speakers": "Tim Quinlan",
     "Topic": "Developer"
   },
   {
@@ -3252,10 +2588,7 @@
     "Location": "Room 107",
     "StartTime": "2025-03-09T13:45:00-07:00",
     "EndTime": "2025-03-09T14:45:00-07:00",
-    "Speakers": [
-      "Jash Mistry",
-      "Gabriela Medvetska"
-    ],
+    "Speakers": "Jash Mistry, Gabriela Medvetska",
     "Topic": "Observability"
   },
   {
@@ -3264,9 +2597,7 @@
     "Location": "Ballroom A",
     "StartTime": "2025-03-09T13:45:00-07:00",
     "EndTime": "2025-03-09T14:45:00-07:00",
-    "Speakers": [
-      "Joe Thompson"
-    ],
+    "Speakers": "Joe Thompson",
     "Topic": "Cloud Native"
   },
   {
@@ -3275,9 +2606,7 @@
     "Location": "Ballroom F",
     "StartTime": "2025-03-09T13:45:00-07:00",
     "EndTime": "2025-03-09T14:45:00-07:00",
-    "Speakers": [
-      "Gene Chuang"
-    ],
+    "Speakers": "Gene Chuang",
     "Topic": "Open Source AI"
   },
   {
@@ -3286,9 +2615,7 @@
     "Location": "Room 106",
     "StartTime": "2025-03-09T13:45:00-07:00",
     "EndTime": "2025-03-09T14:45:00-07:00",
-    "Speakers": [
-      "Josh Thornton"
-    ],
+    "Speakers": "Josh Thornton",
     "Topic": "Systems & Infrastructure"
   },
   {
@@ -3297,9 +2624,7 @@
     "Location": "Room 105",
     "StartTime": "2025-03-09T13:45:00-07:00",
     "EndTime": "2025-03-09T14:45:00-07:00",
-    "Speakers": [
-      "Kyle Rankin"
-    ],
+    "Speakers": "Kyle Rankin",
     "Topic": "FOSS @ HOME"
   },
   {
@@ -3308,9 +2633,7 @@
     "Location": "Ballroom C",
     "StartTime": "2025-03-09T13:45:00-07:00",
     "EndTime": "2025-03-09T14:45:00-07:00",
-    "Speakers": [
-      "Mitchell Levy"
-    ],
+    "Speakers": "Mitchell Levy",
     "Topic": "Kernel & Low Level Systems"
   },
   {
@@ -3319,9 +2642,7 @@
     "Location": "Room 101",
     "StartTime": "2025-03-09T13:45:00-07:00",
     "EndTime": "2025-03-09T14:45:00-07:00",
-    "Speakers": [
-      "Kennedy Toomey"
-    ],
+    "Speakers": "Kennedy Toomey",
     "Topic": "Security"
   },
   {
@@ -3330,9 +2651,7 @@
     "Location": "Room 103",
     "StartTime": "2025-03-09T14:00:00-07:00",
     "EndTime": "2025-03-09T15:00:00-07:00",
-    "Speakers": [
-      "Vinit Dhatrak"
-    ],
+    "Speakers": "Vinit Dhatrak",
     "Topic": "Career Day"
   },
   {
@@ -3341,9 +2660,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2025-03-09T15:00:00-07:00",
     "EndTime": "2025-03-09T16:00:00-07:00",
-    "Speakers": [
-      "Leslie Lamport"
-    ],
+    "Speakers": "Leslie Lamport",
     "Topic": "Keynote"
   }
 ]

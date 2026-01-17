@@ -5,9 +5,7 @@
     "Location": "Room 106",
     "StartTime": "2024-03-14T09:30:00-07:00",
     "EndTime": "2024-03-14T10:30:00-07:00",
-    "Speakers": [
-      "Tom Bereknyei"
-    ],
+    "Speakers": "Tom Bereknyei",
     "Topic": "NixCon"
   },
   {
@@ -16,10 +14,7 @@
     "Location": "Ballroom B",
     "StartTime": "2024-03-14T10:00:00-07:00",
     "EndTime": "2024-03-14T13:00:00-07:00",
-    "Speakers": [
-      "Tammer Saleh",
-      "Maziar Tamadon"
-    ],
+    "Speakers": "Tammer Saleh, Maziar Tamadon",
     "Topic": "Kubernetes Community Day"
   },
   {
@@ -28,10 +23,7 @@
     "Location": "Ballroom A",
     "StartTime": "2024-03-14T10:00:00-07:00",
     "EndTime": "2024-03-14T13:00:00-07:00",
-    "Speakers": [
-      "Caleb Schoepp",
-      "Justin Pflueger"
-    ],
+    "Speakers": "Caleb Schoepp, Justin Pflueger",
     "Topic": "Kubernetes Community Day"
   },
   {
@@ -40,10 +32,7 @@
     "Location": "Room 211",
     "StartTime": "2024-03-14T10:00:00-07:00",
     "EndTime": "2024-03-14T13:00:00-07:00",
-    "Speakers": [
-      "Alvaro Leiva",
-      "Anita Zhang"
-    ],
+    "Speakers": "Alvaro Leiva, Anita Zhang",
     "Topic": "Workshops"
   },
   {
@@ -52,9 +41,7 @@
     "Location": "Ballroom G",
     "StartTime": "2024-03-14T10:00:00-07:00",
     "EndTime": "2024-03-14T11:00:00-07:00",
-    "Speakers": [
-      "Keith Fiske"
-    ],
+    "Speakers": "Keith Fiske",
     "Topic": "PostgreSQL"
   },
   {
@@ -63,10 +50,7 @@
     "Location": "Ballroom H",
     "StartTime": "2024-03-14T10:00:00-07:00",
     "EndTime": "2024-03-14T11:00:00-07:00",
-    "Speakers": [
-      "Thuymy Tran",
-      "Wanda He"
-    ],
+    "Speakers": "Thuymy Tran, Wanda He",
     "Topic": "PostgreSQL"
   },
   {
@@ -75,11 +59,7 @@
     "Location": "Room 209",
     "StartTime": "2024-03-14T10:00:00-07:00",
     "EndTime": "2024-03-14T13:00:00-07:00",
-    "Speakers": [
-      "John Willis",
-      "Dave Nielsen",
-      "Alice Chen"
-    ],
+    "Speakers": "John Willis, Dave Nielsen, Alice Chen",
     "Topic": "Workshops"
   },
   {
@@ -88,10 +68,7 @@
     "Location": "Ballroom F",
     "StartTime": "2024-03-14T10:00:00-07:00",
     "EndTime": "2024-03-14T13:00:00-07:00",
-    "Speakers": [
-      "Cali Dolfi",
-      "James Kunstle"
-    ],
+    "Speakers": "Cali Dolfi, James Kunstle",
     "Topic": "Workshops"
   },
   {
@@ -100,9 +77,7 @@
     "Location": "Ballroom C",
     "StartTime": "2024-03-14T10:15:00-07:00",
     "EndTime": "2024-03-14T11:00:00-07:00",
-    "Speakers": [
-      "Aaron Prisk"
-    ],
+    "Speakers": "Aaron Prisk",
     "Topic": "Ubucon"
   },
   {
@@ -111,9 +86,7 @@
     "Location": "Room 106",
     "StartTime": "2024-03-14T11:00:00-07:00",
     "EndTime": "2024-03-14T12:00:00-07:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "NixCon"
   },
   {
@@ -122,9 +95,7 @@
     "Location": "Ballroom C",
     "StartTime": "2024-03-14T11:00:00-07:00",
     "EndTime": "2024-03-14T12:00:00-07:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Ubucon"
   },
   {
@@ -133,9 +104,7 @@
     "Location": "Ballroom H",
     "StartTime": "2024-03-14T11:15:00-07:00",
     "EndTime": "2024-03-14T12:15:00-07:00",
-    "Speakers": [
-      "Devrim Gunduz"
-    ],
+    "Speakers": "Devrim Gunduz",
     "Topic": "PostgreSQL"
   },
   {
@@ -144,9 +113,7 @@
     "Location": "Ballroom G",
     "StartTime": "2024-03-14T11:15:00-07:00",
     "EndTime": "2024-03-14T12:15:00-07:00",
-    "Speakers": [
-      "Mark Bracher"
-    ],
+    "Speakers": "Mark Bracher",
     "Topic": "PostgreSQL"
   },
   {
@@ -155,9 +122,7 @@
     "Location": "Ballroom C",
     "StartTime": "2024-03-14T12:00:00-07:00",
     "EndTime": "2024-03-14T13:00:00-07:00",
-    "Speakers": [
-      "Ken VanDine"
-    ],
+    "Speakers": "Ken VanDine",
     "Topic": "Ubucon"
   },
   {
@@ -166,9 +131,7 @@
     "Location": "Room 212",
     "StartTime": "2024-03-14T12:00:00-07:00",
     "EndTime": "2024-03-14T12:15:00-07:00",
-    "Speakers": [
-      "Matt Small"
-    ],
+    "Speakers": "Matt Small",
     "Topic": "Kwaai Summit"
   },
   {
@@ -177,9 +140,7 @@
     "Location": "Room 212",
     "StartTime": "2024-03-14T12:15:00-07:00",
     "EndTime": "2024-03-14T12:30:00-07:00",
-    "Speakers": [
-      "Doc Searls"
-    ],
+    "Speakers": "Doc Searls",
     "Topic": "Kwaai Summit"
   },
   {
@@ -188,9 +149,7 @@
     "Location": "Ballroom H",
     "StartTime": "2024-03-14T12:30:00-07:00",
     "EndTime": "2024-03-14T13:30:00-07:00",
-    "Speakers": [
-      "Richard Yen"
-    ],
+    "Speakers": "Richard Yen",
     "Topic": "PostgreSQL"
   },
   {
@@ -199,9 +158,7 @@
     "Location": "Ballroom G",
     "StartTime": "2024-03-14T12:30:00-07:00",
     "EndTime": "2024-03-14T13:30:00-07:00",
-    "Speakers": [
-      "Jeremy Schneider"
-    ],
+    "Speakers": "Jeremy Schneider",
     "Topic": "PostgreSQL"
   },
   {
@@ -210,9 +167,7 @@
     "Location": "Room 212",
     "StartTime": "2024-03-14T12:30:00-07:00",
     "EndTime": "2024-03-14T12:45:00-07:00",
-    "Speakers": [
-      "Pankaj Kedia"
-    ],
+    "Speakers": "Pankaj Kedia",
     "Topic": "Kwaai Summit"
   },
   {
@@ -221,9 +176,7 @@
     "Location": "Room 212",
     "StartTime": "2024-03-14T12:45:00-07:00",
     "EndTime": "2024-03-14T13:00:00-07:00",
-    "Speakers": [
-      "Reza Rassool"
-    ],
+    "Speakers": "Reza Rassool",
     "Topic": "Kwaai Summit"
   },
   {
@@ -232,9 +185,7 @@
     "Location": "Room 212",
     "StartTime": "2024-03-14T13:00:00-07:00",
     "EndTime": "2024-03-14T13:15:00-07:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Kwaai Summit"
   },
   {
@@ -243,9 +194,7 @@
     "Location": "Room 212",
     "StartTime": "2024-03-14T13:15:00-07:00",
     "EndTime": "2024-03-14T13:30:00-07:00",
-    "Speakers": [
-      "Matt Small"
-    ],
+    "Speakers": "Matt Small",
     "Topic": "Kwaai Summit"
   },
   {
@@ -254,9 +203,7 @@
     "Location": "Room 106",
     "StartTime": "2024-03-14T13:30:00-07:00",
     "EndTime": "2024-03-14T14:30:00-07:00",
-    "Speakers": [
-      "Daniel Baker"
-    ],
+    "Speakers": "Daniel Baker",
     "Topic": "NixCon"
   },
   {
@@ -265,9 +212,7 @@
     "Location": "Room 212",
     "StartTime": "2024-03-14T13:30:00-07:00",
     "EndTime": "2024-03-14T14:00:00-07:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Kwaai Summit"
   },
   {
@@ -276,10 +221,7 @@
     "Location": "Room 209",
     "StartTime": "2024-03-14T14:00:00-07:00",
     "EndTime": "2024-03-14T17:00:00-07:00",
-    "Speakers": [
-      "John Studarus",
-      "Robert Hernandez"
-    ],
+    "Speakers": "John Studarus, Robert Hernandez",
     "Topic": "Workshops"
   },
   {
@@ -288,11 +230,7 @@
     "Location": "Ballroom B",
     "StartTime": "2024-03-14T14:00:00-07:00",
     "EndTime": "2024-03-14T17:00:00-07:00",
-    "Speakers": [
-      "Federico Lucifredi",
-      "Gregory Farnum",
-      "JC Lopez"
-    ],
+    "Speakers": "Federico Lucifredi, Gregory Farnum, JC Lopez",
     "Topic": "Kubernetes Community Day"
   },
   {
@@ -301,10 +239,7 @@
     "Location": "Room 211",
     "StartTime": "2024-03-14T14:00:00-07:00",
     "EndTime": "2024-03-14T17:00:00-07:00",
-    "Speakers": [
-      "Shaun McCance",
-      "Carl George"
-    ],
+    "Speakers": "Shaun McCance, Carl George",
     "Topic": "Workshops"
   },
   {
@@ -313,11 +248,7 @@
     "Location": "Ballroom A",
     "StartTime": "2024-03-14T14:00:00-07:00",
     "EndTime": "2024-03-14T17:00:00-07:00",
-    "Speakers": [
-      "Nicholas Morey",
-      "Justin Marquis",
-      "Christian Hernandez"
-    ],
+    "Speakers": "Nicholas Morey, Justin Marquis, Christian Hernandez",
     "Topic": "Kubernetes Community Day"
   },
   {
@@ -326,9 +257,7 @@
     "Location": "Ballroom C",
     "StartTime": "2024-03-14T14:00:00-07:00",
     "EndTime": "2024-03-14T15:00:00-07:00",
-    "Speakers": [
-      "Callahan Kovacs"
-    ],
+    "Speakers": "Callahan Kovacs",
     "Topic": "Ubucon"
   },
   {
@@ -337,10 +266,7 @@
     "Location": "Ballroom F",
     "StartTime": "2024-03-14T14:00:00-07:00",
     "EndTime": "2024-03-14T17:45:00-07:00",
-    "Speakers": [
-      "Auston Ivison",
-      "Brian Six"
-    ],
+    "Speakers": "Auston Ivison, Brian Six",
     "Topic": "Sponsored"
   },
   {
@@ -349,9 +275,7 @@
     "Location": "Room 212",
     "StartTime": "2024-03-14T14:00:00-07:00",
     "EndTime": "2024-03-14T14:15:00-07:00",
-    "Speakers": [
-      "John Willis"
-    ],
+    "Speakers": "John Willis",
     "Topic": "Kwaai Summit"
   },
   {
@@ -360,9 +284,7 @@
     "Location": "Room 212",
     "StartTime": "2024-03-14T14:15:00-07:00",
     "EndTime": "2024-03-14T14:30:00-07:00",
-    "Speakers": [
-      "Bruce Schneier"
-    ],
+    "Speakers": "Bruce Schneier",
     "Topic": "Kwaai Summit"
   },
   {
@@ -371,9 +293,7 @@
     "Location": "Ballroom H",
     "StartTime": "2024-03-14T14:30:00-07:00",
     "EndTime": "2024-03-14T15:30:00-07:00",
-    "Speakers": [
-      "Christopher Travers"
-    ],
+    "Speakers": "Christopher Travers",
     "Topic": "PostgreSQL"
   },
   {
@@ -382,9 +302,7 @@
     "Location": "Ballroom G",
     "StartTime": "2024-03-14T14:30:00-07:00",
     "EndTime": "2024-03-14T15:30:00-07:00",
-    "Speakers": [
-      "Michael Banck"
-    ],
+    "Speakers": "Michael Banck",
     "Topic": "PostgreSQL"
   },
   {
@@ -393,9 +311,7 @@
     "Location": "Room 212",
     "StartTime": "2024-03-14T14:30:00-07:00",
     "EndTime": "2024-03-14T14:45:00-07:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Kwaai Summit"
   },
   {
@@ -404,9 +320,7 @@
     "Location": "Room 212",
     "StartTime": "2024-03-14T14:45:00-07:00",
     "EndTime": "2024-03-14T15:15:00-07:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Kwaai Summit"
   },
   {
@@ -415,9 +329,7 @@
     "Location": "Room 106",
     "StartTime": "2024-03-14T15:00:00-07:00",
     "EndTime": "2024-03-14T16:00:00-07:00",
-    "Speakers": [
-      "Ryan Trinkle"
-    ],
+    "Speakers": "Ryan Trinkle",
     "Topic": "NixCon"
   },
   {
@@ -426,9 +338,7 @@
     "Location": "Ballroom C",
     "StartTime": "2024-03-14T15:00:00-07:00",
     "EndTime": "2024-03-14T16:00:00-07:00",
-    "Speakers": [
-      "Jason Nucciarone"
-    ],
+    "Speakers": "Jason Nucciarone",
     "Topic": "Ubucon"
   },
   {
@@ -437,9 +347,7 @@
     "Location": "Room 212",
     "StartTime": "2024-03-14T15:15:00-07:00",
     "EndTime": "2024-03-14T15:45:00-07:00",
-    "Speakers": [
-      "Khai Pham"
-    ],
+    "Speakers": "Khai Pham",
     "Topic": "Kwaai Summit"
   },
   {
@@ -448,9 +356,7 @@
     "Location": "Ballroom G",
     "StartTime": "2024-03-14T15:45:00-07:00",
     "EndTime": "2024-03-14T16:45:00-07:00",
-    "Speakers": [
-      "Franck Pachot"
-    ],
+    "Speakers": "Franck Pachot",
     "Topic": "PostgreSQL"
   },
   {
@@ -459,9 +365,7 @@
     "Location": "Ballroom H",
     "StartTime": "2024-03-14T15:45:00-07:00",
     "EndTime": "2024-03-14T16:45:00-07:00",
-    "Speakers": [
-      "Krishnakumar Ravi"
-    ],
+    "Speakers": "Krishnakumar Ravi",
     "Topic": "PostgreSQL"
   },
   {
@@ -470,9 +374,7 @@
     "Location": "Room 212",
     "StartTime": "2024-03-14T15:45:00-07:00",
     "EndTime": "2024-03-14T16:00:00-07:00",
-    "Speakers": [
-      "Reza Rassool"
-    ],
+    "Speakers": "Reza Rassool",
     "Topic": "Kwaai Summit"
   },
   {
@@ -481,9 +383,7 @@
     "Location": "Ballroom C",
     "StartTime": "2024-03-14T16:00:00-07:00",
     "EndTime": "2024-03-14T17:00:00-07:00",
-    "Speakers": [
-      "Felipe Reyes"
-    ],
+    "Speakers": "Felipe Reyes",
     "Topic": "Ubucon"
   },
   {
@@ -492,9 +392,7 @@
     "Location": "Room 212",
     "StartTime": "2024-03-14T16:00:00-07:00",
     "EndTime": "2024-03-14T16:30:00-07:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Kwaai Summit"
   },
   {
@@ -503,9 +401,7 @@
     "Location": "Room 106",
     "StartTime": "2024-03-14T16:30:00-07:00",
     "EndTime": "2024-03-14T17:30:00-07:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "NixCon"
   },
   {
@@ -514,9 +410,7 @@
     "Location": "Room 212",
     "StartTime": "2024-03-14T16:30:00-07:00",
     "EndTime": "2024-03-14T16:45:00-07:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Kwaai Summit"
   },
   {
@@ -525,9 +419,7 @@
     "Location": "Room 212",
     "StartTime": "2024-03-14T16:45:00-07:00",
     "EndTime": "2024-03-14T17:00:00-07:00",
-    "Speakers": [
-      "Reza Rassool"
-    ],
+    "Speakers": "Reza Rassool",
     "Topic": "Kwaai Summit"
   },
   {
@@ -536,13 +428,7 @@
     "Location": "Ballroom G",
     "StartTime": "2024-03-14T17:00:00-07:00",
     "EndTime": "2024-03-14T18:00:00-07:00",
-    "Speakers": [
-      "Mark Wong",
-      "Devrim Gunduz",
-      "Magnus Hagander",
-      "Jonathan Katz",
-      "Joe Conway"
-    ],
+    "Speakers": "Mark Wong, Devrim Gunduz, Magnus Hagander, Jonathan Katz, Joe Conway",
     "Topic": "PostgreSQL"
   },
   {
@@ -551,9 +437,7 @@
     "Location": "Ballroom C",
     "StartTime": "2024-03-14T17:00:00-07:00",
     "EndTime": "2024-03-14T17:30:00-07:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Ubucon"
   },
   {
@@ -562,9 +446,7 @@
     "Location": "Room 209",
     "StartTime": "2024-03-14T17:30:00-07:00",
     "EndTime": "2024-03-14T18:30:00-07:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -573,9 +455,7 @@
     "Location": "Room 211",
     "StartTime": "2024-03-14T18:30:00-07:00",
     "EndTime": "2024-03-14T19:30:00-07:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -584,9 +464,7 @@
     "Location": "Ballroom H",
     "StartTime": "2024-03-14T18:30:00-07:00",
     "EndTime": "2024-03-14T19:30:00-07:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -595,9 +473,7 @@
     "Location": "Room 101",
     "StartTime": "2024-03-15T09:30:00-07:00",
     "EndTime": "2024-03-15T10:00:00-07:00",
-    "Speakers": [
-      "Xe iaso"
-    ],
+    "Speakers": "Xe iaso",
     "Topic": "NixCon"
   },
   {
@@ -606,9 +482,7 @@
     "Location": "Ballroom G",
     "StartTime": "2024-03-15T10:00:00-07:00",
     "EndTime": "2024-03-15T11:00:00-07:00",
-    "Speakers": [
-      "Henrietta Dombrovskaya"
-    ],
+    "Speakers": "Henrietta Dombrovskaya",
     "Topic": "PostgreSQL"
   },
   {
@@ -617,9 +491,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2024-03-15T10:00:00-07:00",
     "EndTime": "2024-03-15T10:45:00-07:00",
-    "Speakers": [
-      "Michael Coté"
-    ],
+    "Speakers": "Michael Coté",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -628,9 +500,7 @@
     "Location": "Room 106",
     "StartTime": "2024-03-15T10:00:00-07:00",
     "EndTime": "2024-03-15T11:00:00-07:00",
-    "Speakers": [
-      "Peter Zaitsev"
-    ],
+    "Speakers": "Peter Zaitsev",
     "Topic": "Data on Kubernetes"
   },
   {
@@ -639,9 +509,7 @@
     "Location": "Ballroom B",
     "StartTime": "2024-03-15T10:00:00-07:00",
     "EndTime": "2024-03-15T11:00:00-07:00",
-    "Speakers": [
-      "Paige Cruz"
-    ],
+    "Speakers": "Paige Cruz",
     "Topic": "Kubernetes Community Day"
   },
   {
@@ -650,9 +518,7 @@
     "Location": "Room 105",
     "StartTime": "2024-03-15T10:00:00-07:00",
     "EndTime": "2024-03-15T11:00:00-07:00",
-    "Speakers": [
-      "Marcia Wilbur"
-    ],
+    "Speakers": "Marcia Wilbur",
     "Topic": "Embedded Linux"
   },
   {
@@ -661,9 +527,7 @@
     "Location": "Room 107",
     "StartTime": "2024-03-15T10:00:00-07:00",
     "EndTime": "2024-03-15T11:00:00-07:00",
-    "Speakers": [
-      "Sean Blagsvedt"
-    ],
+    "Speakers": "Sean Blagsvedt",
     "Topic": "Open Government"
   },
   {
@@ -672,9 +536,7 @@
     "Location": "Ballroom H",
     "StartTime": "2024-03-15T10:00:00-07:00",
     "EndTime": "2024-03-15T11:00:00-07:00",
-    "Speakers": [
-      "Gleb Otochkin"
-    ],
+    "Speakers": "Gleb Otochkin",
     "Topic": "PostgreSQL"
   },
   {
@@ -683,9 +545,7 @@
     "Location": "Ballroom F",
     "StartTime": "2024-03-15T10:00:00-07:00",
     "EndTime": "2024-03-15T11:00:00-07:00",
-    "Speakers": [
-      "Vivienne Byrd"
-    ],
+    "Speakers": "Vivienne Byrd",
     "Topic": "Open Source AI and Applied Science"
   },
   {
@@ -694,10 +554,7 @@
     "Location": "Room 211",
     "StartTime": "2024-03-15T10:00:00-07:00",
     "EndTime": "2024-03-15T13:00:00-07:00",
-    "Speakers": [
-      "Alvaro Leiva",
-      "Anita Zhang"
-    ],
+    "Speakers": "Alvaro Leiva, Anita Zhang",
     "Topic": "Workshops"
   },
   {
@@ -706,9 +563,7 @@
     "Location": "Room 101",
     "StartTime": "2024-03-15T10:00:00-07:00",
     "EndTime": "2024-03-15T10:30:00-07:00",
-    "Speakers": [
-      "Will Fancher"
-    ],
+    "Speakers": "Will Fancher",
     "Topic": "NixCon"
   },
   {
@@ -717,9 +572,7 @@
     "Location": "Room 209",
     "StartTime": "2024-03-15T10:00:00-07:00",
     "EndTime": "2024-03-15T13:00:00-07:00",
-    "Speakers": [
-      "Nathan Loding"
-    ],
+    "Speakers": "Nathan Loding",
     "Topic": "Sponsored"
   },
   {
@@ -728,9 +581,7 @@
     "Location": "Ballroom C",
     "StartTime": "2024-03-15T10:00:00-07:00",
     "EndTime": "2024-03-15T10:30:00-07:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Ubucon"
   },
   {
@@ -739,9 +590,7 @@
     "Location": "Ballroom A",
     "StartTime": "2024-03-15T10:00:00-07:00",
     "EndTime": "2024-03-15T11:00:00-07:00",
-    "Speakers": [
-      "Justin Garrison"
-    ],
+    "Speakers": "Justin Garrison",
     "Topic": "Kubernetes Community Day"
   },
   {
@@ -750,9 +599,7 @@
     "Location": "Room 101",
     "StartTime": "2024-03-15T10:30:00-07:00",
     "EndTime": "2024-03-15T11:00:00-07:00",
-    "Speakers": [
-      "Pierre Penninckx"
-    ],
+    "Speakers": "Pierre Penninckx",
     "Topic": "NixCon"
   },
   {
@@ -761,9 +608,7 @@
     "Location": "Ballroom C",
     "StartTime": "2024-03-15T10:30:00-07:00",
     "EndTime": "2024-03-15T11:15:00-07:00",
-    "Speakers": [
-      "George Mulak"
-    ],
+    "Speakers": "George Mulak",
     "Topic": "Ubucon"
   },
   {
@@ -772,9 +617,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2024-03-15T11:00:00-07:00",
     "EndTime": "2024-03-15T11:45:00-07:00",
-    "Speakers": [
-      "andrew fong"
-    ],
+    "Speakers": "andrew fong",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -783,9 +626,7 @@
     "Location": "Room 106",
     "StartTime": "2024-03-15T11:15:00-07:00",
     "EndTime": "2024-03-15T12:15:00-07:00",
-    "Speakers": [
-      "Denis Magda"
-    ],
+    "Speakers": "Denis Magda",
     "Topic": "Data on Kubernetes"
   },
   {
@@ -794,9 +635,7 @@
     "Location": "Ballroom H",
     "StartTime": "2024-03-15T11:15:00-07:00",
     "EndTime": "2024-03-15T12:15:00-07:00",
-    "Speakers": [
-      "Julien Riou"
-    ],
+    "Speakers": "Julien Riou",
     "Topic": "PostgreSQL"
   },
   {
@@ -805,9 +644,7 @@
     "Location": "Ballroom G",
     "StartTime": "2024-03-15T11:15:00-07:00",
     "EndTime": "2024-03-15T12:15:00-07:00",
-    "Speakers": [
-      "Jonathan Katz"
-    ],
+    "Speakers": "Jonathan Katz",
     "Topic": "PostgreSQL"
   },
   {
@@ -816,9 +653,7 @@
     "Location": "Room 105",
     "StartTime": "2024-03-15T11:15:00-07:00",
     "EndTime": "2024-03-15T12:15:00-07:00",
-    "Speakers": [
-      "Achille Verheye"
-    ],
+    "Speakers": "Achille Verheye",
     "Topic": "Embedded Linux"
   },
   {
@@ -827,9 +662,7 @@
     "Location": "Ballroom A",
     "StartTime": "2024-03-15T11:15:00-07:00",
     "EndTime": "2024-03-15T12:15:00-07:00",
-    "Speakers": [
-      "Leigh Capili"
-    ],
+    "Speakers": "Leigh Capili",
     "Topic": "Kubernetes Community Day"
   },
   {
@@ -838,11 +671,7 @@
     "Location": "Room 107",
     "StartTime": "2024-03-15T11:15:00-07:00",
     "EndTime": "2024-03-15T12:15:00-07:00",
-    "Speakers": [
-      "Rishi Verma",
-      "John Engelke",
-      "Kyongsik Yun"
-    ],
+    "Speakers": "Rishi Verma, John Engelke, Kyongsik Yun",
     "Topic": "Open Government"
   },
   {
@@ -851,9 +680,7 @@
     "Location": "Ballroom F",
     "StartTime": "2024-03-15T11:15:00-07:00",
     "EndTime": "2024-03-15T12:15:00-07:00",
-    "Speakers": [
-      "Khai Pham"
-    ],
+    "Speakers": "Khai Pham",
     "Topic": "Open Source AI and Applied Science"
   },
   {
@@ -862,9 +689,7 @@
     "Location": "Ballroom C",
     "StartTime": "2024-03-15T11:15:00-07:00",
     "EndTime": "2024-03-15T12:00:00-07:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Ubucon"
   },
   {
@@ -873,9 +698,7 @@
     "Location": "Ballroom B",
     "StartTime": "2024-03-15T11:15:00-07:00",
     "EndTime": "2024-03-15T12:15:00-07:00",
-    "Speakers": [
-      "Christian Hernandez"
-    ],
+    "Speakers": "Christian Hernandez",
     "Topic": "Kubernetes Community Day"
   },
   {
@@ -884,9 +707,7 @@
     "Location": "Room 101",
     "StartTime": "2024-03-15T11:30:00-07:00",
     "EndTime": "2024-03-15T12:00:00-07:00",
-    "Speakers": [
-      "Tom Bereknyei"
-    ],
+    "Speakers": "Tom Bereknyei",
     "Topic": "NixCon"
   },
   {
@@ -895,9 +716,7 @@
     "Location": "Room 101",
     "StartTime": "2024-03-15T12:00:00-07:00",
     "EndTime": "2024-03-15T12:30:00-07:00",
-    "Speakers": [
-      "Badi Abdul-Wahid"
-    ],
+    "Speakers": "Badi Abdul-Wahid",
     "Topic": "NixCon"
   },
   {
@@ -906,9 +725,7 @@
     "Location": "Ballroom C",
     "StartTime": "2024-03-15T12:00:00-07:00",
     "EndTime": "2024-03-15T13:30:00-07:00",
-    "Speakers": [
-      "Daphne Muller"
-    ],
+    "Speakers": "Daphne Muller",
     "Topic": "Ubucon"
   },
   {
@@ -917,10 +734,7 @@
     "Location": "Ballroom H",
     "StartTime": "2024-03-15T12:30:00-07:00",
     "EndTime": "2024-03-15T13:30:00-07:00",
-    "Speakers": [
-      "Yihong Wang",
-      "Kiersten Stokes"
-    ],
+    "Speakers": "Yihong Wang, Kiersten Stokes",
     "Topic": "Data on Kubernetes"
   },
   {
@@ -929,9 +743,7 @@
     "Location": "Ballroom B",
     "StartTime": "2024-03-15T12:30:00-07:00",
     "EndTime": "2024-03-15T13:30:00-07:00",
-    "Speakers": [
-      "Nicolas Fränkel"
-    ],
+    "Speakers": "Nicolas Fränkel",
     "Topic": "Kubernetes Community Day"
   },
   {
@@ -940,9 +752,7 @@
     "Location": "Room 106",
     "StartTime": "2024-03-15T12:30:00-07:00",
     "EndTime": "2024-03-15T13:30:00-07:00",
-    "Speakers": [
-      "Matthias Crauwels"
-    ],
+    "Speakers": "Matthias Crauwels",
     "Topic": "MySQL"
   },
   {
@@ -951,9 +761,7 @@
     "Location": "Room 107",
     "StartTime": "2024-03-15T12:30:00-07:00",
     "EndTime": "2024-03-15T13:30:00-07:00",
-    "Speakers": [
-      "Nina Kin"
-    ],
+    "Speakers": "Nina Kin",
     "Topic": "Open Government"
   },
   {
@@ -962,9 +770,7 @@
     "Location": "Ballroom F",
     "StartTime": "2024-03-15T12:30:00-07:00",
     "EndTime": "2024-03-15T13:30:00-07:00",
-    "Speakers": [
-      "Jos Poortvliet"
-    ],
+    "Speakers": "Jos Poortvliet",
     "Topic": "Open Source AI and Applied Science"
   },
   {
@@ -973,9 +779,7 @@
     "Location": "Ballroom G",
     "StartTime": "2024-03-15T12:30:00-07:00",
     "EndTime": "2024-03-15T13:30:00-07:00",
-    "Speakers": [
-      "Magnus Hagander"
-    ],
+    "Speakers": "Magnus Hagander",
     "Topic": "PostgreSQL"
   },
   {
@@ -984,9 +788,7 @@
     "Location": "Room 105",
     "StartTime": "2024-03-15T12:30:00-07:00",
     "EndTime": "2024-03-15T13:30:00-07:00",
-    "Speakers": [
-      "Rob Weber"
-    ],
+    "Speakers": "Rob Weber",
     "Topic": "Embedded Linux"
   },
   {
@@ -995,9 +797,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2024-03-15T13:30:00-07:00",
     "EndTime": "2024-03-15T13:45:00-07:00",
-    "Speakers": [
-      "Paul Tevis"
-    ],
+    "Speakers": "Paul Tevis",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -1006,9 +806,7 @@
     "Location": "Room 101",
     "StartTime": "2024-03-15T13:30:00-07:00",
     "EndTime": "2024-03-15T14:00:00-07:00",
-    "Speakers": [
-      "Ron Efroni"
-    ],
+    "Speakers": "Ron Efroni",
     "Topic": "NixCon"
   },
   {
@@ -1017,9 +815,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2024-03-15T13:45:00-07:00",
     "EndTime": "2024-03-15T14:00:00-07:00",
-    "Speakers": [
-      "John Engelke"
-    ],
+    "Speakers": "John Engelke",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -1028,9 +824,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2024-03-15T14:00:00-07:00",
     "EndTime": "2024-03-15T14:45:00-07:00",
-    "Speakers": [
-      "Gareth J. Greenaway"
-    ],
+    "Speakers": "Gareth J. Greenaway",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -1039,10 +833,7 @@
     "Location": "Room 211",
     "StartTime": "2024-03-15T14:00:00-07:00",
     "EndTime": "2024-03-15T17:00:00-07:00",
-    "Speakers": [
-      "Kyle Davis",
-      "Tom Callaway"
-    ],
+    "Speakers": "Kyle Davis, Tom Callaway",
     "Topic": "Workshops"
   },
   {
@@ -1051,9 +842,7 @@
     "Location": "Room 209",
     "StartTime": "2024-03-15T14:00:00-07:00",
     "EndTime": "2024-03-15T17:00:00-07:00",
-    "Speakers": [
-      "Drew Gurkowski"
-    ],
+    "Speakers": "Drew Gurkowski",
     "Topic": "Workshops"
   },
   {
@@ -1062,10 +851,7 @@
     "Location": "Room 101",
     "StartTime": "2024-03-15T14:00:00-07:00",
     "EndTime": "2024-03-15T14:30:00-07:00",
-    "Speakers": [
-      "Samir Rashid",
-      "Anthony Tarbinian"
-    ],
+    "Speakers": "Samir Rashid, Anthony Tarbinian",
     "Topic": "NixCon"
   },
   {
@@ -1074,9 +860,7 @@
     "Location": "Ballroom G",
     "StartTime": "2024-03-15T14:30:00-07:00",
     "EndTime": "2024-03-15T15:30:00-07:00",
-    "Speakers": [
-      "Joe Conway"
-    ],
+    "Speakers": "Joe Conway",
     "Topic": "PostgreSQL"
   },
   {
@@ -1085,9 +869,7 @@
     "Location": "Ballroom B",
     "StartTime": "2024-03-15T14:30:00-07:00",
     "EndTime": "2024-03-15T15:30:00-07:00",
-    "Speakers": [
-      "Dotan Horovits"
-    ],
+    "Speakers": "Dotan Horovits",
     "Topic": "Kubernetes Community Day"
   },
   {
@@ -1096,9 +878,7 @@
     "Location": "Ballroom H",
     "StartTime": "2024-03-15T14:30:00-07:00",
     "EndTime": "2024-03-15T15:30:00-07:00",
-    "Speakers": [
-      "Umair Shahid"
-    ],
+    "Speakers": "Umair Shahid",
     "Topic": "PostgreSQL"
   },
   {
@@ -1107,9 +887,7 @@
     "Location": "Room 106",
     "StartTime": "2024-03-15T14:30:00-07:00",
     "EndTime": "2024-03-15T15:30:00-07:00",
-    "Speakers": [
-      "Alkin Tezuysal"
-    ],
+    "Speakers": "Alkin Tezuysal",
     "Topic": "MySQL"
   },
   {
@@ -1118,10 +896,7 @@
     "Location": "Ballroom F",
     "StartTime": "2024-03-15T14:30:00-07:00",
     "EndTime": "2024-03-15T15:30:00-07:00",
-    "Speakers": [
-      "Kate Sweetland",
-      "Darryl Hwang"
-    ],
+    "Speakers": "Kate Sweetland, Darryl Hwang",
     "Topic": "Open Source AI and Applied Science"
   },
   {
@@ -1130,10 +905,7 @@
     "Location": "Room 105",
     "StartTime": "2024-03-15T14:30:00-07:00",
     "EndTime": "2024-03-15T15:30:00-07:00",
-    "Speakers": [
-      "Kerim Satirli",
-      "Adrian Todorov"
-    ],
+    "Speakers": "Kerim Satirli, Adrian Todorov",
     "Topic": "Embedded Linux"
   },
   {
@@ -1142,9 +914,7 @@
     "Location": "Room 107",
     "StartTime": "2024-03-15T14:30:00-07:00",
     "EndTime": "2024-03-15T15:30:00-07:00",
-    "Speakers": [
-      "Lodewijk Gelauff"
-    ],
+    "Speakers": "Lodewijk Gelauff",
     "Topic": "Open Government"
   },
   {
@@ -1153,10 +923,7 @@
     "Location": "Room 101",
     "StartTime": "2024-03-15T14:30:00-07:00",
     "EndTime": "2024-03-15T15:00:00-07:00",
-    "Speakers": [
-      "Farid Zakaria",
-      "Micah Catlin"
-    ],
+    "Speakers": "Farid Zakaria, Micah Catlin",
     "Topic": "NixCon"
   },
   {
@@ -1165,9 +932,7 @@
     "Location": "Ballroom C",
     "StartTime": "2024-03-15T14:30:00-07:00",
     "EndTime": "2024-03-15T16:00:00-07:00",
-    "Speakers": [
-      "Jason Nucciarone"
-    ],
+    "Speakers": "Jason Nucciarone",
     "Topic": "Ubucon"
   },
   {
@@ -1176,9 +941,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2024-03-15T15:00:00-07:00",
     "EndTime": "2024-03-15T15:15:00-07:00",
-    "Speakers": [
-      "David Southwell"
-    ],
+    "Speakers": "David Southwell",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -1187,9 +950,7 @@
     "Location": "Room 101",
     "StartTime": "2024-03-15T15:00:00-07:00",
     "EndTime": "2024-03-15T16:30:00-07:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "NixCon"
   },
   {
@@ -1198,9 +959,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2024-03-15T15:15:00-07:00",
     "EndTime": "2024-03-15T15:30:00-07:00",
-    "Speakers": [
-      "Tony Loehr"
-    ],
+    "Speakers": "Tony Loehr",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -1209,9 +968,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2024-03-15T15:30:00-07:00",
     "EndTime": "2024-03-15T15:45:00-07:00",
-    "Speakers": [
-      "Michael Stahnke"
-    ],
+    "Speakers": "Michael Stahnke",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -1220,9 +977,7 @@
     "Location": "Room 205",
     "StartTime": "2024-03-15T15:30:00-07:00",
     "EndTime": "2024-03-15T16:30:00-07:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -1231,10 +986,7 @@
     "Location": "Ballroom A",
     "StartTime": "2024-03-15T15:45:00-07:00",
     "EndTime": "2024-03-15T16:45:00-07:00",
-    "Speakers": [
-      "Christina Andonov",
-      "Apoorva Kulkarni"
-    ],
+    "Speakers": "Christina Andonov, Apoorva Kulkarni",
     "Topic": "Data on Kubernetes"
   },
   {
@@ -1243,9 +995,7 @@
     "Location": "Room 106",
     "StartTime": "2024-03-15T15:45:00-07:00",
     "EndTime": "2024-03-15T16:45:00-07:00",
-    "Speakers": [
-      "Sunny Bains"
-    ],
+    "Speakers": "Sunny Bains",
     "Topic": "MySQL"
   },
   {
@@ -1254,9 +1004,7 @@
     "Location": "Ballroom G",
     "StartTime": "2024-03-15T15:45:00-07:00",
     "EndTime": "2024-03-15T16:45:00-07:00",
-    "Speakers": [
-      "Ryan Booz"
-    ],
+    "Speakers": "Ryan Booz",
     "Topic": "PostgreSQL"
   },
   {
@@ -1265,9 +1013,7 @@
     "Location": "Room 105",
     "StartTime": "2024-03-15T15:45:00-07:00",
     "EndTime": "2024-03-15T16:45:00-07:00",
-    "Speakers": [
-      "Michael Starch"
-    ],
+    "Speakers": "Michael Starch",
     "Topic": "Embedded Linux"
   },
   {
@@ -1276,9 +1022,7 @@
     "Location": "Ballroom B",
     "StartTime": "2024-03-15T15:45:00-07:00",
     "EndTime": "2024-03-15T16:45:00-07:00",
-    "Speakers": [
-      "Kevin Howell"
-    ],
+    "Speakers": "Kevin Howell",
     "Topic": "Kubernetes Community Day"
   },
   {
@@ -1287,9 +1031,7 @@
     "Location": "Room 107",
     "StartTime": "2024-03-15T15:45:00-07:00",
     "EndTime": "2024-03-15T16:45:00-07:00",
-    "Speakers": [
-      "Margaret Tucker"
-    ],
+    "Speakers": "Margaret Tucker",
     "Topic": "Open Government"
   },
   {
@@ -1298,9 +1040,7 @@
     "Location": "Ballroom F",
     "StartTime": "2024-03-15T15:45:00-07:00",
     "EndTime": "2024-03-15T16:45:00-07:00",
-    "Speakers": [
-      "Karen Yuen"
-    ],
+    "Speakers": "Karen Yuen",
     "Topic": "Open Source AI and Applied Science"
   },
   {
@@ -1309,9 +1049,7 @@
     "Location": "Ballroom H",
     "StartTime": "2024-03-15T15:45:00-07:00",
     "EndTime": "2024-03-15T16:45:00-07:00",
-    "Speakers": [
-      "Nick Meyer"
-    ],
+    "Speakers": "Nick Meyer",
     "Topic": "PostgreSQL"
   },
   {
@@ -1320,9 +1058,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2024-03-15T16:00:00-07:00",
     "EndTime": "2024-03-15T16:45:00-07:00",
-    "Speakers": [
-      "Mandi Walls"
-    ],
+    "Speakers": "Mandi Walls",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -1331,11 +1067,7 @@
     "Location": "Ballroom C",
     "StartTime": "2024-03-15T16:00:00-07:00",
     "EndTime": "2024-03-15T17:15:00-07:00",
-    "Speakers": [
-      "Nathan Haines",
-      "Richard Gaskin",
-      "Aaron Prisk"
-    ],
+    "Speakers": "Nathan Haines, Richard Gaskin, Aaron Prisk",
     "Topic": "Ubucon"
   },
   {
@@ -1344,9 +1076,7 @@
     "Location": "Ballroom H",
     "StartTime": "2024-03-15T17:00:00-07:00",
     "EndTime": "2024-03-15T18:00:00-07:00",
-    "Speakers": [
-      "Jimmy Angelakos"
-    ],
+    "Speakers": "Jimmy Angelakos",
     "Topic": "PostgreSQL"
   },
   {
@@ -1355,9 +1085,7 @@
     "Location": "Room 106",
     "StartTime": "2024-03-15T17:00:00-07:00",
     "EndTime": "2024-03-15T18:00:00-07:00",
-    "Speakers": [
-      "Scott Stroz"
-    ],
+    "Speakers": "Scott Stroz",
     "Topic": "MySQL"
   },
   {
@@ -1366,9 +1094,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2024-03-15T17:00:00-07:00",
     "EndTime": "2024-03-15T17:45:00-07:00",
-    "Speakers": [
-      "Robert Reselman"
-    ],
+    "Speakers": "Robert Reselman",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -1377,9 +1103,7 @@
     "Location": "Ballroom F",
     "StartTime": "2024-03-15T17:00:00-07:00",
     "EndTime": "2024-03-15T18:00:00-07:00",
-    "Speakers": [
-      "Gabriele Bozzola"
-    ],
+    "Speakers": "Gabriele Bozzola",
     "Topic": "Open Source AI and Applied Science"
   },
   {
@@ -1388,9 +1112,7 @@
     "Location": "Room 105",
     "StartTime": "2024-03-15T17:00:00-07:00",
     "EndTime": "2024-03-15T18:00:00-07:00",
-    "Speakers": [
-      "David vonThenen"
-    ],
+    "Speakers": "David vonThenen",
     "Topic": "Embedded Linux"
   },
   {
@@ -1399,9 +1121,7 @@
     "Location": "Ballroom B",
     "StartTime": "2024-03-15T17:00:00-07:00",
     "EndTime": "2024-03-15T18:00:00-07:00",
-    "Speakers": [
-      "Corey Quinn"
-    ],
+    "Speakers": "Corey Quinn",
     "Topic": "Kubernetes Community Day"
   },
   {
@@ -1410,9 +1130,7 @@
     "Location": "Ballroom G",
     "StartTime": "2024-03-15T17:00:00-07:00",
     "EndTime": "2024-03-15T18:00:00-07:00",
-    "Speakers": [
-      "Tatiana Krupenya"
-    ],
+    "Speakers": "Tatiana Krupenya",
     "Topic": "PostgreSQL"
   },
   {
@@ -1421,11 +1139,7 @@
     "Location": "Room 107",
     "StartTime": "2024-03-15T17:00:00-07:00",
     "EndTime": "2024-03-15T18:00:00-07:00",
-    "Speakers": [
-      "Karsten Wade",
-      "Brittany Istenes",
-      "Stephanie Lieggi"
-    ],
+    "Speakers": "Karsten Wade, Brittany Istenes, Stephanie Lieggi",
     "Topic": "Open Government"
   },
   {
@@ -1434,9 +1148,7 @@
     "Location": "Room 101",
     "StartTime": "2024-03-15T17:00:00-07:00",
     "EndTime": "2024-03-15T17:30:00-07:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "NixCon"
   },
   {
@@ -1445,9 +1157,7 @@
     "Location": "Ballroom C",
     "StartTime": "2024-03-15T17:15:00-07:00",
     "EndTime": "2024-03-15T17:30:00-07:00",
-    "Speakers": [
-      "Adrianna Frick"
-    ],
+    "Speakers": "Adrianna Frick",
     "Topic": "Ubucon"
   },
   {
@@ -1456,9 +1166,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2024-03-15T18:15:00-07:00",
     "EndTime": "2024-03-15T19:00:00-07:00",
-    "Speakers": [
-      "Forrest Brazeal"
-    ],
+    "Speakers": "Forrest Brazeal",
     "Topic": "UpSCALE"
   },
   {
@@ -1467,9 +1175,7 @@
     "Location": "Room 209",
     "StartTime": "2024-03-15T18:30:00-07:00",
     "EndTime": "2024-03-15T19:30:00-07:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -1478,9 +1184,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2024-03-15T19:00:00-07:00",
     "EndTime": "2024-03-15T20:00:00-07:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "UpSCALE"
   },
   {
@@ -1489,9 +1193,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2024-03-16T10:00:00-07:00",
     "EndTime": "2024-03-16T11:00:00-07:00",
-    "Speakers": [
-      "Viral Shah"
-    ],
+    "Speakers": "Viral Shah",
     "Topic": "Keynote"
   },
   {
@@ -1500,9 +1202,7 @@
     "Location": "Ballroom B",
     "StartTime": "2024-03-16T11:15:00-07:00",
     "EndTime": "2024-03-16T12:15:00-07:00",
-    "Speakers": [
-      "maddog Hall"
-    ],
+    "Speakers": "maddog Hall",
     "Topic": "General"
   },
   {
@@ -1511,9 +1211,7 @@
     "Location": "Room 106",
     "StartTime": "2024-03-16T11:15:00-07:00",
     "EndTime": "2024-03-16T12:15:00-07:00",
-    "Speakers": [
-      "Alison Chaiken"
-    ],
+    "Speakers": "Alison Chaiken",
     "Topic": "Kernel & Low Level Systems"
   },
   {
@@ -1522,10 +1220,7 @@
     "Location": "Room 107",
     "StartTime": "2024-03-16T11:15:00-07:00",
     "EndTime": "2024-03-16T12:15:00-07:00",
-    "Speakers": [
-      "Vijay Samuel",
-      "Wei Tang"
-    ],
+    "Speakers": "Vijay Samuel, Wei Tang",
     "Topic": "Observability"
   },
   {
@@ -1534,9 +1229,7 @@
     "Location": "Room 101",
     "StartTime": "2024-03-16T11:15:00-07:00",
     "EndTime": "2024-03-16T12:15:00-07:00",
-    "Speakers": [
-      "Katherine Druckman"
-    ],
+    "Speakers": "Katherine Druckman",
     "Topic": "Security"
   },
   {
@@ -1545,10 +1238,7 @@
     "Location": "Room 103",
     "StartTime": "2024-03-16T11:15:00-07:00",
     "EndTime": "2024-03-16T12:00:00-07:00",
-    "Speakers": [
-      "Nicholas Maramba",
-      "Helen Ortiz"
-    ],
+    "Speakers": "Nicholas Maramba, Helen Ortiz",
     "Topic": "Next Generation"
   },
   {
@@ -1557,9 +1247,7 @@
     "Location": "Ballroom H",
     "StartTime": "2024-03-16T11:15:00-07:00",
     "EndTime": "2024-03-16T12:15:00-07:00",
-    "Speakers": [
-      "Frédéric Harper"
-    ],
+    "Speakers": "Frédéric Harper",
     "Topic": "Cloud Native"
   },
   {
@@ -1568,9 +1256,7 @@
     "Location": "Room 212",
     "StartTime": "2024-03-16T11:15:00-07:00",
     "EndTime": "2024-03-16T12:15:00-07:00",
-    "Speakers": [
-      "Kyle Davis"
-    ],
+    "Speakers": "Kyle Davis",
     "Topic": "Reproducible and Immutable Software"
   },
   {
@@ -1579,9 +1265,7 @@
     "Location": "Ballroom C",
     "StartTime": "2024-03-16T11:15:00-07:00",
     "EndTime": "2024-03-16T12:15:00-07:00",
-    "Speakers": [
-      "Tatiana Krupenya"
-    ],
+    "Speakers": "Tatiana Krupenya",
     "Topic": "General"
   },
   {
@@ -1590,9 +1274,7 @@
     "Location": "Ballroom A",
     "StartTime": "2024-03-16T11:15:00-07:00",
     "EndTime": "2024-03-16T12:15:00-07:00",
-    "Speakers": [
-      "Zach Mitchell"
-    ],
+    "Speakers": "Zach Mitchell",
     "Topic": "Developer"
   },
   {
@@ -1601,9 +1283,7 @@
     "Location": "Ballroom G",
     "StartTime": "2024-03-16T11:15:00-07:00",
     "EndTime": "2024-03-16T12:15:00-07:00",
-    "Speakers": [
-      "Jef Spaleta"
-    ],
+    "Speakers": "Jef Spaleta",
     "Topic": "Cloud Native"
   },
   {
@@ -1612,9 +1292,7 @@
     "Location": "Room 105",
     "StartTime": "2024-03-16T11:15:00-07:00",
     "EndTime": "2024-03-16T12:15:00-07:00",
-    "Speakers": [
-      "Jon Cruz"
-    ],
+    "Speakers": "Jon Cruz",
     "Topic": "FOSS @ HOME"
   },
   {
@@ -1623,9 +1301,7 @@
     "Location": "Room 211",
     "StartTime": "2024-03-16T11:15:00-07:00",
     "EndTime": "2024-03-16T12:15:00-07:00",
-    "Speakers": [
-      "Ross Turk"
-    ],
+    "Speakers": "Ross Turk",
     "Topic": "Systems & Infrastructure"
   },
   {
@@ -1634,9 +1310,7 @@
     "Location": "Ballroom F",
     "StartTime": "2024-03-16T11:15:00-07:00",
     "EndTime": "2024-03-16T12:15:00-07:00",
-    "Speakers": [
-      "Autumn Nash"
-    ],
+    "Speakers": "Autumn Nash",
     "Topic": "Open Source AI and Applied Science"
   },
   {
@@ -1645,10 +1319,7 @@
     "Location": "Room 103",
     "StartTime": "2024-03-16T12:00:00-07:00",
     "EndTime": "2024-03-16T12:45:00-07:00",
-    "Speakers": [
-      "Isabella Rodriguez",
-      "Tea Kostka"
-    ],
+    "Speakers": "Isabella Rodriguez, Tea Kostka",
     "Topic": "Next Generation"
   },
   {
@@ -1657,9 +1328,7 @@
     "Location": "Room 101",
     "StartTime": "2024-03-16T12:30:00-07:00",
     "EndTime": "2024-03-16T13:30:00-07:00",
-    "Speakers": [
-      "Allen West"
-    ],
+    "Speakers": "Allen West",
     "Topic": "Security"
   },
   {
@@ -1668,9 +1337,7 @@
     "Location": "Room 106",
     "StartTime": "2024-03-16T12:30:00-07:00",
     "EndTime": "2024-03-16T13:30:00-07:00",
-    "Speakers": [
-      "Farid Zakaria"
-    ],
+    "Speakers": "Farid Zakaria",
     "Topic": "Kernel & Low Level Systems"
   },
   {
@@ -1679,9 +1346,7 @@
     "Location": "Ballroom A",
     "StartTime": "2024-03-16T12:30:00-07:00",
     "EndTime": "2024-03-16T13:30:00-07:00",
-    "Speakers": [
-      "Vincent Sloan"
-    ],
+    "Speakers": "Vincent Sloan",
     "Topic": "Developer"
   },
   {
@@ -1690,9 +1355,7 @@
     "Location": "Room 107",
     "StartTime": "2024-03-16T12:30:00-07:00",
     "EndTime": "2024-03-16T13:30:00-07:00",
-    "Speakers": [
-      "Brian Proffitt"
-    ],
+    "Speakers": "Brian Proffitt",
     "Topic": "Observability"
   },
   {
@@ -1701,9 +1364,7 @@
     "Location": "Ballroom B",
     "StartTime": "2024-03-16T12:30:00-07:00",
     "EndTime": "2024-03-16T13:30:00-07:00",
-    "Speakers": [
-      "Chris McKenzie"
-    ],
+    "Speakers": "Chris McKenzie",
     "Topic": "General"
   },
   {
@@ -1712,9 +1373,7 @@
     "Location": "Room 105",
     "StartTime": "2024-03-16T12:30:00-07:00",
     "EndTime": "2024-03-16T13:30:00-07:00",
-    "Speakers": [
-      "Kyle Rankin"
-    ],
+    "Speakers": "Kyle Rankin",
     "Topic": "FOSS @ HOME"
   },
   {
@@ -1723,9 +1382,7 @@
     "Location": "Room 212",
     "StartTime": "2024-03-16T12:30:00-07:00",
     "EndTime": "2024-03-16T13:30:00-07:00",
-    "Speakers": [
-      "Samuel Raumin"
-    ],
+    "Speakers": "Samuel Raumin",
     "Topic": "Reproducible and Immutable Software"
   },
   {
@@ -1734,9 +1391,7 @@
     "Location": "Ballroom C",
     "StartTime": "2024-03-16T12:30:00-07:00",
     "EndTime": "2024-03-16T13:30:00-07:00",
-    "Speakers": [
-      "Katherine Druckman"
-    ],
+    "Speakers": "Katherine Druckman",
     "Topic": "General"
   },
   {
@@ -1745,9 +1400,7 @@
     "Location": "Room 211",
     "StartTime": "2024-03-16T12:30:00-07:00",
     "EndTime": "2024-03-16T13:30:00-07:00",
-    "Speakers": [
-      "Oz Katz"
-    ],
+    "Speakers": "Oz Katz",
     "Topic": "Systems & Infrastructure"
   },
   {
@@ -1756,9 +1409,7 @@
     "Location": "Ballroom F",
     "StartTime": "2024-03-16T12:30:00-07:00",
     "EndTime": "2024-03-16T13:30:00-07:00",
-    "Speakers": [
-      "Frank Coyle"
-    ],
+    "Speakers": "Frank Coyle",
     "Topic": "Open Source AI and Applied Science"
   },
   {
@@ -1767,9 +1418,7 @@
     "Location": "Ballroom G",
     "StartTime": "2024-03-16T12:30:00-07:00",
     "EndTime": "2024-03-16T13:30:00-07:00",
-    "Speakers": [
-      "Anirudh Ramanathan"
-    ],
+    "Speakers": "Anirudh Ramanathan",
     "Topic": "Cloud Native"
   },
   {
@@ -1778,10 +1427,7 @@
     "Location": "Ballroom H",
     "StartTime": "2024-03-16T12:30:00-07:00",
     "EndTime": "2024-03-16T13:30:00-07:00",
-    "Speakers": [
-      "Chunxu Tang",
-      "Shawn Sun"
-    ],
+    "Speakers": "Chunxu Tang, Shawn Sun",
     "Topic": "Cloud Native"
   },
   {
@@ -1790,9 +1436,7 @@
     "Location": "Room 103",
     "StartTime": "2024-03-16T13:45:00-07:00",
     "EndTime": "2024-03-16T14:30:00-07:00",
-    "Speakers": [
-      "Michael Wang"
-    ],
+    "Speakers": "Michael Wang",
     "Topic": "Next Generation"
   },
   {
@@ -1801,9 +1445,7 @@
     "Location": "Room 101",
     "StartTime": "2024-03-16T14:30:00-07:00",
     "EndTime": "2024-03-16T15:30:00-07:00",
-    "Speakers": [
-      "Dwayne McDaniel"
-    ],
+    "Speakers": "Dwayne McDaniel",
     "Topic": "Security"
   },
   {
@@ -1812,10 +1454,7 @@
     "Location": "Ballroom G",
     "StartTime": "2024-03-16T14:30:00-07:00",
     "EndTime": "2024-03-16T15:30:00-07:00",
-    "Speakers": [
-      "Gerardo Lopez",
-      "Fabrizio Sgura"
-    ],
+    "Speakers": "Gerardo Lopez, Fabrizio Sgura",
     "Topic": "Cloud Native"
   },
   {
@@ -1824,9 +1463,7 @@
     "Location": "Room 106",
     "StartTime": "2024-03-16T14:30:00-07:00",
     "EndTime": "2024-03-16T15:30:00-07:00",
-    "Speakers": [
-      "Sweet Tea Dorminy"
-    ],
+    "Speakers": "Sweet Tea Dorminy",
     "Topic": "Kernel & Low Level Systems"
   },
   {
@@ -1835,9 +1472,7 @@
     "Location": "Room 211",
     "StartTime": "2024-03-16T14:30:00-07:00",
     "EndTime": "2024-03-16T15:30:00-07:00",
-    "Speakers": [
-      "Jess Males"
-    ],
+    "Speakers": "Jess Males",
     "Topic": "Systems & Infrastructure"
   },
   {
@@ -1846,9 +1481,7 @@
     "Location": "Room 107",
     "StartTime": "2024-03-16T14:30:00-07:00",
     "EndTime": "2024-03-16T15:30:00-07:00",
-    "Speakers": [
-      "Alan LaCombe"
-    ],
+    "Speakers": "Alan LaCombe",
     "Topic": "Observability"
   },
   {
@@ -1857,11 +1490,7 @@
     "Location": "Room 212",
     "StartTime": "2024-03-16T14:30:00-07:00",
     "EndTime": "2024-03-16T15:30:00-07:00",
-    "Speakers": [
-      "Scott Williams",
-      "Perry Rivera",
-      "Brian Monroe"
-    ],
+    "Speakers": "Scott Williams, Perry Rivera, Brian Monroe",
     "Topic": "Reproducible and Immutable Software"
   },
   {
@@ -1870,9 +1499,7 @@
     "Location": "Ballroom H",
     "StartTime": "2024-03-16T14:30:00-07:00",
     "EndTime": "2024-03-16T15:30:00-07:00",
-    "Speakers": [
-      "Ben Potter"
-    ],
+    "Speakers": "Ben Potter",
     "Topic": "Cloud Native"
   },
   {
@@ -1881,9 +1508,7 @@
     "Location": "Ballroom B",
     "StartTime": "2024-03-16T14:30:00-07:00",
     "EndTime": "2024-03-16T15:30:00-07:00",
-    "Speakers": [
-      "Tyler Menezes"
-    ],
+    "Speakers": "Tyler Menezes",
     "Topic": "General"
   },
   {
@@ -1892,9 +1517,7 @@
     "Location": "Room 105",
     "StartTime": "2024-03-16T14:30:00-07:00",
     "EndTime": "2024-03-16T15:30:00-07:00",
-    "Speakers": [
-      "Darren Cole"
-    ],
+    "Speakers": "Darren Cole",
     "Topic": "FOSS @ HOME"
   },
   {
@@ -1903,10 +1526,7 @@
     "Location": "Ballroom F",
     "StartTime": "2024-03-16T14:30:00-07:00",
     "EndTime": "2024-03-16T15:30:00-07:00",
-    "Speakers": [
-      "Cali Dolfi",
-      "Dawn Foster"
-    ],
+    "Speakers": "Cali Dolfi, Dawn Foster",
     "Topic": "Open Source AI and Applied Science"
   },
   {
@@ -1915,9 +1535,7 @@
     "Location": "Ballroom A",
     "StartTime": "2024-03-16T14:30:00-07:00",
     "EndTime": "2024-03-16T15:30:00-07:00",
-    "Speakers": [
-      "Kevin Howell"
-    ],
+    "Speakers": "Kevin Howell",
     "Topic": "Developer"
   },
   {
@@ -1926,16 +1544,7 @@
     "Location": "Ballroom C",
     "StartTime": "2024-03-16T14:30:00-07:00",
     "EndTime": "2024-03-16T15:30:00-07:00",
-    "Speakers": [
-      "Lleyton Gray",
-      "Jaiden Riordan",
-      "Rosanna Yuen",
-      "Nova King",
-      "Pietro DiCaprio",
-      "Monica Ayhens-Madon",
-      "Matthew Miller",
-      "Drew Adams"
-    ],
+    "Speakers": "Lleyton Gray, Jaiden Riordan, Rosanna Yuen, Nova King, Pietro DiCaprio, Monica Ayhens-Madon, Matthew Miller, Drew Adams",
     "Topic": "General"
   },
   {
@@ -1944,9 +1553,7 @@
     "Location": "Room 103",
     "StartTime": "2024-03-16T14:30:00-07:00",
     "EndTime": "2024-03-16T15:15:00-07:00",
-    "Speakers": [
-      "Ethan Sun"
-    ],
+    "Speakers": "Ethan Sun",
     "Topic": "Next Generation"
   },
   {
@@ -1955,12 +1562,7 @@
     "Location": "Room 103",
     "StartTime": "2024-03-16T15:30:00-07:00",
     "EndTime": "2024-03-16T16:15:00-07:00",
-    "Speakers": [
-      "Cynthia Prieto-Espinoza",
-      "Adanelly Chavez",
-      "Kimberly Vallejo",
-      "Alexa Hernandez"
-    ],
+    "Speakers": "Cynthia Prieto-Espinoza, Adanelly Chavez, Kimberly Vallejo, Alexa Hernandez",
     "Topic": "Next Generation"
   },
   {
@@ -1969,9 +1571,7 @@
     "Location": "Room 105",
     "StartTime": "2024-03-16T15:45:00-07:00",
     "EndTime": "2024-03-16T16:45:00-07:00",
-    "Speakers": [
-      "Julien Riou"
-    ],
+    "Speakers": "Julien Riou",
     "Topic": "FOSS @ HOME"
   },
   {
@@ -1980,9 +1580,7 @@
     "Location": "Ballroom H",
     "StartTime": "2024-03-16T15:45:00-07:00",
     "EndTime": "2024-03-16T16:45:00-07:00",
-    "Speakers": [
-      "Kevin Dubois"
-    ],
+    "Speakers": "Kevin Dubois",
     "Topic": "Cloud Native"
   },
   {
@@ -1991,9 +1589,7 @@
     "Location": "Room 106",
     "StartTime": "2024-03-16T15:45:00-07:00",
     "EndTime": "2024-03-16T16:45:00-07:00",
-    "Speakers": [
-      "Dan Schatzberg"
-    ],
+    "Speakers": "Dan Schatzberg",
     "Topic": "Kernel & Low Level Systems"
   },
   {
@@ -2002,9 +1598,7 @@
     "Location": "Room 101",
     "StartTime": "2024-03-16T15:45:00-07:00",
     "EndTime": "2024-03-16T16:45:00-07:00",
-    "Speakers": [
-      "Cornelius Kölbel"
-    ],
+    "Speakers": "Cornelius Kölbel",
     "Topic": "Security"
   },
   {
@@ -2013,9 +1607,7 @@
     "Location": "Ballroom G",
     "StartTime": "2024-03-16T15:45:00-07:00",
     "EndTime": "2024-03-16T16:45:00-07:00",
-    "Speakers": [
-      "Éamon Ryan"
-    ],
+    "Speakers": "Éamon Ryan",
     "Topic": "Cloud Native"
   },
   {
@@ -2024,10 +1616,7 @@
     "Location": "Ballroom F",
     "StartTime": "2024-03-16T15:45:00-07:00",
     "EndTime": "2024-03-16T16:45:00-07:00",
-    "Speakers": [
-      "Saian Ford",
-      "Aaron Vega"
-    ],
+    "Speakers": "Saian Ford, Aaron Vega",
     "Topic": "Open Source AI and Applied Science"
   },
   {
@@ -2036,9 +1625,7 @@
     "Location": "Room 107",
     "StartTime": "2024-03-16T15:45:00-07:00",
     "EndTime": "2024-03-16T16:45:00-07:00",
-    "Speakers": [
-      "Maya Singh"
-    ],
+    "Speakers": "Maya Singh",
     "Topic": "Observability"
   },
   {
@@ -2047,9 +1634,7 @@
     "Location": "Ballroom A",
     "StartTime": "2024-03-16T15:45:00-07:00",
     "EndTime": "2024-03-16T16:45:00-07:00",
-    "Speakers": [
-      "Elizabeth K. Joseph"
-    ],
+    "Speakers": "Elizabeth K. Joseph",
     "Topic": "Developer"
   },
   {
@@ -2058,9 +1643,7 @@
     "Location": "Room 212",
     "StartTime": "2024-03-16T15:45:00-07:00",
     "EndTime": "2024-03-16T16:45:00-07:00",
-    "Speakers": [
-      "Matthew Croughan"
-    ],
+    "Speakers": "Matthew Croughan",
     "Topic": "Reproducible and Immutable Software"
   },
   {
@@ -2069,10 +1652,7 @@
     "Location": "Ballroom B",
     "StartTime": "2024-03-16T15:45:00-07:00",
     "EndTime": "2024-03-16T16:45:00-07:00",
-    "Speakers": [
-      "Neal Gompa",
-      "Davide Cavalca"
-    ],
+    "Speakers": "Neal Gompa, Davide Cavalca",
     "Topic": "General"
   },
   {
@@ -2081,9 +1661,7 @@
     "Location": "Ballroom C",
     "StartTime": "2024-03-16T15:45:00-07:00",
     "EndTime": "2024-03-16T16:45:00-07:00",
-    "Speakers": [
-      "Heather Ellsworth"
-    ],
+    "Speakers": "Heather Ellsworth",
     "Topic": "General"
   },
   {
@@ -2092,9 +1670,7 @@
     "Location": "Room 211",
     "StartTime": "2024-03-16T15:45:00-07:00",
     "EndTime": "2024-03-16T16:45:00-07:00",
-    "Speakers": [
-      "Heather Osborn"
-    ],
+    "Speakers": "Heather Osborn",
     "Topic": "Systems & Infrastructure"
   },
   {
@@ -2103,9 +1679,7 @@
     "Location": "Room 103",
     "StartTime": "2024-03-16T16:15:00-07:00",
     "EndTime": "2024-03-16T17:00:00-07:00",
-    "Speakers": [
-      "Christine Li"
-    ],
+    "Speakers": "Christine Li",
     "Topic": "Next Generation"
   },
   {
@@ -2114,9 +1688,7 @@
     "Location": "Ballroom B",
     "StartTime": "2024-03-16T17:00:00-07:00",
     "EndTime": "2024-03-16T18:00:00-07:00",
-    "Speakers": [
-      "Owen DeLong"
-    ],
+    "Speakers": "Owen DeLong",
     "Topic": "General"
   },
   {
@@ -2125,9 +1697,7 @@
     "Location": "Room 101",
     "StartTime": "2024-03-16T17:00:00-07:00",
     "EndTime": "2024-03-16T18:00:00-07:00",
-    "Speakers": [
-      "Lisa Umberger"
-    ],
+    "Speakers": "Lisa Umberger",
     "Topic": "Security"
   },
   {
@@ -2136,9 +1706,7 @@
     "Location": "Ballroom H",
     "StartTime": "2024-03-16T17:00:00-07:00",
     "EndTime": "2024-03-16T18:00:00-07:00",
-    "Speakers": [
-      "Mattias Gees"
-    ],
+    "Speakers": "Mattias Gees",
     "Topic": "Cloud Native"
   },
   {
@@ -2147,9 +1715,7 @@
     "Location": "Room 106",
     "StartTime": "2024-03-16T17:00:00-07:00",
     "EndTime": "2024-03-16T18:00:00-07:00",
-    "Speakers": [
-      "Tejun Heo"
-    ],
+    "Speakers": "Tejun Heo",
     "Topic": "Kernel & Low Level Systems"
   },
   {
@@ -2158,9 +1724,7 @@
     "Location": "Ballroom F",
     "StartTime": "2024-03-16T17:00:00-07:00",
     "EndTime": "2024-03-16T18:00:00-07:00",
-    "Speakers": [
-      "Hichem Kenniche"
-    ],
+    "Speakers": "Hichem Kenniche",
     "Topic": "Open Source AI and Applied Science"
   },
   {
@@ -2169,9 +1733,7 @@
     "Location": "Room 107",
     "StartTime": "2024-03-16T17:00:00-07:00",
     "EndTime": "2024-03-16T18:00:00-07:00",
-    "Speakers": [
-      "Dotan Horovits"
-    ],
+    "Speakers": "Dotan Horovits",
     "Topic": "Observability"
   },
   {
@@ -2180,9 +1742,7 @@
     "Location": "Ballroom A",
     "StartTime": "2024-03-16T17:00:00-07:00",
     "EndTime": "2024-03-16T18:00:00-07:00",
-    "Speakers": [
-      "Michael Watson"
-    ],
+    "Speakers": "Michael Watson",
     "Topic": "Developer"
   },
   {
@@ -2191,9 +1751,7 @@
     "Location": "Room 211",
     "StartTime": "2024-03-16T17:00:00-07:00",
     "EndTime": "2024-03-16T18:00:00-07:00",
-    "Speakers": [
-      "Thomas Cameron"
-    ],
+    "Speakers": "Thomas Cameron",
     "Topic": "Systems & Infrastructure"
   },
   {
@@ -2202,9 +1760,7 @@
     "Location": "Room 105",
     "StartTime": "2024-03-16T17:00:00-07:00",
     "EndTime": "2024-03-16T18:00:00-07:00",
-    "Speakers": [
-      "Tracy Homer"
-    ],
+    "Speakers": "Tracy Homer",
     "Topic": "FOSS @ HOME"
   },
   {
@@ -2213,9 +1769,7 @@
     "Location": "Room 212",
     "StartTime": "2024-03-16T17:00:00-07:00",
     "EndTime": "2024-03-16T18:00:00-07:00",
-    "Speakers": [
-      "Pietro DiCaprio"
-    ],
+    "Speakers": "Pietro DiCaprio",
     "Topic": "Reproducible and Immutable Software"
   },
   {
@@ -2224,9 +1778,7 @@
     "Location": "Ballroom G",
     "StartTime": "2024-03-16T17:00:00-07:00",
     "EndTime": "2024-03-16T18:00:00-07:00",
-    "Speakers": [
-      "Tyler Gillson"
-    ],
+    "Speakers": "Tyler Gillson",
     "Topic": "Cloud Native"
   },
   {
@@ -2235,9 +1787,7 @@
     "Location": "Ballroom C",
     "StartTime": "2024-03-16T17:00:00-07:00",
     "EndTime": "2024-03-16T18:00:00-07:00",
-    "Speakers": [
-      "KC Braunschweig"
-    ],
+    "Speakers": "KC Braunschweig",
     "Topic": "General"
   },
   {
@@ -2246,9 +1796,7 @@
     "Location": "Ballroom C",
     "StartTime": "2024-03-16T18:15:00-07:00",
     "EndTime": "2024-03-16T19:15:00-07:00",
-    "Speakers": [
-      "Michael Gat"
-    ],
+    "Speakers": "Michael Gat",
     "Topic": "General"
   },
   {
@@ -2257,9 +1805,7 @@
     "Location": "Ballroom A",
     "StartTime": "2024-03-16T18:15:00-07:00",
     "EndTime": "2024-03-16T19:15:00-07:00",
-    "Speakers": [
-      "John Matthew"
-    ],
+    "Speakers": "John Matthew",
     "Topic": "Developer"
   },
   {
@@ -2268,9 +1814,7 @@
     "Location": "Ballroom H",
     "StartTime": "2024-03-16T18:15:00-07:00",
     "EndTime": "2024-03-16T19:15:00-07:00",
-    "Speakers": [
-      "Carlos Sanchez"
-    ],
+    "Speakers": "Carlos Sanchez",
     "Topic": "Cloud Native"
   },
   {
@@ -2279,9 +1823,7 @@
     "Location": "Room 101",
     "StartTime": "2024-03-16T18:15:00-07:00",
     "EndTime": "2024-03-16T19:15:00-07:00",
-    "Speakers": [
-      "Jamie Coleman"
-    ],
+    "Speakers": "Jamie Coleman",
     "Topic": "Security"
   },
   {
@@ -2290,10 +1832,7 @@
     "Location": "Ballroom F",
     "StartTime": "2024-03-16T18:15:00-07:00",
     "EndTime": "2024-03-16T19:15:00-07:00",
-    "Speakers": [
-      "Hema Veeradhi",
-      "Surya Pathak"
-    ],
+    "Speakers": "Hema Veeradhi, Surya Pathak",
     "Topic": "Open Source AI and Applied Science"
   },
   {
@@ -2302,9 +1841,7 @@
     "Location": "Room 211",
     "StartTime": "2024-03-16T18:15:00-07:00",
     "EndTime": "2024-03-16T19:15:00-07:00",
-    "Speakers": [
-      "Julia Iacoviello"
-    ],
+    "Speakers": "Julia Iacoviello",
     "Topic": "Systems & Infrastructure"
   },
   {
@@ -2313,9 +1850,7 @@
     "Location": "Room 106",
     "StartTime": "2024-03-16T18:15:00-07:00",
     "EndTime": "2024-03-16T19:15:00-07:00",
-    "Speakers": [
-      "Quentin Deslandes"
-    ],
+    "Speakers": "Quentin Deslandes",
     "Topic": "Kernel & Low Level Systems"
   },
   {
@@ -2324,9 +1859,7 @@
     "Location": "Room 107",
     "StartTime": "2024-03-16T18:15:00-07:00",
     "EndTime": "2024-03-16T19:15:00-07:00",
-    "Speakers": [
-      "Annanay Agarwal"
-    ],
+    "Speakers": "Annanay Agarwal",
     "Topic": "Observability"
   },
   {
@@ -2335,9 +1868,7 @@
     "Location": "Ballroom G",
     "StartTime": "2024-03-16T18:15:00-07:00",
     "EndTime": "2024-03-16T19:15:00-07:00",
-    "Speakers": [
-      "Reid Vandewiele"
-    ],
+    "Speakers": "Reid Vandewiele",
     "Topic": "Cloud Native"
   },
   {
@@ -2346,10 +1877,7 @@
     "Location": "Room 212",
     "StartTime": "2024-03-16T18:15:00-07:00",
     "EndTime": "2024-03-16T19:15:00-07:00",
-    "Speakers": [
-      "NISHchint Raina",
-      "Shaun Hopper"
-    ],
+    "Speakers": "NISHchint Raina, Shaun Hopper",
     "Topic": "Reproducible and Immutable Software"
   },
   {
@@ -2358,9 +1886,7 @@
     "Location": "Room 105",
     "StartTime": "2024-03-16T18:15:00-07:00",
     "EndTime": "2024-03-16T19:15:00-07:00",
-    "Speakers": [
-      "Erik Mondrian"
-    ],
+    "Speakers": "Erik Mondrian",
     "Topic": "FOSS @ HOME"
   },
   {
@@ -2369,9 +1895,7 @@
     "Location": "Ballroom B",
     "StartTime": "2024-03-16T18:15:00-07:00",
     "EndTime": "2024-03-16T19:15:00-07:00",
-    "Speakers": [
-      "Camila Ayres"
-    ],
+    "Speakers": "Camila Ayres",
     "Topic": "General"
   },
   {
@@ -2380,9 +1904,7 @@
     "Location": "Room 103",
     "StartTime": "2024-03-16T19:30:00-07:00",
     "EndTime": "2024-03-16T20:30:00-07:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -2391,10 +1913,7 @@
     "Location": "Room 103",
     "StartTime": "2024-03-17T10:00:00-07:00",
     "EndTime": "2024-03-17T11:00:00-07:00",
-    "Speakers": [
-      "Lori Barfield",
-      "Jenson Crawford"
-    ],
+    "Speakers": "Lori Barfield, Jenson Crawford",
     "Topic": "Career Day"
   },
   {
@@ -2403,9 +1922,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2024-03-17T10:00:00-07:00",
     "EndTime": "2024-03-17T11:00:00-07:00",
-    "Speakers": [
-      "Casey Handmer"
-    ],
+    "Speakers": "Casey Handmer",
     "Topic": "Keynote"
   },
   {
@@ -2414,9 +1931,7 @@
     "Location": "Room 103",
     "StartTime": "2024-03-17T11:00:00-07:00",
     "EndTime": "2024-03-17T12:00:00-07:00",
-    "Speakers": [
-      "Omar Alva"
-    ],
+    "Speakers": "Omar Alva",
     "Topic": "Career Day"
   },
   {
@@ -2425,9 +1940,7 @@
     "Location": "Room 212",
     "StartTime": "2024-03-17T11:45:00-07:00",
     "EndTime": "2024-03-17T12:45:00-07:00",
-    "Speakers": [
-      "Las Safin"
-    ],
+    "Speakers": "Las Safin",
     "Topic": "Reproducible and Immutable Software"
   },
   {
@@ -2436,9 +1949,7 @@
     "Location": "Ballroom F",
     "StartTime": "2024-03-17T11:45:00-07:00",
     "EndTime": "2024-03-17T12:45:00-07:00",
-    "Speakers": [
-      "Daphne Muller"
-    ],
+    "Speakers": "Daphne Muller",
     "Topic": "Open Source AI and Applied Science"
   },
   {
@@ -2447,9 +1958,7 @@
     "Location": "Room 106",
     "StartTime": "2024-03-17T11:45:00-07:00",
     "EndTime": "2024-03-17T12:45:00-07:00",
-    "Speakers": [
-      "Neal Gompa"
-    ],
+    "Speakers": "Neal Gompa",
     "Topic": "Kernel & Low Level Systems"
   },
   {
@@ -2458,10 +1967,7 @@
     "Location": "Ballroom B",
     "StartTime": "2024-03-17T11:45:00-07:00",
     "EndTime": "2024-03-17T12:45:00-07:00",
-    "Speakers": [
-      "Nikita Jain",
-      "Pedro Nacht"
-    ],
+    "Speakers": "Nikita Jain, Pedro Nacht",
     "Topic": "General"
   },
   {
@@ -2470,9 +1976,7 @@
     "Location": "Room 105",
     "StartTime": "2024-03-17T11:45:00-07:00",
     "EndTime": "2024-03-17T12:45:00-07:00",
-    "Speakers": [
-      "Ray Salazar"
-    ],
+    "Speakers": "Ray Salazar",
     "Topic": "FOSS @ HOME"
   },
   {
@@ -2481,9 +1985,7 @@
     "Location": "Ballroom H",
     "StartTime": "2024-03-17T11:45:00-07:00",
     "EndTime": "2024-03-17T12:45:00-07:00",
-    "Speakers": [
-      "Frédéric Harper"
-    ],
+    "Speakers": "Frédéric Harper",
     "Topic": "Cloud Native"
   },
   {
@@ -2492,9 +1994,7 @@
     "Location": "Ballroom A",
     "StartTime": "2024-03-17T11:45:00-07:00",
     "EndTime": "2024-03-17T12:45:00-07:00",
-    "Speakers": [
-      "Jathan McCollum"
-    ],
+    "Speakers": "Jathan McCollum",
     "Topic": "Developer"
   },
   {
@@ -2503,9 +2003,7 @@
     "Location": "Room 101",
     "StartTime": "2024-03-17T11:45:00-07:00",
     "EndTime": "2024-03-17T12:45:00-07:00",
-    "Speakers": [
-      "George-Andrei Iosif"
-    ],
+    "Speakers": "George-Andrei Iosif",
     "Topic": "Security"
   },
   {
@@ -2514,9 +2012,7 @@
     "Location": "Room 107",
     "StartTime": "2024-03-17T11:45:00-07:00",
     "EndTime": "2024-03-17T12:45:00-07:00",
-    "Speakers": [
-      "Jonathan Haddad"
-    ],
+    "Speakers": "Jonathan Haddad",
     "Topic": "Observability"
   },
   {
@@ -2525,10 +2021,7 @@
     "Location": "Room 211",
     "StartTime": "2024-03-17T11:45:00-07:00",
     "EndTime": "2024-03-17T12:45:00-07:00",
-    "Speakers": [
-      "John Sweeting",
-      "Jon Worley"
-    ],
+    "Speakers": "John Sweeting, Jon Worley",
     "Topic": "Systems & Infrastructure"
   },
   {
@@ -2537,9 +2030,7 @@
     "Location": "Ballroom G",
     "StartTime": "2024-03-17T11:45:00-07:00",
     "EndTime": "2024-03-17T12:45:00-07:00",
-    "Speakers": [
-      "Paul Yu"
-    ],
+    "Speakers": "Paul Yu",
     "Topic": "Cloud Native"
   },
   {
@@ -2548,9 +2039,7 @@
     "Location": "Room 103",
     "StartTime": "2024-03-17T12:00:00-07:00",
     "EndTime": "2024-03-17T13:00:00-07:00",
-    "Speakers": [
-      "Larry Schrof"
-    ],
+    "Speakers": "Larry Schrof",
     "Topic": "Career Day"
   },
   {
@@ -2559,9 +2048,7 @@
     "Location": "Room 103",
     "StartTime": "2024-03-17T13:00:00-07:00",
     "EndTime": "2024-03-17T14:00:00-07:00",
-    "Speakers": [
-      "Fatima Taj"
-    ],
+    "Speakers": "Fatima Taj",
     "Topic": "Career Day"
   },
   {
@@ -2570,9 +2057,7 @@
     "Location": "Room 101",
     "StartTime": "2024-03-17T13:45:00-07:00",
     "EndTime": "2024-03-17T14:45:00-07:00",
-    "Speakers": [
-      "Xavier Rene-Corail"
-    ],
+    "Speakers": "Xavier Rene-Corail",
     "Topic": "Security"
   },
   {
@@ -2581,9 +2066,7 @@
     "Location": "Room 106",
     "StartTime": "2024-03-17T13:45:00-07:00",
     "EndTime": "2024-03-17T14:45:00-07:00",
-    "Speakers": [
-      "Anita Zhang"
-    ],
+    "Speakers": "Anita Zhang",
     "Topic": "Kernel & Low Level Systems"
   },
   {
@@ -2592,9 +2075,7 @@
     "Location": "Ballroom F",
     "StartTime": "2024-03-17T13:45:00-07:00",
     "EndTime": "2024-03-17T14:45:00-07:00",
-    "Speakers": [
-      "Nuri Halperin"
-    ],
+    "Speakers": "Nuri Halperin",
     "Topic": "Open Source AI and Applied Science"
   },
   {
@@ -2603,9 +2084,7 @@
     "Location": "Room 211",
     "StartTime": "2024-03-17T13:45:00-07:00",
     "EndTime": "2024-03-17T14:45:00-07:00",
-    "Speakers": [
-      "Harlan Stenn"
-    ],
+    "Speakers": "Harlan Stenn",
     "Topic": "Systems & Infrastructure"
   },
   {
@@ -2614,9 +2093,7 @@
     "Location": "Room 105",
     "StartTime": "2024-03-17T13:45:00-07:00",
     "EndTime": "2024-03-17T14:45:00-07:00",
-    "Speakers": [
-      "Jamie Coleman"
-    ],
+    "Speakers": "Jamie Coleman",
     "Topic": "FOSS @ HOME"
   },
   {
@@ -2625,9 +2102,7 @@
     "Location": "Ballroom C",
     "StartTime": "2024-03-17T13:45:00-07:00",
     "EndTime": "2024-03-17T14:45:00-07:00",
-    "Speakers": [
-      "Duane O'Brien"
-    ],
+    "Speakers": "Duane O'Brien",
     "Topic": "General"
   },
   {
@@ -2636,9 +2111,7 @@
     "Location": "Ballroom G",
     "StartTime": "2024-03-17T13:45:00-07:00",
     "EndTime": "2024-03-17T14:45:00-07:00",
-    "Speakers": [
-      "Bernie Wu"
-    ],
+    "Speakers": "Bernie Wu",
     "Topic": "Cloud Native"
   },
   {
@@ -2647,9 +2120,7 @@
     "Location": "Ballroom A",
     "StartTime": "2024-03-17T13:45:00-07:00",
     "EndTime": "2024-03-17T14:45:00-07:00",
-    "Speakers": [
-      "Jen Diamond"
-    ],
+    "Speakers": "Jen Diamond",
     "Topic": "Developer"
   },
   {
@@ -2658,9 +2129,7 @@
     "Location": "Ballroom H",
     "StartTime": "2024-03-17T13:45:00-07:00",
     "EndTime": "2024-03-17T14:45:00-07:00",
-    "Speakers": [
-      "Guinevere Saenger"
-    ],
+    "Speakers": "Guinevere Saenger",
     "Topic": "Cloud Native"
   },
   {
@@ -2669,9 +2138,7 @@
     "Location": "Ballroom B",
     "StartTime": "2024-03-17T13:45:00-07:00",
     "EndTime": "2024-03-17T14:45:00-07:00",
-    "Speakers": [
-      "Nova King"
-    ],
+    "Speakers": "Nova King",
     "Topic": "General"
   },
   {
@@ -2680,10 +2147,7 @@
     "Location": "Room 107",
     "StartTime": "2024-03-17T13:45:00-07:00",
     "EndTime": "2024-03-17T14:45:00-07:00",
-    "Speakers": [
-      "Chanchal Gupta",
-      "Simon Wong"
-    ],
+    "Speakers": "Chanchal Gupta, Simon Wong",
     "Topic": "Observability"
   },
   {
@@ -2692,9 +2156,7 @@
     "Location": "Room 212",
     "StartTime": "2024-03-17T13:45:00-07:00",
     "EndTime": "2024-03-17T14:45:00-07:00",
-    "Speakers": [
-      "Davide Cavalca"
-    ],
+    "Speakers": "Davide Cavalca",
     "Topic": "Reproducible and Immutable Software"
   },
   {
@@ -2703,9 +2165,7 @@
     "Location": "Room 103",
     "StartTime": "2024-03-17T14:00:00-07:00",
     "EndTime": "2024-03-17T15:00:00-07:00",
-    "Speakers": [
-      "maddog Hall"
-    ],
+    "Speakers": "maddog Hall",
     "Topic": "Career Day"
   },
   {
@@ -2714,9 +2174,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2024-03-17T15:00:00-07:00",
     "EndTime": "2024-03-17T16:00:00-07:00",
-    "Speakers": [
-      "Bill Cheswick"
-    ],
+    "Speakers": "Bill Cheswick",
     "Topic": "Keynote"
   }
 ]

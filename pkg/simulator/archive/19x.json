@@ -5,9 +5,7 @@
     "Location": "Los Angeles A",
     "StartTime": "2022-07-28T10:00:00-07:00",
     "EndTime": "2022-07-28T11:00:00-07:00",
-    "Speakers": [
-      "Sarah Conway"
-    ],
+    "Speakers": "Sarah Conway",
     "Topic": "PostgreSQL"
   },
   {
@@ -16,9 +14,7 @@
     "Location": "Century CD",
     "StartTime": "2022-07-28T10:00:00-07:00",
     "EndTime": "2022-07-28T13:00:00-07:00",
-    "Speakers": [
-      "Angel Rivera"
-    ],
+    "Speakers": "Angel Rivera",
     "Topic": "Sponsored"
   },
   {
@@ -27,9 +23,7 @@
     "Location": "Los Angeles C",
     "StartTime": "2022-07-28T10:00:00-07:00",
     "EndTime": "2022-07-28T17:00:00-07:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Sponsored"
   },
   {
@@ -38,9 +32,7 @@
     "Location": "San Lorenzo E",
     "StartTime": "2022-07-28T10:00:00-07:00",
     "EndTime": "2022-07-28T17:00:00-07:00",
-    "Speakers": [
-      "Karsten Wade"
-    ],
+    "Speakers": "Karsten Wade",
     "Topic": "Sponsored"
   },
   {
@@ -49,11 +41,7 @@
     "Location": "Bel Air",
     "StartTime": "2022-07-28T10:00:00-07:00",
     "EndTime": "2022-07-28T13:00:00-07:00",
-    "Speakers": [
-      "Jeffrey Sica",
-      "Guinevere Saenger",
-      "Taylor Dolezal"
-    ],
+    "Speakers": "Jeffrey Sica, Guinevere Saenger, Taylor Dolezal",
     "Topic": "Cloud Native"
   },
   {
@@ -62,9 +50,7 @@
     "Location": "Century AB",
     "StartTime": "2022-07-28T10:00:00-07:00",
     "EndTime": "2022-07-28T13:00:00-07:00",
-    "Speakers": [
-      "Chris Crocco"
-    ],
+    "Speakers": "Chris Crocco",
     "Topic": "Sponsored"
   },
   {
@@ -73,9 +59,7 @@
     "Location": "Los Angeles A",
     "StartTime": "2022-07-28T11:00:00-07:00",
     "EndTime": "2022-07-28T12:00:00-07:00",
-    "Speakers": [
-      "Alexander Korotkov"
-    ],
+    "Speakers": "Alexander Korotkov",
     "Topic": "PostgreSQL"
   },
   {
@@ -84,9 +68,7 @@
     "Location": "Los Angeles B",
     "StartTime": "2022-07-28T11:00:00-07:00",
     "EndTime": "2022-07-28T12:00:00-07:00",
-    "Speakers": [
-      "Jennifer Scheuerell"
-    ],
+    "Speakers": "Jennifer Scheuerell",
     "Topic": "PostgreSQL"
   },
   {
@@ -95,9 +77,7 @@
     "Location": "Los Angeles A",
     "StartTime": "2022-07-28T13:30:00-07:00",
     "EndTime": "2022-07-28T14:30:00-07:00",
-    "Speakers": [
-      "Bruce Momjian"
-    ],
+    "Speakers": "Bruce Momjian",
     "Topic": "PostgreSQL"
   },
   {
@@ -106,9 +86,7 @@
     "Location": "Los Angeles B",
     "StartTime": "2022-07-28T13:30:00-07:00",
     "EndTime": "2022-07-28T14:30:00-07:00",
-    "Speakers": [
-      "Stephen Jazdzewski"
-    ],
+    "Speakers": "Stephen Jazdzewski",
     "Topic": "PostgreSQL"
   },
   {
@@ -117,9 +95,7 @@
     "Location": "Bel Air",
     "StartTime": "2022-07-28T13:30:00-07:00",
     "EndTime": "2022-07-28T17:00:00-07:00",
-    "Speakers": [
-      "Chip Zoller"
-    ],
+    "Speakers": "Chip Zoller",
     "Topic": "Sponsored"
   },
   {
@@ -128,9 +104,7 @@
     "Location": "Century CD",
     "StartTime": "2022-07-28T13:30:00-07:00",
     "EndTime": "2022-07-28T17:00:00-07:00",
-    "Speakers": [
-      "Jorge Castro"
-    ],
+    "Speakers": "Jorge Castro",
     "Topic": "Sponsored"
   },
   {
@@ -139,9 +113,7 @@
     "Location": "Century AB",
     "StartTime": "2022-07-28T13:30:00-07:00",
     "EndTime": "2022-07-28T17:00:00-07:00",
-    "Speakers": [
-      "Justin Reock"
-    ],
+    "Speakers": "Justin Reock",
     "Topic": "Sponsored"
   },
   {
@@ -150,9 +122,7 @@
     "Location": "Marina",
     "StartTime": "2022-07-28T14:00:00-07:00",
     "EndTime": "2022-07-28T17:00:00-07:00",
-    "Speakers": [
-      "Steven Rostedt"
-    ],
+    "Speakers": "Steven Rostedt",
     "Topic": "Observability"
   },
   {
@@ -161,9 +131,7 @@
     "Location": "Los Angeles B",
     "StartTime": "2022-07-28T14:30:00-07:00",
     "EndTime": "2022-07-28T15:30:00-07:00",
-    "Speakers": [
-      "Richard Yen"
-    ],
+    "Speakers": "Richard Yen",
     "Topic": "PostgreSQL"
   },
   {
@@ -172,9 +140,7 @@
     "Location": "Los Angeles A",
     "StartTime": "2022-07-28T14:30:00-07:00",
     "EndTime": "2022-07-28T15:30:00-07:00",
-    "Speakers": [
-      "Robert Treat"
-    ],
+    "Speakers": "Robert Treat",
     "Topic": "PostgreSQL"
   },
   {
@@ -183,9 +149,7 @@
     "Location": "Los Angeles B",
     "StartTime": "2022-07-28T15:30:00-07:00",
     "EndTime": "2022-07-28T16:30:00-07:00",
-    "Speakers": [
-      "Ibrar Ahmed"
-    ],
+    "Speakers": "Ibrar Ahmed",
     "Topic": "PostgreSQL"
   },
   {
@@ -194,9 +158,7 @@
     "Location": "Los Angeles A",
     "StartTime": "2022-07-28T15:30:00-07:00",
     "EndTime": "2022-07-28T16:30:00-07:00",
-    "Speakers": [
-      "Mark Wong"
-    ],
+    "Speakers": "Mark Wong",
     "Topic": "PostgreSQL"
   },
   {
@@ -205,15 +167,7 @@
     "Location": "Los Angeles A",
     "StartTime": "2022-07-28T16:30:00-07:00",
     "EndTime": "2022-07-28T17:30:00-07:00",
-    "Speakers": [
-      "Mark Wong",
-      "Michael Brewer",
-      "Jonathan Katz",
-      "Bruce Momjian",
-      "Robert Treat",
-      "Stephen Frost",
-      "Jaime Casanova"
-    ],
+    "Speakers": "Mark Wong, Michael Brewer, Jonathan Katz, Bruce Momjian, Robert Treat, Stephen Frost, Jaime Casanova",
     "Topic": "PostgreSQL"
   },
   {
@@ -222,9 +176,7 @@
     "Location": "Carmel",
     "StartTime": "2022-07-29T10:00:00-07:00",
     "EndTime": "2022-07-29T11:00:00-07:00",
-    "Speakers": [
-      "Allan Mason"
-    ],
+    "Speakers": "Allan Mason",
     "Topic": "MySQL"
   },
   {
@@ -233,9 +185,7 @@
     "Location": "Los Angeles A",
     "StartTime": "2022-07-29T10:00:00-07:00",
     "EndTime": "2022-07-29T11:00:00-07:00",
-    "Speakers": [
-      "Jonathan Katz"
-    ],
+    "Speakers": "Jonathan Katz",
     "Topic": "PostgreSQL"
   },
   {
@@ -244,9 +194,7 @@
     "Location": "La Jolla",
     "StartTime": "2022-07-29T10:00:00-07:00",
     "EndTime": "2022-07-29T11:00:00-07:00",
-    "Speakers": [
-      "Kat Cosgrove"
-    ],
+    "Speakers": "Kat Cosgrove",
     "Topic": "Cloud Native"
   },
   {
@@ -255,9 +203,7 @@
     "Location": "Marina",
     "StartTime": "2022-07-29T10:00:00-07:00",
     "EndTime": "2022-07-29T13:00:00-07:00",
-    "Speakers": [
-      "Niall Deehan"
-    ],
+    "Speakers": "Niall Deehan",
     "Topic": "Sponsored"
   },
   {
@@ -266,9 +212,7 @@
     "Location": "Century C",
     "StartTime": "2022-07-29T10:00:00-07:00",
     "EndTime": "2022-07-29T17:00:00-07:00",
-    "Speakers": [
-      "Roller Angel"
-    ],
+    "Speakers": "Roller Angel",
     "Topic": ""
   },
   {
@@ -277,10 +221,7 @@
     "Location": "Bel Air",
     "StartTime": "2022-07-29T10:00:00-07:00",
     "EndTime": "2022-07-29T13:00:00-07:00",
-    "Speakers": [
-      "Bill Garrett",
-      "Tony Wilmer"
-    ],
+    "Speakers": "Bill Garrett, Tony Wilmer",
     "Topic": "Sponsored"
   },
   {
@@ -289,9 +230,7 @@
     "Location": "Plaza Ballroom",
     "StartTime": "2022-07-29T10:00:00-07:00",
     "EndTime": "2022-07-29T10:45:00-07:00",
-    "Speakers": [
-      "Matty Stratton"
-    ],
+    "Speakers": "Matty Stratton",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -300,9 +239,7 @@
     "Location": "La Jolla",
     "StartTime": "2022-07-29T11:00:00-07:00",
     "EndTime": "2022-07-29T12:00:00-07:00",
-    "Speakers": [
-      "Jim Tario"
-    ],
+    "Speakers": "Jim Tario",
     "Topic": "Cloud Native"
   },
   {
@@ -311,9 +248,7 @@
     "Location": "Carmel",
     "StartTime": "2022-07-29T11:00:00-07:00",
     "EndTime": "2022-07-29T12:00:00-07:00",
-    "Speakers": [
-      "Alexander Rubin"
-    ],
+    "Speakers": "Alexander Rubin",
     "Topic": "MySQL"
   },
   {
@@ -322,9 +257,7 @@
     "Location": "Los Angeles A",
     "StartTime": "2022-07-29T11:00:00-07:00",
     "EndTime": "2022-07-29T12:00:00-07:00",
-    "Speakers": [
-      "Mark Wong"
-    ],
+    "Speakers": "Mark Wong",
     "Topic": "PostgreSQL"
   },
   {
@@ -333,9 +266,7 @@
     "Location": "Century B",
     "StartTime": "2022-07-29T11:00:00-07:00",
     "EndTime": "2022-07-29T12:00:00-07:00",
-    "Speakers": [
-      "Evan Leibovitch"
-    ],
+    "Speakers": "Evan Leibovitch",
     "Topic": "Sponsored"
   },
   {
@@ -344,9 +275,7 @@
     "Location": "Los Angeles C",
     "StartTime": "2022-07-29T11:00:00-07:00",
     "EndTime": "2022-07-29T12:00:00-07:00",
-    "Speakers": [
-      "Amanda Brock"
-    ],
+    "Speakers": "Amanda Brock",
     "Topic": "Open Government"
   },
   {
@@ -355,9 +284,7 @@
     "Location": "Plaza Ballroom",
     "StartTime": "2022-07-29T11:00:00-07:00",
     "EndTime": "2022-07-29T11:45:00-07:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -366,9 +293,7 @@
     "Location": "Carmel",
     "StartTime": "2022-07-29T13:00:00-07:00",
     "EndTime": "2022-07-29T14:00:00-07:00",
-    "Speakers": [
-      "Pep Pla"
-    ],
+    "Speakers": "Pep Pla",
     "Topic": "MySQL"
   },
   {
@@ -377,11 +302,7 @@
     "Location": "La Jolla",
     "StartTime": "2022-07-29T13:00:00-07:00",
     "EndTime": "2022-07-29T14:00:00-07:00",
-    "Speakers": [
-      "Sage McTaggart",
-      "Michael Hackett",
-      "Federico Lucifredi"
-    ],
+    "Speakers": "Sage McTaggart, Michael Hackett, Federico Lucifredi",
     "Topic": "Cloud Native"
   },
   {
@@ -390,9 +311,7 @@
     "Location": "Century B",
     "StartTime": "2022-07-29T13:00:00-07:00",
     "EndTime": "2022-07-29T15:00:00-07:00",
-    "Speakers": [
-      "Kenny Armstrong"
-    ],
+    "Speakers": "Kenny Armstrong",
     "Topic": "Sponsored"
   },
   {
@@ -401,9 +320,7 @@
     "Location": "Plaza Ballroom",
     "StartTime": "2022-07-29T13:15:00-07:00",
     "EndTime": "2022-07-29T13:45:00-07:00",
-    "Speakers": [
-      "Jeremy Meiss"
-    ],
+    "Speakers": "Jeremy Meiss",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -412,9 +329,7 @@
     "Location": "Los Angeles C",
     "StartTime": "2022-07-29T13:30:00-07:00",
     "EndTime": "2022-07-29T14:30:00-07:00",
-    "Speakers": [
-      "axel simon"
-    ],
+    "Speakers": "axel simon",
     "Topic": "Open Government"
   },
   {
@@ -423,9 +338,7 @@
     "Location": "Los Angeles A",
     "StartTime": "2022-07-29T13:30:00-07:00",
     "EndTime": "2022-07-29T14:30:00-07:00",
-    "Speakers": [
-      "Jaime Casanova"
-    ],
+    "Speakers": "Jaime Casanova",
     "Topic": "PostgreSQL"
   },
   {
@@ -434,9 +347,7 @@
     "Location": "Plaza Ballroom",
     "StartTime": "2022-07-29T13:45:00-07:00",
     "EndTime": "2022-07-29T14:00:00-07:00",
-    "Speakers": [
-      "Dan Lines"
-    ],
+    "Speakers": "Dan Lines",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -445,9 +356,7 @@
     "Location": "La Jolla",
     "StartTime": "2022-07-29T14:00:00-07:00",
     "EndTime": "2022-07-29T15:00:00-07:00",
-    "Speakers": [
-      "Eric Smalling"
-    ],
+    "Speakers": "Eric Smalling",
     "Topic": "Cloud Native"
   },
   {
@@ -456,9 +365,7 @@
     "Location": "Carmel",
     "StartTime": "2022-07-29T14:00:00-07:00",
     "EndTime": "2022-07-29T15:00:00-07:00",
-    "Speakers": [
-      "Matthew Boehm"
-    ],
+    "Speakers": "Matthew Boehm",
     "Topic": "MySQL"
   },
   {
@@ -467,9 +374,7 @@
     "Location": "Plaza Ballroom",
     "StartTime": "2022-07-29T14:00:00-07:00",
     "EndTime": "2022-07-29T14:15:00-07:00",
-    "Speakers": [
-      "Tony Fatouros"
-    ],
+    "Speakers": "Tony Fatouros",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -478,9 +383,7 @@
     "Location": "Los Angeles A",
     "StartTime": "2022-07-29T14:30:00-07:00",
     "EndTime": "2022-07-29T15:30:00-07:00",
-    "Speakers": [
-      "Matt Yonkovit"
-    ],
+    "Speakers": "Matt Yonkovit",
     "Topic": "PostgreSQL"
   },
   {
@@ -489,9 +392,7 @@
     "Location": "Plaza Ballroom",
     "StartTime": "2022-07-29T14:30:00-07:00",
     "EndTime": "2022-07-29T15:15:00-07:00",
-    "Speakers": [
-      "Brian Scott"
-    ],
+    "Speakers": "Brian Scott",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -500,9 +401,7 @@
     "Location": "Carmel",
     "StartTime": "2022-07-29T15:00:00-07:00",
     "EndTime": "2022-07-29T16:00:00-07:00",
-    "Speakers": [
-      "Pep Pla"
-    ],
+    "Speakers": "Pep Pla",
     "Topic": "MySQL"
   },
   {
@@ -511,9 +410,7 @@
     "Location": "Los Angeles C",
     "StartTime": "2022-07-29T15:00:00-07:00",
     "EndTime": "2022-07-29T16:00:00-07:00",
-    "Speakers": [
-      "Josh Berkus"
-    ],
+    "Speakers": "Josh Berkus",
     "Topic": "Open Government"
   },
   {
@@ -522,9 +419,7 @@
     "Location": "La Jolla",
     "StartTime": "2022-07-29T15:30:00-07:00",
     "EndTime": "2022-07-29T16:30:00-07:00",
-    "Speakers": [
-      "Frits Hoogland"
-    ],
+    "Speakers": "Frits Hoogland",
     "Topic": "Cloud Native"
   },
   {
@@ -533,9 +428,7 @@
     "Location": "Los Angeles A",
     "StartTime": "2022-07-29T15:30:00-07:00",
     "EndTime": "2022-07-29T16:15:00-07:00",
-    "Speakers": [
-      "Stephen Frost"
-    ],
+    "Speakers": "Stephen Frost",
     "Topic": "PostgreSQL"
   },
   {
@@ -544,9 +437,7 @@
     "Location": "Plaza Ballroom",
     "StartTime": "2022-07-29T15:30:00-07:00",
     "EndTime": "2022-07-29T16:15:00-07:00",
-    "Speakers": [
-      "Steve Pereira"
-    ],
+    "Speakers": "Steve Pereira",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -555,9 +446,7 @@
     "Location": "Carmel",
     "StartTime": "2022-07-29T16:00:00-07:00",
     "EndTime": "2022-07-29T17:00:00-07:00",
-    "Speakers": [
-      "Kenny Gryp"
-    ],
+    "Speakers": "Kenny Gryp",
     "Topic": "MySQL"
   },
   {
@@ -566,9 +455,7 @@
     "Location": "Los Angeles C",
     "StartTime": "2022-07-29T16:30:00-07:00",
     "EndTime": "2022-07-29T17:30:00-07:00",
-    "Speakers": [
-      "Aman Bhullar"
-    ],
+    "Speakers": "Aman Bhullar",
     "Topic": "Open Government"
   },
   {
@@ -577,9 +464,7 @@
     "Location": "La Jolla",
     "StartTime": "2022-07-29T16:30:00-07:00",
     "EndTime": "2022-07-29T17:30:00-07:00",
-    "Speakers": [
-      "Raghavan Srinivas"
-    ],
+    "Speakers": "Raghavan Srinivas",
     "Topic": "Cloud Native"
   },
   {
@@ -588,9 +473,7 @@
     "Location": "Plaza Ballroom",
     "StartTime": "2022-07-29T16:30:00-07:00",
     "EndTime": "2022-07-29T17:30:00-07:00",
-    "Speakers": [
-      "Tony Loehr"
-    ],
+    "Speakers": "Tony Loehr",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -599,9 +482,7 @@
     "Location": "Carmel",
     "StartTime": "2022-07-29T17:00:00-07:00",
     "EndTime": "2022-07-29T18:00:00-07:00",
-    "Speakers": [
-      "Dave Stokes"
-    ],
+    "Speakers": "Dave Stokes",
     "Topic": "MySQL"
   },
   {
@@ -610,9 +491,7 @@
     "Location": "La Jolla",
     "StartTime": "2022-07-29T17:30:00-07:00",
     "EndTime": "2022-07-29T18:15:00-07:00",
-    "Speakers": [
-      "Daniel Hix"
-    ],
+    "Speakers": "Daniel Hix",
     "Topic": "Cloud Native"
   },
   {
@@ -621,9 +500,7 @@
     "Location": "Los Angeles A",
     "StartTime": "2022-07-29T19:00:00-07:00",
     "EndTime": "2022-07-29T21:00:00-07:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -632,9 +509,7 @@
     "Location": "La Jolla",
     "StartTime": "2022-07-30T10:00:00-07:00",
     "EndTime": "2022-07-30T11:00:00-07:00",
-    "Speakers": [
-      "Aeva Black"
-    ],
+    "Speakers": "Aeva Black",
     "Topic": ""
   },
   {
@@ -643,9 +518,7 @@
     "Location": "Los Angeles C",
     "StartTime": "2022-07-30T11:30:00-07:00",
     "EndTime": "2022-07-30T12:30:00-07:00",
-    "Speakers": [
-      "Robert Read"
-    ],
+    "Speakers": "Robert Read",
     "Topic": "Open Medical"
   },
   {
@@ -654,9 +527,7 @@
     "Location": "Century CD",
     "StartTime": "2022-07-30T11:30:00-07:00",
     "EndTime": "2022-07-30T12:30:00-07:00",
-    "Speakers": [
-      "Binu Ramakrishnan"
-    ],
+    "Speakers": "Binu Ramakrishnan",
     "Topic": "Security"
   },
   {
@@ -665,9 +536,7 @@
     "Location": "Los Angeles AB",
     "StartTime": "2022-07-30T11:30:00-07:00",
     "EndTime": "2022-07-30T12:30:00-07:00",
-    "Speakers": [
-      "Alison Chaiken"
-    ],
+    "Speakers": "Alison Chaiken",
     "Topic": "Developer"
   },
   {
@@ -676,9 +545,7 @@
     "Location": "Newport B",
     "StartTime": "2022-07-30T11:30:00-07:00",
     "EndTime": "2022-07-30T12:30:00-07:00",
-    "Speakers": [
-      "Rob Richardson"
-    ],
+    "Speakers": "Rob Richardson",
     "Topic": ""
   },
   {
@@ -687,9 +554,7 @@
     "Location": "Bel Air",
     "StartTime": "2022-07-30T11:30:00-07:00",
     "EndTime": "2022-07-30T12:30:00-07:00",
-    "Speakers": [
-      "Duane O'Brien"
-    ],
+    "Speakers": "Duane O'Brien",
     "Topic": "General"
   },
   {
@@ -698,9 +563,7 @@
     "Location": "Carmel",
     "StartTime": "2022-07-30T11:30:00-07:00",
     "EndTime": "2022-07-30T12:30:00-07:00",
-    "Speakers": [
-      "Robert Hernandez"
-    ],
+    "Speakers": "Robert Hernandez",
     "Topic": "General"
   },
   {
@@ -709,9 +572,7 @@
     "Location": "Century AB",
     "StartTime": "2022-07-30T11:30:00-07:00",
     "EndTime": "2022-07-30T12:30:00-07:00",
-    "Speakers": [
-      "Anita Zhang"
-    ],
+    "Speakers": "Anita Zhang",
     "Topic": "Systems & Infrastructure"
   },
   {
@@ -720,10 +581,7 @@
     "Location": "La Jolla",
     "StartTime": "2022-07-30T11:30:00-07:00",
     "EndTime": "2022-07-30T12:30:00-07:00",
-    "Speakers": [
-      "Shimon Tolts",
-      "Noaa Barki"
-    ],
+    "Speakers": "Shimon Tolts, Noaa Barki",
     "Topic": "Cloud Native"
   },
   {
@@ -732,9 +590,7 @@
     "Location": "Carmel",
     "StartTime": "2022-07-30T13:30:00-07:00",
     "EndTime": "2022-07-30T14:30:00-07:00",
-    "Speakers": [
-      "Frank Karlitschek"
-    ],
+    "Speakers": "Frank Karlitschek",
     "Topic": "General"
   },
   {
@@ -743,9 +599,7 @@
     "Location": "Bel Air",
     "StartTime": "2022-07-30T13:30:00-07:00",
     "EndTime": "2022-07-30T14:30:00-07:00",
-    "Speakers": [
-      "Kyle Rankin"
-    ],
+    "Speakers": "Kyle Rankin",
     "Topic": "General"
   },
   {
@@ -754,9 +608,7 @@
     "Location": "Marina",
     "StartTime": "2022-07-30T13:30:00-07:00",
     "EndTime": "2022-07-30T14:30:00-07:00",
-    "Speakers": [
-      "Joel Groen"
-    ],
+    "Speakers": "Joel Groen",
     "Topic": "Observability"
   },
   {
@@ -765,9 +617,7 @@
     "Location": "Century AB",
     "StartTime": "2022-07-30T13:30:00-07:00",
     "EndTime": "2022-07-30T14:30:00-07:00",
-    "Speakers": [
-      "Michelle Brenner"
-    ],
+    "Speakers": "Michelle Brenner",
     "Topic": "Systems & Infrastructure"
   },
   {
@@ -776,10 +626,7 @@
     "Location": "Newport B",
     "StartTime": "2022-07-30T13:30:00-07:00",
     "EndTime": "2022-07-30T14:30:00-07:00",
-    "Speakers": [
-      "Antoni Ivanov",
-      "Dimira Petrova"
-    ],
+    "Speakers": "Antoni Ivanov, Dimira Petrova",
     "Topic": ""
   },
   {
@@ -788,9 +635,7 @@
     "Location": "La Jolla",
     "StartTime": "2022-07-30T13:30:00-07:00",
     "EndTime": "2022-07-30T14:30:00-07:00",
-    "Speakers": [
-      "JJ Asghar"
-    ],
+    "Speakers": "JJ Asghar",
     "Topic": "Cloud Native"
   },
   {
@@ -799,9 +644,7 @@
     "Location": "Los Angeles C",
     "StartTime": "2022-07-30T13:30:00-07:00",
     "EndTime": "2022-07-30T14:30:00-07:00",
-    "Speakers": [
-      "Sean Marquez"
-    ],
+    "Speakers": "Sean Marquez",
     "Topic": ""
   },
   {
@@ -810,9 +653,7 @@
     "Location": "Los Angeles AB",
     "StartTime": "2022-07-30T13:30:00-07:00",
     "EndTime": "2022-07-30T14:30:00-07:00",
-    "Speakers": [
-      "Kohsuke Kawaguchi"
-    ],
+    "Speakers": "Kohsuke Kawaguchi",
     "Topic": "Developer"
   },
   {
@@ -821,9 +662,7 @@
     "Location": "Century CD",
     "StartTime": "2022-07-30T13:30:00-07:00",
     "EndTime": "2022-07-30T14:30:00-07:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Security"
   },
   {
@@ -832,9 +671,7 @@
     "Location": "Century AB",
     "StartTime": "2022-07-30T15:00:00-07:00",
     "EndTime": "2022-07-30T16:00:00-07:00",
-    "Speakers": [
-      "Dave Nielsen"
-    ],
+    "Speakers": "Dave Nielsen",
     "Topic": "Systems & Infrastructure"
   },
   {
@@ -843,9 +680,7 @@
     "Location": "Carmel",
     "StartTime": "2022-07-30T15:00:00-07:00",
     "EndTime": "2022-07-30T16:00:00-07:00",
-    "Speakers": [
-      "Ben Cotton"
-    ],
+    "Speakers": "Ben Cotton",
     "Topic": "General"
   },
   {
@@ -854,9 +689,7 @@
     "Location": "La Jolla",
     "StartTime": "2022-07-30T15:00:00-07:00",
     "EndTime": "2022-07-30T16:00:00-07:00",
-    "Speakers": [
-      "Rob Richardson"
-    ],
+    "Speakers": "Rob Richardson",
     "Topic": "Cloud Native"
   },
   {
@@ -865,9 +698,7 @@
     "Location": "Century CD",
     "StartTime": "2022-07-30T15:00:00-07:00",
     "EndTime": "2022-07-30T16:00:00-07:00",
-    "Speakers": [
-      "Nathaniel McCallum"
-    ],
+    "Speakers": "Nathaniel McCallum",
     "Topic": "Security"
   },
   {
@@ -876,10 +707,7 @@
     "Location": "Los Angeles C",
     "StartTime": "2022-07-30T15:00:00-07:00",
     "EndTime": "2022-07-30T16:00:00-07:00",
-    "Speakers": [
-      "Darryl Hwang",
-      "Mark Roden"
-    ],
+    "Speakers": "Darryl Hwang, Mark Roden",
     "Topic": ""
   },
   {
@@ -888,9 +716,7 @@
     "Location": "Newport B",
     "StartTime": "2022-07-30T15:00:00-07:00",
     "EndTime": "2022-07-30T16:00:00-07:00",
-    "Speakers": [
-      "Jans Aasman"
-    ],
+    "Speakers": "Jans Aasman",
     "Topic": "Open Data"
   },
   {
@@ -899,9 +725,7 @@
     "Location": "Bel Air",
     "StartTime": "2022-07-30T15:00:00-07:00",
     "EndTime": "2022-07-30T16:00:00-07:00",
-    "Speakers": [
-      "Kyle Davis"
-    ],
+    "Speakers": "Kyle Davis",
     "Topic": "General"
   },
   {
@@ -910,9 +734,7 @@
     "Location": "Los Angeles AB",
     "StartTime": "2022-07-30T15:00:00-07:00",
     "EndTime": "2022-07-30T16:00:00-07:00",
-    "Speakers": [
-      "Dan Isla"
-    ],
+    "Speakers": "Dan Isla",
     "Topic": "Developer"
   },
   {
@@ -921,9 +743,7 @@
     "Location": "Marina",
     "StartTime": "2022-07-30T15:00:00-07:00",
     "EndTime": "2022-07-30T16:00:00-07:00",
-    "Speakers": [
-      "Eduardo Silva"
-    ],
+    "Speakers": "Eduardo Silva",
     "Topic": "Observability"
   },
   {
@@ -932,9 +752,7 @@
     "Location": "La Jolla",
     "StartTime": "2022-07-30T16:30:00-07:00",
     "EndTime": "2022-07-30T17:30:00-07:00",
-    "Speakers": [
-      "Daniel Walsh"
-    ],
+    "Speakers": "Daniel Walsh",
     "Topic": "Cloud Native"
   },
   {
@@ -943,9 +761,7 @@
     "Location": "Bel Air",
     "StartTime": "2022-07-30T16:30:00-07:00",
     "EndTime": "2022-07-30T17:30:00-07:00",
-    "Speakers": [
-      "Brian Proffitt"
-    ],
+    "Speakers": "Brian Proffitt",
     "Topic": "General"
   },
   {
@@ -954,9 +770,7 @@
     "Location": "Newport B",
     "StartTime": "2022-07-30T16:30:00-07:00",
     "EndTime": "2022-07-30T17:30:00-07:00",
-    "Speakers": [
-      "Mary Cordova"
-    ],
+    "Speakers": "Mary Cordova",
     "Topic": "Open Data"
   },
   {
@@ -965,9 +779,7 @@
     "Location": "Carmel",
     "StartTime": "2022-07-30T16:30:00-07:00",
     "EndTime": "2022-07-30T17:30:00-07:00",
-    "Speakers": [
-      "Dawn Foster"
-    ],
+    "Speakers": "Dawn Foster",
     "Topic": "General"
   },
   {
@@ -976,9 +788,7 @@
     "Location": "Los Angeles C",
     "StartTime": "2022-07-30T16:30:00-07:00",
     "EndTime": "2022-07-30T17:30:00-07:00",
-    "Speakers": [
-      "Daniel Stemen"
-    ],
+    "Speakers": "Daniel Stemen",
     "Topic": "Open Medical"
   },
   {
@@ -987,9 +797,7 @@
     "Location": "Century CD",
     "StartTime": "2022-07-30T16:30:00-07:00",
     "EndTime": "2022-07-30T17:30:00-07:00",
-    "Speakers": [
-      "John Sicklick"
-    ],
+    "Speakers": "John Sicklick",
     "Topic": "Security"
   },
   {
@@ -998,9 +806,7 @@
     "Location": "Century AB",
     "StartTime": "2022-07-30T16:30:00-07:00",
     "EndTime": "2022-07-30T17:30:00-07:00",
-    "Speakers": [
-      "Simon Elmir"
-    ],
+    "Speakers": "Simon Elmir",
     "Topic": "Systems & Infrastructure"
   },
   {
@@ -1009,9 +815,7 @@
     "Location": "Marina",
     "StartTime": "2022-07-30T16:30:00-07:00",
     "EndTime": "2022-07-30T17:30:00-07:00",
-    "Speakers": [
-      "Zeke Dean"
-    ],
+    "Speakers": "Zeke Dean",
     "Topic": "Observability"
   },
   {
@@ -1020,9 +824,7 @@
     "Location": "Carmel",
     "StartTime": "2022-07-30T18:00:00-07:00",
     "EndTime": "2022-07-30T19:00:00-07:00",
-    "Speakers": [
-      "Patrick Swartz"
-    ],
+    "Speakers": "Patrick Swartz",
     "Topic": "General"
   },
   {
@@ -1031,9 +833,7 @@
     "Location": "Century CD",
     "StartTime": "2022-07-30T18:00:00-07:00",
     "EndTime": "2022-07-30T19:00:00-07:00",
-    "Speakers": [
-      "Ell Marquez"
-    ],
+    "Speakers": "Ell Marquez",
     "Topic": "Security"
   },
   {
@@ -1042,9 +842,7 @@
     "Location": "Newport B",
     "StartTime": "2022-07-30T18:00:00-07:00",
     "EndTime": "2022-07-30T19:00:00-07:00",
-    "Speakers": [
-      "Subash DSouza"
-    ],
+    "Speakers": "Subash DSouza",
     "Topic": ""
   },
   {
@@ -1053,9 +851,7 @@
     "Location": "La Jolla",
     "StartTime": "2022-07-30T18:00:00-07:00",
     "EndTime": "2022-07-30T19:00:00-07:00",
-    "Speakers": [
-      "Frédéric Desbiens"
-    ],
+    "Speakers": "Frédéric Desbiens",
     "Topic": "Cloud Native"
   },
   {
@@ -1064,9 +860,7 @@
     "Location": "Los Angeles AB",
     "StartTime": "2022-07-30T18:00:00-07:00",
     "EndTime": "2022-07-30T19:00:00-07:00",
-    "Speakers": [
-      "Sarah Newman"
-    ],
+    "Speakers": "Sarah Newman",
     "Topic": "Developer"
   },
   {
@@ -1075,10 +869,7 @@
     "Location": "Century AB",
     "StartTime": "2022-07-30T18:00:00-07:00",
     "EndTime": "2022-07-30T19:00:00-07:00",
-    "Speakers": [
-      "Alvaro Leiva",
-      "Anita Zhang"
-    ],
+    "Speakers": "Alvaro Leiva, Anita Zhang",
     "Topic": "Systems & Infrastructure"
   },
   {
@@ -1087,9 +878,7 @@
     "Location": "Bel Air",
     "StartTime": "2022-07-30T18:00:00-07:00",
     "EndTime": "2022-07-30T19:00:00-07:00",
-    "Speakers": [
-      "Ken Gilmer"
-    ],
+    "Speakers": "Ken Gilmer",
     "Topic": "General"
   },
   {
@@ -1098,9 +887,7 @@
     "Location": "Marina",
     "StartTime": "2022-07-30T19:00:00-07:00",
     "EndTime": "2022-07-30T20:00:00-07:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -1109,9 +896,7 @@
     "Location": "Los Angeles AB",
     "StartTime": "2022-07-30T19:00:00-07:00",
     "EndTime": "2022-07-30T21:00:00-07:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -1120,9 +905,7 @@
     "Location": "Los Angeles C",
     "StartTime": "2022-07-30T19:00:00-07:00",
     "EndTime": "2022-07-30T21:00:00-07:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -1131,9 +914,7 @@
     "Location": "La Jolla",
     "StartTime": "2022-07-31T10:00:00-07:00",
     "EndTime": "2022-07-31T11:00:00-07:00",
-    "Speakers": [
-      "Demetris Cheatham"
-    ],
+    "Speakers": "Demetris Cheatham",
     "Topic": ""
   },
   {
@@ -1142,9 +923,7 @@
     "Location": "Bel Air",
     "StartTime": "2022-07-31T11:30:00-07:00",
     "EndTime": "2022-07-31T12:30:00-07:00",
-    "Speakers": [
-      "Matt Yonkovit"
-    ],
+    "Speakers": "Matt Yonkovit",
     "Topic": "General"
   },
   {
@@ -1153,9 +932,7 @@
     "Location": "Carmel",
     "StartTime": "2022-07-31T11:30:00-07:00",
     "EndTime": "2022-07-31T12:30:00-07:00",
-    "Speakers": [
-      "Ray Paik"
-    ],
+    "Speakers": "Ray Paik",
     "Topic": "General"
   },
   {
@@ -1164,10 +941,7 @@
     "Location": "Century CD",
     "StartTime": "2022-07-31T11:30:00-07:00",
     "EndTime": "2022-07-31T12:30:00-07:00",
-    "Speakers": [
-      "Atom Ramirez",
-      "Marie Ramirez"
-    ],
+    "Speakers": "Atom Ramirez, Marie Ramirez",
     "Topic": "Security"
   },
   {
@@ -1176,9 +950,7 @@
     "Location": "Century AB",
     "StartTime": "2022-07-31T11:30:00-07:00",
     "EndTime": "2022-07-31T12:30:00-07:00",
-    "Speakers": [
-      "Davide Cavalca"
-    ],
+    "Speakers": "Davide Cavalca",
     "Topic": "Systems & Infrastructure"
   },
   {
@@ -1187,9 +959,7 @@
     "Location": "Marina",
     "StartTime": "2022-07-31T11:30:00-07:00",
     "EndTime": "2022-07-31T12:30:00-07:00",
-    "Speakers": [
-      "Jeff Gehlbach"
-    ],
+    "Speakers": "Jeff Gehlbach",
     "Topic": "Observability"
   },
   {
@@ -1198,9 +968,7 @@
     "Location": "La Jolla",
     "StartTime": "2022-07-31T11:30:00-07:00",
     "EndTime": "2022-07-31T12:30:00-07:00",
-    "Speakers": [
-      "Joe Smith"
-    ],
+    "Speakers": "Joe Smith",
     "Topic": "Cloud Native"
   },
   {
@@ -1209,9 +977,7 @@
     "Location": "Los Angeles AB",
     "StartTime": "2022-07-31T11:30:00-07:00",
     "EndTime": "2022-07-31T12:30:00-07:00",
-    "Speakers": [
-      "Derek Morgan"
-    ],
+    "Speakers": "Derek Morgan",
     "Topic": "Developer"
   },
   {
@@ -1220,9 +986,7 @@
     "Location": "Century CD",
     "StartTime": "2022-07-31T13:30:00-07:00",
     "EndTime": "2022-07-31T14:30:00-07:00",
-    "Speakers": [
-      "Bruce Momjian"
-    ],
+    "Speakers": "Bruce Momjian",
     "Topic": "Security"
   },
   {
@@ -1231,9 +995,7 @@
     "Location": "Los Angeles AB",
     "StartTime": "2022-07-31T13:30:00-07:00",
     "EndTime": "2022-07-31T14:30:00-07:00",
-    "Speakers": [
-      "Matt Yonkovit"
-    ],
+    "Speakers": "Matt Yonkovit",
     "Topic": "Developer"
   },
   {
@@ -1242,10 +1004,7 @@
     "Location": "Bel Air",
     "StartTime": "2022-07-31T13:30:00-07:00",
     "EndTime": "2022-07-31T14:30:00-07:00",
-    "Speakers": [
-      "Mark Waite",
-      "Alyssa Tong"
-    ],
+    "Speakers": "Mark Waite, Alyssa Tong",
     "Topic": "General"
   },
   {
@@ -1254,9 +1013,7 @@
     "Location": "La Jolla",
     "StartTime": "2022-07-31T13:30:00-07:00",
     "EndTime": "2022-07-31T14:30:00-07:00",
-    "Speakers": [
-      "Nathaniel McCallum"
-    ],
+    "Speakers": "Nathaniel McCallum",
     "Topic": "Cloud Native"
   },
   {
@@ -1265,9 +1022,7 @@
     "Location": "Century AB",
     "StartTime": "2022-07-31T13:30:00-07:00",
     "EndTime": "2022-07-31T14:30:00-07:00",
-    "Speakers": [
-      "Sriram Ramkrishna"
-    ],
+    "Speakers": "Sriram Ramkrishna",
     "Topic": "Systems & Infrastructure"
   },
   {
@@ -1276,9 +1031,7 @@
     "Location": "Carmel",
     "StartTime": "2022-07-31T13:30:00-07:00",
     "EndTime": "2022-07-31T14:30:00-07:00",
-    "Speakers": [
-      "Esty Scheiner"
-    ],
+    "Speakers": "Esty Scheiner",
     "Topic": "General"
   },
   {
@@ -1287,9 +1040,7 @@
     "Location": "Marina",
     "StartTime": "2022-07-31T13:30:00-07:00",
     "EndTime": "2022-07-31T14:30:00-07:00",
-    "Speakers": [
-      "Ben Michel"
-    ],
+    "Speakers": "Ben Michel",
     "Topic": "Observability"
   },
   {
@@ -1298,9 +1049,7 @@
     "Location": "La Jolla",
     "StartTime": "2022-07-31T15:00:00-07:00",
     "EndTime": "2022-07-31T16:00:00-07:00",
-    "Speakers": [
-      "Vint Cerf"
-    ],
+    "Speakers": "Vint Cerf",
     "Topic": ""
   }
 ]
