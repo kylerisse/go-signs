@@ -181,11 +181,7 @@ func (s *Server) ListenAndServe() error {
 
 // Initialize database structure and buckets
 func initializeDatabase(db *bolt.DB, archiveDir fs.FS) error {
-	// Initialize XML data bucket
-	if err := checkOrCreateXMLBucket(db); err != nil {
-		return fmt.Errorf("failed to initialize XML data: %w", err)
-	}
-
+	// Initialize JSON data bucket
 	if err := checkOrCreateJSONBucket(db, archiveDir); err != nil {
 		return fmt.Errorf("failed to initialize JSON data: %w", err)
 	}
