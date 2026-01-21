@@ -70,9 +70,6 @@ func toPresentation(dn DrupalNode) (Presentation, error) {
 	p.Speakers = extractSpeakers(
 		html.UnescapeString(dn.Speakers))
 
-	if dn.Topic == "" {
-		return Presentation{}, errors.New("empty Topic")
-	}
 	p.Topic = html.UnescapeString(dn.Topic)
 
 	if dn.Location == "" {
