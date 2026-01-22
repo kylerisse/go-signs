@@ -253,17 +253,17 @@ func setupRoutes(r *gin.Engine, db *bolt.DB, server *Server) {
 	})
 
 	// Endpoint to serve the XML data
-	r.GET("/sign.xml", func(c *gin.Context) {
-		// Access the database to get mockXML
-		var xmlData []byte
+	r.GET("/sign.json", func(c *gin.Context) {
+		// Access the database to get mockJSON
+		var jsonData []byte
 		err := db.View(func(tx *bolt.Tx) error {
 			bucket := tx.Bucket([]byte("simulation"))
 			if bucket == nil {
 				return fmt.Errorf("simulation bucket not found")
 			}
-			xmlData = bucket.Get([]byte("mockXML"))
-			if xmlData == nil {
-				return fmt.Errorf("mockXML not found in simulation bucket")
+			jsonData = bucket.Get([]byte("mockJSON"))
+			if jsonData == nil {
+				return fmt.Errorf("mockJSON not found in simulation bucket")
 			}
 			return nil
 		})
@@ -273,10 +273,10 @@ func setupRoutes(r *gin.Engine, db *bolt.DB, server *Server) {
 			return
 		}
 
-		// Set the content type to application/xml
-		c.Header("Content-Type", "application/xml")
-		// Write the XML data directly
-		c.Writer.Write(xmlData)
+		// Set the content type to application/json
+		c.Header("Content-Type", "application/json")
+		// Write the JSON data directly
+		c.Writer.Write(jsonData)
 	})
 
 	// Serve static files for the frontend if needed

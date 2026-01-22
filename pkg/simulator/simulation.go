@@ -2,12 +2,9 @@ package simulator
 
 import (
 	"encoding/json"
-	"encoding/xml"
 	"fmt"
 	"log"
 	"math/rand"
-	"regexp"
-	"strings"
 	"time"
 
 	"github.com/kylerisse/go-signs/pkg/schedule"
@@ -132,10 +129,10 @@ func hasRunningOrUpcomingEvents(presentationsJSON []byte, now time.Time) (bool, 
 
 // createSimulatedConferenceData randomly selects and modifies a conference schedule
 func createSimulatedConferenceData(tx *bolt.Tx, today time.Time) error {
-	// Get the xmlData bucket
-	xmlBucket := tx.Bucket([]byte("xmlData"))
-	if xmlBucket == nil {
-		return fmt.Errorf("xmlData bucket not found")
+	// Get the jsonData bucket
+	jsonBucket := tx.Bucket([]byte("jsonData"))
+	if jsonBucket == nil {
+		return fmt.Errorf("jsonData bucket not found")
 	}
 
 	// Get the simulation bucket
@@ -144,91 +141,87 @@ func createSimulatedConferenceData(tx *bolt.Tx, today time.Time) error {
 		return fmt.Errorf("simulation bucket not found")
 	}
 
-	// Get all XML keys
-	var xmlKeys []string
-	c := xmlBucket.Cursor()
+	// Get all JSON keys
+	var jsonKeys []string
+	c := jsonBucket.Cursor()
 	for k, _ := c.First(); k != nil; k, _ = c.Next() {
-		xmlKeys = append(xmlKeys, string(k))
+		jsonKeys = append(jsonKeys, string(k))
 	}
 
-	if len(xmlKeys) == 0 {
-		return fmt.Errorf("no XML data found")
+	if len(jsonKeys) == 0 {
+		return fmt.Errorf("no JSON data found")
 	}
 
 	// Randomly select ONE conference to be the primary one with date shifting
-	selectedKey := xmlKeys[rand.Intn(len(xmlKeys))]
+	selectedKey := jsonKeys[rand.Intn(len(jsonKeys))]
 	log.Printf("Selected %s as primary conference with date shifting", selectedKey)
 
-	// Get the XML data for the selected conference
-	xmlData := xmlBucket.Get([]byte(selectedKey))
-	if xmlData == nil {
+	// Get the JSON data for the selected conference
+	jsonData := jsonBucket.Get([]byte(selectedKey))
+	if jsonData == nil {
 		return fmt.Errorf("no data found for key %s", selectedKey)
 	}
 
-	// Parse and modify the XML data with date shifting
-	modifiedXML, err := modifyXMLDates(xmlData, today)
+	// Parse and modify the JSON data with date shifting
+	modifiedJSON, err := modifyJSONDates(jsonData, today)
 	if err != nil {
-		return fmt.Errorf("failed to modify XML dates: %w", err)
+		return fmt.Errorf("failed to modify JSON dates: %w", err)
 	}
 
 	// AFTER modifying dates, now merge in all conferences
 
-	// Parse the modified XML back into nodes structure
-	var baseNodes schedule.Nodes
-	if err := xml.Unmarshal(modifiedXML, &baseNodes); err != nil {
-		return fmt.Errorf("error parsing modified XML: %w", err)
+	// Parse the modified JSON back into nodes structure
+	var baseNodes []schedule.DrupalNode
+	if err := json.Unmarshal(modifiedJSON, &baseNodes); err != nil {
+		return fmt.Errorf("error parsing modified JSON: %w", err)
 	}
 
 	// Create a merged nodes structure starting with our date-shifted conference
 	mergedNodes := baseNodes
 
 	// Now merge in all the other conferences with their original dates
-	for _, key := range xmlKeys {
+	for _, key := range jsonKeys {
 
-		// Get the XML data for this conference
-		xmlData := xmlBucket.Get([]byte(key))
-		if xmlData == nil {
+		// Get the JSON data for this conference
+		jsonData := jsonBucket.Get([]byte(key))
+		if jsonData == nil {
 			log.Printf("Warning: no data found for key %s, skipping", key)
 			continue
 		}
 
-		// Parse the XML data into nodes structure (keeping original dates)
-		var additionalNodes schedule.Nodes
-		if err := xml.Unmarshal(xmlData, &additionalNodes); err != nil {
-			log.Printf("Warning: error parsing XML for %s: %v, skipping", key, err)
+		// Parse the JSON data into nodes structure (keeping original dates)
+		var additionalNodes []schedule.DrupalNode
+		if err := json.Unmarshal(jsonData, &additionalNodes); err != nil {
+			log.Printf("Warning: error parsing JSON for %s: %v, skipping", key, err)
 			continue
 		}
 
 		// Add these nodes to our merged structure
-		log.Printf("Adding %d nodes from %s with original dates", len(additionalNodes.Nodes), key)
-		mergedNodes.Nodes = append(mergedNodes.Nodes, additionalNodes.Nodes...)
+		log.Printf("Adding %d nodes from %s with original dates", len(additionalNodes), key)
+		mergedNodes = append(mergedNodes, additionalNodes...)
 	}
 
-	log.Printf("Merged a total of %d nodes from all XML data sources", len(mergedNodes.Nodes))
+	log.Printf("Merged a total of %d nodes from all JSON data sources", len(mergedNodes))
 
-	// Marshal the merged nodes back to XML
-	finalXML, err := xml.MarshalIndent(mergedNodes, "", "  ")
+	// Marshal the merged nodes back to JSON
+	finalJSON, err := json.MarshalIndent(mergedNodes, "", "  ")
 	if err != nil {
-		return fmt.Errorf("error marshaling merged XML: %w", err)
+		return fmt.Errorf("error marshaling merged JSON: %w", err)
 	}
 
-	// Add XML declaration
-	xmlHeader := []byte(xml.Header)
-	finalXML = append(xmlHeader, finalXML...)
-
-	// Store the modified and merged XML in the simulation bucket
-	if err := simBucket.Put([]byte("mockXML"), finalXML); err != nil {
-		return fmt.Errorf("failed to store mockXML: %w", err)
+	// Store the modified and merged JSON in the simulation bucket
+	if err := simBucket.Put([]byte("mockJSON"), finalJSON); err != nil {
+		return fmt.Errorf("failed to store mockJSON: %w", err)
 	}
 
-	log.Printf("Created mockXML from %s with date-shifted sessions plus original sessions from other conferences",
+	log.Printf("Created mockJSON from %s with date-shifted sessions plus original sessions from other conferences",
 		selectedKey)
 
-	// Now use the schedule.BytesToPresentations function to parse the XML
+	// Now use the schedule.BytesToPresentations function to parse the JSON
 	// and store the result in the presentations key
-	presentations, err := schedule.BytesToPresentations(finalXML)
+	presentations, err := schedule.DrupalToPresentations(finalJSON)
 	if err != nil {
-		return fmt.Errorf("failed to parse presentations from XML: %w", err)
+		return fmt.Errorf("failed to parse presentations from JSON: %w", err)
 	}
 
 	// Serialize the presentations to JSON
@@ -325,112 +318,4 @@ func modifyJSONDates(jsonData []byte, today time.Time) ([]byte, error) {
 	}
 
 	return bytesJSON, nil
-}
-
-// modifyXMLDates updates the Day and Time elements with simulated dates
-func modifyXMLDates(xmlData []byte, today time.Time) ([]byte, error) {
-	// Use the existing types from the schedule package
-	var nodes schedule.Nodes
-	if err := xml.Unmarshal(xmlData, &nodes); err != nil {
-		return nil, fmt.Errorf("error parsing XML: %w", err)
-	}
-
-	// Map days to new dates
-	// Today = Wednesday, Tomorrow = Thursday, etc.
-	dates := make(map[string]time.Time)
-	dates["Wednesday"] = today
-	dates["Thursday"] = today.AddDate(0, 0, 1)
-	dates["Friday"] = today.AddDate(0, 0, 2)
-	dates["Saturday"] = today.AddDate(0, 0, 3)
-	dates["Sunday"] = today.AddDate(0, 0, 4)
-
-	// Regular expression to find content attributes with dates/times
-	dateRegex := regexp.MustCompile(`content="([0-9]{4}-[0-9]{2}-[0-9]{2})T([0-9]{2}:[0-9]{2}:[0-9]{2})([-+][0-9]{2}:[0-9]{2})?"`)
-	dayRegex := regexp.MustCompile(`<span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="[^>]+>([^<]+)</span>`)
-
-	// For each node, update Day and Time elements
-	for i := range nodes.Nodes {
-		// Extract day name from Day element
-		dayMatches := dayRegex.FindStringSubmatch(nodes.Nodes[i].Day)
-		if len(dayMatches) > 1 {
-			dayName := strings.TrimSpace(dayMatches[1])
-
-			// Modify Day content attribute
-			nodes.Nodes[i].Day = updateDateInContent(nodes.Nodes[i].Day, dates, dayName, dateRegex)
-		}
-
-		// Modify Time content attributes
-		nodes.Nodes[i].Time = updateDateInContent(nodes.Nodes[i].Time, dates, "", dateRegex)
-	}
-
-	// Marshal back to XML
-	modifiedXML, err := xml.MarshalIndent(nodes, "", "  ")
-	if err != nil {
-		return nil, fmt.Errorf("error generating modified XML: %w", err)
-	}
-
-	// Add XML declaration
-	xmlHeader := []byte(xml.Header)
-	finalXML := append(xmlHeader, modifiedXML...)
-
-	return finalXML, nil
-}
-
-// updateDateInContent updates the date portion of content attributes while preserving time
-func updateDateInContent(text string, dates map[string]time.Time, dayName string, dateRegex *regexp.Regexp) string {
-	return dateRegex.ReplaceAllStringFunc(text, func(match string) string {
-		// Extract the date, time and timezone from the content attribute
-		parts := dateRegex.FindStringSubmatch(match)
-		if len(parts) < 3 {
-			return match // No change if we can't parse
-		}
-
-		// Extract the original date and time
-		originalDate := parts[1]
-		originalTime := parts[2]
-
-		// Parse the original date to extract day of week (for mapping)
-		parsedDate, err := time.Parse("2006-01-02", originalDate)
-		if err != nil {
-			return match // No change if we can't parse
-		}
-
-		var newDate time.Time
-		// If dayName is provided, use that for mapping
-		if dayName != "" {
-			if mappedDate, ok := dates[dayName]; ok {
-				newDate = mappedDate
-			} else {
-				// If the day name isn't one we recognize, use the parsed date's day of week
-				weekday := parsedDate.Weekday().String()
-				if mappedDate, ok := dates[weekday]; ok {
-					newDate = mappedDate
-				} else {
-					return match // No change if we can't map
-				}
-			}
-		} else {
-			// No day name, try to infer from the original date
-			weekday := parsedDate.Weekday().String()
-			if mappedDate, ok := dates[weekday]; ok {
-				newDate = mappedDate
-			} else {
-				return match // No change if we can't map
-			}
-		}
-
-		// Keep original time, change date
-		// Determine if timezone part exists
-		timezonePart := ""
-		if len(parts) > 3 && parts[3] != "" {
-			timezonePart = parts[3]
-		}
-
-		// Create new content attribute
-		newContent := fmt.Sprintf(`content="%sT%s%s"`,
-			newDate.Format("2006-01-02"), originalTime, timezonePart)
-
-		// Replace the content attribute in the match
-		return strings.Replace(match, parts[0], newContent, 1)
-	})
 }
