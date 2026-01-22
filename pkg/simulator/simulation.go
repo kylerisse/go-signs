@@ -247,6 +247,86 @@ func createSimulatedConferenceData(tx *bolt.Tx, today time.Time) error {
 	return nil
 }
 
+// modifyJSONDates updates the Day and Time elements with simulated dates
+func modifyJSONDates(jsonData []byte, today time.Time) ([]byte, error) {
+	// Use the existing types from the schedule package
+	var origNodes []schedule.DrupalNode
+	if err := json.Unmarshal(jsonData, &origNodes); err != nil {
+		return nil, fmt.Errorf("error parsing JSON: %w", err)
+	}
+
+	// Map days to new dates
+	// Today = Wednesday, Tomorrow = Thursday, etc.
+	dates := make(map[time.Weekday]time.Time)
+	dates[time.Wednesday] = today
+	dates[time.Thursday] = today.AddDate(0, 0, 1)
+	dates[time.Friday] = today.AddDate(0, 0, 2)
+	dates[time.Saturday] = today.AddDate(0, 0, 3)
+	dates[time.Sunday] = today.AddDate(0, 0, 4)
+
+	var newNodes []schedule.DrupalNode
+	// For each node, update Date but keep existing time
+	for _, node := range origNodes {
+		origStart, err := time.Parse(time.RFC3339, node.StartTime)
+		if err != nil {
+			log.Printf("Invalid StartTime in %v", node)
+			continue
+		}
+		origEnd, err := time.Parse(time.RFC3339, node.EndTime)
+		if err != nil {
+			log.Printf("Invalid EndTime in %v", node)
+			continue
+		}
+
+		// Get the new DATE part for start and end based on their original weekdays
+		newStartDate := dates[origStart.Weekday()]
+		newEndDate := dates[origEnd.Weekday()]
+
+		// Build new start time: new date + original time-of-day
+		newStart := time.Date(
+			newStartDate.Year(),
+			newStartDate.Month(),
+			newStartDate.Day(),
+			origStart.Hour(),
+			origStart.Minute(),
+			origStart.Second(),
+			origStart.Nanosecond(),
+			newEndDate.Location(), // TZ info
+		)
+
+		// Same for end time
+		newEnd := time.Date(
+			newEndDate.Year(),
+			newEndDate.Month(),
+			newEndDate.Day(),
+			origEnd.Hour(),
+			origEnd.Minute(),
+			origEnd.Second(),
+			origEnd.Nanosecond(),
+			newEndDate.Location(), // TZ info
+		)
+
+		// Format back to RFC3339 string
+		newNodes = append(newNodes, schedule.DrupalNode{
+			Name:        node.Name,
+			Location:    node.Location,
+			StartTime:   newStart.Format(time.RFC3339),
+			EndTime:     newEnd.Format(time.RFC3339),
+			Speakers:    node.Speakers,
+			Topic:       node.Topic,
+			Description: node.Description,
+		})
+	}
+
+	// Marshal back to JSON
+	bytesJSON, err := json.MarshalIndent(newNodes, "", "  ")
+	if err != nil {
+		return nil, fmt.Errorf("error generating modified JSON: %w", err)
+	}
+
+	return bytesJSON, nil
+}
+
 // modifyXMLDates updates the Day and Time elements with simulated dates
 func modifyXMLDates(xmlData []byte, today time.Time) ([]byte, error) {
 	// Use the existing types from the schedule package
