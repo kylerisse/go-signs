@@ -22,7 +22,7 @@ type Server struct {
 
 // NewServer sets up the cron runs for schedule and sponsors returns the *Server
 func NewServer(c Config) *Server {
-	sch := schedule.NewSchedule(c.ScheduleJSONurl, c.ScheduleXMLurl)
+	sch := schedule.NewSchedule(c.ScheduleJSONurl)
 
 	// Channels for coordinating shutdown
 	stopRefresh := make(chan struct{})

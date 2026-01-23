@@ -252,7 +252,7 @@ func setupRoutes(r *gin.Engine, db *bolt.DB, server *Server) {
 		c.Writer.Write(presentations)
 	})
 
-	// Endpoint to serve the XML data
+	// Endpoint to serve the data
 	r.GET("/sign.json", func(c *gin.Context) {
 		// Access the database to get mockJSON
 		var jsonData []byte

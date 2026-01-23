@@ -76,7 +76,7 @@ func checkOrCreateJSONBucket(db *bolt.DB, archiveDir fs.FS) error {
 	})
 }
 
-// fetchXML retrieves XML data from a URL
+// fetch retrieves data from a URL
 func fetch(url string) ([]byte, error) {
 	resp, err := http.Get(url)
 	if err != nil {
