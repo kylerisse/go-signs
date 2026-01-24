@@ -5,9 +5,7 @@
     "Location": "Room 211",
     "StartTime": "2020-03-05T09:00:00-08:00",
     "EndTime": "2020-03-05T13:00:00-08:00",
-    "Speakers": [
-      "Mark Waite"
-    ],
+    "Speakers": "Mark Waite",
     "Topic": "Sponsored"
   },
   {
@@ -16,9 +14,7 @@
     "Location": "Room 105",
     "StartTime": "2020-03-05T09:30:00-08:00",
     "EndTime": "2020-03-05T10:15:00-08:00",
-    "Speakers": [
-      "Jonathan Katz"
-    ],
+    "Speakers": "Jonathan Katz",
     "Topic": "PostgreSQL"
   },
   {
@@ -27,10 +23,7 @@
     "Location": "Room 104",
     "StartTime": "2020-03-05T09:30:00-08:00",
     "EndTime": "2020-03-05T12:15:00-08:00",
-    "Speakers": [
-      "Jennifer Scheuerell",
-      "Darren Douglas"
-    ],
+    "Speakers": "Jennifer Scheuerell, Darren Douglas",
     "Topic": "PostgreSQL"
   },
   {
@@ -39,9 +32,7 @@
     "Location": "Room 105",
     "StartTime": "2020-03-05T10:30:00-08:00",
     "EndTime": "2020-03-05T11:15:00-08:00",
-    "Speakers": [
-      "Darren Douglas"
-    ],
+    "Speakers": "Darren Douglas",
     "Topic": "PostgreSQL"
   },
   {
@@ -50,9 +41,7 @@
     "Location": "Room 105",
     "StartTime": "2020-03-05T11:30:00-08:00",
     "EndTime": "2020-03-05T12:15:00-08:00",
-    "Speakers": [
-      "Robert Treat"
-    ],
+    "Speakers": "Robert Treat",
     "Topic": "PostgreSQL"
   },
   {
@@ -61,9 +50,7 @@
     "Location": "Room 105",
     "StartTime": "2020-03-05T14:00:00-08:00",
     "EndTime": "2020-03-05T14:45:00-08:00",
-    "Speakers": [
-      "Magnus Hagander"
-    ],
+    "Speakers": "Magnus Hagander",
     "Topic": "PostgreSQL"
   },
   {
@@ -72,12 +59,7 @@
     "Location": "Room 106",
     "StartTime": "2020-03-05T14:00:00-08:00",
     "EndTime": "2020-03-05T17:00:00-08:00",
-    "Speakers": [
-      "Josh Berkus",
-      "Ell Marquez",
-      "Jeffrey Sica",
-      "Bob Killen"
-    ],
+    "Speakers": "Josh Berkus, Ell Marquez, Jeffrey Sica, Bob Killen",
     "Topic": "Container and Orchestrators"
   },
   {
@@ -86,9 +68,7 @@
     "Location": "Room 211",
     "StartTime": "2020-03-05T14:00:00-08:00",
     "EndTime": "2020-03-05T18:00:00-08:00",
-    "Speakers": [
-      "Oscar Medina"
-    ],
+    "Speakers": "Oscar Medina",
     "Topic": "Sponsored"
   },
   {
@@ -97,9 +77,7 @@
     "Location": "Room 212",
     "StartTime": "2020-03-05T14:00:00-08:00",
     "EndTime": "2020-03-05T16:30:00-08:00",
-    "Speakers": [
-      "Suchakra Sharma"
-    ],
+    "Speakers": "Suchakra Sharma",
     "Topic": "Sponsored"
   },
   {
@@ -108,9 +86,7 @@
     "Location": "Room 105",
     "StartTime": "2020-03-05T15:00:00-08:00",
     "EndTime": "2020-03-05T15:45:00-08:00",
-    "Speakers": [
-      "Richard Yen"
-    ],
+    "Speakers": "Richard Yen",
     "Topic": "PostgreSQL"
   },
   {
@@ -119,9 +95,7 @@
     "Location": "Room 104",
     "StartTime": "2020-03-05T15:00:00-08:00",
     "EndTime": "2020-03-05T15:45:00-08:00",
-    "Speakers": [
-      "ANSON ABRAHAM"
-    ],
+    "Speakers": "ANSON ABRAHAM",
     "Topic": "PostgreSQL"
   },
   {
@@ -130,9 +104,7 @@
     "Location": "Room 105",
     "StartTime": "2020-03-05T16:00:00-08:00",
     "EndTime": "2020-03-05T16:45:00-08:00",
-    "Speakers": [
-      "Ilya Kosmodemiansky"
-    ],
+    "Speakers": "Ilya Kosmodemiansky",
     "Topic": "PostgreSQL"
   },
   {
@@ -141,9 +113,7 @@
     "Location": "Room 104",
     "StartTime": "2020-03-05T16:00:00-08:00",
     "EndTime": "2020-03-05T16:45:00-08:00",
-    "Speakers": [
-      "Renee Phillips"
-    ],
+    "Speakers": "Renee Phillips",
     "Topic": "PostgreSQL"
   },
   {
@@ -152,9 +122,7 @@
     "Location": "Room 104",
     "StartTime": "2020-03-05T19:00:00-08:00",
     "EndTime": "2020-03-05T20:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -163,9 +131,7 @@
     "Location": "Room 211",
     "StartTime": "2020-03-05T19:00:00-08:00",
     "EndTime": "2020-03-05T20:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -174,9 +140,7 @@
     "Location": "Room 212",
     "StartTime": "2020-03-05T19:00:00-08:00",
     "EndTime": "2020-03-05T20:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -185,9 +149,7 @@
     "Location": "Room 211",
     "StartTime": "2020-03-06T09:00:00-08:00",
     "EndTime": "2020-03-06T11:00:00-08:00",
-    "Speakers": [
-      "Aleksey Tsalolikhin"
-    ],
+    "Speakers": "Aleksey Tsalolikhin",
     "Topic": "Sponsored"
   },
   {
@@ -196,9 +158,7 @@
     "Location": "Room 107",
     "StartTime": "2020-03-06T09:00:00-08:00",
     "EndTime": "2020-03-06T17:00:00-08:00",
-    "Speakers": [
-      "Karsten Wade"
-    ],
+    "Speakers": "Karsten Wade",
     "Topic": "Mentoring"
   },
   {
@@ -207,9 +167,7 @@
     "Location": "Room 101",
     "StartTime": "2020-03-06T09:30:00-08:00",
     "EndTime": "2020-03-06T10:15:00-08:00",
-    "Speakers": [
-      "Michael Marx"
-    ],
+    "Speakers": "Michael Marx",
     "Topic": "MySQL"
   },
   {
@@ -218,9 +176,7 @@
     "Location": "Room 104",
     "StartTime": "2020-03-06T09:30:00-08:00",
     "EndTime": "2020-03-06T12:30:00-08:00",
-    "Speakers": [
-      "Andreas Scherbaum"
-    ],
+    "Speakers": "Andreas Scherbaum",
     "Topic": "PostgreSQL"
   },
   {
@@ -229,9 +185,7 @@
     "Location": "Room 105",
     "StartTime": "2020-03-06T09:30:00-08:00",
     "EndTime": "2020-03-06T10:15:00-08:00",
-    "Speakers": [
-      "Anastasia Lubennikova"
-    ],
+    "Speakers": "Anastasia Lubennikova",
     "Topic": "PostgreSQL"
   },
   {
@@ -240,9 +194,7 @@
     "Location": "Room 106",
     "StartTime": "2020-03-06T09:30:00-08:00",
     "EndTime": "2020-03-06T12:30:00-08:00",
-    "Speakers": [
-      "Jared Pane"
-    ],
+    "Speakers": "Jared Pane",
     "Topic": "Sponsored"
   },
   {
@@ -251,9 +203,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2020-03-06T10:00:00-08:00",
     "EndTime": "2020-03-06T10:45:00-08:00",
-    "Speakers": [
-      "Alvaro Leiva"
-    ],
+    "Speakers": "Alvaro Leiva",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -262,9 +212,7 @@
     "Location": "Ballroom B",
     "StartTime": "2020-03-06T10:00:00-08:00",
     "EndTime": "2020-03-06T10:45:00-08:00",
-    "Speakers": [
-      "Karen Bruner"
-    ],
+    "Speakers": "Karen Bruner",
     "Topic": "Container and Orchestrators"
   },
   {
@@ -273,10 +221,7 @@
     "Location": "Room 103",
     "StartTime": "2020-03-06T10:00:00-08:00",
     "EndTime": "2020-03-06T17:00:00-08:00",
-    "Speakers": [
-      "Roller Angel",
-      "Deb Goodkin"
-    ],
+    "Speakers": "Roller Angel, Deb Goodkin",
     "Topic": "Sponsored"
   },
   {
@@ -285,9 +230,7 @@
     "Location": "Room 212",
     "StartTime": "2020-03-06T10:00:00-08:00",
     "EndTime": "2020-03-06T13:00:00-08:00",
-    "Speakers": [
-      "Thomas Hatch"
-    ],
+    "Speakers": "Thomas Hatch",
     "Topic": "Sponsored"
   },
   {
@@ -296,10 +239,7 @@
     "Location": "Room 101",
     "StartTime": "2020-03-06T10:30:00-08:00",
     "EndTime": "2020-03-06T11:15:00-08:00",
-    "Speakers": [
-      "Abhi Vaidyanatha",
-      "Lucy Burns"
-    ],
+    "Speakers": "Abhi Vaidyanatha, Lucy Burns",
     "Topic": "MySQL"
   },
   {
@@ -308,9 +248,7 @@
     "Location": "Room 105",
     "StartTime": "2020-03-06T10:30:00-08:00",
     "EndTime": "2020-03-06T11:15:00-08:00",
-    "Speakers": [
-      "Gabrielle Roth"
-    ],
+    "Speakers": "Gabrielle Roth",
     "Topic": "PostgreSQL"
   },
   {
@@ -319,9 +257,7 @@
     "Location": "Ballroom B",
     "StartTime": "2020-03-06T11:00:00-08:00",
     "EndTime": "2020-03-06T11:45:00-08:00",
-    "Speakers": [
-      "Elizabeth K. Joseph"
-    ],
+    "Speakers": "Elizabeth K. Joseph",
     "Topic": "Container and Orchestrators"
   },
   {
@@ -330,9 +266,7 @@
     "Location": "Room 211",
     "StartTime": "2020-03-06T11:00:00-08:00",
     "EndTime": "2020-03-06T12:00:00-08:00",
-    "Speakers": [
-      "Mike Weilgart"
-    ],
+    "Speakers": "Mike Weilgart",
     "Topic": "Sponsored"
   },
   {
@@ -341,9 +275,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2020-03-06T11:00:00-08:00",
     "EndTime": "2020-03-06T11:45:00-08:00",
-    "Speakers": [
-      "Ell Marquez"
-    ],
+    "Speakers": "Ell Marquez",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -352,9 +284,7 @@
     "Location": "Room 105",
     "StartTime": "2020-03-06T11:30:00-08:00",
     "EndTime": "2020-03-06T12:15:00-08:00",
-    "Speakers": [
-      "Darren Douglas"
-    ],
+    "Speakers": "Darren Douglas",
     "Topic": "PostgreSQL"
   },
   {
@@ -363,9 +293,7 @@
     "Location": "Room 101",
     "StartTime": "2020-03-06T11:30:00-08:00",
     "EndTime": "2020-03-06T12:15:00-08:00",
-    "Speakers": [
-      "Alexander Rubin"
-    ],
+    "Speakers": "Alexander Rubin",
     "Topic": "MySQL"
   },
   {
@@ -374,9 +302,7 @@
     "Location": "Ballroom B",
     "StartTime": "2020-03-06T12:00:00-08:00",
     "EndTime": "2020-03-06T12:45:00-08:00",
-    "Speakers": [
-      "Murugappan Chetty"
-    ],
+    "Speakers": "Murugappan Chetty",
     "Topic": "Container and Orchestrators"
   },
   {
@@ -385,9 +311,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2020-03-06T13:00:00-08:00",
     "EndTime": "2020-03-06T13:30:00-08:00",
-    "Speakers": [
-      "Julie Gunderson"
-    ],
+    "Speakers": "Julie Gunderson",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -396,9 +320,7 @@
     "Location": "Room 211",
     "StartTime": "2020-03-06T13:00:00-08:00",
     "EndTime": "2020-03-06T15:00:00-08:00",
-    "Speakers": [
-      "Kenny Armstrong"
-    ],
+    "Speakers": "Kenny Armstrong",
     "Topic": "Sponsored"
   },
   {
@@ -407,9 +329,7 @@
     "Location": "Room 101",
     "StartTime": "2020-03-06T13:15:00-08:00",
     "EndTime": "2020-03-06T14:00:00-08:00",
-    "Speakers": [
-      "Matthias Crauwels"
-    ],
+    "Speakers": "Matthias Crauwels",
     "Topic": "MySQL"
   },
   {
@@ -418,9 +338,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2020-03-06T13:30:00-08:00",
     "EndTime": "2020-03-06T14:00:00-08:00",
-    "Speakers": [
-      "Clint Byrum"
-    ],
+    "Speakers": "Clint Byrum",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -429,9 +347,7 @@
     "Location": "Ballroom F",
     "StartTime": "2020-03-06T13:30:00-08:00",
     "EndTime": "2020-03-06T17:30:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Sponsored"
   },
   {
@@ -440,9 +356,7 @@
     "Location": "Ballroom B",
     "StartTime": "2020-03-06T14:00:00-08:00",
     "EndTime": "2020-03-06T14:45:00-08:00",
-    "Speakers": [
-      "Samuel Karp"
-    ],
+    "Speakers": "Samuel Karp",
     "Topic": "Container and Orchestrators"
   },
   {
@@ -451,9 +365,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2020-03-06T14:00:00-08:00",
     "EndTime": "2020-03-06T14:30:00-08:00",
-    "Speakers": [
-      "Francis Potter"
-    ],
+    "Speakers": "Francis Potter",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -462,9 +374,7 @@
     "Location": "Room 105",
     "StartTime": "2020-03-06T14:00:00-08:00",
     "EndTime": "2020-03-06T14:45:00-08:00",
-    "Speakers": [
-      "Joe Conway"
-    ],
+    "Speakers": "Joe Conway",
     "Topic": "PostgreSQL"
   },
   {
@@ -473,9 +383,7 @@
     "Location": "Room 212",
     "StartTime": "2020-03-06T14:00:00-08:00",
     "EndTime": "2020-03-06T17:30:00-08:00",
-    "Speakers": [
-      "Mark Lochbihler"
-    ],
+    "Speakers": "Mark Lochbihler",
     "Topic": "Sponsored"
   },
   {
@@ -484,10 +392,7 @@
     "Location": "Room 106",
     "StartTime": "2020-03-06T14:00:00-08:00",
     "EndTime": "2020-03-06T17:30:00-08:00",
-    "Speakers": [
-      "Joshua Gay",
-      "Silona Bonewald"
-    ],
+    "Speakers": "Joshua Gay, Silona Bonewald",
     "Topic": "Sponsored"
   },
   {
@@ -496,9 +401,7 @@
     "Location": "Room 101",
     "StartTime": "2020-03-06T14:15:00-08:00",
     "EndTime": "2020-03-06T15:00:00-08:00",
-    "Speakers": [
-      "Pep Pla"
-    ],
+    "Speakers": "Pep Pla",
     "Topic": "MySQL"
   },
   {
@@ -507,9 +410,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2020-03-06T14:45:00-08:00",
     "EndTime": "2020-03-06T15:30:00-08:00",
-    "Speakers": [
-      "Galen Emery"
-    ],
+    "Speakers": "Galen Emery",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -518,9 +419,7 @@
     "Location": "Ballroom B",
     "StartTime": "2020-03-06T15:00:00-08:00",
     "EndTime": "2020-03-06T15:45:00-08:00",
-    "Speakers": [
-      "Josh Berkus"
-    ],
+    "Speakers": "Josh Berkus",
     "Topic": "Container and Orchestrators"
   },
   {
@@ -529,9 +428,7 @@
     "Location": "Room 104",
     "StartTime": "2020-03-06T15:00:00-08:00",
     "EndTime": "2020-03-06T15:45:00-08:00",
-    "Speakers": [
-      "Ilya Kosmodemiansky"
-    ],
+    "Speakers": "Ilya Kosmodemiansky",
     "Topic": "PostgreSQL"
   },
   {
@@ -540,9 +437,7 @@
     "Location": "Room 105",
     "StartTime": "2020-03-06T15:00:00-08:00",
     "EndTime": "2020-03-06T15:45:00-08:00",
-    "Speakers": [
-      "Mason Sharp"
-    ],
+    "Speakers": "Mason Sharp",
     "Topic": "PostgreSQL"
   },
   {
@@ -551,9 +446,7 @@
     "Location": "Room 101",
     "StartTime": "2020-03-06T15:15:00-08:00",
     "EndTime": "2020-03-06T16:00:00-08:00",
-    "Speakers": [
-      "Dave Stokes"
-    ],
+    "Speakers": "Dave Stokes",
     "Topic": "MySQL"
   },
   {
@@ -562,9 +455,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2020-03-06T15:45:00-08:00",
     "EndTime": "2020-03-06T16:30:00-08:00",
-    "Speakers": [
-      "Murriel Perez McCabe"
-    ],
+    "Speakers": "Murriel Perez McCabe",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -573,9 +464,7 @@
     "Location": "Ballroom B",
     "StartTime": "2020-03-06T16:00:00-08:00",
     "EndTime": "2020-03-06T16:45:00-08:00",
-    "Speakers": [
-      "Chris VanTuin"
-    ],
+    "Speakers": "Chris VanTuin",
     "Topic": "Container and Orchestrators"
   },
   {
@@ -584,9 +473,7 @@
     "Location": "Room 104",
     "StartTime": "2020-03-06T16:00:00-08:00",
     "EndTime": "2020-03-06T16:45:00-08:00",
-    "Speakers": [
-      "Stephen Frost"
-    ],
+    "Speakers": "Stephen Frost",
     "Topic": "PostgreSQL"
   },
   {
@@ -595,9 +482,7 @@
     "Location": "Room 105",
     "StartTime": "2020-03-06T16:00:00-08:00",
     "EndTime": "2020-03-06T16:45:00-08:00",
-    "Speakers": [
-      "Kyle Davis"
-    ],
+    "Speakers": "Kyle Davis",
     "Topic": "PostgreSQL"
   },
   {
@@ -606,9 +491,7 @@
     "Location": "Room 101",
     "StartTime": "2020-03-06T16:15:00-08:00",
     "EndTime": "2020-03-06T17:00:00-08:00",
-    "Speakers": [
-      "Peter Zaitsev"
-    ],
+    "Speakers": "Peter Zaitsev",
     "Topic": "MySQL"
   },
   {
@@ -617,9 +500,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2020-03-06T16:45:00-08:00",
     "EndTime": "2020-03-06T17:30:00-08:00",
-    "Speakers": [
-      "Robert Treat"
-    ],
+    "Speakers": "Robert Treat",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -628,9 +509,7 @@
     "Location": "Room 101",
     "StartTime": "2020-03-06T17:15:00-08:00",
     "EndTime": "2020-03-06T18:00:00-08:00",
-    "Speakers": [
-      "Solomon Chang"
-    ],
+    "Speakers": "Solomon Chang",
     "Topic": "MySQL"
   },
   {
@@ -639,9 +518,7 @@
     "Location": "Ballroom F",
     "StartTime": "2020-03-06T19:00:00-08:00",
     "EndTime": "2020-03-06T20:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -650,9 +527,7 @@
     "Location": "Room 103",
     "StartTime": "2020-03-06T20:00:00-08:00",
     "EndTime": "2020-03-06T21:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -661,9 +536,7 @@
     "Location": "Room 107",
     "StartTime": "2020-03-06T20:00:00-08:00",
     "EndTime": "2020-03-06T21:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -672,9 +545,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2020-03-07T10:00:00-08:00",
     "EndTime": "2020-03-07T11:00:00-08:00",
-    "Speakers": [
-      "Paul Vixie"
-    ],
+    "Speakers": "Paul Vixie",
     "Topic": "Keynote"
   },
   {
@@ -683,9 +554,7 @@
     "Location": "Ballroom A",
     "StartTime": "2020-03-07T11:30:00-08:00",
     "EndTime": "2020-03-07T12:30:00-08:00",
-    "Speakers": [
-      "Michelle Brenner"
-    ],
+    "Speakers": "Michelle Brenner",
     "Topic": "Cloud"
   },
   {
@@ -694,10 +563,7 @@
     "Location": "Room 107",
     "StartTime": "2020-03-07T11:30:00-08:00",
     "EndTime": "2020-03-07T12:30:00-08:00",
-    "Speakers": [
-      "Paris Pittman",
-      "Josh Berkus"
-    ],
+    "Speakers": "Paris Pittman, Josh Berkus",
     "Topic": "Mentoring"
   },
   {
@@ -706,10 +572,7 @@
     "Location": "Room 212",
     "StartTime": "2020-03-07T11:30:00-08:00",
     "EndTime": "2020-03-07T12:30:00-08:00",
-    "Speakers": [
-      "Emmanuel Vargas",
-      "Mei Yasumaru"
-    ],
+    "Speakers": "Emmanuel Vargas, Mei Yasumaru",
     "Topic": "Next Generation"
   },
   {
@@ -718,9 +581,7 @@
     "Location": "Room 106",
     "StartTime": "2020-03-07T11:30:00-08:00",
     "EndTime": "2020-03-07T12:30:00-08:00",
-    "Speakers": [
-      "Doug Burks"
-    ],
+    "Speakers": "Doug Burks",
     "Topic": "Security"
   },
   {
@@ -729,9 +590,7 @@
     "Location": "Ballroom C",
     "StartTime": "2020-03-07T11:30:00-08:00",
     "EndTime": "2020-03-07T12:30:00-08:00",
-    "Speakers": [
-      "Kivanc Yazan"
-    ],
+    "Speakers": "Kivanc Yazan",
     "Topic": "Developer"
   },
   {
@@ -740,9 +599,7 @@
     "Location": "Ballroom F",
     "StartTime": "2020-03-07T11:30:00-08:00",
     "EndTime": "2020-03-07T12:30:00-08:00",
-    "Speakers": [
-      "Waldo Grunenwald"
-    ],
+    "Speakers": "Waldo Grunenwald",
     "Topic": "Observability"
   },
   {
@@ -751,9 +608,7 @@
     "Location": "Ballroom H",
     "StartTime": "2020-03-07T11:30:00-08:00",
     "EndTime": "2020-03-07T12:30:00-08:00",
-    "Speakers": [
-      "Don Marti"
-    ],
+    "Speakers": "Don Marti",
     "Topic": "Open Source in Enterprises"
   },
   {
@@ -762,9 +617,7 @@
     "Location": "Ballroom G",
     "StartTime": "2020-03-07T11:30:00-08:00",
     "EndTime": "2020-03-07T12:30:00-08:00",
-    "Speakers": [
-      "Mark Roden"
-    ],
+    "Speakers": "Mark Roden",
     "Topic": "General"
   },
   {
@@ -773,9 +626,7 @@
     "Location": "Room 104",
     "StartTime": "2020-03-07T11:30:00-08:00",
     "EndTime": "2020-03-07T12:30:00-08:00",
-    "Speakers": [
-      "Spencer Sullivan"
-    ],
+    "Speakers": "Spencer Sullivan",
     "Topic": "Open Data"
   },
   {
@@ -784,10 +635,7 @@
     "Location": "Ballroom B",
     "StartTime": "2020-03-07T11:30:00-08:00",
     "EndTime": "2020-03-07T12:30:00-08:00",
-    "Speakers": [
-      "Liz van Dijk",
-      "Peter Farr"
-    ],
+    "Speakers": "Liz van Dijk, Peter Farr",
     "Topic": "Container and Orchestrators"
   },
   {
@@ -796,9 +644,7 @@
     "Location": "Room 107",
     "StartTime": "2020-03-07T13:30:00-08:00",
     "EndTime": "2020-03-07T14:30:00-08:00",
-    "Speakers": [
-      "Cho-Nan Tsai"
-    ],
+    "Speakers": "Cho-Nan Tsai",
     "Topic": "Mentoring"
   },
   {
@@ -807,9 +653,7 @@
     "Location": "Ballroom A",
     "StartTime": "2020-03-07T13:30:00-08:00",
     "EndTime": "2020-03-07T14:30:00-08:00",
-    "Speakers": [
-      "Jake Lundberg"
-    ],
+    "Speakers": "Jake Lundberg",
     "Topic": "Cloud"
   },
   {
@@ -818,9 +662,7 @@
     "Location": "Room 101",
     "StartTime": "2020-03-07T13:30:00-08:00",
     "EndTime": "2020-03-07T14:30:00-08:00",
-    "Speakers": [
-      "Brett Sheffield"
-    ],
+    "Speakers": "Brett Sheffield",
     "Topic": "SysAdmin"
   },
   {
@@ -829,9 +671,7 @@
     "Location": "Room 105",
     "StartTime": "2020-03-07T13:30:00-08:00",
     "EndTime": "2020-03-07T14:30:00-08:00",
-    "Speakers": [
-      "Jason Hibbets"
-    ],
+    "Speakers": "Jason Hibbets",
     "Topic": "Mentoring"
   },
   {
@@ -840,9 +680,7 @@
     "Location": "Ballroom B",
     "StartTime": "2020-03-07T13:30:00-08:00",
     "EndTime": "2020-03-07T14:30:00-08:00",
-    "Speakers": [
-      "Mohammed Aboullaite"
-    ],
+    "Speakers": "Mohammed Aboullaite",
     "Topic": "Container and Orchestrators"
   },
   {
@@ -851,10 +689,7 @@
     "Location": "Room 212",
     "StartTime": "2020-03-07T13:30:00-08:00",
     "EndTime": "2020-03-07T14:30:00-08:00",
-    "Speakers": [
-      "Diego Castillo",
-      "Isaiah Domenden"
-    ],
+    "Speakers": "Diego Castillo, Isaiah Domenden",
     "Topic": "Next Generation"
   },
   {
@@ -863,9 +698,7 @@
     "Location": "Room 106",
     "StartTime": "2020-03-07T13:30:00-08:00",
     "EndTime": "2020-03-07T14:30:00-08:00",
-    "Speakers": [
-      "Michal Hrusecky"
-    ],
+    "Speakers": "Michal Hrusecky",
     "Topic": "Security"
   },
   {
@@ -874,9 +707,7 @@
     "Location": "Ballroom G",
     "StartTime": "2020-03-07T13:30:00-08:00",
     "EndTime": "2020-03-07T14:30:00-08:00",
-    "Speakers": [
-      "Bradley Kuhn"
-    ],
+    "Speakers": "Bradley Kuhn",
     "Topic": "General"
   },
   {
@@ -885,9 +716,7 @@
     "Location": "Ballroom C",
     "StartTime": "2020-03-07T13:30:00-08:00",
     "EndTime": "2020-03-07T14:30:00-08:00",
-    "Speakers": [
-      "Carlos Meza"
-    ],
+    "Speakers": "Carlos Meza",
     "Topic": "Developer"
   },
   {
@@ -896,9 +725,7 @@
     "Location": "Ballroom H",
     "StartTime": "2020-03-07T13:30:00-08:00",
     "EndTime": "2020-03-07T14:30:00-08:00",
-    "Speakers": [
-      "Heather Osborn"
-    ],
+    "Speakers": "Heather Osborn",
     "Topic": "General"
   },
   {
@@ -907,9 +734,7 @@
     "Location": "Room 104",
     "StartTime": "2020-03-07T13:30:00-08:00",
     "EndTime": "2020-03-07T14:30:00-08:00",
-    "Speakers": [
-      "Steven Yu"
-    ],
+    "Speakers": "Steven Yu",
     "Topic": "Open Data"
   },
   {
@@ -918,9 +743,7 @@
     "Location": "Ballroom H",
     "StartTime": "2020-03-07T15:00:00-08:00",
     "EndTime": "2020-03-07T16:00:00-08:00",
-    "Speakers": [
-      "Ell Marquez"
-    ],
+    "Speakers": "Ell Marquez",
     "Topic": "General"
   },
   {
@@ -929,9 +752,7 @@
     "Location": "Room 105",
     "StartTime": "2020-03-07T15:00:00-08:00",
     "EndTime": "2020-03-07T16:00:00-08:00",
-    "Speakers": [
-      "Patrick Swartz"
-    ],
+    "Speakers": "Patrick Swartz",
     "Topic": "Open Source in Enterprises"
   },
   {
@@ -940,9 +761,7 @@
     "Location": "Ballroom F",
     "StartTime": "2020-03-07T15:00:00-08:00",
     "EndTime": "2020-03-07T16:00:00-08:00",
-    "Speakers": [
-      "Peter Zaitsev"
-    ],
+    "Speakers": "Peter Zaitsev",
     "Topic": "Observability"
   },
   {
@@ -951,9 +770,7 @@
     "Location": "Room 101",
     "StartTime": "2020-03-07T15:00:00-08:00",
     "EndTime": "2020-03-07T16:00:00-08:00",
-    "Speakers": [
-      "Alexander Krizhanovsky"
-    ],
+    "Speakers": "Alexander Krizhanovsky",
     "Topic": "SysAdmin"
   },
   {
@@ -962,9 +779,7 @@
     "Location": "Room 106",
     "StartTime": "2020-03-07T15:00:00-08:00",
     "EndTime": "2020-03-07T16:00:00-08:00",
-    "Speakers": [
-      "Kyle Rankin"
-    ],
+    "Speakers": "Kyle Rankin",
     "Topic": "Security"
   },
   {
@@ -973,10 +788,7 @@
     "Location": "Ballroom B",
     "StartTime": "2020-03-07T15:00:00-08:00",
     "EndTime": "2020-03-07T16:00:00-08:00",
-    "Speakers": [
-      "Jeffrey Sica",
-      "Bob Killen"
-    ],
+    "Speakers": "Jeffrey Sica, Bob Killen",
     "Topic": "Container and Orchestrators"
   },
   {
@@ -985,9 +797,7 @@
     "Location": "Room 212",
     "StartTime": "2020-03-07T15:00:00-08:00",
     "EndTime": "2020-03-07T16:00:00-08:00",
-    "Speakers": [
-      "Ikenna Ogbogu"
-    ],
+    "Speakers": "Ikenna Ogbogu",
     "Topic": "Next Generation"
   },
   {
@@ -996,10 +806,7 @@
     "Location": "Ballroom A",
     "StartTime": "2020-03-07T15:00:00-08:00",
     "EndTime": "2020-03-07T16:00:00-08:00",
-    "Speakers": [
-      "Rami AlGhanmi",
-      "Miguel Zuniga"
-    ],
+    "Speakers": "Rami AlGhanmi, Miguel Zuniga",
     "Topic": "Cloud"
   },
   {
@@ -1008,9 +815,7 @@
     "Location": "Room 107",
     "StartTime": "2020-03-07T15:00:00-08:00",
     "EndTime": "2020-03-07T16:00:00-08:00",
-    "Speakers": [
-      "Richard Wareing"
-    ],
+    "Speakers": "Richard Wareing",
     "Topic": "Mentoring"
   },
   {
@@ -1019,9 +824,7 @@
     "Location": "Ballroom G",
     "StartTime": "2020-03-07T15:00:00-08:00",
     "EndTime": "2020-03-07T16:00:00-08:00",
-    "Speakers": [
-      "Matthew Garrett"
-    ],
+    "Speakers": "Matthew Garrett",
     "Topic": "General"
   },
   {
@@ -1030,9 +833,7 @@
     "Location": "Ballroom C",
     "StartTime": "2020-03-07T16:30:00-08:00",
     "EndTime": "2020-03-07T17:30:00-08:00",
-    "Speakers": [
-      "Aaron Turner"
-    ],
+    "Speakers": "Aaron Turner",
     "Topic": "Developer"
   },
   {
@@ -1041,9 +842,7 @@
     "Location": "Ballroom G",
     "StartTime": "2020-03-07T16:30:00-08:00",
     "EndTime": "2020-03-07T17:30:00-08:00",
-    "Speakers": [
-      "Ray Paik"
-    ],
+    "Speakers": "Ray Paik",
     "Topic": "Mentoring"
   },
   {
@@ -1052,9 +851,7 @@
     "Location": "Ballroom H",
     "StartTime": "2020-03-07T16:30:00-08:00",
     "EndTime": "2020-03-07T17:30:00-08:00",
-    "Speakers": [
-      "Federico Lucifredi"
-    ],
+    "Speakers": "Federico Lucifredi",
     "Topic": "General"
   },
   {
@@ -1063,10 +860,7 @@
     "Location": "Room 101",
     "StartTime": "2020-03-07T16:30:00-08:00",
     "EndTime": "2020-03-07T17:30:00-08:00",
-    "Speakers": [
-      "Todd Miller",
-      "Peter Czanik"
-    ],
+    "Speakers": "Todd Miller, Peter Czanik",
     "Topic": "SysAdmin"
   },
   {
@@ -1075,11 +869,7 @@
     "Location": "Room 212",
     "StartTime": "2020-03-07T16:30:00-08:00",
     "EndTime": "2020-03-07T17:30:00-08:00",
-    "Speakers": [
-      "Skyler Josinger",
-      "Tyler Rowland",
-      "Morgan Greenwald"
-    ],
+    "Speakers": "Skyler Josinger, Tyler Rowland, Morgan Greenwald",
     "Topic": "Next Generation"
   },
   {
@@ -1088,9 +878,7 @@
     "Location": "Room 104",
     "StartTime": "2020-03-07T16:30:00-08:00",
     "EndTime": "2020-03-07T17:30:00-08:00",
-    "Speakers": [
-      "Dima Kogan"
-    ],
+    "Speakers": "Dima Kogan",
     "Topic": "Open Data"
   },
   {
@@ -1099,9 +887,7 @@
     "Location": "Room 107",
     "StartTime": "2020-03-07T16:30:00-08:00",
     "EndTime": "2020-03-07T17:30:00-08:00",
-    "Speakers": [
-      "Karsten Wade"
-    ],
+    "Speakers": "Karsten Wade",
     "Topic": "Mentoring"
   },
   {
@@ -1110,9 +896,7 @@
     "Location": "Ballroom B",
     "StartTime": "2020-03-07T16:30:00-08:00",
     "EndTime": "2020-03-07T17:30:00-08:00",
-    "Speakers": [
-      "Vicky Tanya Seno"
-    ],
+    "Speakers": "Vicky Tanya Seno",
     "Topic": "Container and Orchestrators"
   },
   {
@@ -1121,9 +905,7 @@
     "Location": "Room 105",
     "StartTime": "2020-03-07T16:30:00-08:00",
     "EndTime": "2020-03-07T17:30:00-08:00",
-    "Speakers": [
-      "Bill Pollock"
-    ],
+    "Speakers": "Bill Pollock",
     "Topic": "General"
   },
   {
@@ -1132,9 +914,7 @@
     "Location": "Room 106",
     "StartTime": "2020-03-07T16:30:00-08:00",
     "EndTime": "2020-03-07T17:30:00-08:00",
-    "Speakers": [
-      "Ty Shipman"
-    ],
+    "Speakers": "Ty Shipman",
     "Topic": "Security"
   },
   {
@@ -1143,9 +923,7 @@
     "Location": "Ballroom F",
     "StartTime": "2020-03-07T18:00:00-08:00",
     "EndTime": "2020-03-07T19:00:00-08:00",
-    "Speakers": [
-      "Dave McAllister"
-    ],
+    "Speakers": "Dave McAllister",
     "Topic": "Observability"
   },
   {
@@ -1154,9 +932,7 @@
     "Location": "Room 105",
     "StartTime": "2020-03-07T18:00:00-08:00",
     "EndTime": "2020-03-07T19:00:00-08:00",
-    "Speakers": [
-      "Manrique Lopez"
-    ],
+    "Speakers": "Manrique Lopez",
     "Topic": "Open Source in Enterprises"
   },
   {
@@ -1165,11 +941,7 @@
     "Location": "Ballroom H",
     "StartTime": "2020-03-07T18:00:00-08:00",
     "EndTime": "2020-03-07T19:00:00-08:00",
-    "Speakers": [
-      "Perry Rivera",
-      "Alex Acosta",
-      "Ivan Chavero"
-    ],
+    "Speakers": "Perry Rivera, Alex Acosta, Ivan Chavero",
     "Topic": "General"
   },
   {
@@ -1178,9 +950,7 @@
     "Location": "Room 104",
     "StartTime": "2020-03-07T18:00:00-08:00",
     "EndTime": "2020-03-07T19:00:00-08:00",
-    "Speakers": [
-      "Georg Link"
-    ],
+    "Speakers": "Georg Link",
     "Topic": "Open Data"
   },
   {
@@ -1189,9 +959,7 @@
     "Location": "Room 101",
     "StartTime": "2020-03-07T18:00:00-08:00",
     "EndTime": "2020-03-07T19:00:00-08:00",
-    "Speakers": [
-      "der hans"
-    ],
+    "Speakers": "der hans",
     "Topic": "SysAdmin"
   },
   {
@@ -1200,9 +968,7 @@
     "Location": "Ballroom A",
     "StartTime": "2020-03-07T18:00:00-08:00",
     "EndTime": "2020-03-07T19:00:00-08:00",
-    "Speakers": [
-      "Matt Davis"
-    ],
+    "Speakers": "Matt Davis",
     "Topic": ""
   },
   {
@@ -1211,10 +977,7 @@
     "Location": "Room 212",
     "StartTime": "2020-03-07T18:00:00-08:00",
     "EndTime": "2020-03-07T19:00:00-08:00",
-    "Speakers": [
-      "Alexander Ziff",
-      "Anthony Langer"
-    ],
+    "Speakers": "Alexander Ziff, Anthony Langer",
     "Topic": "Next Generation"
   },
   {
@@ -1223,9 +986,7 @@
     "Location": "Room 106",
     "StartTime": "2020-03-07T18:00:00-08:00",
     "EndTime": "2020-03-07T19:00:00-08:00",
-    "Speakers": [
-      "Nathan Chan"
-    ],
+    "Speakers": "Nathan Chan",
     "Topic": "Security"
   },
   {
@@ -1234,9 +995,7 @@
     "Location": "Room 107",
     "StartTime": "2020-03-07T18:00:00-08:00",
     "EndTime": "2020-03-07T19:00:00-08:00",
-    "Speakers": [
-      "Michael Starch"
-    ],
+    "Speakers": "Michael Starch",
     "Topic": "Mentoring"
   },
   {
@@ -1245,9 +1004,7 @@
     "Location": "Ballroom G",
     "StartTime": "2020-03-07T18:00:00-08:00",
     "EndTime": "2020-03-07T19:00:00-08:00",
-    "Speakers": [
-      "Jono Bacon"
-    ],
+    "Speakers": "Jono Bacon",
     "Topic": "General"
   },
   {
@@ -1256,9 +1013,7 @@
     "Location": "Ballroom C",
     "StartTime": "2020-03-07T18:00:00-08:00",
     "EndTime": "2020-03-07T19:00:00-08:00",
-    "Speakers": [
-      "John Engelke"
-    ],
+    "Speakers": "John Engelke",
     "Topic": "Developer"
   },
   {
@@ -1267,9 +1022,7 @@
     "Location": "Ballroom B",
     "StartTime": "2020-03-07T18:00:00-08:00",
     "EndTime": "2020-03-07T19:00:00-08:00",
-    "Speakers": [
-      "Rob Richardson"
-    ],
+    "Speakers": "Rob Richardson",
     "Topic": "Container and Orchestrators"
   },
   {
@@ -1278,9 +1031,7 @@
     "Location": "Ballroom A",
     "StartTime": "2020-03-07T19:00:00-08:00",
     "EndTime": "2020-03-07T20:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -1289,9 +1040,7 @@
     "Location": "Ballroom B",
     "StartTime": "2020-03-07T19:00:00-08:00",
     "EndTime": "2020-03-07T20:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -1300,9 +1049,7 @@
     "Location": "Ballroom C",
     "StartTime": "2020-03-07T19:00:00-08:00",
     "EndTime": "2020-03-07T20:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -1311,9 +1058,7 @@
     "Location": "Ballroom G",
     "StartTime": "2020-03-07T19:00:00-08:00",
     "EndTime": "2020-03-07T20:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -1322,9 +1067,7 @@
     "Location": "Ballroom F",
     "StartTime": "2020-03-07T19:00:00-08:00",
     "EndTime": "2020-03-07T20:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -1333,9 +1076,7 @@
     "Location": "Ballroom F",
     "StartTime": "2020-03-07T20:00:00-08:00",
     "EndTime": "2020-03-07T21:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -1344,9 +1085,7 @@
     "Location": "Ballroom A",
     "StartTime": "2020-03-07T20:00:00-08:00",
     "EndTime": "2020-03-07T21:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -1355,9 +1094,7 @@
     "Location": "Ballroom B",
     "StartTime": "2020-03-07T20:00:00-08:00",
     "EndTime": "2020-03-07T21:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -1366,9 +1103,7 @@
     "Location": "Ballroom H",
     "StartTime": "2020-03-07T20:00:00-08:00",
     "EndTime": "2020-03-07T21:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -1377,10 +1112,7 @@
     "Location": "Room 211",
     "StartTime": "2020-03-08T10:00:00-07:00",
     "EndTime": "2020-03-08T12:00:00-07:00",
-    "Speakers": [
-      "Shea Polansky",
-      "Morgan Gangwere"
-    ],
+    "Speakers": "Shea Polansky, Morgan Gangwere",
     "Topic": ""
   },
   {
@@ -1389,10 +1121,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2020-03-08T10:00:00-07:00",
     "EndTime": "2020-03-08T11:00:00-07:00",
-    "Speakers": [
-      "Sha Stepter",
-      "Jessica McKellar"
-    ],
+    "Speakers": "Sha Stepter, Jessica McKellar",
     "Topic": "Keynote"
   },
   {
@@ -1401,10 +1130,7 @@
     "Location": "Room 105",
     "StartTime": "2020-03-08T11:00:00-07:00",
     "EndTime": "2020-03-08T12:00:00-07:00",
-    "Speakers": [
-      "Bryna Kirzner",
-      "Lori Barfield"
-    ],
+    "Speakers": "Bryna Kirzner, Lori Barfield",
     "Topic": "Career Day"
   },
   {
@@ -1413,9 +1139,7 @@
     "Location": "Ballroom H",
     "StartTime": "2020-03-08T11:30:00-07:00",
     "EndTime": "2020-03-08T12:30:00-07:00",
-    "Speakers": [
-      "Mathias Radtke"
-    ],
+    "Speakers": "Mathias Radtke",
     "Topic": "General"
   },
   {
@@ -1424,9 +1148,7 @@
     "Location": "Room 103",
     "StartTime": "2020-03-08T11:30:00-07:00",
     "EndTime": "2020-03-08T12:30:00-07:00",
-    "Speakers": [
-      "Joe Needleman"
-    ],
+    "Speakers": "Joe Needleman",
     "Topic": "Embedded Linux"
   },
   {
@@ -1435,9 +1157,7 @@
     "Location": "Room 104",
     "StartTime": "2020-03-08T11:30:00-07:00",
     "EndTime": "2020-03-08T12:30:00-07:00",
-    "Speakers": [
-      "Svetlana Karslioglu"
-    ],
+    "Speakers": "Svetlana Karslioglu",
     "Topic": "Open Data"
   },
   {
@@ -1446,9 +1166,7 @@
     "Location": "Room 106",
     "StartTime": "2020-03-08T11:30:00-07:00",
     "EndTime": "2020-03-08T12:30:00-07:00",
-    "Speakers": [
-      "Maik Außendorf"
-    ],
+    "Speakers": "Maik Außendorf",
     "Topic": "Security"
   },
   {
@@ -1457,9 +1175,7 @@
     "Location": "Room 101",
     "StartTime": "2020-03-08T11:30:00-07:00",
     "EndTime": "2020-03-08T12:30:00-07:00",
-    "Speakers": [
-      "Tom Lechner"
-    ],
+    "Speakers": "Tom Lechner",
     "Topic": "LibreGraphics"
   },
   {
@@ -1468,9 +1184,7 @@
     "Location": "Ballroom G",
     "StartTime": "2020-03-08T11:30:00-07:00",
     "EndTime": "2020-03-08T12:30:00-07:00",
-    "Speakers": [
-      "Deb Goodkin"
-    ],
+    "Speakers": "Deb Goodkin",
     "Topic": "General"
   },
   {
@@ -1479,9 +1193,7 @@
     "Location": "Ballroom B",
     "StartTime": "2020-03-08T11:30:00-07:00",
     "EndTime": "2020-03-08T12:30:00-07:00",
-    "Speakers": [
-      "Rob Richardson"
-    ],
+    "Speakers": "Rob Richardson",
     "Topic": "Container and Orchestrators"
   },
   {
@@ -1490,9 +1202,7 @@
     "Location": "Ballroom F",
     "StartTime": "2020-03-08T11:30:00-07:00",
     "EndTime": "2020-03-08T12:30:00-07:00",
-    "Speakers": [
-      "Davide Cavalca"
-    ],
+    "Speakers": "Davide Cavalca",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -1501,9 +1211,7 @@
     "Location": "Ballroom A",
     "StartTime": "2020-03-08T11:30:00-07:00",
     "EndTime": "2020-03-08T12:30:00-07:00",
-    "Speakers": [
-      "Chet Burgess"
-    ],
+    "Speakers": "Chet Burgess",
     "Topic": "Cloud"
   },
   {
@@ -1512,9 +1220,7 @@
     "Location": "Room 212",
     "StartTime": "2020-03-08T11:30:00-07:00",
     "EndTime": "2020-03-08T12:30:00-07:00",
-    "Speakers": [
-      "Karen Rucker"
-    ],
+    "Speakers": "Karen Rucker",
     "Topic": "HAM Radio"
   },
   {
@@ -1523,9 +1229,7 @@
     "Location": "Ballroom C",
     "StartTime": "2020-03-08T11:30:00-07:00",
     "EndTime": "2020-03-08T12:30:00-07:00",
-    "Speakers": [
-      "Stuart Langridge"
-    ],
+    "Speakers": "Stuart Langridge",
     "Topic": "Developer"
   },
   {
@@ -1534,9 +1238,7 @@
     "Location": "Room 105",
     "StartTime": "2020-03-08T12:30:00-07:00",
     "EndTime": "2020-03-08T13:30:00-07:00",
-    "Speakers": [
-      "RaiseMe Team"
-    ],
+    "Speakers": "RaiseMe Team",
     "Topic": "Career Day"
   },
   {
@@ -1545,9 +1247,7 @@
     "Location": "Room 211",
     "StartTime": "2020-03-08T13:00:00-07:00",
     "EndTime": "2020-03-08T15:30:00-07:00",
-    "Speakers": [
-      "Ben Lewis"
-    ],
+    "Speakers": "Ben Lewis",
     "Topic": ""
   },
   {
@@ -1556,9 +1256,7 @@
     "Location": "Room 103",
     "StartTime": "2020-03-08T13:30:00-07:00",
     "EndTime": "2020-03-08T14:30:00-07:00",
-    "Speakers": [
-      "Todd Zebert"
-    ],
+    "Speakers": "Todd Zebert",
     "Topic": "Embedded Linux"
   },
   {
@@ -1567,9 +1265,7 @@
     "Location": "Ballroom G",
     "StartTime": "2020-03-08T13:30:00-07:00",
     "EndTime": "2020-03-08T14:30:00-07:00",
-    "Speakers": [
-      "Brandon Bruce"
-    ],
+    "Speakers": "Brandon Bruce",
     "Topic": "General"
   },
   {
@@ -1578,9 +1274,7 @@
     "Location": "Room 104",
     "StartTime": "2020-03-08T13:30:00-07:00",
     "EndTime": "2020-03-08T14:30:00-07:00",
-    "Speakers": [
-      "Nicolas Fränkel"
-    ],
+    "Speakers": "Nicolas Fränkel",
     "Topic": "Open Data"
   },
   {
@@ -1589,9 +1283,7 @@
     "Location": "Ballroom A",
     "StartTime": "2020-03-08T13:30:00-07:00",
     "EndTime": "2020-03-08T14:30:00-07:00",
-    "Speakers": [
-      "Charles Pretzer"
-    ],
+    "Speakers": "Charles Pretzer",
     "Topic": "Cloud"
   },
   {
@@ -1600,9 +1292,7 @@
     "Location": "Ballroom H",
     "StartTime": "2020-03-08T13:30:00-07:00",
     "EndTime": "2020-03-08T14:30:00-07:00",
-    "Speakers": [
-      "Don Marti"
-    ],
+    "Speakers": "Don Marti",
     "Topic": "General"
   },
   {
@@ -1611,9 +1301,7 @@
     "Location": "Ballroom F",
     "StartTime": "2020-03-08T13:30:00-07:00",
     "EndTime": "2020-03-08T14:30:00-07:00",
-    "Speakers": [
-      "Naomi Reeves"
-    ],
+    "Speakers": "Naomi Reeves",
     "Topic": "Observability"
   },
   {
@@ -1622,9 +1310,7 @@
     "Location": "Room 101",
     "StartTime": "2020-03-08T13:30:00-07:00",
     "EndTime": "2020-03-08T14:30:00-07:00",
-    "Speakers": [
-      "Jon Cruz"
-    ],
+    "Speakers": "Jon Cruz",
     "Topic": "LibreGraphics"
   },
   {
@@ -1633,9 +1319,7 @@
     "Location": "Ballroom C",
     "StartTime": "2020-03-08T13:30:00-07:00",
     "EndTime": "2020-03-08T14:30:00-07:00",
-    "Speakers": [
-      "Sean Marquez"
-    ],
+    "Speakers": "Sean Marquez",
     "Topic": "Developer"
   },
   {
@@ -1644,9 +1328,7 @@
     "Location": "Ballroom B",
     "StartTime": "2020-03-08T13:30:00-07:00",
     "EndTime": "2020-03-08T14:30:00-07:00",
-    "Speakers": [
-      "Donald Burr"
-    ],
+    "Speakers": "Donald Burr",
     "Topic": "Embedded Linux"
   },
   {
@@ -1655,9 +1337,7 @@
     "Location": "Room 212",
     "StartTime": "2020-03-08T13:30:00-07:00",
     "EndTime": "2020-03-08T14:30:00-07:00",
-    "Speakers": [
-      "Joe Ayers"
-    ],
+    "Speakers": "Joe Ayers",
     "Topic": "HAM Radio"
   },
   {
@@ -1666,9 +1346,7 @@
     "Location": "Room 106",
     "StartTime": "2020-03-08T13:30:00-07:00",
     "EndTime": "2020-03-08T14:30:00-07:00",
-    "Speakers": [
-      "Brett Gravois"
-    ],
+    "Speakers": "Brett Gravois",
     "Topic": "Security"
   },
   {
@@ -1677,9 +1355,7 @@
     "Location": "Room 105",
     "StartTime": "2020-03-08T14:00:00-07:00",
     "EndTime": "2020-03-08T15:00:00-07:00",
-    "Speakers": [
-      "John Sicklick"
-    ],
+    "Speakers": "John Sicklick",
     "Topic": "Career Day"
   },
   {
@@ -1688,9 +1364,7 @@
     "Location": "Room 101",
     "StartTime": "2020-03-08T15:00:00-07:00",
     "EndTime": "2020-03-08T16:00:00-07:00",
-    "Speakers": [
-      "Abe Kazemzadeh"
-    ],
+    "Speakers": "Abe Kazemzadeh",
     "Topic": "LibreGraphics"
   },
   {
@@ -1699,9 +1373,7 @@
     "Location": "Room 104",
     "StartTime": "2020-03-08T15:00:00-07:00",
     "EndTime": "2020-03-08T16:00:00-07:00",
-    "Speakers": [
-      "Zeke Dean"
-    ],
+    "Speakers": "Zeke Dean",
     "Topic": "Open Data"
   },
   {
@@ -1710,9 +1382,7 @@
     "Location": "Ballroom H",
     "StartTime": "2020-03-08T15:00:00-07:00",
     "EndTime": "2020-03-08T16:00:00-07:00",
-    "Speakers": [
-      "Simon Elmir"
-    ],
+    "Speakers": "Simon Elmir",
     "Topic": "SysAdmin"
   },
   {
@@ -1721,9 +1391,7 @@
     "Location": "Room 103",
     "StartTime": "2020-03-08T15:00:00-07:00",
     "EndTime": "2020-03-08T17:30:00-07:00",
-    "Speakers": [
-      "Ron Evans"
-    ],
+    "Speakers": "Ron Evans",
     "Topic": "Embedded Linux"
   },
   {
@@ -1732,9 +1400,7 @@
     "Location": "Room 212",
     "StartTime": "2020-03-08T15:00:00-07:00",
     "EndTime": "2020-03-08T16:00:00-07:00",
-    "Speakers": [
-      "Joe Ayers"
-    ],
+    "Speakers": "Joe Ayers",
     "Topic": "BoFs"
   },
   {
@@ -1743,9 +1409,7 @@
     "Location": "Ballroom B",
     "StartTime": "2020-03-08T15:00:00-07:00",
     "EndTime": "2020-03-08T16:00:00-07:00",
-    "Speakers": [
-      "Rob Richardson"
-    ],
+    "Speakers": "Rob Richardson",
     "Topic": "Container and Orchestrators"
   },
   {
@@ -1754,9 +1418,7 @@
     "Location": "Room 105",
     "StartTime": "2020-03-08T15:30:00-07:00",
     "EndTime": "2020-03-08T16:30:00-07:00",
-    "Speakers": [
-      "RaiseMe Team"
-    ],
+    "Speakers": "RaiseMe Team",
     "Topic": "Career Day"
   },
   {
@@ -1765,9 +1427,7 @@
     "Location": "Ballroom F",
     "StartTime": "2020-03-08T16:30:00-07:00",
     "EndTime": "2020-03-08T17:30:00-07:00",
-    "Speakers": [
-      "Brian MacDonald"
-    ],
+    "Speakers": "Brian MacDonald",
     "Topic": "Mentoring"
   },
   {
@@ -1776,9 +1436,7 @@
     "Location": "Ballroom H",
     "StartTime": "2020-03-08T16:30:00-07:00",
     "EndTime": "2020-03-08T17:30:00-07:00",
-    "Speakers": [
-      "Jeffrey Sica"
-    ],
+    "Speakers": "Jeffrey Sica",
     "Topic": "General"
   },
   {
@@ -1787,9 +1445,7 @@
     "Location": "Room 104",
     "StartTime": "2020-03-08T16:30:00-07:00",
     "EndTime": "2020-03-08T17:30:00-07:00",
-    "Speakers": [
-      "Tess Gadwa"
-    ],
+    "Speakers": "Tess Gadwa",
     "Topic": "Open Data"
   },
   {
@@ -1798,9 +1454,7 @@
     "Location": "Room 106",
     "StartTime": "2020-03-08T16:30:00-07:00",
     "EndTime": "2020-03-08T17:30:00-07:00",
-    "Speakers": [
-      "Vagrant Cascadian"
-    ],
+    "Speakers": "Vagrant Cascadian",
     "Topic": "Security"
   },
   {
@@ -1809,11 +1463,7 @@
     "Location": "Room 101",
     "StartTime": "2020-03-08T16:30:00-07:00",
     "EndTime": "2020-03-08T17:30:00-07:00",
-    "Speakers": [
-      "Mica Semrick",
-      "Pat David",
-      "Nathan Willis"
-    ],
+    "Speakers": "Mica Semrick, Pat David, Nathan Willis",
     "Topic": "LibreGraphics"
   },
   {
@@ -1822,9 +1472,7 @@
     "Location": "Ballroom G",
     "StartTime": "2020-03-08T16:30:00-07:00",
     "EndTime": "2020-03-08T17:30:00-07:00",
-    "Speakers": [
-      "Julien Levesy"
-    ],
+    "Speakers": "Julien Levesy",
     "Topic": "General"
   },
   {
@@ -1833,9 +1481,7 @@
     "Location": "Ballroom C",
     "StartTime": "2020-03-08T16:30:00-07:00",
     "EndTime": "2020-03-08T17:30:00-07:00",
-    "Speakers": [
-      "Dustin Laurence"
-    ],
+    "Speakers": "Dustin Laurence",
     "Topic": "Developer"
   },
   {
@@ -1844,9 +1490,7 @@
     "Location": "Ballroom B",
     "StartTime": "2020-03-08T16:30:00-07:00",
     "EndTime": "2020-03-08T17:30:00-07:00",
-    "Speakers": [
-      "Karen Bruner"
-    ],
+    "Speakers": "Karen Bruner",
     "Topic": "Container and Orchestrators"
   }
 ]

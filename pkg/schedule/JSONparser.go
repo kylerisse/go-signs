@@ -67,15 +67,9 @@ func toPresentation(dn DrupalNode) (Presentation, error) {
 	}
 	p.EndTime = et
 
-	if dn.Speakers == "" {
-		return Presentation{}, errors.New("empty Speakers")
-	}
 	p.Speakers = extractSpeakers(
 		html.UnescapeString(dn.Speakers))
 
-	if dn.Topic == "" {
-		return Presentation{}, errors.New("empty Topic")
-	}
 	p.Topic = html.UnescapeString(dn.Topic)
 
 	if dn.Location == "" {

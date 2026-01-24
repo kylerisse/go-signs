@@ -96,7 +96,7 @@ make build
 ./out/go-signs
 
 # Command-line options
-./out/go-signs -port 8080 -xml https://example.com/schedule.xml -refresh 10
+./out/go-signs -port 8080 -json https://example.com/schedule.json -refresh 10
 ```
 
 ## Available Endpoints

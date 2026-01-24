@@ -5,9 +5,7 @@
     "Location": "Century CD",
     "StartTime": "2015-02-19T09:00:00-08:00",
     "EndTime": "2015-02-19T10:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Puppet"
   },
   {
@@ -16,9 +14,7 @@
     "Location": "Carmel",
     "StartTime": "2015-02-19T10:00:00-08:00",
     "EndTime": "2015-02-19T17:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Sponsored"
   },
   {
@@ -27,9 +23,7 @@
     "Location": "Plaza BC",
     "StartTime": "2015-02-19T10:00:00-08:00",
     "EndTime": "2015-02-19T11:00:00-08:00",
-    "Speakers": [
-      "Christophe Pettus"
-    ],
+    "Speakers": "Christophe Pettus",
     "Topic": "PostgreSQL"
   },
   {
@@ -38,9 +32,7 @@
     "Location": "San Lorenzo B",
     "StartTime": "2015-02-19T10:00:00-08:00",
     "EndTime": "2015-02-19T18:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Fedora"
   },
   {
@@ -49,9 +41,7 @@
     "Location": "Los Angeles C",
     "StartTime": "2015-02-19T10:00:00-08:00",
     "EndTime": "2015-02-19T11:00:00-08:00",
-    "Speakers": [
-      "Konstantin Boudnik"
-    ],
+    "Speakers": "Konstantin Boudnik",
     "Topic": "Apache Bigtop"
   },
   {
@@ -60,9 +50,7 @@
     "Location": "Century CD",
     "StartTime": "2015-02-19T10:00:00-08:00",
     "EndTime": "2015-02-19T11:00:00-08:00",
-    "Speakers": [
-      "Eric Sorenson"
-    ],
+    "Speakers": "Eric Sorenson",
     "Topic": "Puppet"
   },
   {
@@ -71,9 +59,7 @@
     "Location": "Century AB",
     "StartTime": "2015-02-19T10:00:00-08:00",
     "EndTime": "2015-02-19T10:45:00-08:00",
-    "Speakers": [
-      "Peter Linnell"
-    ],
+    "Speakers": "Peter Linnell",
     "Topic": "openSUSE"
   },
   {
@@ -82,9 +68,7 @@
     "Location": "Century AB",
     "StartTime": "2015-02-19T11:00:00-08:00",
     "EndTime": "2015-02-19T12:00:00-08:00",
-    "Speakers": [
-      "Manu Gupta"
-    ],
+    "Speakers": "Manu Gupta",
     "Topic": "openSUSE"
   },
   {
@@ -93,9 +77,7 @@
     "Location": "Los Angeles C",
     "StartTime": "2015-02-19T11:00:00-08:00",
     "EndTime": "2015-02-19T12:00:00-08:00",
-    "Speakers": [
-      "Nikita Ivanov"
-    ],
+    "Speakers": "Nikita Ivanov",
     "Topic": "Apache Bigtop"
   },
   {
@@ -104,9 +86,7 @@
     "Location": "Century CD",
     "StartTime": "2015-02-19T11:00:00-08:00",
     "EndTime": "2015-02-19T11:45:00-08:00",
-    "Speakers": [
-      "Jeremy Kitchen"
-    ],
+    "Speakers": "Jeremy Kitchen",
     "Topic": "Puppet"
   },
   {
@@ -115,9 +95,7 @@
     "Location": "Plaza BC",
     "StartTime": "2015-02-19T11:15:00-08:00",
     "EndTime": "2015-02-19T12:15:00-08:00",
-    "Speakers": [
-      "Alex Toth"
-    ],
+    "Speakers": "Alex Toth",
     "Topic": "PostgreSQL"
   },
   {
@@ -126,10 +104,7 @@
     "Location": "Los Angeles C",
     "StartTime": "2015-02-19T12:00:00-08:00",
     "EndTime": "2015-02-19T13:00:00-08:00",
-    "Speakers": [
-      "Konstantin Boudnik",
-      "Nate DAmico"
-    ],
+    "Speakers": "Konstantin Boudnik, Nate DAmico",
     "Topic": "Apache Bigtop"
   },
   {
@@ -138,9 +113,7 @@
     "Location": "Century AB",
     "StartTime": "2015-02-19T13:00:00-08:00",
     "EndTime": "2015-02-19T13:45:00-08:00",
-    "Speakers": [
-      "Bruno Friedmann"
-    ],
+    "Speakers": "Bruno Friedmann",
     "Topic": "openSUSE"
   },
   {
@@ -149,9 +122,7 @@
     "Location": "Century CD",
     "StartTime": "2015-02-19T13:00:00-08:00",
     "EndTime": "2015-02-19T13:45:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Puppet"
   },
   {
@@ -160,9 +131,7 @@
     "Location": "Plaza BC",
     "StartTime": "2015-02-19T13:15:00-08:00",
     "EndTime": "2015-02-19T14:15:00-08:00",
-    "Speakers": [
-      "Jim Nasby"
-    ],
+    "Speakers": "Jim Nasby",
     "Topic": "PostgreSQL"
   },
   {
@@ -171,9 +140,7 @@
     "Location": "Los Angeles C",
     "StartTime": "2015-02-19T14:00:00-08:00",
     "EndTime": "2015-02-19T17:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Apache Bigtop"
   },
   {
@@ -182,9 +149,7 @@
     "Location": "Century CD",
     "StartTime": "2015-02-19T14:00:00-08:00",
     "EndTime": "2015-02-19T15:00:00-08:00",
-    "Speakers": [
-      "Spencer Seebald"
-    ],
+    "Speakers": "Spencer Seebald",
     "Topic": "Puppet"
   },
   {
@@ -193,9 +158,7 @@
     "Location": "Century AB",
     "StartTime": "2015-02-19T14:00:00-08:00",
     "EndTime": "2015-02-19T14:45:00-08:00",
-    "Speakers": [
-      "Mark Fasheh"
-    ],
+    "Speakers": "Mark Fasheh",
     "Topic": "openSUSE"
   },
   {
@@ -204,9 +167,7 @@
     "Location": "Plaza BC",
     "StartTime": "2015-02-19T14:30:00-08:00",
     "EndTime": "2015-02-19T15:30:00-08:00",
-    "Speakers": [
-      "Mark Wong"
-    ],
+    "Speakers": "Mark Wong",
     "Topic": "PostgreSQL"
   },
   {
@@ -215,9 +176,7 @@
     "Location": "Century CD",
     "StartTime": "2015-02-19T15:00:00-08:00",
     "EndTime": "2015-02-19T15:45:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Puppet"
   },
   {
@@ -226,9 +185,7 @@
     "Location": "Century AB",
     "StartTime": "2015-02-19T15:00:00-08:00",
     "EndTime": "2015-02-19T15:45:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "openSUSE"
   },
   {
@@ -237,9 +194,7 @@
     "Location": "Plaza BC",
     "StartTime": "2015-02-19T15:45:00-08:00",
     "EndTime": "2015-02-19T16:45:00-08:00",
-    "Speakers": [
-      "Joshua Drake"
-    ],
+    "Speakers": "Joshua Drake",
     "Topic": "PostgreSQL"
   },
   {
@@ -248,9 +203,7 @@
     "Location": "Century CD",
     "StartTime": "2015-02-19T16:00:00-08:00",
     "EndTime": "2015-02-19T16:45:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Puppet"
   },
   {
@@ -259,9 +212,7 @@
     "Location": "Century AB",
     "StartTime": "2015-02-19T16:00:00-08:00",
     "EndTime": "2015-02-19T16:45:00-08:00",
-    "Speakers": [
-      "Bryan Lunduke"
-    ],
+    "Speakers": "Bryan Lunduke",
     "Topic": "openSUSE"
   },
   {
@@ -270,9 +221,7 @@
     "Location": "Plaza BC",
     "StartTime": "2015-02-19T17:00:00-08:00",
     "EndTime": "2015-02-19T18:00:00-08:00",
-    "Speakers": [
-      "Mason Sharp"
-    ],
+    "Speakers": "Mason Sharp",
     "Topic": "PostgreSQL"
   },
   {
@@ -281,9 +230,7 @@
     "Location": "Century AB",
     "StartTime": "2015-02-19T17:00:00-08:00",
     "EndTime": "2015-02-19T18:00:00-08:00",
-    "Speakers": [
-      "Markus Feilner"
-    ],
+    "Speakers": "Markus Feilner",
     "Topic": "openSUSE"
   },
   {
@@ -292,9 +239,7 @@
     "Location": "Los Angeles A",
     "StartTime": "2015-02-19T19:00:00-08:00",
     "EndTime": "2015-02-19T22:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -303,9 +248,7 @@
     "Location": "Los Angeles B",
     "StartTime": "2015-02-19T19:00:00-08:00",
     "EndTime": "2015-02-19T20:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -314,9 +257,7 @@
     "Location": "Los Angeles C",
     "StartTime": "2015-02-20T10:00:00-08:00",
     "EndTime": "2015-02-20T11:00:00-08:00",
-    "Speakers": [
-      "Stormy Peters"
-    ],
+    "Speakers": "Stormy Peters",
     "Topic": "Mentoring"
   },
   {
@@ -325,9 +266,7 @@
     "Location": "Century CD",
     "StartTime": "2015-02-20T10:00:00-08:00",
     "EndTime": "2015-02-20T10:45:00-08:00",
-    "Speakers": [
-      "Richard Gaskin"
-    ],
+    "Speakers": "Richard Gaskin",
     "Topic": "Ubucon"
   },
   {
@@ -336,9 +275,7 @@
     "Location": "Plaza D",
     "StartTime": "2015-02-20T10:00:00-08:00",
     "EndTime": "2015-02-20T11:00:00-08:00",
-    "Speakers": [
-      "Bruce Momjian"
-    ],
+    "Speakers": "Bruce Momjian",
     "Topic": "PostgreSQL"
   },
   {
@@ -347,9 +284,7 @@
     "Location": "San Lorenzo E",
     "StartTime": "2015-02-20T10:00:00-08:00",
     "EndTime": "2015-02-20T12:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Ada Initiative Ally Workshop"
   },
   {
@@ -358,9 +293,7 @@
     "Location": "Carmel",
     "StartTime": "2015-02-20T10:00:00-08:00",
     "EndTime": "2015-02-20T13:30:00-08:00",
-    "Speakers": [
-      "Jérôme Petazzoni"
-    ],
+    "Speakers": "Jérôme Petazzoni",
     "Topic": "ScaleU"
   },
   {
@@ -369,9 +302,7 @@
     "Location": "Los Angeles B",
     "StartTime": "2015-02-20T10:00:00-08:00",
     "EndTime": "2015-02-20T17:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "GLADCamp"
   },
   {
@@ -380,9 +311,7 @@
     "Location": "San Lorenzo F",
     "StartTime": "2015-02-20T10:00:00-08:00",
     "EndTime": "2015-02-20T13:00:00-08:00",
-    "Speakers": [
-      "Owen DeLong"
-    ],
+    "Speakers": "Owen DeLong",
     "Topic": "ScaleU"
   },
   {
@@ -391,9 +320,7 @@
     "Location": "Century AB",
     "StartTime": "2015-02-20T10:00:00-08:00",
     "EndTime": "2015-02-20T11:00:00-08:00",
-    "Speakers": [
-      "Rich Bowen"
-    ],
+    "Speakers": "Rich Bowen",
     "Topic": "Sponsored"
   },
   {
@@ -402,9 +329,7 @@
     "Location": "La Jolla",
     "StartTime": "2015-02-20T10:30:00-08:00",
     "EndTime": "2015-02-20T11:00:00-08:00",
-    "Speakers": [
-      "Ryan Cresawn"
-    ],
+    "Speakers": "Ryan Cresawn",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -413,9 +338,7 @@
     "Location": "Los Angeles A",
     "StartTime": "2015-02-20T11:00:00-08:00",
     "EndTime": "2015-02-20T12:00:00-08:00",
-    "Speakers": [
-      "John Hawley"
-    ],
+    "Speakers": "John Hawley",
     "Topic": "Embedded Linux"
   },
   {
@@ -424,9 +347,7 @@
     "Location": "Century AB",
     "StartTime": "2015-02-20T11:00:00-08:00",
     "EndTime": "2015-02-20T12:00:00-08:00",
-    "Speakers": [
-      "Andrew Hamilton"
-    ],
+    "Speakers": "Andrew Hamilton",
     "Topic": "Sponsored"
   },
   {
@@ -435,9 +356,7 @@
     "Location": "Century CD",
     "StartTime": "2015-02-20T11:00:00-08:00",
     "EndTime": "2015-02-20T12:00:00-08:00",
-    "Speakers": [
-      "Jono Bacon"
-    ],
+    "Speakers": "Jono Bacon",
     "Topic": "Ubucon"
   },
   {
@@ -446,9 +365,7 @@
     "Location": "Plaza BC",
     "StartTime": "2015-02-20T11:15:00-08:00",
     "EndTime": "2015-02-20T12:15:00-08:00",
-    "Speakers": [
-      "Max Mether"
-    ],
+    "Speakers": "Max Mether",
     "Topic": "MySQL"
   },
   {
@@ -457,9 +374,7 @@
     "Location": "Los Angeles C",
     "StartTime": "2015-02-20T11:15:00-08:00",
     "EndTime": "2015-02-20T12:15:00-08:00",
-    "Speakers": [
-      "John Mark Walker"
-    ],
+    "Speakers": "John Mark Walker",
     "Topic": "Mentoring"
   },
   {
@@ -468,9 +383,7 @@
     "Location": "Plaza D",
     "StartTime": "2015-02-20T11:15:00-08:00",
     "EndTime": "2015-02-20T12:15:00-08:00",
-    "Speakers": [
-      "Jim Mlodgenski"
-    ],
+    "Speakers": "Jim Mlodgenski",
     "Topic": "PostgreSQL"
   },
   {
@@ -479,9 +392,7 @@
     "Location": "La Jolla",
     "StartTime": "2015-02-20T11:15:00-08:00",
     "EndTime": "2015-02-20T12:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -490,9 +401,7 @@
     "Location": "Century AB",
     "StartTime": "2015-02-20T12:00:00-08:00",
     "EndTime": "2015-02-20T13:00:00-08:00",
-    "Speakers": [
-      "Brian Proffitt"
-    ],
+    "Speakers": "Brian Proffitt",
     "Topic": "Sponsored"
   },
   {
@@ -501,9 +410,7 @@
     "Location": "Los Angeles A",
     "StartTime": "2015-02-20T12:15:00-08:00",
     "EndTime": "2015-02-20T13:15:00-08:00",
-    "Speakers": [
-      "Ralf Quint"
-    ],
+    "Speakers": "Ralf Quint",
     "Topic": "Embedded Linux"
   },
   {
@@ -512,9 +419,7 @@
     "Location": "La Jolla",
     "StartTime": "2015-02-20T13:00:00-08:00",
     "EndTime": "2015-02-20T13:30:00-08:00",
-    "Speakers": [
-      "James Fryman"
-    ],
+    "Speakers": "James Fryman",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -523,9 +428,7 @@
     "Location": "San Lorenzo E",
     "StartTime": "2015-02-20T13:00:00-08:00",
     "EndTime": "2015-02-20T14:30:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Ada Initiative Ally Workshop"
   },
   {
@@ -534,9 +437,7 @@
     "Location": "Century CD",
     "StartTime": "2015-02-20T13:00:00-08:00",
     "EndTime": "2015-02-20T13:45:00-08:00",
-    "Speakers": [
-      "Philip Ballew"
-    ],
+    "Speakers": "Philip Ballew",
     "Topic": "Ubucon"
   },
   {
@@ -545,9 +446,7 @@
     "Location": "Los Angeles C",
     "StartTime": "2015-02-20T13:15:00-08:00",
     "EndTime": "2015-02-20T14:15:00-08:00",
-    "Speakers": [
-      "Gina Likins"
-    ],
+    "Speakers": "Gina Likins",
     "Topic": "Mentoring"
   },
   {
@@ -556,9 +455,7 @@
     "Location": "Plaza BC",
     "StartTime": "2015-02-20T13:15:00-08:00",
     "EndTime": "2015-02-20T14:15:00-08:00",
-    "Speakers": [
-      "Raghavendra Prabhu"
-    ],
+    "Speakers": "Raghavendra Prabhu",
     "Topic": "MySQL"
   },
   {
@@ -567,10 +464,7 @@
     "Location": "Plaza D",
     "StartTime": "2015-02-20T13:15:00-08:00",
     "EndTime": "2015-02-20T14:15:00-08:00",
-    "Speakers": [
-      "Rick Morris",
-      "Oscar Herrera"
-    ],
+    "Speakers": "Rick Morris, Oscar Herrera",
     "Topic": "PostgreSQL"
   },
   {
@@ -579,9 +473,7 @@
     "Location": "La Jolla",
     "StartTime": "2015-02-20T13:30:00-08:00",
     "EndTime": "2015-02-20T14:00:00-08:00",
-    "Speakers": [
-      "Mark Maun"
-    ],
+    "Speakers": "Mark Maun",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -590,9 +482,7 @@
     "Location": "Century CD",
     "StartTime": "2015-02-20T14:00:00-08:00",
     "EndTime": "2015-02-20T14:45:00-08:00",
-    "Speakers": [
-      "Michael Hall"
-    ],
+    "Speakers": "Michael Hall",
     "Topic": "Ubucon"
   },
   {
@@ -601,12 +491,7 @@
     "Location": "La Jolla",
     "StartTime": "2015-02-20T14:00:00-08:00",
     "EndTime": "2015-02-20T14:45:00-08:00",
-    "Speakers": [
-      "Sean Omeara",
-      "Matt Chung",
-      "John Wetherill",
-      "Corey Quinn"
-    ],
+    "Speakers": "Sean Omeara, Matt Chung, John Wetherill, Corey Quinn",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -615,9 +500,7 @@
     "Location": "Century AB",
     "StartTime": "2015-02-20T14:00:00-08:00",
     "EndTime": "2015-02-20T14:45:00-08:00",
-    "Speakers": [
-      "Jason Brooks"
-    ],
+    "Speakers": "Jason Brooks",
     "Topic": "Sponsored"
   },
   {
@@ -626,10 +509,7 @@
     "Location": "Los Angeles A",
     "StartTime": "2015-02-20T14:15:00-08:00",
     "EndTime": "2015-02-20T15:15:00-08:00",
-    "Speakers": [
-      "Stephen Arnold",
-      "Donald Burr"
-    ],
+    "Speakers": "Stephen Arnold, Donald Burr",
     "Topic": "Embedded Linux"
   },
   {
@@ -638,9 +518,7 @@
     "Location": "Plaza BC",
     "StartTime": "2015-02-20T14:30:00-08:00",
     "EndTime": "2015-02-20T15:30:00-08:00",
-    "Speakers": [
-      "Dave Stokes"
-    ],
+    "Speakers": "Dave Stokes",
     "Topic": "MySQL"
   },
   {
@@ -649,9 +527,7 @@
     "Location": "Los Angeles C",
     "StartTime": "2015-02-20T14:30:00-08:00",
     "EndTime": "2015-02-20T15:30:00-08:00",
-    "Speakers": [
-      "Robinson Tryon"
-    ],
+    "Speakers": "Robinson Tryon",
     "Topic": "Mentoring"
   },
   {
@@ -660,9 +536,7 @@
     "Location": "Plaza D",
     "StartTime": "2015-02-20T14:30:00-08:00",
     "EndTime": "2015-02-20T15:30:00-08:00",
-    "Speakers": [
-      "Gabrielle Roth"
-    ],
+    "Speakers": "Gabrielle Roth",
     "Topic": "PostgreSQL"
   },
   {
@@ -671,9 +545,7 @@
     "Location": "Century AB",
     "StartTime": "2015-02-20T14:45:00-08:00",
     "EndTime": "2015-02-20T15:30:00-08:00",
-    "Speakers": [
-      "John Mark Walker"
-    ],
+    "Speakers": "John Mark Walker",
     "Topic": "Sponsored"
   },
   {
@@ -682,9 +554,7 @@
     "Location": "Century CD",
     "StartTime": "2015-02-20T15:00:00-08:00",
     "EndTime": "2015-02-20T15:45:00-08:00",
-    "Speakers": [
-      "Michael Hall"
-    ],
+    "Speakers": "Michael Hall",
     "Topic": "Ubucon"
   },
   {
@@ -693,12 +563,7 @@
     "Location": "La Jolla",
     "StartTime": "2015-02-20T15:00:00-08:00",
     "EndTime": "2015-02-20T15:30:00-08:00",
-    "Speakers": [
-      "Bryan Cantrill",
-      "Adrian Otto",
-      "John Willis",
-      "Jérôme Petazzoni"
-    ],
+    "Speakers": "Bryan Cantrill, Adrian Otto, John Willis, Jérôme Petazzoni",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -707,9 +572,7 @@
     "Location": "La Jolla",
     "StartTime": "2015-02-20T15:30:00-08:00",
     "EndTime": "2015-02-20T16:00:00-08:00",
-    "Speakers": [
-      "Ski Kacoroski"
-    ],
+    "Speakers": "Ski Kacoroski",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -718,9 +581,7 @@
     "Location": "Los Angeles A",
     "StartTime": "2015-02-20T15:30:00-08:00",
     "EndTime": "2015-02-20T16:30:00-08:00",
-    "Speakers": [
-      "David Anders"
-    ],
+    "Speakers": "David Anders",
     "Topic": "Embedded Linux"
   },
   {
@@ -729,9 +590,7 @@
     "Location": "Century AB",
     "StartTime": "2015-02-20T15:30:00-08:00",
     "EndTime": "2015-02-20T16:15:00-08:00",
-    "Speakers": [
-      "Joe Brockmeier"
-    ],
+    "Speakers": "Joe Brockmeier",
     "Topic": "Sponsored"
   },
   {
@@ -740,9 +599,7 @@
     "Location": "Los Angeles C",
     "StartTime": "2015-02-20T15:45:00-08:00",
     "EndTime": "2015-02-20T16:45:00-08:00",
-    "Speakers": [
-      "Rikki Endsley"
-    ],
+    "Speakers": "Rikki Endsley",
     "Topic": "Mentoring"
   },
   {
@@ -751,9 +608,7 @@
     "Location": "Plaza BC",
     "StartTime": "2015-02-20T15:45:00-08:00",
     "EndTime": "2015-02-20T16:45:00-08:00",
-    "Speakers": [
-      "Baron Schwartz"
-    ],
+    "Speakers": "Baron Schwartz",
     "Topic": "MySQL"
   },
   {
@@ -762,9 +617,7 @@
     "Location": "La Jolla",
     "StartTime": "2015-02-20T16:00:00-08:00",
     "EndTime": "2015-02-20T16:30:00-08:00",
-    "Speakers": [
-      "Mike Place"
-    ],
+    "Speakers": "Mike Place",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -773,9 +626,7 @@
     "Location": "Century CD",
     "StartTime": "2015-02-20T16:00:00-08:00",
     "EndTime": "2015-02-20T16:45:00-08:00",
-    "Speakers": [
-      "Federico Lucifredi"
-    ],
+    "Speakers": "Federico Lucifredi",
     "Topic": "Ubucon"
   },
   {
@@ -784,9 +635,7 @@
     "Location": "Century AB",
     "StartTime": "2015-02-20T16:15:00-08:00",
     "EndTime": "2015-02-20T17:15:00-08:00",
-    "Speakers": [
-      "Jim Perrin"
-    ],
+    "Speakers": "Jim Perrin",
     "Topic": "Sponsored"
   },
   {
@@ -795,9 +644,7 @@
     "Location": "La Jolla",
     "StartTime": "2015-02-20T16:30:00-08:00",
     "EndTime": "2015-02-20T17:00:00-08:00",
-    "Speakers": [
-      "Sharon Levy"
-    ],
+    "Speakers": "Sharon Levy",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -806,9 +653,7 @@
     "Location": "Los Angeles A",
     "StartTime": "2015-02-20T16:45:00-08:00",
     "EndTime": "2015-02-20T17:45:00-08:00",
-    "Speakers": [
-      "Stephanie Lockwood-Childs"
-    ],
+    "Speakers": "Stephanie Lockwood-Childs",
     "Topic": "Embedded Linux"
   },
   {
@@ -817,9 +662,7 @@
     "Location": "Los Angeles C",
     "StartTime": "2015-02-20T17:00:00-08:00",
     "EndTime": "2015-02-20T18:00:00-08:00",
-    "Speakers": [
-      "Jason Hibbets"
-    ],
+    "Speakers": "Jason Hibbets",
     "Topic": "Mentoring"
   },
   {
@@ -828,9 +671,7 @@
     "Location": "Century CD",
     "StartTime": "2015-02-20T17:00:00-08:00",
     "EndTime": "2015-02-20T18:00:00-08:00",
-    "Speakers": [
-      "Jorge Castro"
-    ],
+    "Speakers": "Jorge Castro",
     "Topic": "Ubucon"
   },
   {
@@ -839,9 +680,7 @@
     "Location": "Plaza D",
     "StartTime": "2015-02-20T17:00:00-08:00",
     "EndTime": "2015-02-20T18:00:00-08:00",
-    "Speakers": [
-      "Joe Conway"
-    ],
+    "Speakers": "Joe Conway",
     "Topic": "PostgreSQL"
   },
   {
@@ -850,9 +689,7 @@
     "Location": "La Jolla",
     "StartTime": "2015-02-20T17:00:00-08:00",
     "EndTime": "2015-02-20T18:00:00-08:00",
-    "Speakers": [
-      "Ben Rockwood"
-    ],
+    "Speakers": "Ben Rockwood",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -861,10 +698,7 @@
     "Location": "Los Angeles A",
     "StartTime": "2015-02-20T18:00:00-08:00",
     "EndTime": "2015-02-20T19:00:00-08:00",
-    "Speakers": [
-      "Matt Porter",
-      "David Anders"
-    ],
+    "Speakers": "Matt Porter, David Anders",
     "Topic": "Embedded Linux"
   },
   {
@@ -873,9 +707,7 @@
     "Location": "Carmel",
     "StartTime": "2015-02-20T19:00:00-08:00",
     "EndTime": "2015-02-20T20:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -884,9 +716,7 @@
     "Location": "Century AB",
     "StartTime": "2015-02-20T19:00:00-08:00",
     "EndTime": "2015-02-20T20:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -895,9 +725,7 @@
     "Location": "Century CD",
     "StartTime": "2015-02-20T19:00:00-08:00",
     "EndTime": "2015-02-20T20:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -906,9 +734,7 @@
     "Location": "Los Angeles A",
     "StartTime": "2015-02-20T19:00:00-08:00",
     "EndTime": "2015-02-20T20:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -917,9 +743,7 @@
     "Location": "Los Angeles B",
     "StartTime": "2015-02-20T19:00:00-08:00",
     "EndTime": "2015-02-20T20:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -928,9 +752,7 @@
     "Location": "Los Angeles C",
     "StartTime": "2015-02-20T19:00:00-08:00",
     "EndTime": "2015-02-20T20:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -939,9 +761,7 @@
     "Location": "Marina",
     "StartTime": "2015-02-20T19:00:00-08:00",
     "EndTime": "2015-02-20T20:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -950,9 +770,7 @@
     "Location": "San Lorenzo B",
     "StartTime": "2015-02-20T19:00:00-08:00",
     "EndTime": "2015-02-20T20:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -961,9 +779,7 @@
     "Location": "La Jolla",
     "StartTime": "2015-02-20T20:00:00-08:00",
     "EndTime": "2015-02-20T21:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "UpSCALE"
   },
   {
@@ -972,9 +788,7 @@
     "Location": "Los Angeles A",
     "StartTime": "2015-02-20T20:00:00-08:00",
     "EndTime": "2015-02-20T21:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -983,9 +797,7 @@
     "Location": "Los Angeles C",
     "StartTime": "2015-02-20T20:00:00-08:00",
     "EndTime": "2015-02-20T21:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -994,9 +806,7 @@
     "Location": "Marina",
     "StartTime": "2015-02-20T20:00:00-08:00",
     "EndTime": "2015-02-20T21:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -1005,9 +815,7 @@
     "Location": "La Jolla",
     "StartTime": "2015-02-20T21:00:00-08:00",
     "EndTime": "2015-02-20T22:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Entertainment"
   },
   {
@@ -1016,9 +824,7 @@
     "Location": "Marina",
     "StartTime": "2015-02-20T21:00:00-08:00",
     "EndTime": "2015-02-20T22:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -1027,9 +833,7 @@
     "Location": "Bel Air",
     "StartTime": "2015-02-21T09:00:00-08:00",
     "EndTime": "2015-02-21T12:30:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Beginner Tutorials"
   },
   {
@@ -1038,9 +842,7 @@
     "Location": "La Jolla",
     "StartTime": "2015-02-21T10:00:00-08:00",
     "EndTime": "2015-02-21T11:00:00-08:00",
-    "Speakers": [
-      "Monty Taylor"
-    ],
+    "Speakers": "Monty Taylor",
     "Topic": "Keynote"
   },
   {
@@ -1049,9 +851,7 @@
     "Location": "San Lorenzo C",
     "StartTime": "2015-02-21T11:00:00-08:00",
     "EndTime": "2015-02-21T12:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Testing"
   },
   {
@@ -1060,9 +860,7 @@
     "Location": "Carmel",
     "StartTime": "2015-02-21T11:30:00-08:00",
     "EndTime": "2015-02-21T12:30:00-08:00",
-    "Speakers": [
-      "Rich Bowen"
-    ],
+    "Speakers": "Rich Bowen",
     "Topic": "Cloud"
   },
   {
@@ -1071,9 +869,7 @@
     "Location": "Century AB",
     "StartTime": "2015-02-21T11:30:00-08:00",
     "EndTime": "2015-02-21T12:30:00-08:00",
-    "Speakers": [
-      "Jenn Greenaway"
-    ],
+    "Speakers": "Jenn Greenaway",
     "Topic": "General"
   },
   {
@@ -1082,9 +878,7 @@
     "Location": "Los Angeles C",
     "StartTime": "2015-02-21T11:30:00-08:00",
     "EndTime": "2015-02-21T12:30:00-08:00",
-    "Speakers": [
-      "Tarus Balog"
-    ],
+    "Speakers": "Tarus Balog",
     "Topic": "General"
   },
   {
@@ -1093,9 +887,7 @@
     "Location": "Los Angeles A",
     "StartTime": "2015-02-21T11:30:00-08:00",
     "EndTime": "2015-02-21T12:30:00-08:00",
-    "Speakers": [
-      "Alison Chaiken"
-    ],
+    "Speakers": "Alison Chaiken",
     "Topic": "Developer"
   },
   {
@@ -1104,9 +896,7 @@
     "Location": "Los Angeles B",
     "StartTime": "2015-02-21T11:30:00-08:00",
     "EndTime": "2015-02-21T12:30:00-08:00",
-    "Speakers": [
-      "Dustin Kirkland"
-    ],
+    "Speakers": "Dustin Kirkland",
     "Topic": "General"
   },
   {
@@ -1115,9 +905,7 @@
     "Location": "Plaza BC",
     "StartTime": "2015-02-21T11:30:00-08:00",
     "EndTime": "2015-02-21T12:30:00-08:00",
-    "Speakers": [
-      "Nathan Betzen"
-    ],
+    "Speakers": "Nathan Betzen",
     "Topic": "Hot Applications"
   },
   {
@@ -1126,9 +914,7 @@
     "Location": "Plaza D",
     "StartTime": "2015-02-21T11:30:00-08:00",
     "EndTime": "2015-02-21T12:30:00-08:00",
-    "Speakers": [
-      "Rae Yip"
-    ],
+    "Speakers": "Rae Yip",
     "Topic": "SysAdmin"
   },
   {
@@ -1137,9 +923,7 @@
     "Location": "Century CD",
     "StartTime": "2015-02-21T11:30:00-08:00",
     "EndTime": "2015-02-21T12:30:00-08:00",
-    "Speakers": [
-      "Brendan Gregg"
-    ],
+    "Speakers": "Brendan Gregg",
     "Topic": "SysAdmin"
   },
   {
@@ -1148,9 +932,7 @@
     "Location": "San Lorenzo F",
     "StartTime": "2015-02-21T11:30:00-08:00",
     "EndTime": "2015-02-21T12:30:00-08:00",
-    "Speakers": [
-      "Kelley Nielsen"
-    ],
+    "Speakers": "Kelley Nielsen",
     "Topic": "Kernel"
   },
   {
@@ -1159,10 +941,7 @@
     "Location": "La Jolla",
     "StartTime": "2015-02-21T11:30:00-08:00",
     "EndTime": "2015-02-21T12:30:00-08:00",
-    "Speakers": [
-      "Lance Lakey",
-      "Dan Yoder"
-    ],
+    "Speakers": "Lance Lakey, Dan Yoder",
     "Topic": "Container and Orchestrators"
   },
   {
@@ -1171,9 +950,7 @@
     "Location": "Marina",
     "StartTime": "2015-02-21T11:30:00-08:00",
     "EndTime": "2015-02-21T12:30:00-08:00",
-    "Speakers": [
-      "Nova King"
-    ],
+    "Speakers": "Nova King",
     "Topic": "Youth"
   },
   {
@@ -1182,9 +959,7 @@
     "Location": "Los Angeles A",
     "StartTime": "2015-02-21T13:30:00-08:00",
     "EndTime": "2015-02-21T14:30:00-08:00",
-    "Speakers": [
-      "Peter Linnell"
-    ],
+    "Speakers": "Peter Linnell",
     "Topic": "Developer"
   },
   {
@@ -1193,9 +968,7 @@
     "Location": "San Lorenzo F",
     "StartTime": "2015-02-21T13:30:00-08:00",
     "EndTime": "2015-02-21T14:30:00-08:00",
-    "Speakers": [
-      "Corey Quinn"
-    ],
+    "Speakers": "Corey Quinn",
     "Topic": "General"
   },
   {
@@ -1204,9 +977,7 @@
     "Location": "Plaza D",
     "StartTime": "2015-02-21T13:30:00-08:00",
     "EndTime": "2015-02-21T14:30:00-08:00",
-    "Speakers": [
-      "Dru Lavigne"
-    ],
+    "Speakers": "Dru Lavigne",
     "Topic": "Hot Applications"
   },
   {
@@ -1215,11 +986,7 @@
     "Location": "La Jolla",
     "StartTime": "2015-02-21T13:30:00-08:00",
     "EndTime": "2015-02-21T14:30:00-08:00",
-    "Speakers": [
-      "Jorge Castro",
-      "Marco Ceppi",
-      "José Antonio Rey"
-    ],
+    "Speakers": "Jorge Castro, Marco Ceppi, José Antonio Rey",
     "Topic": "Cloud"
   },
   {
@@ -1228,9 +995,7 @@
     "Location": "Century CD",
     "StartTime": "2015-02-21T13:30:00-08:00",
     "EndTime": "2015-02-21T14:30:00-08:00",
-    "Speakers": [
-      "Joe Brockmeier"
-    ],
+    "Speakers": "Joe Brockmeier",
     "Topic": "Container and Orchestrators"
   },
   {
@@ -1239,9 +1004,7 @@
     "Location": "Century AB",
     "StartTime": "2015-02-21T13:30:00-08:00",
     "EndTime": "2015-02-21T14:30:00-08:00",
-    "Speakers": [
-      "Kara Sowles"
-    ],
+    "Speakers": "Kara Sowles",
     "Topic": "General"
   },
   {
@@ -1250,9 +1013,7 @@
     "Location": "Los Angeles C",
     "StartTime": "2015-02-21T13:30:00-08:00",
     "EndTime": "2015-02-21T14:30:00-08:00",
-    "Speakers": [
-      "Max Mether"
-    ],
+    "Speakers": "Max Mether",
     "Topic": "General"
   },
   {
@@ -1261,9 +1022,7 @@
     "Location": "Plaza BC",
     "StartTime": "2015-02-21T13:30:00-08:00",
     "EndTime": "2015-02-21T14:30:00-08:00",
-    "Speakers": [
-      "Rafael Barrero"
-    ],
+    "Speakers": "Rafael Barrero",
     "Topic": "SysAdmin"
   },
   {
@@ -1272,9 +1031,7 @@
     "Location": "Los Angeles B",
     "StartTime": "2015-02-21T13:30:00-08:00",
     "EndTime": "2015-02-21T14:30:00-08:00",
-    "Speakers": [
-      "Justin Mayer"
-    ],
+    "Speakers": "Justin Mayer",
     "Topic": "General"
   },
   {
@@ -1283,12 +1040,7 @@
     "Location": "Marina",
     "StartTime": "2015-02-21T13:30:00-08:00",
     "EndTime": "2015-02-21T14:30:00-08:00",
-    "Speakers": [
-      "Daniel Valadez",
-      "Rich Unite",
-      "Yolanda Kol",
-      "Koda Kol"
-    ],
+    "Speakers": "Daniel Valadez, Rich Unite, Yolanda Kol, Koda Kol",
     "Topic": "Youth"
   },
   {
@@ -1297,9 +1049,7 @@
     "Location": "Carmel",
     "StartTime": "2015-02-21T13:30:00-08:00",
     "EndTime": "2015-02-21T14:30:00-08:00",
-    "Speakers": [
-      "Matt Porter"
-    ],
+    "Speakers": "Matt Porter",
     "Topic": "Kernel"
   },
   {
@@ -1308,9 +1058,7 @@
     "Location": "San Lorenzo C",
     "StartTime": "2015-02-21T13:30:00-08:00",
     "EndTime": "2015-02-21T14:30:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Testing"
   },
   {
@@ -1319,9 +1067,7 @@
     "Location": "Bel Air",
     "StartTime": "2015-02-21T13:30:00-08:00",
     "EndTime": "2015-02-21T17:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Beginner Tutorials"
   },
   {
@@ -1330,9 +1076,7 @@
     "Location": "Century CD",
     "StartTime": "2015-02-21T15:00:00-08:00",
     "EndTime": "2015-02-21T16:00:00-08:00",
-    "Speakers": [
-      "Kyle Rankin"
-    ],
+    "Speakers": "Kyle Rankin",
     "Topic": "Hot Applications"
   },
   {
@@ -1341,9 +1085,7 @@
     "Location": "Plaza BC",
     "StartTime": "2015-02-21T15:00:00-08:00",
     "EndTime": "2015-02-21T16:00:00-08:00",
-    "Speakers": [
-      "Bruce Momjian"
-    ],
+    "Speakers": "Bruce Momjian",
     "Topic": "SysAdmin"
   },
   {
@@ -1352,9 +1094,7 @@
     "Location": "Los Angeles C",
     "StartTime": "2015-02-21T15:00:00-08:00",
     "EndTime": "2015-02-21T16:00:00-08:00",
-    "Speakers": [
-      "Brian Proffitt"
-    ],
+    "Speakers": "Brian Proffitt",
     "Topic": "General"
   },
   {
@@ -1363,9 +1103,7 @@
     "Location": "Los Angeles A",
     "StartTime": "2015-02-21T15:00:00-08:00",
     "EndTime": "2015-02-21T16:00:00-08:00",
-    "Speakers": [
-      "Christian Hergert"
-    ],
+    "Speakers": "Christian Hergert",
     "Topic": "Developer"
   },
   {
@@ -1374,9 +1112,7 @@
     "Location": "Plaza D",
     "StartTime": "2015-02-21T15:00:00-08:00",
     "EndTime": "2015-02-21T16:00:00-08:00",
-    "Speakers": [
-      "Jess Males"
-    ],
+    "Speakers": "Jess Males",
     "Topic": "SysAdmin"
   },
   {
@@ -1385,9 +1121,7 @@
     "Location": "Marina",
     "StartTime": "2015-02-21T15:00:00-08:00",
     "EndTime": "2015-02-21T16:00:00-08:00",
-    "Speakers": [
-      "Keila Banks"
-    ],
+    "Speakers": "Keila Banks",
     "Topic": "Youth"
   },
   {
@@ -1396,9 +1130,7 @@
     "Location": "Century AB",
     "StartTime": "2015-02-21T15:00:00-08:00",
     "EndTime": "2015-02-21T16:00:00-08:00",
-    "Speakers": [
-      "Charles Kravetz"
-    ],
+    "Speakers": "Charles Kravetz",
     "Topic": "General"
   },
   {
@@ -1407,9 +1139,7 @@
     "Location": "Los Angeles B",
     "StartTime": "2015-02-21T15:00:00-08:00",
     "EndTime": "2015-02-21T16:00:00-08:00",
-    "Speakers": [
-      "Elijah C. M. Voigt"
-    ],
+    "Speakers": "Elijah C. M. Voigt",
     "Topic": "General"
   },
   {
@@ -1418,9 +1148,7 @@
     "Location": "La Jolla",
     "StartTime": "2015-02-21T15:00:00-08:00",
     "EndTime": "2015-02-21T16:00:00-08:00",
-    "Speakers": [
-      "Derek Collison"
-    ],
+    "Speakers": "Derek Collison",
     "Topic": "Cloud"
   },
   {
@@ -1429,9 +1157,7 @@
     "Location": "San Lorenzo F",
     "StartTime": "2015-02-21T15:00:00-08:00",
     "EndTime": "2015-02-21T16:00:00-08:00",
-    "Speakers": [
-      "Brooks Davis"
-    ],
+    "Speakers": "Brooks Davis",
     "Topic": "Kernel"
   },
   {
@@ -1440,9 +1166,7 @@
     "Location": "Carmel",
     "StartTime": "2015-02-21T15:00:00-08:00",
     "EndTime": "2015-02-21T16:00:00-08:00",
-    "Speakers": [
-      "Jonathan Boulle"
-    ],
+    "Speakers": "Jonathan Boulle",
     "Topic": "Container and Orchestrators"
   },
   {
@@ -1451,9 +1175,7 @@
     "Location": "Century CD",
     "StartTime": "2015-02-21T16:30:00-08:00",
     "EndTime": "2015-02-21T17:30:00-08:00",
-    "Speakers": [
-      "Stephanie Lockwood-Childs"
-    ],
+    "Speakers": "Stephanie Lockwood-Childs",
     "Topic": "Developer"
   },
   {
@@ -1462,9 +1184,7 @@
     "Location": "San Lorenzo F",
     "StartTime": "2015-02-21T16:30:00-08:00",
     "EndTime": "2015-02-21T17:30:00-08:00",
-    "Speakers": [
-      "Stephen Arnold"
-    ],
+    "Speakers": "Stephen Arnold",
     "Topic": "Kernel"
   },
   {
@@ -1473,9 +1193,7 @@
     "Location": "Los Angeles A",
     "StartTime": "2015-02-21T16:30:00-08:00",
     "EndTime": "2015-02-21T17:30:00-08:00",
-    "Speakers": [
-      "Clint Savage"
-    ],
+    "Speakers": "Clint Savage",
     "Topic": "Hot Applications"
   },
   {
@@ -1484,9 +1202,7 @@
     "Location": "Plaza BC",
     "StartTime": "2015-02-21T16:30:00-08:00",
     "EndTime": "2015-02-21T17:30:00-08:00",
-    "Speakers": [
-      "David Maxwell"
-    ],
+    "Speakers": "David Maxwell",
     "Topic": "SysAdmin"
   },
   {
@@ -1495,9 +1211,7 @@
     "Location": "Los Angeles C",
     "StartTime": "2015-02-21T16:30:00-08:00",
     "EndTime": "2015-02-21T17:30:00-08:00",
-    "Speakers": [
-      "Jeff Gehlbach"
-    ],
+    "Speakers": "Jeff Gehlbach",
     "Topic": "General"
   },
   {
@@ -1506,9 +1220,7 @@
     "Location": "Marina",
     "StartTime": "2015-02-21T16:30:00-08:00",
     "EndTime": "2015-02-21T17:30:00-08:00",
-    "Speakers": [
-      "Yolanda Kol"
-    ],
+    "Speakers": "Yolanda Kol",
     "Topic": "Youth"
   },
   {
@@ -1517,9 +1229,7 @@
     "Location": "Plaza D",
     "StartTime": "2015-02-21T16:30:00-08:00",
     "EndTime": "2015-02-21T17:30:00-08:00",
-    "Speakers": [
-      "Colin Charles"
-    ],
+    "Speakers": "Colin Charles",
     "Topic": "SysAdmin"
   },
   {
@@ -1528,9 +1238,7 @@
     "Location": "La Jolla",
     "StartTime": "2015-02-21T16:30:00-08:00",
     "EndTime": "2015-02-21T17:30:00-08:00",
-    "Speakers": [
-      "Sarah Novotny"
-    ],
+    "Speakers": "Sarah Novotny",
     "Topic": "General"
   },
   {
@@ -1539,9 +1247,7 @@
     "Location": "Los Angeles B",
     "StartTime": "2015-02-21T16:30:00-08:00",
     "EndTime": "2015-02-21T17:30:00-08:00",
-    "Speakers": [
-      "Robyn Bergeron"
-    ],
+    "Speakers": "Robyn Bergeron",
     "Topic": "General"
   },
   {
@@ -1550,9 +1256,7 @@
     "Location": "Century AB",
     "StartTime": "2015-02-21T16:30:00-08:00",
     "EndTime": "2015-02-21T17:30:00-08:00",
-    "Speakers": [
-      "Mark McClain"
-    ],
+    "Speakers": "Mark McClain",
     "Topic": "Cloud"
   },
   {
@@ -1561,9 +1265,7 @@
     "Location": "Carmel",
     "StartTime": "2015-02-21T16:30:00-08:00",
     "EndTime": "2015-02-21T17:30:00-08:00",
-    "Speakers": [
-      "Michael Dexter"
-    ],
+    "Speakers": "Michael Dexter",
     "Topic": "Container and Orchestrators"
   },
   {
@@ -1572,9 +1274,7 @@
     "Location": "Marina",
     "StartTime": "2015-02-21T18:00:00-08:00",
     "EndTime": "2015-02-21T19:00:00-08:00",
-    "Speakers": [
-      "Levente Kurusa"
-    ],
+    "Speakers": "Levente Kurusa",
     "Topic": "Youth"
   },
   {
@@ -1583,9 +1283,7 @@
     "Location": "Century CD",
     "StartTime": "2015-02-21T18:00:00-08:00",
     "EndTime": "2015-02-21T19:00:00-08:00",
-    "Speakers": [
-      "Tom Callaway"
-    ],
+    "Speakers": "Tom Callaway",
     "Topic": "General"
   },
   {
@@ -1594,9 +1292,7 @@
     "Location": "Los Angeles A",
     "StartTime": "2015-02-21T18:00:00-08:00",
     "EndTime": "2015-02-21T19:00:00-08:00",
-    "Speakers": [
-      "Frances Hocutt"
-    ],
+    "Speakers": "Frances Hocutt",
     "Topic": "Developer"
   },
   {
@@ -1605,10 +1301,7 @@
     "Location": "Los Angeles C",
     "StartTime": "2015-02-21T18:00:00-08:00",
     "EndTime": "2015-02-21T19:00:00-08:00",
-    "Speakers": [
-      "Ron Evans",
-      "Adrian Zankich"
-    ],
+    "Speakers": "Ron Evans, Adrian Zankich",
     "Topic": "General"
   },
   {
@@ -1617,9 +1310,7 @@
     "Location": "Los Angeles B",
     "StartTime": "2015-02-21T18:00:00-08:00",
     "EndTime": "2015-02-21T19:00:00-08:00",
-    "Speakers": [
-      "Jason Brooks"
-    ],
+    "Speakers": "Jason Brooks",
     "Topic": "Cloud"
   },
   {
@@ -1628,9 +1319,7 @@
     "Location": "Plaza BC",
     "StartTime": "2015-02-21T18:00:00-08:00",
     "EndTime": "2015-02-21T19:00:00-08:00",
-    "Speakers": [
-      "Carl Johnson"
-    ],
+    "Speakers": "Carl Johnson",
     "Topic": "SysAdmin"
   },
   {
@@ -1639,9 +1328,7 @@
     "Location": "Century AB",
     "StartTime": "2015-02-21T18:00:00-08:00",
     "EndTime": "2015-02-21T19:00:00-08:00",
-    "Speakers": [
-      "Dustin Laurence"
-    ],
+    "Speakers": "Dustin Laurence",
     "Topic": "General"
   },
   {
@@ -1650,9 +1337,7 @@
     "Location": "Carmel",
     "StartTime": "2015-02-21T18:00:00-08:00",
     "EndTime": "2015-02-21T19:00:00-08:00",
-    "Speakers": [
-      "Jérôme Petazzoni"
-    ],
+    "Speakers": "Jérôme Petazzoni",
     "Topic": "Container and Orchestrators"
   },
   {
@@ -1661,9 +1346,7 @@
     "Location": "La Jolla",
     "StartTime": "2015-02-21T18:00:00-08:00",
     "EndTime": "2015-02-21T19:00:00-08:00",
-    "Speakers": [
-      "Amber Graner"
-    ],
+    "Speakers": "Amber Graner",
     "Topic": "Hot Applications"
   },
   {
@@ -1672,9 +1355,7 @@
     "Location": "Carmel",
     "StartTime": "2015-02-21T19:00:00-08:00",
     "EndTime": "2015-02-21T20:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -1683,9 +1364,7 @@
     "Location": "Century AB",
     "StartTime": "2015-02-21T19:00:00-08:00",
     "EndTime": "2015-02-21T20:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -1694,9 +1373,7 @@
     "Location": "Century CD",
     "StartTime": "2015-02-21T19:00:00-08:00",
     "EndTime": "2015-02-21T20:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -1705,9 +1382,7 @@
     "Location": "Los Angeles A",
     "StartTime": "2015-02-21T19:00:00-08:00",
     "EndTime": "2015-02-21T20:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -1716,9 +1391,7 @@
     "Location": "Los Angeles B",
     "StartTime": "2015-02-21T19:00:00-08:00",
     "EndTime": "2015-02-21T20:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -1727,9 +1400,7 @@
     "Location": "Los Angeles C",
     "StartTime": "2015-02-21T19:00:00-08:00",
     "EndTime": "2015-02-21T20:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -1738,9 +1409,7 @@
     "Location": "Marina",
     "StartTime": "2015-02-21T19:00:00-08:00",
     "EndTime": "2015-02-21T20:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -1749,9 +1418,7 @@
     "Location": "San Lorenzo B",
     "StartTime": "2015-02-21T19:00:00-08:00",
     "EndTime": "2015-02-21T20:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -1760,9 +1427,7 @@
     "Location": "San Lorenzo C",
     "StartTime": "2015-02-21T19:00:00-08:00",
     "EndTime": "2015-02-21T20:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -1771,9 +1436,7 @@
     "Location": "Plaza Ballroom",
     "StartTime": "2015-02-21T20:00:00-08:00",
     "EndTime": "2015-02-21T21:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Entertainment"
   },
   {
@@ -1782,9 +1445,7 @@
     "Location": "La Jolla",
     "StartTime": "2015-02-21T20:00:00-08:00",
     "EndTime": "2015-02-21T21:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Entertainment"
   },
   {
@@ -1793,9 +1454,7 @@
     "Location": "Marina",
     "StartTime": "2015-02-21T20:00:00-08:00",
     "EndTime": "2015-02-21T21:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -1804,9 +1463,7 @@
     "Location": "Los Angeles B",
     "StartTime": "2015-02-21T20:00:00-08:00",
     "EndTime": "2015-02-21T21:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -1815,9 +1472,7 @@
     "Location": "Plaza Ballroom",
     "StartTime": "2015-02-21T21:00:00-08:00",
     "EndTime": "2015-02-21T22:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Entertainment"
   },
   {
@@ -1826,9 +1481,7 @@
     "Location": "Los Angeles C",
     "StartTime": "2015-02-21T21:00:00-08:00",
     "EndTime": "2015-02-21T22:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -1837,9 +1490,7 @@
     "Location": "La Jolla",
     "StartTime": "2015-02-22T10:00:00-08:00",
     "EndTime": "2015-02-22T11:00:00-08:00",
-    "Speakers": [
-      "Ruth Suehle"
-    ],
+    "Speakers": "Ruth Suehle",
     "Topic": "Keynote"
   },
   {
@@ -1848,9 +1499,7 @@
     "Location": "San Lorenzo C",
     "StartTime": "2015-02-22T10:30:00-08:00",
     "EndTime": "2015-02-22T12:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Testing"
   },
   {
@@ -1859,9 +1508,7 @@
     "Location": "San Lorenzo F",
     "StartTime": "2015-02-22T11:00:00-08:00",
     "EndTime": "2015-02-22T16:30:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Sponsored"
   },
   {
@@ -1870,9 +1517,7 @@
     "Location": "Los Angeles C",
     "StartTime": "2015-02-22T11:30:00-08:00",
     "EndTime": "2015-02-22T12:30:00-08:00",
-    "Speakers": [
-      "Don Marti"
-    ],
+    "Speakers": "Don Marti",
     "Topic": "General"
   },
   {
@@ -1881,9 +1526,7 @@
     "Location": "Plaza D",
     "StartTime": "2015-02-22T11:30:00-08:00",
     "EndTime": "2015-02-22T12:30:00-08:00",
-    "Speakers": [
-      "Keith Wright"
-    ],
+    "Speakers": "Keith Wright",
     "Topic": "SysAdmin"
   },
   {
@@ -1892,9 +1535,7 @@
     "Location": "Century CD",
     "StartTime": "2015-02-22T11:30:00-08:00",
     "EndTime": "2015-02-22T12:30:00-08:00",
-    "Speakers": [
-      "Adam Jollans"
-    ],
+    "Speakers": "Adam Jollans",
     "Topic": "Cloud"
   },
   {
@@ -1903,9 +1544,7 @@
     "Location": "La Jolla",
     "StartTime": "2015-02-22T11:30:00-08:00",
     "EndTime": "2015-02-22T12:30:00-08:00",
-    "Speakers": [
-      "Tim Hockin"
-    ],
+    "Speakers": "Tim Hockin",
     "Topic": "Container and Orchestrators"
   },
   {
@@ -1914,9 +1553,7 @@
     "Location": "Marina",
     "StartTime": "2015-02-22T11:30:00-08:00",
     "EndTime": "2015-02-22T12:30:00-08:00",
-    "Speakers": [
-      "Matt Davis"
-    ],
+    "Speakers": "Matt Davis",
     "Topic": ""
   },
   {
@@ -1925,9 +1562,7 @@
     "Location": "Carmel",
     "StartTime": "2015-02-22T11:30:00-08:00",
     "EndTime": "2015-02-22T12:30:00-08:00",
-    "Speakers": [
-      "Ludovic Fauvet"
-    ],
+    "Speakers": "Ludovic Fauvet",
     "Topic": "General"
   },
   {
@@ -1936,9 +1571,7 @@
     "Location": "Los Angeles A",
     "StartTime": "2015-02-22T11:30:00-08:00",
     "EndTime": "2015-02-22T12:30:00-08:00",
-    "Speakers": [
-      "John O'Connor"
-    ],
+    "Speakers": "John O'Connor",
     "Topic": "Developer"
   },
   {
@@ -1947,9 +1580,7 @@
     "Location": "Plaza BC",
     "StartTime": "2015-02-22T11:30:00-08:00",
     "EndTime": "2015-02-22T12:30:00-08:00",
-    "Speakers": [
-      "Patrick Shuff"
-    ],
+    "Speakers": "Patrick Shuff",
     "Topic": "SysAdmin"
   },
   {
@@ -1958,9 +1589,7 @@
     "Location": "Los Angeles B",
     "StartTime": "2015-02-22T11:30:00-08:00",
     "EndTime": "2015-02-22T12:30:00-08:00",
-    "Speakers": [
-      "Nathan Willis"
-    ],
+    "Speakers": "Nathan Willis",
     "Topic": "Hot Applications"
   },
   {
@@ -1969,9 +1598,7 @@
     "Location": "Century AB",
     "StartTime": "2015-02-22T11:30:00-08:00",
     "EndTime": "2015-02-22T12:30:00-08:00",
-    "Speakers": [
-      "Bryan Lunduke"
-    ],
+    "Speakers": "Bryan Lunduke",
     "Topic": "General"
   },
   {
@@ -1980,9 +1607,7 @@
     "Location": "San Lorenzo B",
     "StartTime": "2015-02-22T11:30:00-08:00",
     "EndTime": "2015-02-22T17:30:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Fedora"
   },
   {
@@ -1991,9 +1616,7 @@
     "Location": "San Lorenzo C",
     "StartTime": "2015-02-22T12:00:00-08:00",
     "EndTime": "2015-02-22T13:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Testing"
   },
   {
@@ -2002,9 +1625,7 @@
     "Location": "La Jolla",
     "StartTime": "2015-02-22T13:30:00-08:00",
     "EndTime": "2015-02-22T14:30:00-08:00",
-    "Speakers": [
-      "Jono Bacon"
-    ],
+    "Speakers": "Jono Bacon",
     "Topic": "General"
   },
   {
@@ -2013,9 +1634,7 @@
     "Location": "Plaza BC",
     "StartTime": "2015-02-22T13:30:00-08:00",
     "EndTime": "2015-02-22T14:30:00-08:00",
-    "Speakers": [
-      "Leslie Carr"
-    ],
+    "Speakers": "Leslie Carr",
     "Topic": "SysAdmin"
   },
   {
@@ -2024,14 +1643,7 @@
     "Location": "Bel Air",
     "StartTime": "2015-02-22T13:30:00-08:00",
     "EndTime": "2015-02-22T14:30:00-08:00",
-    "Speakers": [
-      "Avni Khatri",
-      "Stormy Peters",
-      "Thomas Peters",
-      "Fernando Villalobos",
-      "Corey Latislaw",
-      "Hermes Ojeda"
-    ],
+    "Speakers": "Avni Khatri, Stormy Peters, Thomas Peters, Fernando Villalobos, Corey Latislaw, Hermes Ojeda",
     "Topic": "Open Source Software In Education"
   },
   {
@@ -2040,9 +1652,7 @@
     "Location": "Los Angeles A",
     "StartTime": "2015-02-22T13:30:00-08:00",
     "EndTime": "2015-02-22T14:30:00-08:00",
-    "Speakers": [
-      "Thomas Cameron"
-    ],
+    "Speakers": "Thomas Cameron",
     "Topic": "SysAdmin"
   },
   {
@@ -2051,9 +1661,7 @@
     "Location": "Century AB",
     "StartTime": "2015-02-22T13:30:00-08:00",
     "EndTime": "2015-02-22T14:30:00-08:00",
-    "Speakers": [
-      "John Sullivan"
-    ],
+    "Speakers": "John Sullivan",
     "Topic": "General"
   },
   {
@@ -2062,9 +1670,7 @@
     "Location": "Los Angeles C",
     "StartTime": "2015-02-22T13:30:00-08:00",
     "EndTime": "2015-02-22T14:30:00-08:00",
-    "Speakers": [
-      "Sage Weil"
-    ],
+    "Speakers": "Sage Weil",
     "Topic": "General"
   },
   {
@@ -2073,9 +1679,7 @@
     "Location": "Plaza D",
     "StartTime": "2015-02-22T13:30:00-08:00",
     "EndTime": "2015-02-22T14:30:00-08:00",
-    "Speakers": [
-      "Christoph Wagner"
-    ],
+    "Speakers": "Christoph Wagner",
     "Topic": "Developer"
   },
   {
@@ -2084,9 +1688,7 @@
     "Location": "Century CD",
     "StartTime": "2015-02-22T13:30:00-08:00",
     "EndTime": "2015-02-22T14:30:00-08:00",
-    "Speakers": [
-      "Steven Doran"
-    ],
+    "Speakers": "Steven Doran",
     "Topic": "Hot Applications"
   },
   {
@@ -2095,9 +1697,7 @@
     "Location": "Los Angeles B",
     "StartTime": "2015-02-22T13:30:00-08:00",
     "EndTime": "2015-02-22T14:30:00-08:00",
-    "Speakers": [
-      "Lance Albertson"
-    ],
+    "Speakers": "Lance Albertson",
     "Topic": "Cloud"
   },
   {
@@ -2106,9 +1706,7 @@
     "Location": "Carmel",
     "StartTime": "2015-02-22T13:30:00-08:00",
     "EndTime": "2015-02-22T14:30:00-08:00",
-    "Speakers": [
-      "Ryan Jarvinen"
-    ],
+    "Speakers": "Ryan Jarvinen",
     "Topic": "Container and Orchestrators"
   },
   {
@@ -2117,9 +1715,7 @@
     "Location": "Marina",
     "StartTime": "2015-02-22T13:30:00-08:00",
     "EndTime": "2015-02-22T14:30:00-08:00",
-    "Speakers": [
-      "Cody Ashe-McNalley"
-    ],
+    "Speakers": "Cody Ashe-McNalley",
     "Topic": "Big Data"
   },
   {
@@ -2128,9 +1724,7 @@
     "Location": "Bel Air",
     "StartTime": "2015-02-22T15:00:00-08:00",
     "EndTime": "2015-02-22T16:00:00-08:00",
-    "Speakers": [
-      "Israel Lopez"
-    ],
+    "Speakers": "Israel Lopez",
     "Topic": "Open Source Software In Education"
   },
   {
@@ -2139,9 +1733,7 @@
     "Location": "Plaza BC",
     "StartTime": "2015-02-22T15:00:00-08:00",
     "EndTime": "2015-02-22T16:00:00-08:00",
-    "Speakers": [
-      "Dave Stokes"
-    ],
+    "Speakers": "Dave Stokes",
     "Topic": "SysAdmin"
   },
   {
@@ -2150,9 +1742,7 @@
     "Location": "Los Angeles B",
     "StartTime": "2015-02-22T15:00:00-08:00",
     "EndTime": "2015-02-22T16:00:00-08:00",
-    "Speakers": [
-      "Jos Poortvliet"
-    ],
+    "Speakers": "Jos Poortvliet",
     "Topic": "Cloud"
   },
   {
@@ -2161,9 +1751,7 @@
     "Location": "La Jolla",
     "StartTime": "2015-02-22T15:00:00-08:00",
     "EndTime": "2015-02-22T16:00:00-08:00",
-    "Speakers": [
-      "E. Dunham"
-    ],
+    "Speakers": "E. Dunham",
     "Topic": "General"
   },
   {
@@ -2172,10 +1760,7 @@
     "Location": "Century AB",
     "StartTime": "2015-02-22T15:00:00-08:00",
     "EndTime": "2015-02-22T16:00:00-08:00",
-    "Speakers": [
-      "Peter Czanik",
-      "István Szabó"
-    ],
+    "Speakers": "Peter Czanik, István Szabó",
     "Topic": "General"
   },
   {
@@ -2184,9 +1769,7 @@
     "Location": "Marina",
     "StartTime": "2015-02-22T15:00:00-08:00",
     "EndTime": "2015-02-22T16:00:00-08:00",
-    "Speakers": [
-      "Dan Hopkins"
-    ],
+    "Speakers": "Dan Hopkins",
     "Topic": "Big Data"
   },
   {
@@ -2195,9 +1778,7 @@
     "Location": "Carmel",
     "StartTime": "2015-02-22T15:00:00-08:00",
     "EndTime": "2015-02-22T16:00:00-08:00",
-    "Speakers": [
-      "Russell Pavlicek"
-    ],
+    "Speakers": "Russell Pavlicek",
     "Topic": "Container and Orchestrators"
   },
   {
@@ -2206,9 +1787,7 @@
     "Location": "Los Angeles C",
     "StartTime": "2015-02-22T15:00:00-08:00",
     "EndTime": "2015-02-22T16:00:00-08:00",
-    "Speakers": [
-      "Ian McLeod"
-    ],
+    "Speakers": "Ian McLeod",
     "Topic": "General"
   },
   {
@@ -2217,9 +1796,7 @@
     "Location": "Los Angeles A",
     "StartTime": "2015-02-22T15:00:00-08:00",
     "EndTime": "2015-02-22T16:00:00-08:00",
-    "Speakers": [
-      "Jon Cruz"
-    ],
+    "Speakers": "Jon Cruz",
     "Topic": "Hot Applications"
   },
   {
@@ -2228,9 +1805,7 @@
     "Location": "Plaza D",
     "StartTime": "2015-02-22T15:00:00-08:00",
     "EndTime": "2015-02-22T16:00:00-08:00",
-    "Speakers": [
-      "Chester Wisniewski"
-    ],
+    "Speakers": "Chester Wisniewski",
     "Topic": "SysAdmin"
   },
   {
@@ -2239,9 +1814,7 @@
     "Location": "Carmel",
     "StartTime": "2015-02-22T16:30:00-08:00",
     "EndTime": "2015-02-22T17:30:00-08:00",
-    "Speakers": [
-      "Adrian Otto"
-    ],
+    "Speakers": "Adrian Otto",
     "Topic": "Container and Orchestrators"
   },
   {
@@ -2250,9 +1823,7 @@
     "Location": "Marina",
     "StartTime": "2015-02-22T16:30:00-08:00",
     "EndTime": "2015-02-22T17:30:00-08:00",
-    "Speakers": [
-      "Michael Starch"
-    ],
+    "Speakers": "Michael Starch",
     "Topic": "Big Data"
   },
   {
@@ -2261,9 +1832,7 @@
     "Location": "Los Angeles B",
     "StartTime": "2015-02-22T16:30:00-08:00",
     "EndTime": "2015-02-22T17:30:00-08:00",
-    "Speakers": [
-      "Ken Rugg"
-    ],
+    "Speakers": "Ken Rugg",
     "Topic": "Hot Applications"
   },
   {
@@ -2272,9 +1841,7 @@
     "Location": "Plaza BC",
     "StartTime": "2015-02-22T16:30:00-08:00",
     "EndTime": "2015-02-22T17:30:00-08:00",
-    "Speakers": [
-      "Michael Merideth"
-    ],
+    "Speakers": "Michael Merideth",
     "Topic": "SysAdmin"
   },
   {
@@ -2283,9 +1850,7 @@
     "Location": "La Jolla",
     "StartTime": "2015-02-22T16:30:00-08:00",
     "EndTime": "2015-02-22T17:30:00-08:00",
-    "Speakers": [
-      "Lan Dang"
-    ],
+    "Speakers": "Lan Dang",
     "Topic": "Developer"
   },
   {
@@ -2294,9 +1859,7 @@
     "Location": "Los Angeles A",
     "StartTime": "2015-02-22T16:30:00-08:00",
     "EndTime": "2015-02-22T17:30:00-08:00",
-    "Speakers": [
-      "Patrick O'Connor"
-    ],
+    "Speakers": "Patrick O'Connor",
     "Topic": "Cloud"
   },
   {
@@ -2305,9 +1868,7 @@
     "Location": "Century CD",
     "StartTime": "2015-02-22T16:30:00-08:00",
     "EndTime": "2015-02-22T17:30:00-08:00",
-    "Speakers": [
-      "Matthew Miller"
-    ],
+    "Speakers": "Matthew Miller",
     "Topic": "General"
   },
   {
@@ -2316,9 +1877,7 @@
     "Location": "Plaza D",
     "StartTime": "2015-02-22T16:30:00-08:00",
     "EndTime": "2015-02-22T17:30:00-08:00",
-    "Speakers": [
-      "Kirk Kosinski"
-    ],
+    "Speakers": "Kirk Kosinski",
     "Topic": "SysAdmin"
   },
   {
@@ -2327,9 +1886,7 @@
     "Location": "Century AB",
     "StartTime": "2015-02-22T16:30:00-08:00",
     "EndTime": "2015-02-22T17:30:00-08:00",
-    "Speakers": [
-      "Andrew Kirch"
-    ],
+    "Speakers": "Andrew Kirch",
     "Topic": "General"
   },
   {
@@ -2338,9 +1895,7 @@
     "Location": "Bel Air",
     "StartTime": "2015-02-22T16:30:00-08:00",
     "EndTime": "2015-02-22T17:30:00-08:00",
-    "Speakers": [
-      "Allan Cameron"
-    ],
+    "Speakers": "Allan Cameron",
     "Topic": "Open Source Software In Education"
   }
 ]

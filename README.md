@@ -12,13 +12,13 @@ A [DEMO](https://demo.go-signs.org) of this application is available online. It 
 
 ## Features
 
-- **Real-time Schedule Updates**: Pulls schedule data from the SCaLE Drupal CMS via XML endpoint
+- **Real-time Schedule Updates**: Pulls schedule data from the SCaLE Drupal CMS via JSON endpoint
 - **Responsive React Frontend**: Clean, auto-scrolling display of schedule information
 - **Sponsor Showcase**: Sponsors are prominently displayed near the conference schedule
 - **Embedded Assets**: Single binary includes all web assets and sponsor images
 - **Clock Override**: Support for time simulation via URL parameters for testing
 - **Automatic Refresh**: Self-updating schedule and continuous display rotation
-- **Modern Technology Stack**: Go 1.24, React 19, Typescript 5.7, TailwindCSS 4.1, and Nix Unstable
+- **Modern Technology Stack**: Go, React, Typescript, TailwindCSS, and Nix
 
 > Future features and milestones are located in the [Roadmap](./docs/ROADMAP.md) doc.
 
@@ -30,8 +30,8 @@ Usage of go-signs:
         Port to listen on (1-65535) (default "2017")
   -refresh int
         Schedule refresh interval in minutes (minimum 1) (default 5)
-  -xml string
-        URL to Drupal XML endpoint (must be http or https) (default "http://www.socallinuxexpo.org/scale/21x/sign.xml")
+  -json string
+        URL to Drupal endpoint (must be http or https) (default "http://www.socallinuxexpo.org/scale/23x/signs")
 ```
 
 ### Time Override
@@ -61,11 +61,13 @@ see [CONTRIBUTING](./CONTRIBUTING.md)
 
 ```
 go-signs/
-├─ cmd/go-signs/               # Main application entry point
+├─ cmd/go-signs/               # go main binaries
+│  ├─ go-signs                 # go-signs entry point
+│  └─ scale-simulator          # scale-simulator entry point
 ├─ nix/                        # Nix devShells and Packages
 ├─ pkg/                        # Backend packages
 │  ├─ display/                 # Handles embedding React frontend
-│  ├─ schedule/                # Schedule data handling and XML parsing
+│  ├─ schedule/                # Schedule data handling
 |  ├─ simulator/               # scale-simulator specific server
 │  ├─ server/                  # HTTP server and routes
 │  └─ sponsor/                 # Sponsor management and image serving

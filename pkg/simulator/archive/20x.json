@@ -5,9 +5,7 @@
     "Location": "Ballroom A",
     "StartTime": "2023-03-09T10:00:00-08:00",
     "EndTime": "2023-03-09T11:00:00-08:00",
-    "Speakers": [
-      "Magnus Hagander"
-    ],
+    "Speakers": "Magnus Hagander",
     "Topic": "PostgreSQL"
   },
   {
@@ -16,9 +14,7 @@
     "Location": "Room 209",
     "StartTime": "2023-03-09T10:00:00-08:00",
     "EndTime": "2023-03-09T13:00:00-08:00",
-    "Speakers": [
-      "Nicholas Morey"
-    ],
+    "Speakers": "Nicholas Morey",
     "Topic": "Sponsored"
   },
   {
@@ -27,9 +23,7 @@
     "Location": "Room 106",
     "StartTime": "2023-03-09T10:00:00-08:00",
     "EndTime": "2023-03-09T13:00:00-08:00",
-    "Speakers": [
-      "James McShane"
-    ],
+    "Speakers": "James McShane",
     "Topic": "Kubernetes Community Day"
   },
   {
@@ -38,9 +32,7 @@
     "Location": "Room 211",
     "StartTime": "2023-03-09T10:00:00-08:00",
     "EndTime": "2023-03-09T12:00:00-08:00",
-    "Speakers": [
-      "Tom King"
-    ],
+    "Speakers": "Tom King",
     "Topic": "Embedded Linux"
   },
   {
@@ -49,9 +41,7 @@
     "Location": "Room 104",
     "StartTime": "2023-03-09T10:00:00-08:00",
     "EndTime": "2023-03-09T17:00:00-08:00",
-    "Speakers": [
-      "Roller Angel"
-    ],
+    "Speakers": "Roller Angel",
     "Topic": ""
   },
   {
@@ -60,9 +50,7 @@
     "Location": "Room 212",
     "StartTime": "2023-03-09T10:00:00-08:00",
     "EndTime": "2023-03-09T13:00:00-08:00",
-    "Speakers": [
-      "Andrew Zigler"
-    ],
+    "Speakers": "Andrew Zigler",
     "Topic": "Sponsored"
   },
   {
@@ -71,9 +59,7 @@
     "Location": "Ballroom G",
     "StartTime": "2023-03-09T10:30:00-08:00",
     "EndTime": "2023-03-09T11:00:00-08:00",
-    "Speakers": [
-      "Federico Lucifredi"
-    ],
+    "Speakers": "Federico Lucifredi",
     "Topic": "Sponsored"
   },
   {
@@ -82,9 +68,7 @@
     "Location": "Ballroom A",
     "StartTime": "2023-03-09T11:00:00-08:00",
     "EndTime": "2023-03-09T12:00:00-08:00",
-    "Speakers": [
-      "Jônatas Paganini"
-    ],
+    "Speakers": "Jônatas Paganini",
     "Topic": "PostgreSQL"
   },
   {
@@ -93,10 +77,7 @@
     "Location": "Room 107",
     "StartTime": "2023-03-09T11:00:00-08:00",
     "EndTime": "2023-03-09T13:00:00-08:00",
-    "Speakers": [
-      "Bob Killen",
-      "Jeffrey Sica"
-    ],
+    "Speakers": "Bob Killen, Jeffrey Sica",
     "Topic": "Kubernetes Community Day"
   },
   {
@@ -105,9 +86,7 @@
     "Location": "Ballroom B",
     "StartTime": "2023-03-09T11:00:00-08:00",
     "EndTime": "2023-03-09T12:00:00-08:00",
-    "Speakers": [
-      "Bruce Momjian"
-    ],
+    "Speakers": "Bruce Momjian",
     "Topic": "PostgreSQL"
   },
   {
@@ -116,9 +95,7 @@
     "Location": "Ballroom G",
     "StartTime": "2023-03-09T11:00:00-08:00",
     "EndTime": "2023-03-09T11:30:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Sponsored"
   },
   {
@@ -127,9 +104,7 @@
     "Location": "Ballroom G",
     "StartTime": "2023-03-09T11:45:00-08:00",
     "EndTime": "2023-03-09T12:15:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Sponsored"
   },
   {
@@ -138,9 +113,7 @@
     "Location": "Ballroom G",
     "StartTime": "2023-03-09T12:30:00-08:00",
     "EndTime": "2023-03-09T13:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Sponsored"
   },
   {
@@ -149,9 +122,7 @@
     "Location": "Room 211",
     "StartTime": "2023-03-09T13:00:00-08:00",
     "EndTime": "2023-03-09T15:00:00-08:00",
-    "Speakers": [
-      "Tom King"
-    ],
+    "Speakers": "Tom King",
     "Topic": "Embedded Linux"
   },
   {
@@ -160,9 +131,7 @@
     "Location": "Ballroom B",
     "StartTime": "2023-03-09T13:30:00-08:00",
     "EndTime": "2023-03-09T14:30:00-08:00",
-    "Speakers": [
-      "Keith Fiske"
-    ],
+    "Speakers": "Keith Fiske",
     "Topic": "PostgreSQL"
   },
   {
@@ -171,9 +140,7 @@
     "Location": "Ballroom A",
     "StartTime": "2023-03-09T13:30:00-08:00",
     "EndTime": "2023-03-09T14:30:00-08:00",
-    "Speakers": [
-      "Christophe Pettus"
-    ],
+    "Speakers": "Christophe Pettus",
     "Topic": "PostgreSQL"
   },
   {
@@ -182,9 +149,7 @@
     "Location": "Room 107",
     "StartTime": "2023-03-09T14:00:00-08:00",
     "EndTime": "2023-03-09T17:00:00-08:00",
-    "Speakers": [
-      "Paige Cruz"
-    ],
+    "Speakers": "Paige Cruz",
     "Topic": "Kubernetes Community Day"
   },
   {
@@ -193,10 +158,7 @@
     "Location": "Room 106",
     "StartTime": "2023-03-09T14:00:00-08:00",
     "EndTime": "2023-03-09T17:00:00-08:00",
-    "Speakers": [
-      "Leigh Capili",
-      "Eddie Zaneski"
-    ],
+    "Speakers": "Leigh Capili, Eddie Zaneski",
     "Topic": "Kubernetes Community Day"
   },
   {
@@ -205,9 +167,7 @@
     "Location": "Room 209",
     "StartTime": "2023-03-09T14:00:00-08:00",
     "EndTime": "2023-03-09T17:00:00-08:00",
-    "Speakers": [
-      "Matt Turner"
-    ],
+    "Speakers": "Matt Turner",
     "Topic": "Sponsored"
   },
   {
@@ -216,9 +176,7 @@
     "Location": "Room 212",
     "StartTime": "2023-03-09T14:00:00-08:00",
     "EndTime": "2023-03-09T17:00:00-08:00",
-    "Speakers": [
-      "Amit Jotwani"
-    ],
+    "Speakers": "Amit Jotwani",
     "Topic": "Sponsored"
   },
   {
@@ -227,9 +185,7 @@
     "Location": "Ballroom G",
     "StartTime": "2023-03-09T14:00:00-08:00",
     "EndTime": "2023-03-09T14:30:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Sponsored"
   },
   {
@@ -238,9 +194,7 @@
     "Location": "Ballroom A",
     "StartTime": "2023-03-09T14:30:00-08:00",
     "EndTime": "2023-03-09T15:30:00-08:00",
-    "Speakers": [
-      "Dave Stokes"
-    ],
+    "Speakers": "Dave Stokes",
     "Topic": "PostgreSQL"
   },
   {
@@ -249,9 +203,7 @@
     "Location": "Ballroom B",
     "StartTime": "2023-03-09T14:30:00-08:00",
     "EndTime": "2023-03-09T15:30:00-08:00",
-    "Speakers": [
-      "Ryan Booz"
-    ],
+    "Speakers": "Ryan Booz",
     "Topic": "PostgreSQL"
   },
   {
@@ -260,9 +212,7 @@
     "Location": "Ballroom G",
     "StartTime": "2023-03-09T14:30:00-08:00",
     "EndTime": "2023-03-09T15:00:00-08:00",
-    "Speakers": [
-      "Patrick McLean"
-    ],
+    "Speakers": "Patrick McLean",
     "Topic": "Sponsored"
   },
   {
@@ -271,9 +221,7 @@
     "Location": "Ballroom G",
     "StartTime": "2023-03-09T15:00:00-08:00",
     "EndTime": "2023-03-09T15:30:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Sponsored"
   },
   {
@@ -282,9 +230,7 @@
     "Location": "Ballroom B",
     "StartTime": "2023-03-09T15:30:00-08:00",
     "EndTime": "2023-03-09T16:30:00-08:00",
-    "Speakers": [
-      "Shayon Sanyal"
-    ],
+    "Speakers": "Shayon Sanyal",
     "Topic": "PostgreSQL"
   },
   {
@@ -293,9 +239,7 @@
     "Location": "Ballroom A",
     "StartTime": "2023-03-09T15:30:00-08:00",
     "EndTime": "2023-03-09T16:30:00-08:00",
-    "Speakers": [
-      "Christopher Travers"
-    ],
+    "Speakers": "Christopher Travers",
     "Topic": "PostgreSQL"
   },
   {
@@ -304,9 +248,7 @@
     "Location": "Room 211",
     "StartTime": "2023-03-09T15:30:00-08:00",
     "EndTime": "2023-03-09T17:30:00-08:00",
-    "Speakers": [
-      "Donald Burr"
-    ],
+    "Speakers": "Donald Burr",
     "Topic": "Embedded Linux"
   },
   {
@@ -315,14 +257,7 @@
     "Location": "Ballroom A",
     "StartTime": "2023-03-09T16:30:00-08:00",
     "EndTime": "2023-03-09T17:30:00-08:00",
-    "Speakers": [
-      "Mark Wong",
-      "Jonathan Katz",
-      "Bruce Momjian",
-      "Magnus Hagander",
-      "Devrim Gunduz",
-      "Robert Treat"
-    ],
+    "Speakers": "Mark Wong, Jonathan Katz, Bruce Momjian, Magnus Hagander, Devrim Gunduz, Robert Treat",
     "Topic": "PostgreSQL"
   },
   {
@@ -331,9 +266,7 @@
     "Location": "Ballroom C",
     "StartTime": "2023-03-10T09:00:00-08:00",
     "EndTime": "2023-03-10T10:00:00-08:00",
-    "Speakers": [
-      "Colin Charles"
-    ],
+    "Speakers": "Colin Charles",
     "Topic": "MySQL"
   },
   {
@@ -342,9 +275,7 @@
     "Location": "Ballroom B",
     "StartTime": "2023-03-10T10:00:00-08:00",
     "EndTime": "2023-03-10T11:00:00-08:00",
-    "Speakers": [
-      "vignesh ravichandran"
-    ],
+    "Speakers": "vignesh ravichandran",
     "Topic": "PostgreSQL"
   },
   {
@@ -353,9 +284,7 @@
     "Location": "Ballroom G",
     "StartTime": "2023-03-10T10:00:00-08:00",
     "EndTime": "2023-03-10T11:00:00-08:00",
-    "Speakers": [
-      "Igor Khokhriakov"
-    ],
+    "Speakers": "Igor Khokhriakov",
     "Topic": "Kubernetes Community Day"
   },
   {
@@ -364,9 +293,7 @@
     "Location": "Ballroom A",
     "StartTime": "2023-03-10T10:00:00-08:00",
     "EndTime": "2023-03-10T11:00:00-08:00",
-    "Speakers": [
-      "Magnus Hagander"
-    ],
+    "Speakers": "Magnus Hagander",
     "Topic": "PostgreSQL"
   },
   {
@@ -375,9 +302,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2023-03-10T10:00:00-08:00",
     "EndTime": "2023-03-10T11:00:00-08:00",
-    "Speakers": [
-      "John Willis"
-    ],
+    "Speakers": "John Willis",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -386,10 +311,7 @@
     "Location": "Room 212",
     "StartTime": "2023-03-10T10:00:00-08:00",
     "EndTime": "2023-03-10T13:00:00-08:00",
-    "Speakers": [
-      "Alvaro Leiva",
-      "Anita Zhang"
-    ],
+    "Speakers": "Alvaro Leiva, Anita Zhang",
     "Topic": "Systems & Infrastructure"
   },
   {
@@ -398,9 +320,7 @@
     "Location": "Ballroom C",
     "StartTime": "2023-03-10T10:00:00-08:00",
     "EndTime": "2023-03-10T11:00:00-08:00",
-    "Speakers": [
-      "Matthias Crauwels"
-    ],
+    "Speakers": "Matthias Crauwels",
     "Topic": "MySQL"
   },
   {
@@ -409,9 +329,7 @@
     "Location": "Room 211",
     "StartTime": "2023-03-10T10:00:00-08:00",
     "EndTime": "2023-03-10T12:00:00-08:00",
-    "Speakers": [
-      "Alan Ott"
-    ],
+    "Speakers": "Alan Ott",
     "Topic": "Embedded Linux"
   },
   {
@@ -420,10 +338,7 @@
     "Location": "Ballroom H",
     "StartTime": "2023-03-10T10:00:00-08:00",
     "EndTime": "2023-03-10T11:00:00-08:00",
-    "Speakers": [
-      "Kaslin Fields",
-      "Christina Webber"
-    ],
+    "Speakers": "Kaslin Fields, Christina Webber",
     "Topic": "Kubernetes Community Day"
   },
   {
@@ -432,10 +347,7 @@
     "Location": "Room 106",
     "StartTime": "2023-03-10T10:00:00-08:00",
     "EndTime": "2023-03-10T11:00:00-08:00",
-    "Speakers": [
-      "Annabel Enriquez",
-      "Rob Gaston"
-    ],
+    "Speakers": "Annabel Enriquez, Rob Gaston",
     "Topic": "Open Government"
   },
   {
@@ -444,9 +356,7 @@
     "Location": "Room 209",
     "StartTime": "2023-03-10T10:00:00-08:00",
     "EndTime": "2023-03-10T12:00:00-08:00",
-    "Speakers": [
-      "Kenny Armstrong"
-    ],
+    "Speakers": "Kenny Armstrong",
     "Topic": ""
   },
   {
@@ -455,9 +365,7 @@
     "Location": "Room 104",
     "StartTime": "2023-03-10T10:00:00-08:00",
     "EndTime": "2023-03-10T13:00:00-08:00",
-    "Speakers": [
-      "Nathan Loding"
-    ],
+    "Speakers": "Nathan Loding",
     "Topic": "Sponsored"
   },
   {
@@ -466,10 +374,7 @@
     "Location": "Room 107",
     "StartTime": "2023-03-10T10:00:00-08:00",
     "EndTime": "2023-03-10T17:00:00-08:00",
-    "Speakers": [
-      "Cali Dolfi",
-      "James Kunstle"
-    ],
+    "Speakers": "Cali Dolfi, James Kunstle",
     "Topic": "Sponsored"
   },
   {
@@ -478,9 +383,7 @@
     "Location": "Ballroom C",
     "StartTime": "2023-03-10T11:00:00-08:00",
     "EndTime": "2023-03-10T12:00:00-08:00",
-    "Speakers": [
-      "Alkin Tezuysal"
-    ],
+    "Speakers": "Alkin Tezuysal",
     "Topic": "MySQL"
   },
   {
@@ -489,10 +392,7 @@
     "Location": "Ballroom G",
     "StartTime": "2023-03-10T11:00:00-08:00",
     "EndTime": "2023-03-10T12:00:00-08:00",
-    "Speakers": [
-      "Natalia Ivanko",
-      "John Fastabend"
-    ],
+    "Speakers": "Natalia Ivanko, John Fastabend",
     "Topic": "Kubernetes Community Day"
   },
   {
@@ -501,9 +401,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2023-03-10T11:00:00-08:00",
     "EndTime": "2023-03-10T12:00:00-08:00",
-    "Speakers": [
-      "Ryan Taylor"
-    ],
+    "Speakers": "Ryan Taylor",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -512,10 +410,7 @@
     "Location": "Ballroom A",
     "StartTime": "2023-03-10T11:00:00-08:00",
     "EndTime": "2023-03-10T12:00:00-08:00",
-    "Speakers": [
-      "VIbhor Kumar",
-      "Doug Ortiz"
-    ],
+    "Speakers": "VIbhor Kumar, Doug Ortiz",
     "Topic": "PostgreSQL"
   },
   {
@@ -524,9 +419,7 @@
     "Location": "Ballroom B",
     "StartTime": "2023-03-10T11:00:00-08:00",
     "EndTime": "2023-03-10T12:00:00-08:00",
-    "Speakers": [
-      "Peter Geoghegan"
-    ],
+    "Speakers": "Peter Geoghegan",
     "Topic": "PostgreSQL"
   },
   {
@@ -535,9 +428,7 @@
     "Location": "Room 106",
     "StartTime": "2023-03-10T11:00:00-08:00",
     "EndTime": "2023-03-10T12:00:00-08:00",
-    "Speakers": [
-      "Remy DeCausemaker"
-    ],
+    "Speakers": "Remy DeCausemaker",
     "Topic": "Open Government"
   },
   {
@@ -546,9 +437,7 @@
     "Location": "Ballroom H",
     "StartTime": "2023-03-10T11:00:00-08:00",
     "EndTime": "2023-03-10T12:00:00-08:00",
-    "Speakers": [
-      "Leigh Capili"
-    ],
+    "Speakers": "Leigh Capili",
     "Topic": "Kubernetes Community Day"
   },
   {
@@ -557,9 +446,7 @@
     "Location": "Ballroom C",
     "StartTime": "2023-03-10T13:00:00-08:00",
     "EndTime": "2023-03-10T14:00:00-08:00",
-    "Speakers": [
-      "Kenny Gryp"
-    ],
+    "Speakers": "Kenny Gryp",
     "Topic": "MySQL"
   },
   {
@@ -568,9 +455,7 @@
     "Location": "Ballroom G",
     "StartTime": "2023-03-10T13:00:00-08:00",
     "EndTime": "2023-03-10T14:00:00-08:00",
-    "Speakers": [
-      "Taylor Thomas"
-    ],
+    "Speakers": "Taylor Thomas",
     "Topic": "Kubernetes Community Day"
   },
   {
@@ -579,9 +464,7 @@
     "Location": "Ballroom H",
     "StartTime": "2023-03-10T13:00:00-08:00",
     "EndTime": "2023-03-10T14:00:00-08:00",
-    "Speakers": [
-      "Noah Kantrowitz"
-    ],
+    "Speakers": "Noah Kantrowitz",
     "Topic": "Kubernetes Community Day"
   },
   {
@@ -590,9 +473,7 @@
     "Location": "Room 211",
     "StartTime": "2023-03-10T13:00:00-08:00",
     "EndTime": "2023-03-10T15:00:00-08:00",
-    "Speakers": [
-      "Alan Ott"
-    ],
+    "Speakers": "Alan Ott",
     "Topic": "Embedded Linux"
   },
   {
@@ -601,9 +482,7 @@
     "Location": "Room 106",
     "StartTime": "2023-03-10T13:00:00-08:00",
     "EndTime": "2023-03-10T14:00:00-08:00",
-    "Speakers": [
-      "Bronwyn Mauldin"
-    ],
+    "Speakers": "Bronwyn Mauldin",
     "Topic": "Open Government"
   },
   {
@@ -612,9 +491,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2023-03-10T13:30:00-08:00",
     "EndTime": "2023-03-10T13:45:00-08:00",
-    "Speakers": [
-      "Christopher Travers"
-    ],
+    "Speakers": "Christopher Travers",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -623,9 +500,7 @@
     "Location": "Ballroom A",
     "StartTime": "2023-03-10T13:30:00-08:00",
     "EndTime": "2023-03-10T14:30:00-08:00",
-    "Speakers": [
-      "Ryan Booz"
-    ],
+    "Speakers": "Ryan Booz",
     "Topic": "PostgreSQL"
   },
   {
@@ -634,10 +509,7 @@
     "Location": "Ballroom B",
     "StartTime": "2023-03-10T13:30:00-08:00",
     "EndTime": "2023-03-10T14:30:00-08:00",
-    "Speakers": [
-      "David Christensen",
-      "Elizabeth Christensen"
-    ],
+    "Speakers": "David Christensen, Elizabeth Christensen",
     "Topic": "PostgreSQL"
   },
   {
@@ -646,9 +518,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2023-03-10T13:45:00-08:00",
     "EndTime": "2023-03-10T14:00:00-08:00",
-    "Speakers": [
-      "kat gaines"
-    ],
+    "Speakers": "kat gaines",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -657,9 +527,7 @@
     "Location": "Ballroom H",
     "StartTime": "2023-03-10T14:00:00-08:00",
     "EndTime": "2023-03-10T15:00:00-08:00",
-    "Speakers": [
-      "Lukonde Mwila"
-    ],
+    "Speakers": "Lukonde Mwila",
     "Topic": "Kubernetes Community Day"
   },
   {
@@ -668,9 +536,7 @@
     "Location": "Room 106",
     "StartTime": "2023-03-10T14:00:00-08:00",
     "EndTime": "2023-03-10T15:00:00-08:00",
-    "Speakers": [
-      "Jos Poortvliet"
-    ],
+    "Speakers": "Jos Poortvliet",
     "Topic": "Open Government"
   },
   {
@@ -679,9 +545,7 @@
     "Location": "Ballroom C",
     "StartTime": "2023-03-10T14:00:00-08:00",
     "EndTime": "2023-03-10T15:00:00-08:00",
-    "Speakers": [
-      "Peter Zaitsev"
-    ],
+    "Speakers": "Peter Zaitsev",
     "Topic": "MySQL"
   },
   {
@@ -690,9 +554,7 @@
     "Location": "Room 212",
     "StartTime": "2023-03-10T14:00:00-08:00",
     "EndTime": "2023-03-10T17:00:00-08:00",
-    "Speakers": [
-      "Mica Semrick"
-    ],
+    "Speakers": "Mica Semrick",
     "Topic": "General"
   },
   {
@@ -701,10 +563,7 @@
     "Location": "Ballroom G",
     "StartTime": "2023-03-10T14:00:00-08:00",
     "EndTime": "2023-03-10T15:00:00-08:00",
-    "Speakers": [
-      "Nicolas Vermande",
-      "Jacob Payne"
-    ],
+    "Speakers": "Nicolas Vermande, Jacob Payne",
     "Topic": "Kubernetes Community Day"
   },
   {
@@ -713,10 +572,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2023-03-10T14:00:00-08:00",
     "EndTime": "2023-03-10T14:15:00-08:00",
-    "Speakers": [
-      "Nathan Handler",
-      "Dan OBoyle"
-    ],
+    "Speakers": "Nathan Handler, Dan OBoyle",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -725,9 +581,7 @@
     "Location": "Room 209",
     "StartTime": "2023-03-10T14:00:00-08:00",
     "EndTime": "2023-03-10T16:00:00-08:00",
-    "Speakers": [
-      "Kenny Armstrong"
-    ],
+    "Speakers": "Kenny Armstrong",
     "Topic": ""
   },
   {
@@ -736,9 +590,7 @@
     "Location": "Ballroom B",
     "StartTime": "2023-03-10T14:30:00-08:00",
     "EndTime": "2023-03-10T15:30:00-08:00",
-    "Speakers": [
-      "Ibrar Ahmed"
-    ],
+    "Speakers": "Ibrar Ahmed",
     "Topic": "PostgreSQL"
   },
   {
@@ -747,9 +599,7 @@
     "Location": "Ballroom A",
     "StartTime": "2023-03-10T14:30:00-08:00",
     "EndTime": "2023-03-10T15:30:00-08:00",
-    "Speakers": [
-      "Hamid Akhtar"
-    ],
+    "Speakers": "Hamid Akhtar",
     "Topic": "PostgreSQL"
   },
   {
@@ -758,9 +608,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2023-03-10T14:30:00-08:00",
     "EndTime": "2023-03-10T15:30:00-08:00",
-    "Speakers": [
-      "Rich Horace"
-    ],
+    "Speakers": "Rich Horace",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -769,9 +617,7 @@
     "Location": "Ballroom C",
     "StartTime": "2023-03-10T15:00:00-08:00",
     "EndTime": "2023-03-10T16:00:00-08:00",
-    "Speakers": [
-      "Matthias Crauwels"
-    ],
+    "Speakers": "Matthias Crauwels",
     "Topic": "MySQL"
   },
   {
@@ -780,9 +626,7 @@
     "Location": "Room 106",
     "StartTime": "2023-03-10T15:00:00-08:00",
     "EndTime": "2023-03-10T16:00:00-08:00",
-    "Speakers": [
-      "Yannick Brosseau"
-    ],
+    "Speakers": "Yannick Brosseau",
     "Topic": "Open Government"
   },
   {
@@ -791,9 +635,7 @@
     "Location": "Ballroom H",
     "StartTime": "2023-03-10T15:15:00-08:00",
     "EndTime": "2023-03-10T16:15:00-08:00",
-    "Speakers": [
-      "Rob Richardson"
-    ],
+    "Speakers": "Rob Richardson",
     "Topic": "Kubernetes Community Day"
   },
   {
@@ -802,9 +644,7 @@
     "Location": "Ballroom G",
     "StartTime": "2023-03-10T15:15:00-08:00",
     "EndTime": "2023-03-10T16:15:00-08:00",
-    "Speakers": [
-      "Anne Holler"
-    ],
+    "Speakers": "Anne Holler",
     "Topic": "Kubernetes Community Day"
   },
   {
@@ -813,9 +653,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2023-03-10T15:30:00-08:00",
     "EndTime": "2023-03-10T16:30:00-08:00",
-    "Speakers": [
-      "Paige Cruz"
-    ],
+    "Speakers": "Paige Cruz",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -824,9 +662,7 @@
     "Location": "Ballroom B",
     "StartTime": "2023-03-10T15:30:00-08:00",
     "EndTime": "2023-03-10T16:30:00-08:00",
-    "Speakers": [
-      "Denis Lussier"
-    ],
+    "Speakers": "Denis Lussier",
     "Topic": "PostgreSQL"
   },
   {
@@ -835,9 +671,7 @@
     "Location": "Ballroom A",
     "StartTime": "2023-03-10T15:30:00-08:00",
     "EndTime": "2023-03-10T16:30:00-08:00",
-    "Speakers": [
-      "Chelsea Dole"
-    ],
+    "Speakers": "Chelsea Dole",
     "Topic": "PostgreSQL"
   },
   {
@@ -846,9 +680,7 @@
     "Location": "Room 211",
     "StartTime": "2023-03-10T15:30:00-08:00",
     "EndTime": "2023-03-10T17:30:00-08:00",
-    "Speakers": [
-      "Tom King"
-    ],
+    "Speakers": "Tom King",
     "Topic": "Embedded Linux"
   },
   {
@@ -857,9 +689,7 @@
     "Location": "Ballroom C",
     "StartTime": "2023-03-10T16:00:00-08:00",
     "EndTime": "2023-03-10T17:00:00-08:00",
-    "Speakers": [
-      "Nisha Riyaj"
-    ],
+    "Speakers": "Nisha Riyaj",
     "Topic": "MySQL"
   },
   {
@@ -868,9 +698,7 @@
     "Location": "Room 106",
     "StartTime": "2023-03-10T16:00:00-08:00",
     "EndTime": "2023-03-10T17:00:00-08:00",
-    "Speakers": [
-      "Rylie Johnson"
-    ],
+    "Speakers": "Rylie Johnson",
     "Topic": "Open Government"
   },
   {
@@ -879,10 +707,7 @@
     "Location": "Ballroom H",
     "StartTime": "2023-03-10T16:15:00-08:00",
     "EndTime": "2023-03-10T17:15:00-08:00",
-    "Speakers": [
-      "Susan Wu",
-      "Pierre-Louis Gingembre"
-    ],
+    "Speakers": "Susan Wu, Pierre-Louis Gingembre",
     "Topic": "Kubernetes Community Day"
   },
   {
@@ -891,9 +716,7 @@
     "Location": "Ballroom G",
     "StartTime": "2023-03-10T16:15:00-08:00",
     "EndTime": "2023-03-10T17:15:00-08:00",
-    "Speakers": [
-      "Tomas Hruby"
-    ],
+    "Speakers": "Tomas Hruby",
     "Topic": "Kubernetes Community Day"
   },
   {
@@ -902,9 +725,7 @@
     "Location": "Ballroom A",
     "StartTime": "2023-03-10T16:30:00-08:00",
     "EndTime": "2023-03-10T17:30:00-08:00",
-    "Speakers": [
-      "Muhammad Usama"
-    ],
+    "Speakers": "Muhammad Usama",
     "Topic": "PostgreSQL"
   },
   {
@@ -913,9 +734,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2023-03-10T16:30:00-08:00",
     "EndTime": "2023-03-10T17:30:00-08:00",
-    "Speakers": [
-      "Bryan Cantrill"
-    ],
+    "Speakers": "Bryan Cantrill",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -924,9 +743,7 @@
     "Location": "Ballroom B",
     "StartTime": "2023-03-10T16:30:00-08:00",
     "EndTime": "2023-03-10T17:30:00-08:00",
-    "Speakers": [
-      "Devrim Gunduz"
-    ],
+    "Speakers": "Devrim Gunduz",
     "Topic": "PostgreSQL"
   },
   {
@@ -935,9 +752,7 @@
     "Location": "Ballroom C",
     "StartTime": "2023-03-10T17:00:00-08:00",
     "EndTime": "2023-03-10T18:00:00-08:00",
-    "Speakers": [
-      "Dave Stokes"
-    ],
+    "Speakers": "Dave Stokes",
     "Topic": "MySQL"
   },
   {
@@ -946,9 +761,7 @@
     "Location": "Room 106",
     "StartTime": "2023-03-10T17:00:00-08:00",
     "EndTime": "2023-03-10T18:00:00-08:00",
-    "Speakers": [
-      "Margaret Tucker"
-    ],
+    "Speakers": "Margaret Tucker",
     "Topic": "Open Government"
   },
   {
@@ -957,9 +770,7 @@
     "Location": "Ballroom H",
     "StartTime": "2023-03-10T17:15:00-08:00",
     "EndTime": "2023-03-10T18:15:00-08:00",
-    "Speakers": [
-      "Priyanka Ravi"
-    ],
+    "Speakers": "Priyanka Ravi",
     "Topic": "Kubernetes Community Day"
   },
   {
@@ -968,10 +779,7 @@
     "Location": "Ballroom G",
     "StartTime": "2023-03-10T17:15:00-08:00",
     "EndTime": "2023-03-10T18:15:00-08:00",
-    "Speakers": [
-      "Justin Garrison",
-      "Jeffrey Sica"
-    ],
+    "Speakers": "Justin Garrison, Jeffrey Sica",
     "Topic": "Kubernetes Community Day"
   },
   {
@@ -980,9 +788,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2023-03-10T18:30:00-08:00",
     "EndTime": "2023-03-10T19:30:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": ""
   },
   {
@@ -991,9 +797,7 @@
     "Location": "Ballroom C",
     "StartTime": "2023-03-10T20:00:00-08:00",
     "EndTime": "2023-03-10T21:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -1002,9 +806,7 @@
     "Location": "Ballroom A",
     "StartTime": "2023-03-10T21:00:00-08:00",
     "EndTime": "2023-03-10T22:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -1013,9 +815,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2023-03-11T10:00:00-08:00",
     "EndTime": "2023-03-11T11:00:00-08:00",
-    "Speakers": [
-      "Arun Gupta"
-    ],
+    "Speakers": "Arun Gupta",
     "Topic": ""
   },
   {
@@ -1024,9 +824,7 @@
     "Location": "Room 104",
     "StartTime": "2023-03-11T11:00:00-08:00",
     "EndTime": "2023-03-11T17:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Next Generation"
   },
   {
@@ -1035,9 +833,7 @@
     "Location": "Room 103",
     "StartTime": "2023-03-11T11:15:00-08:00",
     "EndTime": "2023-03-11T12:00:00-08:00",
-    "Speakers": [
-      "Logan Garrison"
-    ],
+    "Speakers": "Logan Garrison",
     "Topic": "Next Generation"
   },
   {
@@ -1046,9 +842,7 @@
     "Location": "Room 211",
     "StartTime": "2023-03-11T11:30:00-08:00",
     "EndTime": "2023-03-11T12:30:00-08:00",
-    "Speakers": [
-      "Mandi Walls"
-    ],
+    "Speakers": "Mandi Walls",
     "Topic": "Systems & Infrastructure"
   },
   {
@@ -1057,9 +851,7 @@
     "Location": "Room 101",
     "StartTime": "2023-03-11T11:30:00-08:00",
     "EndTime": "2023-03-11T12:30:00-08:00",
-    "Speakers": [
-      "Christian Kreibich"
-    ],
+    "Speakers": "Christian Kreibich",
     "Topic": "Security"
   },
   {
@@ -1068,9 +860,7 @@
     "Location": "Ballroom G",
     "StartTime": "2023-03-11T11:30:00-08:00",
     "EndTime": "2023-03-11T12:30:00-08:00",
-    "Speakers": [
-      "Frédéric Desbiens"
-    ],
+    "Speakers": "Frédéric Desbiens",
     "Topic": "Cloud Native"
   },
   {
@@ -1079,9 +869,7 @@
     "Location": "Room 105",
     "StartTime": "2023-03-11T11:30:00-08:00",
     "EndTime": "2023-03-11T12:30:00-08:00",
-    "Speakers": [
-      "Daniel Gross"
-    ],
+    "Speakers": "Daniel Gross",
     "Topic": "Embedded Linux"
   },
   {
@@ -1090,9 +878,7 @@
     "Location": "Ballroom H",
     "StartTime": "2023-03-11T11:30:00-08:00",
     "EndTime": "2023-03-11T12:30:00-08:00",
-    "Speakers": [
-      "Cedrick Lunven"
-    ],
+    "Speakers": "Cedrick Lunven",
     "Topic": "Cloud Native"
   },
   {
@@ -1101,9 +887,7 @@
     "Location": "Ballroom B",
     "StartTime": "2023-03-11T11:30:00-08:00",
     "EndTime": "2023-03-11T12:30:00-08:00",
-    "Speakers": [
-      "Tarus Balog"
-    ],
+    "Speakers": "Tarus Balog",
     "Topic": "General"
   },
   {
@@ -1112,9 +896,7 @@
     "Location": "Ballroom F",
     "StartTime": "2023-03-11T11:30:00-08:00",
     "EndTime": "2023-03-11T12:30:00-08:00",
-    "Speakers": [
-      "Heather Meeker"
-    ],
+    "Speakers": "Heather Meeker",
     "Topic": "General"
   },
   {
@@ -1123,9 +905,7 @@
     "Location": "Room 106",
     "StartTime": "2023-03-11T11:30:00-08:00",
     "EndTime": "2023-03-11T12:30:00-08:00",
-    "Speakers": [
-      "Jesse Mortenson"
-    ],
+    "Speakers": "Jesse Mortenson",
     "Topic": "Open Data"
   },
   {
@@ -1134,9 +914,7 @@
     "Location": "Ballroom C",
     "StartTime": "2023-03-11T11:30:00-08:00",
     "EndTime": "2023-03-11T12:30:00-08:00",
-    "Speakers": [
-      "Joshua Loscar"
-    ],
+    "Speakers": "Joshua Loscar",
     "Topic": "FOSS @ HOME"
   },
   {
@@ -1145,9 +923,7 @@
     "Location": "Ballroom A",
     "StartTime": "2023-03-11T11:30:00-08:00",
     "EndTime": "2023-03-11T12:30:00-08:00",
-    "Speakers": [
-      "Dustin Laurence"
-    ],
+    "Speakers": "Dustin Laurence",
     "Topic": "Developer"
   },
   {
@@ -1156,9 +932,7 @@
     "Location": "Room 107",
     "StartTime": "2023-03-11T11:30:00-08:00",
     "EndTime": "2023-03-11T12:30:00-08:00",
-    "Speakers": [
-      "Paak Quansah"
-    ],
+    "Speakers": "Paak Quansah",
     "Topic": "Observability"
   },
   {
@@ -1167,9 +941,7 @@
     "Location": "Room 103",
     "StartTime": "2023-03-11T12:00:00-08:00",
     "EndTime": "2023-03-11T12:45:00-08:00",
-    "Speakers": [
-      "Wesley Bantugan"
-    ],
+    "Speakers": "Wesley Bantugan",
     "Topic": "Next Generation"
   },
   {
@@ -1178,9 +950,7 @@
     "Location": "Ballroom C",
     "StartTime": "2023-03-11T13:30:00-08:00",
     "EndTime": "2023-03-11T14:30:00-08:00",
-    "Speakers": [
-      "Brian Monroe"
-    ],
+    "Speakers": "Brian Monroe",
     "Topic": "FOSS @ HOME"
   },
   {
@@ -1189,9 +959,7 @@
     "Location": "Ballroom G",
     "StartTime": "2023-03-11T13:30:00-08:00",
     "EndTime": "2023-03-11T14:30:00-08:00",
-    "Speakers": [
-      "Dave Stokes"
-    ],
+    "Speakers": "Dave Stokes",
     "Topic": "Cloud Native"
   },
   {
@@ -1200,9 +968,7 @@
     "Location": "Room 105",
     "StartTime": "2023-03-11T13:30:00-08:00",
     "EndTime": "2023-03-11T14:30:00-08:00",
-    "Speakers": [
-      "Frédéric Desbiens"
-    ],
+    "Speakers": "Frédéric Desbiens",
     "Topic": "Embedded Linux"
   },
   {
@@ -1211,9 +977,7 @@
     "Location": "Room 101",
     "StartTime": "2023-03-11T13:30:00-08:00",
     "EndTime": "2023-03-11T14:30:00-08:00",
-    "Speakers": [
-      "Greg Prosser"
-    ],
+    "Speakers": "Greg Prosser",
     "Topic": "Security"
   },
   {
@@ -1222,9 +986,7 @@
     "Location": "Room 211",
     "StartTime": "2023-03-11T13:30:00-08:00",
     "EndTime": "2023-03-11T14:30:00-08:00",
-    "Speakers": [
-      "Carl George"
-    ],
+    "Speakers": "Carl George",
     "Topic": "Systems & Infrastructure"
   },
   {
@@ -1233,9 +995,7 @@
     "Location": "Ballroom A",
     "StartTime": "2023-03-11T13:30:00-08:00",
     "EndTime": "2023-03-11T14:30:00-08:00",
-    "Speakers": [
-      "Yarden Laifenfeld"
-    ],
+    "Speakers": "Yarden Laifenfeld",
     "Topic": "Developer"
   },
   {
@@ -1244,9 +1004,7 @@
     "Location": "Ballroom H",
     "StartTime": "2023-03-11T13:30:00-08:00",
     "EndTime": "2023-03-11T14:30:00-08:00",
-    "Speakers": [
-      "Matt Ray"
-    ],
+    "Speakers": "Matt Ray",
     "Topic": "Cloud Native"
   },
   {
@@ -1255,9 +1013,7 @@
     "Location": "Room 107",
     "StartTime": "2023-03-11T13:30:00-08:00",
     "EndTime": "2023-03-11T14:30:00-08:00",
-    "Speakers": [
-      "Alolita Sharma"
-    ],
+    "Speakers": "Alolita Sharma",
     "Topic": "Observability"
   },
   {
@@ -1266,9 +1022,7 @@
     "Location": "Ballroom F",
     "StartTime": "2023-03-11T13:30:00-08:00",
     "EndTime": "2023-03-11T14:30:00-08:00",
-    "Speakers": [
-      "Bradley Kuhn"
-    ],
+    "Speakers": "Bradley Kuhn",
     "Topic": "General"
   },
   {
@@ -1277,11 +1031,7 @@
     "Location": "Room 103",
     "StartTime": "2023-03-11T13:45:00-08:00",
     "EndTime": "2023-03-11T14:30:00-08:00",
-    "Speakers": [
-      "Timothy Kidd",
-      "Mikaela Boyon",
-      "Zoe Villanueva"
-    ],
+    "Speakers": "Timothy Kidd, Mikaela Boyon, Zoe Villanueva",
     "Topic": "Next Generation"
   },
   {
@@ -1290,10 +1040,7 @@
     "Location": "Room 103",
     "StartTime": "2023-03-11T14:30:00-08:00",
     "EndTime": "2023-03-11T15:15:00-08:00",
-    "Speakers": [
-      "Samantha Saldana",
-      "Danica Madamba"
-    ],
+    "Speakers": "Samantha Saldana, Danica Madamba",
     "Topic": "Next Generation"
   },
   {
@@ -1302,9 +1049,7 @@
     "Location": "Ballroom A",
     "StartTime": "2023-03-11T15:00:00-08:00",
     "EndTime": "2023-03-11T16:00:00-08:00",
-    "Speakers": [
-      "Justin Reock"
-    ],
+    "Speakers": "Justin Reock",
     "Topic": "Developer"
   },
   {
@@ -1313,9 +1058,7 @@
     "Location": "Ballroom C",
     "StartTime": "2023-03-11T15:00:00-08:00",
     "EndTime": "2023-03-11T16:00:00-08:00",
-    "Speakers": [
-      "zoe steinkamp"
-    ],
+    "Speakers": "zoe steinkamp",
     "Topic": "FOSS @ HOME"
   },
   {
@@ -1324,9 +1067,7 @@
     "Location": "Ballroom B",
     "StartTime": "2023-03-11T15:00:00-08:00",
     "EndTime": "2023-03-11T16:00:00-08:00",
-    "Speakers": [
-      "Kyle Rankin"
-    ],
+    "Speakers": "Kyle Rankin",
     "Topic": "General"
   },
   {
@@ -1335,9 +1076,7 @@
     "Location": "Ballroom H",
     "StartTime": "2023-03-11T15:00:00-08:00",
     "EndTime": "2023-03-11T16:00:00-08:00",
-    "Speakers": [
-      "JJ Asghar"
-    ],
+    "Speakers": "JJ Asghar",
     "Topic": "Cloud Native"
   },
   {
@@ -1346,9 +1085,7 @@
     "Location": "Ballroom G",
     "StartTime": "2023-03-11T15:00:00-08:00",
     "EndTime": "2023-03-11T16:00:00-08:00",
-    "Speakers": [
-      "Mofizur Rahman"
-    ],
+    "Speakers": "Mofizur Rahman",
     "Topic": "Cloud Native"
   },
   {
@@ -1357,9 +1094,7 @@
     "Location": "Room 101",
     "StartTime": "2023-03-11T15:00:00-08:00",
     "EndTime": "2023-03-11T16:00:00-08:00",
-    "Speakers": [
-      "Paul Mansour-Geoffrion"
-    ],
+    "Speakers": "Paul Mansour-Geoffrion",
     "Topic": "Security"
   },
   {
@@ -1368,9 +1103,7 @@
     "Location": "Room 107",
     "StartTime": "2023-03-11T15:00:00-08:00",
     "EndTime": "2023-03-11T16:00:00-08:00",
-    "Speakers": [
-      "Vijay Samuel"
-    ],
+    "Speakers": "Vijay Samuel",
     "Topic": "Observability"
   },
   {
@@ -1379,9 +1112,7 @@
     "Location": "Room 105",
     "StartTime": "2023-03-11T15:00:00-08:00",
     "EndTime": "2023-03-11T16:00:00-08:00",
-    "Speakers": [
-      "Alex Lynd"
-    ],
+    "Speakers": "Alex Lynd",
     "Topic": "Embedded Linux"
   },
   {
@@ -1390,9 +1121,7 @@
     "Location": "Room 211",
     "StartTime": "2023-03-11T15:00:00-08:00",
     "EndTime": "2023-03-11T16:00:00-08:00",
-    "Speakers": [
-      "Chris Down"
-    ],
+    "Speakers": "Chris Down",
     "Topic": "Systems & Infrastructure"
   },
   {
@@ -1401,9 +1130,7 @@
     "Location": "Ballroom F",
     "StartTime": "2023-03-11T15:00:00-08:00",
     "EndTime": "2023-03-11T16:00:00-08:00",
-    "Speakers": [
-      "Glenn Hope"
-    ],
+    "Speakers": "Glenn Hope",
     "Topic": "General"
   },
   {
@@ -1412,10 +1139,7 @@
     "Location": "Room 103",
     "StartTime": "2023-03-11T15:30:00-08:00",
     "EndTime": "2023-03-11T16:15:00-08:00",
-    "Speakers": [
-      "Luis Mendoza",
-      "David Martinez"
-    ],
+    "Speakers": "Luis Mendoza, David Martinez",
     "Topic": "Next Generation"
   },
   {
@@ -1424,10 +1148,7 @@
     "Location": "Room 103",
     "StartTime": "2023-03-11T16:15:00-08:00",
     "EndTime": "2023-03-11T17:00:00-08:00",
-    "Speakers": [
-      "Miejl Mendoza",
-      "Jilliene Yusi"
-    ],
+    "Speakers": "Miejl Mendoza, Jilliene Yusi",
     "Topic": "Next Generation"
   },
   {
@@ -1436,9 +1157,7 @@
     "Location": "Room 106",
     "StartTime": "2023-03-11T16:30:00-08:00",
     "EndTime": "2023-03-11T17:30:00-08:00",
-    "Speakers": [
-      "Sam Hanna"
-    ],
+    "Speakers": "Sam Hanna",
     "Topic": "Open Data"
   },
   {
@@ -1447,9 +1166,7 @@
     "Location": "Room 211",
     "StartTime": "2023-03-11T16:30:00-08:00",
     "EndTime": "2023-03-11T17:30:00-08:00",
-    "Speakers": [
-      "Matt Davis"
-    ],
+    "Speakers": "Matt Davis",
     "Topic": "Systems & Infrastructure"
   },
   {
@@ -1458,10 +1175,7 @@
     "Location": "Room 101",
     "StartTime": "2023-03-11T16:30:00-08:00",
     "EndTime": "2023-03-11T17:30:00-08:00",
-    "Speakers": [
-      "Naveen Srinivasan",
-      "Brian Russell"
-    ],
+    "Speakers": "Naveen Srinivasan, Brian Russell",
     "Topic": "Security"
   },
   {
@@ -1470,10 +1184,7 @@
     "Location": "Ballroom F",
     "StartTime": "2023-03-11T16:30:00-08:00",
     "EndTime": "2023-03-11T17:30:00-08:00",
-    "Speakers": [
-      "Julia Kreger",
-      "Jay Faulkner"
-    ],
+    "Speakers": "Julia Kreger, Jay Faulkner",
     "Topic": "General"
   },
   {
@@ -1482,9 +1193,7 @@
     "Location": "Ballroom B",
     "StartTime": "2023-03-11T16:30:00-08:00",
     "EndTime": "2023-03-11T17:30:00-08:00",
-    "Speakers": [
-      "Bob Murphy"
-    ],
+    "Speakers": "Bob Murphy",
     "Topic": "General"
   },
   {
@@ -1493,9 +1202,7 @@
     "Location": "Ballroom G",
     "StartTime": "2023-03-11T16:30:00-08:00",
     "EndTime": "2023-03-11T17:30:00-08:00",
-    "Speakers": [
-      "Karen Bruner"
-    ],
+    "Speakers": "Karen Bruner",
     "Topic": "Cloud Native"
   },
   {
@@ -1504,9 +1211,7 @@
     "Location": "Room 107",
     "StartTime": "2023-03-11T16:30:00-08:00",
     "EndTime": "2023-03-11T17:30:00-08:00",
-    "Speakers": [
-      "Chanchal Gupta"
-    ],
+    "Speakers": "Chanchal Gupta",
     "Topic": "Observability"
   },
   {
@@ -1515,9 +1220,7 @@
     "Location": "Ballroom C",
     "StartTime": "2023-03-11T16:30:00-08:00",
     "EndTime": "2023-03-11T17:30:00-08:00",
-    "Speakers": [
-      "Kat Fitzgerald"
-    ],
+    "Speakers": "Kat Fitzgerald",
     "Topic": "FOSS @ HOME"
   },
   {
@@ -1526,9 +1229,7 @@
     "Location": "Ballroom H",
     "StartTime": "2023-03-11T16:30:00-08:00",
     "EndTime": "2023-03-11T17:30:00-08:00",
-    "Speakers": [
-      "Aeris Stewart"
-    ],
+    "Speakers": "Aeris Stewart",
     "Topic": "Cloud Native"
   },
   {
@@ -1537,9 +1238,7 @@
     "Location": "Room 105",
     "StartTime": "2023-03-11T16:30:00-08:00",
     "EndTime": "2023-03-11T17:30:00-08:00",
-    "Speakers": [
-      "Matthew Croughan"
-    ],
+    "Speakers": "Matthew Croughan",
     "Topic": "Embedded Linux"
   },
   {
@@ -1548,9 +1247,7 @@
     "Location": "Ballroom A",
     "StartTime": "2023-03-11T16:30:00-08:00",
     "EndTime": "2023-03-11T17:30:00-08:00",
-    "Speakers": [
-      "Rizel Scarlett"
-    ],
+    "Speakers": "Rizel Scarlett",
     "Topic": "Developer"
   },
   {
@@ -1559,9 +1256,7 @@
     "Location": "Ballroom B",
     "StartTime": "2023-03-11T18:00:00-08:00",
     "EndTime": "2023-03-11T19:00:00-08:00",
-    "Speakers": [
-      "Jos Poortvliet"
-    ],
+    "Speakers": "Jos Poortvliet",
     "Topic": "General"
   },
   {
@@ -1570,9 +1265,7 @@
     "Location": "Room 211",
     "StartTime": "2023-03-11T18:00:00-08:00",
     "EndTime": "2023-03-11T19:00:00-08:00",
-    "Speakers": [
-      "Mel Kaulfuss"
-    ],
+    "Speakers": "Mel Kaulfuss",
     "Topic": "Systems & Infrastructure"
   },
   {
@@ -1581,9 +1274,7 @@
     "Location": "Ballroom G",
     "StartTime": "2023-03-11T18:00:00-08:00",
     "EndTime": "2023-03-11T19:00:00-08:00",
-    "Speakers": [
-      "Michael Cote"
-    ],
+    "Speakers": "Michael Cote",
     "Topic": "Cloud Native"
   },
   {
@@ -1592,10 +1283,7 @@
     "Location": "Ballroom H",
     "StartTime": "2023-03-11T18:00:00-08:00",
     "EndTime": "2023-03-11T19:00:00-08:00",
-    "Speakers": [
-      "Brooks Townsend",
-      "Taylor Thomas"
-    ],
+    "Speakers": "Brooks Townsend, Taylor Thomas",
     "Topic": "Cloud Native"
   },
   {
@@ -1604,9 +1292,7 @@
     "Location": "Ballroom A",
     "StartTime": "2023-03-11T18:00:00-08:00",
     "EndTime": "2023-03-11T19:00:00-08:00",
-    "Speakers": [
-      "Jay Miller"
-    ],
+    "Speakers": "Jay Miller",
     "Topic": "Developer"
   },
   {
@@ -1615,9 +1301,7 @@
     "Location": "Room 106",
     "StartTime": "2023-03-11T18:00:00-08:00",
     "EndTime": "2023-03-11T19:00:00-08:00",
-    "Speakers": [
-      "der hans"
-    ],
+    "Speakers": "der hans",
     "Topic": "Open Data"
   },
   {
@@ -1626,9 +1310,7 @@
     "Location": "Ballroom C",
     "StartTime": "2023-03-11T18:00:00-08:00",
     "EndTime": "2023-03-11T19:00:00-08:00",
-    "Speakers": [
-      "Nova King"
-    ],
+    "Speakers": "Nova King",
     "Topic": "FOSS @ HOME"
   },
   {
@@ -1637,9 +1319,7 @@
     "Location": "Ballroom F",
     "StartTime": "2023-03-11T18:00:00-08:00",
     "EndTime": "2023-03-11T19:00:00-08:00",
-    "Speakers": [
-      "Stefano Maffulli"
-    ],
+    "Speakers": "Stefano Maffulli",
     "Topic": "General"
   },
   {
@@ -1648,11 +1328,7 @@
     "Location": "Room 101",
     "StartTime": "2023-03-11T18:00:00-08:00",
     "EndTime": "2023-03-11T19:00:00-08:00",
-    "Speakers": [
-      "Federico Lucifredi",
-      "Sage McTaggart",
-      "Michael Hackett"
-    ],
+    "Speakers": "Federico Lucifredi, Sage McTaggart, Michael Hackett",
     "Topic": "Security"
   },
   {
@@ -1661,9 +1337,7 @@
     "Location": "Ballroom F",
     "StartTime": "2023-03-11T19:00:00-08:00",
     "EndTime": "2023-03-11T20:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -1672,9 +1346,7 @@
     "Location": "Ballroom B",
     "StartTime": "2023-03-11T19:00:00-08:00",
     "EndTime": "2023-03-11T20:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -1683,9 +1355,7 @@
     "Location": "Ballroom C",
     "StartTime": "2023-03-11T19:00:00-08:00",
     "EndTime": "2023-03-11T20:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -1694,9 +1364,7 @@
     "Location": "Ballroom B",
     "StartTime": "2023-03-11T21:00:00-08:00",
     "EndTime": "2023-03-11T22:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -1705,9 +1373,7 @@
     "Location": "Room 103",
     "StartTime": "2023-03-12T10:00:00-07:00",
     "EndTime": "2023-03-12T11:00:00-07:00",
-    "Speakers": [
-      "Bryna Kirzner"
-    ],
+    "Speakers": "Bryna Kirzner",
     "Topic": "Career Day"
   },
   {
@@ -1716,9 +1382,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2023-03-12T10:30:00-07:00",
     "EndTime": "2023-03-12T11:30:00-07:00",
-    "Speakers": [
-      "Dr. Kitty Yeung"
-    ],
+    "Speakers": "Dr. Kitty Yeung",
     "Topic": ""
   },
   {
@@ -1727,9 +1391,7 @@
     "Location": "Room 103",
     "StartTime": "2023-03-12T11:00:00-07:00",
     "EndTime": "2023-03-12T12:00:00-07:00",
-    "Speakers": [
-      "Miguel Hernandez"
-    ],
+    "Speakers": "Miguel Hernandez",
     "Topic": "Career Day"
   },
   {
@@ -1738,9 +1400,7 @@
     "Location": "Room 104",
     "StartTime": "2023-03-12T11:00:00-07:00",
     "EndTime": "2023-03-12T14:30:00-07:00",
-    "Speakers": [
-      "Career Day"
-    ],
+    "Speakers": "Career Day",
     "Topic": "Career Day"
   },
   {
@@ -1749,9 +1409,7 @@
     "Location": "Room 211",
     "StartTime": "2023-03-12T11:30:00-07:00",
     "EndTime": "2023-03-12T12:30:00-07:00",
-    "Speakers": [
-      "Kathryn Tang"
-    ],
+    "Speakers": "Kathryn Tang",
     "Topic": "Systems & Infrastructure"
   },
   {
@@ -1760,10 +1418,7 @@
     "Location": "Room 101",
     "StartTime": "2023-03-12T11:30:00-07:00",
     "EndTime": "2023-03-12T12:30:00-07:00",
-    "Speakers": [
-      "Natalia Ivanko",
-      "John Fastabend"
-    ],
+    "Speakers": "Natalia Ivanko, John Fastabend",
     "Topic": "Security"
   },
   {
@@ -1772,9 +1427,7 @@
     "Location": "Room 106",
     "StartTime": "2023-03-12T11:30:00-07:00",
     "EndTime": "2023-03-12T12:30:00-07:00",
-    "Speakers": [
-      "Caroline Coward"
-    ],
+    "Speakers": "Caroline Coward",
     "Topic": "Open Data"
   },
   {
@@ -1783,9 +1436,7 @@
     "Location": "Room 105",
     "StartTime": "2023-03-12T11:30:00-07:00",
     "EndTime": "2023-03-12T12:30:00-07:00",
-    "Speakers": [
-      "Michael Starch"
-    ],
+    "Speakers": "Michael Starch",
     "Topic": "Aerospace"
   },
   {
@@ -1794,9 +1445,7 @@
     "Location": "Ballroom B",
     "StartTime": "2023-03-12T11:30:00-07:00",
     "EndTime": "2023-03-12T12:30:00-07:00",
-    "Speakers": [
-      "Olga Merkulova"
-    ],
+    "Speakers": "Olga Merkulova",
     "Topic": "General"
   },
   {
@@ -1805,9 +1454,7 @@
     "Location": "Ballroom C",
     "StartTime": "2023-03-12T11:30:00-07:00",
     "EndTime": "2023-03-12T12:30:00-07:00",
-    "Speakers": [
-      "Don Marti"
-    ],
+    "Speakers": "Don Marti",
     "Topic": "FOSS @ HOME"
   },
   {
@@ -1816,9 +1463,7 @@
     "Location": "Ballroom F",
     "StartTime": "2023-03-12T11:30:00-07:00",
     "EndTime": "2023-03-12T12:30:00-07:00",
-    "Speakers": [
-      "Andrew Ryan"
-    ],
+    "Speakers": "Andrew Ryan",
     "Topic": "General"
   },
   {
@@ -1827,9 +1472,7 @@
     "Location": "Room 107",
     "StartTime": "2023-03-12T11:30:00-07:00",
     "EndTime": "2023-03-12T12:30:00-07:00",
-    "Speakers": [
-      "Mofizur Rahman"
-    ],
+    "Speakers": "Mofizur Rahman",
     "Topic": "Observability"
   },
   {
@@ -1838,10 +1481,7 @@
     "Location": "Ballroom A",
     "StartTime": "2023-03-12T11:30:00-07:00",
     "EndTime": "2023-03-12T12:30:00-07:00",
-    "Speakers": [
-      "David Zhu",
-      "ChanChan Mao"
-    ],
+    "Speakers": "David Zhu, ChanChan Mao",
     "Topic": "Developer"
   },
   {
@@ -1850,9 +1490,7 @@
     "Location": "Ballroom G",
     "StartTime": "2023-03-12T11:30:00-07:00",
     "EndTime": "2023-03-12T12:30:00-07:00",
-    "Speakers": [
-      "Eduardo Silva"
-    ],
+    "Speakers": "Eduardo Silva",
     "Topic": "Cloud Native"
   },
   {
@@ -1861,9 +1499,7 @@
     "Location": "Ballroom H",
     "StartTime": "2023-03-12T11:30:00-07:00",
     "EndTime": "2023-03-12T12:30:00-07:00",
-    "Speakers": [
-      "Camilla Berretta"
-    ],
+    "Speakers": "Camilla Berretta",
     "Topic": "Cloud Native"
   },
   {
@@ -1872,9 +1508,7 @@
     "Location": "Room 103",
     "StartTime": "2023-03-12T13:00:00-07:00",
     "EndTime": "2023-03-12T14:00:00-07:00",
-    "Speakers": [
-      "Fatima Taj"
-    ],
+    "Speakers": "Fatima Taj",
     "Topic": "Career Day"
   },
   {
@@ -1883,9 +1517,7 @@
     "Location": "Ballroom H",
     "StartTime": "2023-03-12T13:30:00-07:00",
     "EndTime": "2023-03-12T14:30:00-07:00",
-    "Speakers": [
-      "Adam Gordon Bell"
-    ],
+    "Speakers": "Adam Gordon Bell",
     "Topic": "Cloud Native"
   },
   {
@@ -1894,9 +1526,7 @@
     "Location": "Room 211",
     "StartTime": "2023-03-12T13:30:00-07:00",
     "EndTime": "2023-03-12T14:30:00-07:00",
-    "Speakers": [
-      "Michel Lind"
-    ],
+    "Speakers": "Michel Lind",
     "Topic": "Systems & Infrastructure"
   },
   {
@@ -1905,9 +1535,7 @@
     "Location": "Ballroom F",
     "StartTime": "2023-03-12T13:30:00-07:00",
     "EndTime": "2023-03-12T14:30:00-07:00",
-    "Speakers": [
-      "AmyJune Hineline"
-    ],
+    "Speakers": "AmyJune Hineline",
     "Topic": "General"
   },
   {
@@ -1916,9 +1544,7 @@
     "Location": "Ballroom A",
     "StartTime": "2023-03-12T13:30:00-07:00",
     "EndTime": "2023-03-12T14:30:00-07:00",
-    "Speakers": [
-      "Kohsuke Kawaguchi"
-    ],
+    "Speakers": "Kohsuke Kawaguchi",
     "Topic": "Developer"
   },
   {
@@ -1927,9 +1553,7 @@
     "Location": "Room 101",
     "StartTime": "2023-03-12T13:30:00-07:00",
     "EndTime": "2023-03-12T14:30:00-07:00",
-    "Speakers": [
-      "Timothy Mamo"
-    ],
+    "Speakers": "Timothy Mamo",
     "Topic": "Security"
   },
   {
@@ -1938,9 +1562,7 @@
     "Location": "Ballroom G",
     "StartTime": "2023-03-12T13:30:00-07:00",
     "EndTime": "2023-03-12T14:30:00-07:00",
-    "Speakers": [
-      "Ramiro Berrelleza"
-    ],
+    "Speakers": "Ramiro Berrelleza",
     "Topic": "Cloud Native"
   },
   {
@@ -1949,9 +1571,7 @@
     "Location": "Room 105",
     "StartTime": "2023-03-12T13:30:00-07:00",
     "EndTime": "2023-03-12T14:30:00-07:00",
-    "Speakers": [
-      "J Simmons"
-    ],
+    "Speakers": "J Simmons",
     "Topic": "Aerospace"
   },
   {
@@ -1960,10 +1580,7 @@
     "Location": "Ballroom B",
     "StartTime": "2023-03-12T13:30:00-07:00",
     "EndTime": "2023-03-12T14:30:00-07:00",
-    "Speakers": [
-      "Beinan Wang",
-      "Chunxu Tang"
-    ],
+    "Speakers": "Beinan Wang, Chunxu Tang",
     "Topic": "General"
   },
   {
@@ -1972,9 +1589,7 @@
     "Location": "Ballroom C",
     "StartTime": "2023-03-12T13:30:00-07:00",
     "EndTime": "2023-03-12T14:30:00-07:00",
-    "Speakers": [
-      "Jon Cruz"
-    ],
+    "Speakers": "Jon Cruz",
     "Topic": "FOSS @ HOME"
   },
   {
@@ -1983,9 +1598,7 @@
     "Location": "Room 106",
     "StartTime": "2023-03-12T13:30:00-07:00",
     "EndTime": "2023-03-12T14:30:00-07:00",
-    "Speakers": [
-      "Vino Duraisamy"
-    ],
+    "Speakers": "Vino Duraisamy",
     "Topic": "Open Data"
   },
   {
@@ -1994,10 +1607,7 @@
     "Location": "Room 107",
     "StartTime": "2023-03-12T13:30:00-07:00",
     "EndTime": "2023-03-12T14:30:00-07:00",
-    "Speakers": [
-      "Paul Vecchio",
-      "Borja Burgos"
-    ],
+    "Speakers": "Paul Vecchio, Borja Burgos",
     "Topic": "Observability"
   },
   {
@@ -2006,9 +1616,7 @@
     "Location": "Room 103",
     "StartTime": "2023-03-12T14:00:00-07:00",
     "EndTime": "2023-03-12T15:00:00-07:00",
-    "Speakers": [
-      "Bryna Kirzner"
-    ],
+    "Speakers": "Bryna Kirzner",
     "Topic": "Career Day"
   },
   {
@@ -2017,9 +1625,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2023-03-12T15:00:00-07:00",
     "EndTime": "2023-03-12T16:00:00-07:00",
-    "Speakers": [
-      "Ken Thompson"
-    ],
+    "Speakers": "Ken Thompson",
     "Topic": ""
   }
 ]

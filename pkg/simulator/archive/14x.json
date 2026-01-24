@@ -5,9 +5,7 @@
     "Location": "Room 107",
     "StartTime": "2016-01-21T09:00:00-08:00",
     "EndTime": "2016-01-21T10:00:00-08:00",
-    "Speakers": [
-      "Keith Fiske"
-    ],
+    "Speakers": "Keith Fiske",
     "Topic": "PostgreSQL"
   },
   {
@@ -16,9 +14,7 @@
     "Location": "Room 106",
     "StartTime": "2016-01-21T09:00:00-08:00",
     "EndTime": "2016-01-21T10:00:00-08:00",
-    "Speakers": [
-      "Quinn Weaver"
-    ],
+    "Speakers": "Quinn Weaver",
     "Topic": "PostgreSQL"
   },
   {
@@ -27,10 +23,7 @@
     "Location": "Ballroom F",
     "StartTime": "2016-01-21T10:00:00-08:00",
     "EndTime": "2016-01-21T14:00:00-08:00",
-    "Speakers": [
-      "VM (Vicky) Brasseur",
-      "Josh Berkus"
-    ],
+    "Speakers": "VM (Vicky) Brasseur, Josh Berkus",
     "Topic": "ScaleU"
   },
   {
@@ -39,9 +32,7 @@
     "Location": "Ballroom C",
     "StartTime": "2016-01-21T10:00:00-08:00",
     "EndTime": "2016-01-21T17:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Apache Bigtop"
   },
   {
@@ -50,9 +41,7 @@
     "Location": "Room 103",
     "StartTime": "2016-01-21T10:00:00-08:00",
     "EndTime": "2016-01-21T17:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Sponsored"
   },
   {
@@ -61,9 +50,7 @@
     "Location": "Room 212",
     "StartTime": "2016-01-21T10:00:00-08:00",
     "EndTime": "2016-01-21T17:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Sponsored"
   },
   {
@@ -72,9 +59,7 @@
     "Location": "Room 101",
     "StartTime": "2016-01-21T10:00:00-08:00",
     "EndTime": "2016-01-21T10:45:00-08:00",
-    "Speakers": [
-      "Paul Coleman"
-    ],
+    "Speakers": "Paul Coleman",
     "Topic": "GLADCamp"
   },
   {
@@ -83,9 +68,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2016-01-21T10:00:00-08:00",
     "EndTime": "2016-01-21T10:15:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Ubucon"
   },
   {
@@ -94,9 +77,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2016-01-21T10:15:00-08:00",
     "EndTime": "2016-01-21T11:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Ubucon"
   },
   {
@@ -105,9 +86,7 @@
     "Location": "Room 106",
     "StartTime": "2016-01-21T10:30:00-08:00",
     "EndTime": "2016-01-21T11:30:00-08:00",
-    "Speakers": [
-      "Gabrielle Roth"
-    ],
+    "Speakers": "Gabrielle Roth",
     "Topic": "PostgreSQL"
   },
   {
@@ -116,9 +95,7 @@
     "Location": "Room 107",
     "StartTime": "2016-01-21T10:30:00-08:00",
     "EndTime": "2016-01-21T11:30:00-08:00",
-    "Speakers": [
-      "Dave Cramer"
-    ],
+    "Speakers": "Dave Cramer",
     "Topic": "PostgreSQL"
   },
   {
@@ -127,9 +104,7 @@
     "Location": "Room 101",
     "StartTime": "2016-01-21T11:00:00-08:00",
     "EndTime": "2016-01-21T11:45:00-08:00",
-    "Speakers": [
-      "Nicholas Roberts"
-    ],
+    "Speakers": "Nicholas Roberts",
     "Topic": "GLADCamp"
   },
   {
@@ -138,9 +113,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2016-01-21T11:00:00-08:00",
     "EndTime": "2016-01-21T12:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Ubucon"
   },
   {
@@ -149,9 +122,7 @@
     "Location": "Room 107",
     "StartTime": "2016-01-21T12:30:00-08:00",
     "EndTime": "2016-01-21T13:30:00-08:00",
-    "Speakers": [
-      "Joshua Drake"
-    ],
+    "Speakers": "Joshua Drake",
     "Topic": "PostgreSQL"
   },
   {
@@ -160,9 +131,7 @@
     "Location": "Room 106",
     "StartTime": "2016-01-21T12:30:00-08:00",
     "EndTime": "2016-01-21T13:30:00-08:00",
-    "Speakers": [
-      "Bruce Momjian"
-    ],
+    "Speakers": "Bruce Momjian",
     "Topic": "PostgreSQL"
   },
   {
@@ -171,10 +140,7 @@
     "Location": "Ballroom B",
     "StartTime": "2016-01-21T13:00:00-08:00",
     "EndTime": "2016-01-21T14:00:00-08:00",
-    "Speakers": [
-      "Sergio Schvezov",
-      "Manik Taneja"
-    ],
+    "Speakers": "Sergio Schvezov, Manik Taneja",
     "Topic": "Ubucon"
   },
   {
@@ -183,9 +149,7 @@
     "Location": "Ballroom A",
     "StartTime": "2016-01-21T13:00:00-08:00",
     "EndTime": "2016-01-21T14:00:00-08:00",
-    "Speakers": [
-      "Nathan Haines"
-    ],
+    "Speakers": "Nathan Haines",
     "Topic": "Ubucon"
   },
   {
@@ -194,9 +158,7 @@
     "Location": "Room 101",
     "StartTime": "2016-01-21T13:00:00-08:00",
     "EndTime": "2016-01-21T13:45:00-08:00",
-    "Speakers": [
-      "Paul Coleman"
-    ],
+    "Speakers": "Paul Coleman",
     "Topic": "GLADCamp"
   },
   {
@@ -205,9 +167,7 @@
     "Location": "Room 106",
     "StartTime": "2016-01-21T14:00:00-08:00",
     "EndTime": "2016-01-21T15:00:00-08:00",
-    "Speakers": [
-      "Simon Riggs"
-    ],
+    "Speakers": "Simon Riggs",
     "Topic": "PostgreSQL"
   },
   {
@@ -216,9 +176,7 @@
     "Location": "Ballroom A",
     "StartTime": "2016-01-21T14:00:00-08:00",
     "EndTime": "2016-01-21T15:00:00-08:00",
-    "Speakers": [
-      "Jono Bacon"
-    ],
+    "Speakers": "Jono Bacon",
     "Topic": "Ubucon"
   },
   {
@@ -227,9 +185,7 @@
     "Location": "Room 107",
     "StartTime": "2016-01-21T14:00:00-08:00",
     "EndTime": "2016-01-21T15:00:00-08:00",
-    "Speakers": [
-      "Jim Mlodgenski"
-    ],
+    "Speakers": "Jim Mlodgenski",
     "Topic": "PostgreSQL"
   },
   {
@@ -238,9 +194,7 @@
     "Location": "Ballroom B",
     "StartTime": "2016-01-21T14:00:00-08:00",
     "EndTime": "2016-01-21T15:00:00-08:00",
-    "Speakers": [
-      "Sujeevan Vijayakumaran"
-    ],
+    "Speakers": "Sujeevan Vijayakumaran",
     "Topic": "Ubucon"
   },
   {
@@ -249,9 +203,7 @@
     "Location": "Room 101",
     "StartTime": "2016-01-21T14:00:00-08:00",
     "EndTime": "2016-01-21T14:45:00-08:00",
-    "Speakers": [
-      "Paul Coleman"
-    ],
+    "Speakers": "Paul Coleman",
     "Topic": "GLADCamp"
   },
   {
@@ -260,9 +212,7 @@
     "Location": "Ballroom F",
     "StartTime": "2016-01-21T15:00:00-08:00",
     "EndTime": "2016-01-21T16:30:00-08:00",
-    "Speakers": [
-      "Josh Simmons"
-    ],
+    "Speakers": "Josh Simmons",
     "Topic": "ScaleU"
   },
   {
@@ -271,9 +221,7 @@
     "Location": "Ballroom A",
     "StartTime": "2016-01-21T15:00:00-08:00",
     "EndTime": "2016-01-21T16:00:00-08:00",
-    "Speakers": [
-      "Elizabeth K. Joseph"
-    ],
+    "Speakers": "Elizabeth K. Joseph",
     "Topic": "Ubucon"
   },
   {
@@ -282,9 +230,7 @@
     "Location": "Ballroom B",
     "StartTime": "2016-01-21T15:00:00-08:00",
     "EndTime": "2016-01-21T16:00:00-08:00",
-    "Speakers": [
-      "Marco Ceppi"
-    ],
+    "Speakers": "Marco Ceppi",
     "Topic": "Ubucon"
   },
   {
@@ -293,10 +239,7 @@
     "Location": "Room 101",
     "StartTime": "2016-01-21T15:00:00-08:00",
     "EndTime": "2016-01-21T15:45:00-08:00",
-    "Speakers": [
-      "Paul Coleman",
-      "Christefano Reyes"
-    ],
+    "Speakers": "Paul Coleman, Christefano Reyes",
     "Topic": "GLADCamp"
   },
   {
@@ -305,9 +248,7 @@
     "Location": "Room 106",
     "StartTime": "2016-01-21T15:30:00-08:00",
     "EndTime": "2016-01-21T16:30:00-08:00",
-    "Speakers": [
-      "Christophe Pettus"
-    ],
+    "Speakers": "Christophe Pettus",
     "Topic": "PostgreSQL"
   },
   {
@@ -316,9 +257,7 @@
     "Location": "Room 107",
     "StartTime": "2016-01-21T15:30:00-08:00",
     "EndTime": "2016-01-21T16:30:00-08:00",
-    "Speakers": [
-      "Joe Conway"
-    ],
+    "Speakers": "Joe Conway",
     "Topic": "PostgreSQL"
   },
   {
@@ -327,9 +266,7 @@
     "Location": "Ballroom B",
     "StartTime": "2016-01-21T16:00:00-08:00",
     "EndTime": "2016-01-21T17:00:00-08:00",
-    "Speakers": [
-      "Stuart Langridge"
-    ],
+    "Speakers": "Stuart Langridge",
     "Topic": "Ubucon"
   },
   {
@@ -338,9 +275,7 @@
     "Location": "Ballroom A",
     "StartTime": "2016-01-21T16:00:00-08:00",
     "EndTime": "2016-01-21T17:00:00-08:00",
-    "Speakers": [
-      "David Planella"
-    ],
+    "Speakers": "David Planella",
     "Topic": "Ubucon"
   },
   {
@@ -349,9 +284,7 @@
     "Location": "Room 101",
     "StartTime": "2016-01-21T16:00:00-08:00",
     "EndTime": "2016-01-21T16:45:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "GLADCamp"
   },
   {
@@ -360,9 +293,7 @@
     "Location": "Room 107",
     "StartTime": "2016-01-21T17:00:00-08:00",
     "EndTime": "2016-01-21T18:00:00-08:00",
-    "Speakers": [
-      "Ilya Kosmodemiansky"
-    ],
+    "Speakers": "Ilya Kosmodemiansky",
     "Topic": "PostgreSQL"
   },
   {
@@ -371,9 +302,7 @@
     "Location": "Ballroom B",
     "StartTime": "2016-01-21T17:00:00-08:00",
     "EndTime": "2016-01-21T18:00:00-08:00",
-    "Speakers": [
-      "John Lea"
-    ],
+    "Speakers": "John Lea",
     "Topic": "Ubucon"
   },
   {
@@ -382,9 +311,7 @@
     "Location": "Room 106",
     "StartTime": "2016-01-21T17:00:00-08:00",
     "EndTime": "2016-01-21T18:00:00-08:00",
-    "Speakers": [
-      "VIbhor Kumar"
-    ],
+    "Speakers": "VIbhor Kumar",
     "Topic": "PostgreSQL"
   },
   {
@@ -393,10 +320,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2016-01-21T17:00:00-08:00",
     "EndTime": "2016-01-21T18:00:00-08:00",
-    "Speakers": [
-      "Richard Gaskin",
-      "Nathan Haines"
-    ],
+    "Speakers": "Richard Gaskin, Nathan Haines",
     "Topic": "Ubucon"
   },
   {
@@ -405,10 +329,7 @@
     "Location": "Ballroom A",
     "StartTime": "2016-01-21T17:00:00-08:00",
     "EndTime": "2016-01-21T18:00:00-08:00",
-    "Speakers": [
-      "Alan Pope",
-      "Stuart Langridge"
-    ],
+    "Speakers": "Alan Pope, Stuart Langridge",
     "Topic": "Ubucon"
   },
   {
@@ -417,11 +338,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2016-01-21T19:00:00-08:00",
     "EndTime": "2016-01-21T20:00:00-08:00",
-    "Speakers": [
-      "Keila Banks",
-      "Jono Bacon",
-      "maddog Hall"
-    ],
+    "Speakers": "Keila Banks, Jono Bacon, maddog Hall",
     "Topic": "Entertainment"
   },
   {
@@ -430,9 +347,7 @@
     "Location": "Room 107",
     "StartTime": "2016-01-21T19:00:00-08:00",
     "EndTime": "2016-01-21T20:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -441,9 +356,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2016-01-21T20:00:00-08:00",
     "EndTime": "2016-01-21T21:00:00-08:00",
-    "Speakers": [
-      "Bryan Lunduke"
-    ],
+    "Speakers": "Bryan Lunduke",
     "Topic": "Entertainment"
   },
   {
@@ -452,9 +365,7 @@
     "Location": "Room 104",
     "StartTime": "2016-01-21T20:00:00-08:00",
     "EndTime": "2016-01-21T21:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -463,9 +374,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2016-01-22T09:00:00-08:00",
     "EndTime": "2016-01-22T10:00:00-08:00",
-    "Speakers": [
-      "Cory Doctorow"
-    ],
+    "Speakers": "Cory Doctorow",
     "Topic": "Keynote"
   },
   {
@@ -474,9 +383,7 @@
     "Location": "Room 212",
     "StartTime": "2016-01-22T09:00:00-08:00",
     "EndTime": "2016-01-22T09:45:00-08:00",
-    "Speakers": [
-      "Justin Colannino"
-    ],
+    "Speakers": "Justin Colannino",
     "Topic": "Legal & Licensing"
   },
   {
@@ -485,9 +392,7 @@
     "Location": "Room 104",
     "StartTime": "2016-01-22T10:00:00-08:00",
     "EndTime": "2016-01-22T11:00:00-08:00",
-    "Speakers": [
-      "Alison Chaiken"
-    ],
+    "Speakers": "Alison Chaiken",
     "Topic": "Embedded Linux"
   },
   {
@@ -496,9 +401,7 @@
     "Location": "Room 101",
     "StartTime": "2016-01-22T10:00:00-08:00",
     "EndTime": "2016-01-22T11:00:00-08:00",
-    "Speakers": [
-      "Colin Charles"
-    ],
+    "Speakers": "Colin Charles",
     "Topic": "MySQL"
   },
   {
@@ -507,9 +410,7 @@
     "Location": "Ballroom GH",
     "StartTime": "2016-01-22T10:00:00-08:00",
     "EndTime": "2016-01-22T10:45:00-08:00",
-    "Speakers": [
-      "Andrew Shafer"
-    ],
+    "Speakers": "Andrew Shafer",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -518,9 +419,7 @@
     "Location": "Room 211",
     "StartTime": "2016-01-22T10:00:00-08:00",
     "EndTime": "2016-01-22T10:30:00-08:00",
-    "Speakers": [
-      "Russell Pavlicek"
-    ],
+    "Speakers": "Russell Pavlicek",
     "Topic": "Sponsored"
   },
   {
@@ -529,9 +428,7 @@
     "Location": "Room 212",
     "StartTime": "2016-01-22T10:15:00-08:00",
     "EndTime": "2016-01-22T11:00:00-08:00",
-    "Speakers": [
-      "Heather Meeker"
-    ],
+    "Speakers": "Heather Meeker",
     "Topic": "Legal & Licensing"
   },
   {
@@ -540,10 +437,7 @@
     "Location": "Room 107",
     "StartTime": "2016-01-22T10:30:00-08:00",
     "EndTime": "2016-01-22T11:30:00-08:00",
-    "Speakers": [
-      "Jeff McCormick",
-      "Steven Pousty"
-    ],
+    "Speakers": "Jeff McCormick, Steven Pousty",
     "Topic": "PostgreSQL"
   },
   {
@@ -552,9 +446,7 @@
     "Location": "Room 106",
     "StartTime": "2016-01-22T10:30:00-08:00",
     "EndTime": "2016-01-22T11:30:00-08:00",
-    "Speakers": [
-      "Peter Geoghegan"
-    ],
+    "Speakers": "Peter Geoghegan",
     "Topic": "PostgreSQL"
   },
   {
@@ -563,9 +455,7 @@
     "Location": "Room 103",
     "StartTime": "2016-01-22T10:30:00-08:00",
     "EndTime": "2016-01-22T14:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "ScaleU"
   },
   {
@@ -574,9 +464,7 @@
     "Location": "Room 211",
     "StartTime": "2016-01-22T10:30:00-08:00",
     "EndTime": "2016-01-22T11:00:00-08:00",
-    "Speakers": [
-      "Richard Mortier"
-    ],
+    "Speakers": "Richard Mortier",
     "Topic": "Sponsored"
   },
   {
@@ -585,9 +473,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2016-01-22T10:30:00-08:00",
     "EndTime": "2016-01-22T11:30:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Ubucon"
   },
   {
@@ -596,9 +482,7 @@
     "Location": "Ballroom GH",
     "StartTime": "2016-01-22T10:45:00-08:00",
     "EndTime": "2016-01-22T11:15:00-08:00",
-    "Speakers": [
-      "Carlos Meza"
-    ],
+    "Speakers": "Carlos Meza",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -607,9 +491,7 @@
     "Location": "Room 101",
     "StartTime": "2016-01-22T11:00:00-08:00",
     "EndTime": "2016-01-22T12:00:00-08:00",
-    "Speakers": [
-      "Peter Zaitsev"
-    ],
+    "Speakers": "Peter Zaitsev",
     "Topic": "MySQL"
   },
   {
@@ -618,9 +500,7 @@
     "Location": "Room 211",
     "StartTime": "2016-01-22T11:00:00-08:00",
     "EndTime": "2016-01-22T11:30:00-08:00",
-    "Speakers": [
-      "Ian Eyberg"
-    ],
+    "Speakers": "Ian Eyberg",
     "Topic": "Sponsored"
   },
   {
@@ -629,9 +509,7 @@
     "Location": "Ballroom GH",
     "StartTime": "2016-01-22T11:15:00-08:00",
     "EndTime": "2016-01-22T11:45:00-08:00",
-    "Speakers": [
-      "Joel Salas"
-    ],
+    "Speakers": "Joel Salas",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -640,9 +518,7 @@
     "Location": "Room 212",
     "StartTime": "2016-01-22T11:15:00-08:00",
     "EndTime": "2016-01-22T12:00:00-08:00",
-    "Speakers": [
-      "Daniel Nazer"
-    ],
+    "Speakers": "Daniel Nazer",
     "Topic": "Legal & Licensing"
   },
   {
@@ -651,9 +527,7 @@
     "Location": "Room 104",
     "StartTime": "2016-01-22T11:30:00-08:00",
     "EndTime": "2016-01-22T12:30:00-08:00",
-    "Speakers": [
-      "Merlin Friesen"
-    ],
+    "Speakers": "Merlin Friesen",
     "Topic": "Embedded Linux"
   },
   {
@@ -662,9 +536,7 @@
     "Location": "Room 211",
     "StartTime": "2016-01-22T11:30:00-08:00",
     "EndTime": "2016-01-22T12:00:00-08:00",
-    "Speakers": [
-      "Dan Williams"
-    ],
+    "Speakers": "Dan Williams",
     "Topic": "Sponsored"
   },
   {
@@ -673,9 +545,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2016-01-22T11:30:00-08:00",
     "EndTime": "2016-01-22T12:30:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Ubucon"
   },
   {
@@ -684,9 +554,7 @@
     "Location": "Ballroom GH",
     "StartTime": "2016-01-22T11:45:00-08:00",
     "EndTime": "2016-01-22T12:15:00-08:00",
-    "Speakers": [
-      "Elizabeth K. Joseph"
-    ],
+    "Speakers": "Elizabeth K. Joseph",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -695,9 +563,7 @@
     "Location": "Room 106",
     "StartTime": "2016-01-22T12:30:00-08:00",
     "EndTime": "2016-01-22T13:30:00-08:00",
-    "Speakers": [
-      "Alvaro Hernandez"
-    ],
+    "Speakers": "Alvaro Hernandez",
     "Topic": "PostgreSQL"
   },
   {
@@ -706,9 +572,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2016-01-22T12:30:00-08:00",
     "EndTime": "2016-01-22T13:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Ubucon"
   },
   {
@@ -717,9 +581,7 @@
     "Location": "Room 107",
     "StartTime": "2016-01-22T12:30:00-08:00",
     "EndTime": "2016-01-22T13:30:00-08:00",
-    "Speakers": [
-      "Stephen Frost"
-    ],
+    "Speakers": "Stephen Frost",
     "Topic": "PostgreSQL"
   },
   {
@@ -728,9 +590,7 @@
     "Location": "Room 101",
     "StartTime": "2016-01-22T13:00:00-08:00",
     "EndTime": "2016-01-22T14:00:00-08:00",
-    "Speakers": [
-      "Dave Stokes"
-    ],
+    "Speakers": "Dave Stokes",
     "Topic": "MySQL"
   },
   {
@@ -739,9 +599,7 @@
     "Location": "Room 212",
     "StartTime": "2016-01-22T13:00:00-08:00",
     "EndTime": "2016-01-22T13:45:00-08:00",
-    "Speakers": [
-      "Pamela Chestek"
-    ],
+    "Speakers": "Pamela Chestek",
     "Topic": "Legal & Licensing"
   },
   {
@@ -750,9 +608,7 @@
     "Location": "Room 211",
     "StartTime": "2016-01-22T13:00:00-08:00",
     "EndTime": "2016-01-22T13:45:00-08:00",
-    "Speakers": [
-      "Adam Wick"
-    ],
+    "Speakers": "Adam Wick",
     "Topic": "Sponsored"
   },
   {
@@ -761,9 +617,7 @@
     "Location": "Room 104",
     "StartTime": "2016-01-22T13:30:00-08:00",
     "EndTime": "2016-01-22T14:30:00-08:00",
-    "Speakers": [
-      "John Hawley"
-    ],
+    "Speakers": "John Hawley",
     "Topic": "Embedded Linux"
   },
   {
@@ -772,9 +626,7 @@
     "Location": "Ballroom GH",
     "StartTime": "2016-01-22T13:45:00-08:00",
     "EndTime": "2016-01-22T14:15:00-08:00",
-    "Speakers": [
-      "Justin Garrison"
-    ],
+    "Speakers": "Justin Garrison",
     "Topic": "DevOpsDay LA"
   },
   {
@@ -783,9 +635,7 @@
     "Location": "Room 211",
     "StartTime": "2016-01-22T13:45:00-08:00",
     "EndTime": "2016-01-22T14:30:00-08:00",
-    "Speakers": [
-      "Maxim Kharchenko"
-    ],
+    "Speakers": "Maxim Kharchenko",
     "Topic": "Sponsored"
   },
   {
@@ -794,9 +644,7 @@
     "Location": "Room 107",
     "StartTime": "2016-01-22T14:00:00-08:00",
     "EndTime": "2016-01-22T15:00:00-08:00",
-    "Speakers": [
-      "Josh Berkus"
-    ],
+    "Speakers": "Josh Berkus",
     "Topic": "PostgreSQL"
   },
   {
@@ -805,9 +653,7 @@
     "Location": "Room 106",
     "StartTime": "2016-01-22T14:00:00-08:00",
     "EndTime": "2016-01-22T15:00:00-08:00",
-    "Speakers": [
-      "Michael Meskes"
-    ],
+    "Speakers": "Michael Meskes",
     "Topic": "PostgreSQL"
   },
   {
@@ -816,10 +662,7 @@
     "Location": "Room 101",
     "StartTime": "2016-01-22T14:00:00-08:00",
     "EndTime": "2016-01-22T15:00:00-08:00",
-    "Speakers": [
-      "Ovais Tariq",
-      "Aleksandr Kuzminsky"
-    ],
+    "Speakers": "Ovais Tariq, Aleksandr Kuzminsky",
     "Topic": "MySQL"
   },
   {
@@ -828,9 +671,7 @@
     "Location": "Room 212",
     "StartTime": "2016-01-22T14:00:00-08:00",
     "EndTime": "2016-01-22T14:45:00-08:00",
-    "Speakers": [
-      "Tennille Christensen"
-    ],
+    "Speakers": "Tennille Christensen",
     "Topic": "Legal & Licensing"
   },
   {
@@ -839,9 +680,7 @@
     "Location": "Ballroom I",
     "StartTime": "2016-01-22T14:00:00-08:00",
     "EndTime": "2016-01-22T15:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Ubucon"
   },
   {
@@ -850,9 +689,7 @@
     "Location": "Ballroom J",
     "StartTime": "2016-01-22T14:00:00-08:00",
     "EndTime": "2016-01-22T15:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Ubucon"
   },
   {
@@ -861,9 +698,7 @@
     "Location": "Room 103",
     "StartTime": "2016-01-22T14:30:00-08:00",
     "EndTime": "2016-01-22T17:00:00-08:00",
-    "Speakers": [
-      "Jérôme Petazzoni"
-    ],
+    "Speakers": "Jérôme Petazzoni",
     "Topic": "ScaleU"
   },
   {
@@ -872,10 +707,7 @@
     "Location": "Room 211",
     "StartTime": "2016-01-22T14:45:00-08:00",
     "EndTime": "2016-01-22T15:15:00-08:00",
-    "Speakers": [
-      "Anil Madhavapeddy",
-      "Richard Mortier"
-    ],
+    "Speakers": "Anil Madhavapeddy, Richard Mortier",
     "Topic": "Sponsored"
   },
   {
@@ -884,9 +716,7 @@
     "Location": "Room 104",
     "StartTime": "2016-01-22T15:00:00-08:00",
     "EndTime": "2016-01-22T16:00:00-08:00",
-    "Speakers": [
-      "Stephanie Lockwood-Childs"
-    ],
+    "Speakers": "Stephanie Lockwood-Childs",
     "Topic": "Embedded Linux"
   },
   {
@@ -895,9 +725,7 @@
     "Location": "Room 101",
     "StartTime": "2016-01-22T15:00:00-08:00",
     "EndTime": "2016-01-22T16:00:00-08:00",
-    "Speakers": [
-      "Max Mether"
-    ],
+    "Speakers": "Max Mether",
     "Topic": "MySQL"
   },
   {
@@ -906,9 +734,7 @@
     "Location": "Room 212",
     "StartTime": "2016-01-22T15:00:00-08:00",
     "EndTime": "2016-01-22T15:45:00-08:00",
-    "Speakers": [
-      "Richard Fontana"
-    ],
+    "Speakers": "Richard Fontana",
     "Topic": "Legal & Licensing"
   },
   {
@@ -917,9 +743,7 @@
     "Location": "Ballroom I",
     "StartTime": "2016-01-22T15:00:00-08:00",
     "EndTime": "2016-01-22T16:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Ubucon"
   },
   {
@@ -928,9 +752,7 @@
     "Location": "Ballroom J",
     "StartTime": "2016-01-22T15:00:00-08:00",
     "EndTime": "2016-01-22T16:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Ubucon"
   },
   {
@@ -939,9 +761,7 @@
     "Location": "Room 211",
     "StartTime": "2016-01-22T15:15:00-08:00",
     "EndTime": "2016-01-22T15:45:00-08:00",
-    "Speakers": [
-      "Simon Kuenzer"
-    ],
+    "Speakers": "Simon Kuenzer",
     "Topic": "Sponsored"
   },
   {
@@ -950,9 +770,7 @@
     "Location": "Room 106",
     "StartTime": "2016-01-22T15:30:00-08:00",
     "EndTime": "2016-01-22T16:30:00-08:00",
-    "Speakers": [
-      "Mark Wong"
-    ],
+    "Speakers": "Mark Wong",
     "Topic": "PostgreSQL"
   },
   {
@@ -961,9 +779,7 @@
     "Location": "Room 107",
     "StartTime": "2016-01-22T15:30:00-08:00",
     "EndTime": "2016-01-22T16:30:00-08:00",
-    "Speakers": [
-      "Jim Nasby"
-    ],
+    "Speakers": "Jim Nasby",
     "Topic": "PostgreSQL"
   },
   {
@@ -972,11 +788,7 @@
     "Location": "Room 211",
     "StartTime": "2016-01-22T15:45:00-08:00",
     "EndTime": "2016-01-22T16:15:00-08:00",
-    "Speakers": [
-      "Ravi Manghirmalani",
-      "Wassim Haddad",
-      "Heikki Mahkonen"
-    ],
+    "Speakers": "Ravi Manghirmalani, Wassim Haddad, Heikki Mahkonen",
     "Topic": "Sponsored"
   },
   {
@@ -985,9 +797,7 @@
     "Location": "Room 101",
     "StartTime": "2016-01-22T16:00:00-08:00",
     "EndTime": "2016-01-22T17:00:00-08:00",
-    "Speakers": [
-      "Janis Griffin"
-    ],
+    "Speakers": "Janis Griffin",
     "Topic": "MySQL"
   },
   {
@@ -996,13 +806,7 @@
     "Location": "Room 212",
     "StartTime": "2016-01-22T16:00:00-08:00",
     "EndTime": "2016-01-22T17:00:00-08:00",
-    "Speakers": [
-      "Pamela Chestek",
-      "Eileen Evans",
-      "Jennifer Dumas",
-      "Richard Fontana",
-      "Heather Meeker"
-    ],
+    "Speakers": "Pamela Chestek, Eileen Evans, Jennifer Dumas, Richard Fontana, Heather Meeker",
     "Topic": "Legal & Licensing"
   },
   {
@@ -1011,9 +815,7 @@
     "Location": "Ballroom I",
     "StartTime": "2016-01-22T16:00:00-08:00",
     "EndTime": "2016-01-22T17:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Ubucon"
   },
   {
@@ -1022,9 +824,7 @@
     "Location": "Ballroom J",
     "StartTime": "2016-01-22T16:00:00-08:00",
     "EndTime": "2016-01-22T17:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Ubucon"
   },
   {
@@ -1033,9 +833,7 @@
     "Location": "Room 104",
     "StartTime": "2016-01-22T16:00:00-08:00",
     "EndTime": "2016-01-22T16:30:00-08:00",
-    "Speakers": [
-      "Tom King"
-    ],
+    "Speakers": "Tom King",
     "Topic": "Embedded Linux"
   },
   {
@@ -1044,9 +842,7 @@
     "Location": "Room 211",
     "StartTime": "2016-01-22T16:30:00-08:00",
     "EndTime": "2016-01-22T17:00:00-08:00",
-    "Speakers": [
-      "Amir Chaudhry"
-    ],
+    "Speakers": "Amir Chaudhry",
     "Topic": "Sponsored"
   },
   {
@@ -1055,9 +851,7 @@
     "Location": "Ballroom I",
     "StartTime": "2016-01-22T17:00:00-08:00",
     "EndTime": "2016-01-22T18:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Ubucon"
   },
   {
@@ -1066,9 +860,7 @@
     "Location": "Ballroom J",
     "StartTime": "2016-01-22T17:00:00-08:00",
     "EndTime": "2016-01-22T18:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Ubucon"
   },
   {
@@ -1077,9 +869,7 @@
     "Location": "Room 211",
     "StartTime": "2016-01-22T17:00:00-08:00",
     "EndTime": "2016-01-22T17:30:00-08:00",
-    "Speakers": [
-      "Lars Kurth"
-    ],
+    "Speakers": "Lars Kurth",
     "Topic": ""
   },
   {
@@ -1088,9 +878,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2016-01-22T19:00:00-08:00",
     "EndTime": "2016-01-22T20:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "UpSCALE"
   },
   {
@@ -1099,9 +887,7 @@
     "Location": "Room 101",
     "StartTime": "2016-01-22T19:00:00-08:00",
     "EndTime": "2016-01-22T20:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -1110,9 +896,7 @@
     "Location": "Room 103",
     "StartTime": "2016-01-22T19:00:00-08:00",
     "EndTime": "2016-01-22T20:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -1121,9 +905,7 @@
     "Location": "Room 106",
     "StartTime": "2016-01-22T19:00:00-08:00",
     "EndTime": "2016-01-22T20:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -1132,9 +914,7 @@
     "Location": "Room 107",
     "StartTime": "2016-01-22T19:00:00-08:00",
     "EndTime": "2016-01-22T20:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -1143,9 +923,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2016-01-22T20:00:00-08:00",
     "EndTime": "2016-01-22T21:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Entertainment"
   },
   {
@@ -1154,9 +932,7 @@
     "Location": "Room 209",
     "StartTime": "2016-01-23T10:00:00-08:00",
     "EndTime": "2016-01-23T17:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Beginner Tutorials"
   },
   {
@@ -1165,9 +941,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2016-01-23T10:00:00-08:00",
     "EndTime": "2016-01-23T11:00:00-08:00",
-    "Speakers": [
-      "Mark Shuttleworth"
-    ],
+    "Speakers": "Mark Shuttleworth",
     "Topic": "Keynote"
   },
   {
@@ -1176,9 +950,7 @@
     "Location": "Room 106",
     "StartTime": "2016-01-23T11:30:00-08:00",
     "EndTime": "2016-01-23T12:30:00-08:00",
-    "Speakers": [
-      "Phil Dibowitz"
-    ],
+    "Speakers": "Phil Dibowitz",
     "Topic": "Mentoring"
   },
   {
@@ -1187,9 +959,7 @@
     "Location": "Ballroom A",
     "StartTime": "2016-01-23T11:30:00-08:00",
     "EndTime": "2016-01-23T12:30:00-08:00",
-    "Speakers": [
-      "Bruno Terkaly"
-    ],
+    "Speakers": "Bruno Terkaly",
     "Topic": "Cloud"
   },
   {
@@ -1198,9 +968,7 @@
     "Location": "Ballroom B",
     "StartTime": "2016-01-23T11:30:00-08:00",
     "EndTime": "2016-01-23T12:30:00-08:00",
-    "Speakers": [
-      "Patrick O'Connor"
-    ],
+    "Speakers": "Patrick O'Connor",
     "Topic": "Container and Orchestrators"
   },
   {
@@ -1209,9 +977,7 @@
     "Location": "Room 107",
     "StartTime": "2016-01-23T11:30:00-08:00",
     "EndTime": "2016-01-23T12:30:00-08:00",
-    "Speakers": [
-      "Colin McCabe"
-    ],
+    "Speakers": "Colin McCabe",
     "Topic": "Hot Applications"
   },
   {
@@ -1220,9 +986,7 @@
     "Location": "Room 101",
     "StartTime": "2016-01-23T11:30:00-08:00",
     "EndTime": "2016-01-23T12:30:00-08:00",
-    "Speakers": [
-      "Alex Juarez"
-    ],
+    "Speakers": "Alex Juarez",
     "Topic": "SysAdmin"
   },
   {
@@ -1231,9 +995,7 @@
     "Location": "Room 103",
     "StartTime": "2016-01-23T11:30:00-08:00",
     "EndTime": "2016-01-23T12:30:00-08:00",
-    "Speakers": [
-      "Noah Swartz"
-    ],
+    "Speakers": "Noah Swartz",
     "Topic": "Security"
   },
   {
@@ -1242,9 +1004,7 @@
     "Location": "Room 211",
     "StartTime": "2016-01-23T11:30:00-08:00",
     "EndTime": "2016-01-23T12:30:00-08:00",
-    "Speakers": [
-      "Lucy Wyman"
-    ],
+    "Speakers": "Lucy Wyman",
     "Topic": "Kernel"
   },
   {
@@ -1253,9 +1013,7 @@
     "Location": "Ballroom F",
     "StartTime": "2016-01-23T11:30:00-08:00",
     "EndTime": "2016-01-23T12:30:00-08:00",
-    "Speakers": [
-      "Spencer Krum"
-    ],
+    "Speakers": "Spencer Krum",
     "Topic": "New to SCALE"
   },
   {
@@ -1264,9 +1022,7 @@
     "Location": "Ballroom H",
     "StartTime": "2016-01-23T11:30:00-08:00",
     "EndTime": "2016-01-23T12:30:00-08:00",
-    "Speakers": [
-      "Michael Meskes"
-    ],
+    "Speakers": "Michael Meskes",
     "Topic": "General"
   },
   {
@@ -1275,9 +1031,7 @@
     "Location": "Room 104",
     "StartTime": "2016-01-23T11:30:00-08:00",
     "EndTime": "2016-01-23T12:30:00-08:00",
-    "Speakers": [
-      "Guillermo Antonio Amaral Bastidas"
-    ],
+    "Speakers": "Guillermo Antonio Amaral Bastidas",
     "Topic": "Embedded Linux"
   },
   {
@@ -1286,9 +1040,7 @@
     "Location": "Ballroom G",
     "StartTime": "2016-01-23T11:30:00-08:00",
     "EndTime": "2016-01-23T12:30:00-08:00",
-    "Speakers": [
-      "Akkana Peck"
-    ],
+    "Speakers": "Akkana Peck",
     "Topic": "General"
   },
   {
@@ -1297,9 +1049,7 @@
     "Location": "Ballroom C",
     "StartTime": "2016-01-23T11:30:00-08:00",
     "EndTime": "2016-01-23T12:30:00-08:00",
-    "Speakers": [
-      "Dan Hopkins"
-    ],
+    "Speakers": "Dan Hopkins",
     "Topic": "Developer"
   },
   {
@@ -1308,9 +1058,7 @@
     "Location": "Room 212",
     "StartTime": "2016-01-23T11:30:00-08:00",
     "EndTime": "2016-01-23T12:30:00-08:00",
-    "Speakers": [
-      "Schuyler St Leger"
-    ],
+    "Speakers": "Schuyler St Leger",
     "Topic": "Youth"
   },
   {
@@ -1319,9 +1067,7 @@
     "Location": "Ballroom F",
     "StartTime": "2016-01-23T13:30:00-08:00",
     "EndTime": "2016-01-23T14:30:00-08:00",
-    "Speakers": [
-      "Amanda Folson"
-    ],
+    "Speakers": "Amanda Folson",
     "Topic": "New to SCALE"
   },
   {
@@ -1330,9 +1076,7 @@
     "Location": "Ballroom C",
     "StartTime": "2016-01-23T13:30:00-08:00",
     "EndTime": "2016-01-23T14:30:00-08:00",
-    "Speakers": [
-      "A Jesse Jiryu Davis"
-    ],
+    "Speakers": "A Jesse Jiryu Davis",
     "Topic": "Developer"
   },
   {
@@ -1341,9 +1085,7 @@
     "Location": "Ballroom G",
     "StartTime": "2016-01-23T13:30:00-08:00",
     "EndTime": "2016-01-23T14:30:00-08:00",
-    "Speakers": [
-      "Keila Banks"
-    ],
+    "Speakers": "Keila Banks",
     "Topic": "General"
   },
   {
@@ -1352,9 +1094,7 @@
     "Location": "Room 101",
     "StartTime": "2016-01-23T13:30:00-08:00",
     "EndTime": "2016-01-23T14:30:00-08:00",
-    "Speakers": [
-      "Christer Edwards"
-    ],
+    "Speakers": "Christer Edwards",
     "Topic": "SysAdmin"
   },
   {
@@ -1363,9 +1103,7 @@
     "Location": "Ballroom A",
     "StartTime": "2016-01-23T13:30:00-08:00",
     "EndTime": "2016-01-23T14:30:00-08:00",
-    "Speakers": [
-      "Anthony Chow"
-    ],
+    "Speakers": "Anthony Chow",
     "Topic": "Cloud"
   },
   {
@@ -1374,9 +1112,7 @@
     "Location": "Room 107",
     "StartTime": "2016-01-23T13:30:00-08:00",
     "EndTime": "2016-01-23T14:30:00-08:00",
-    "Speakers": [
-      "Perry Rivera"
-    ],
+    "Speakers": "Perry Rivera",
     "Topic": "Hot Applications"
   },
   {
@@ -1385,9 +1121,7 @@
     "Location": "Room 103",
     "StartTime": "2016-01-23T13:30:00-08:00",
     "EndTime": "2016-01-23T14:30:00-08:00",
-    "Speakers": [
-      "Steven Pousty"
-    ],
+    "Speakers": "Steven Pousty",
     "Topic": "Security"
   },
   {
@@ -1396,9 +1130,7 @@
     "Location": "Ballroom B",
     "StartTime": "2016-01-23T13:30:00-08:00",
     "EndTime": "2016-01-23T14:30:00-08:00",
-    "Speakers": [
-      "Jason Brooks"
-    ],
+    "Speakers": "Jason Brooks",
     "Topic": "Container and Orchestrators"
   },
   {
@@ -1407,9 +1139,7 @@
     "Location": "Room 212",
     "StartTime": "2016-01-23T13:30:00-08:00",
     "EndTime": "2016-01-23T14:30:00-08:00",
-    "Speakers": [
-      "Daniel Willis"
-    ],
+    "Speakers": "Daniel Willis",
     "Topic": "Youth"
   },
   {
@@ -1418,9 +1148,7 @@
     "Location": "Room 211",
     "StartTime": "2016-01-23T13:30:00-08:00",
     "EndTime": "2016-01-23T14:30:00-08:00",
-    "Speakers": [
-      "Yannick Brosseau"
-    ],
+    "Speakers": "Yannick Brosseau",
     "Topic": "Kernel"
   },
   {
@@ -1429,9 +1157,7 @@
     "Location": "Room 106",
     "StartTime": "2016-01-23T13:30:00-08:00",
     "EndTime": "2016-01-23T14:30:00-08:00",
-    "Speakers": [
-      "Nithya Ruff"
-    ],
+    "Speakers": "Nithya Ruff",
     "Topic": "Mentoring"
   },
   {
@@ -1440,9 +1166,7 @@
     "Location": "Ballroom H",
     "StartTime": "2016-01-23T13:30:00-08:00",
     "EndTime": "2016-01-23T14:30:00-08:00",
-    "Speakers": [
-      "Robinson Tryon"
-    ],
+    "Speakers": "Robinson Tryon",
     "Topic": "General"
   },
   {
@@ -1451,10 +1175,7 @@
     "Location": "Room 104",
     "StartTime": "2016-01-23T13:30:00-08:00",
     "EndTime": "2016-01-23T14:30:00-08:00",
-    "Speakers": [
-      "Jos Poortvliet",
-      "Frank Karlitschek"
-    ],
+    "Speakers": "Jos Poortvliet, Frank Karlitschek",
     "Topic": "Embedded Linux"
   },
   {
@@ -1463,9 +1184,7 @@
     "Location": "Room 106",
     "StartTime": "2016-01-23T15:00:00-08:00",
     "EndTime": "2016-01-23T16:00:00-08:00",
-    "Speakers": [
-      "Jenn Greenaway"
-    ],
+    "Speakers": "Jenn Greenaway",
     "Topic": "Mentoring"
   },
   {
@@ -1474,9 +1193,7 @@
     "Location": "Ballroom F",
     "StartTime": "2016-01-23T15:00:00-08:00",
     "EndTime": "2016-01-23T16:00:00-08:00",
-    "Speakers": [
-      "Richard Wareing"
-    ],
+    "Speakers": "Richard Wareing",
     "Topic": "New to SCALE"
   },
   {
@@ -1485,9 +1202,7 @@
     "Location": "Ballroom H",
     "StartTime": "2016-01-23T15:00:00-08:00",
     "EndTime": "2016-01-23T16:00:00-08:00",
-    "Speakers": [
-      "Katrina Hayes"
-    ],
+    "Speakers": "Katrina Hayes",
     "Topic": "General"
   },
   {
@@ -1496,9 +1211,7 @@
     "Location": "Room 107",
     "StartTime": "2016-01-23T15:00:00-08:00",
     "EndTime": "2016-01-23T16:00:00-08:00",
-    "Speakers": [
-      "Bruce Momjian"
-    ],
+    "Speakers": "Bruce Momjian",
     "Topic": "Hot Applications"
   },
   {
@@ -1507,9 +1220,7 @@
     "Location": "Ballroom A",
     "StartTime": "2016-01-23T15:00:00-08:00",
     "EndTime": "2016-01-23T16:00:00-08:00",
-    "Speakers": [
-      "Darron Froese"
-    ],
+    "Speakers": "Darron Froese",
     "Topic": "Cloud"
   },
   {
@@ -1518,9 +1229,7 @@
     "Location": "Ballroom G",
     "StartTime": "2016-01-23T15:00:00-08:00",
     "EndTime": "2016-01-23T16:00:00-08:00",
-    "Speakers": [
-      "Dru Lavigne"
-    ],
+    "Speakers": "Dru Lavigne",
     "Topic": "General"
   },
   {
@@ -1529,9 +1238,7 @@
     "Location": "Ballroom B",
     "StartTime": "2016-01-23T15:00:00-08:00",
     "EndTime": "2016-01-23T16:00:00-08:00",
-    "Speakers": [
-      "Russell Pavlicek"
-    ],
+    "Speakers": "Russell Pavlicek",
     "Topic": "Container and Orchestrators"
   },
   {
@@ -1540,9 +1247,7 @@
     "Location": "Room 101",
     "StartTime": "2016-01-23T15:00:00-08:00",
     "EndTime": "2016-01-23T16:00:00-08:00",
-    "Speakers": [
-      "Michael Hrivnak"
-    ],
+    "Speakers": "Michael Hrivnak",
     "Topic": "SysAdmin"
   },
   {
@@ -1551,10 +1256,7 @@
     "Location": "Room 211",
     "StartTime": "2016-01-23T15:00:00-08:00",
     "EndTime": "2016-01-23T16:00:00-08:00",
-    "Speakers": [
-      "Andrei Vagin",
-      "Kirill Kolyshkin"
-    ],
+    "Speakers": "Andrei Vagin, Kirill Kolyshkin",
     "Topic": "Kernel"
   },
   {
@@ -1563,9 +1265,7 @@
     "Location": "Ballroom C",
     "StartTime": "2016-01-23T15:00:00-08:00",
     "EndTime": "2016-01-23T16:00:00-08:00",
-    "Speakers": [
-      "RTyler Croy"
-    ],
+    "Speakers": "RTyler Croy",
     "Topic": "Developer"
   },
   {
@@ -1574,12 +1274,7 @@
     "Location": "Room 212",
     "StartTime": "2016-01-23T15:00:00-08:00",
     "EndTime": "2016-01-23T16:00:00-08:00",
-    "Speakers": [
-      "Victor Jimenez",
-      "Rich Unite",
-      "Yolanda Kol",
-      "Koda Kol"
-    ],
+    "Speakers": "Victor Jimenez, Rich Unite, Yolanda Kol, Koda Kol",
     "Topic": "Youth"
   },
   {
@@ -1588,9 +1283,7 @@
     "Location": "Room 103",
     "StartTime": "2016-01-23T15:00:00-08:00",
     "EndTime": "2016-01-23T16:00:00-08:00",
-    "Speakers": [
-      "Justin Mayer"
-    ],
+    "Speakers": "Justin Mayer",
     "Topic": "Security"
   },
   {
@@ -1599,9 +1292,7 @@
     "Location": "Room 104",
     "StartTime": "2016-01-23T15:00:00-08:00",
     "EndTime": "2016-01-23T16:00:00-08:00",
-    "Speakers": [
-      "David Anders"
-    ],
+    "Speakers": "David Anders",
     "Topic": "Embedded Linux"
   },
   {
@@ -1610,9 +1301,7 @@
     "Location": "Room 101",
     "StartTime": "2016-01-23T16:30:00-08:00",
     "EndTime": "2016-01-23T17:30:00-08:00",
-    "Speakers": [
-      "John Marrett"
-    ],
+    "Speakers": "John Marrett",
     "Topic": "SysAdmin"
   },
   {
@@ -1621,9 +1310,7 @@
     "Location": "Room 211",
     "StartTime": "2016-01-23T16:30:00-08:00",
     "EndTime": "2016-01-23T17:30:00-08:00",
-    "Speakers": [
-      "Brenden Blanco"
-    ],
+    "Speakers": "Brenden Blanco",
     "Topic": "Kernel"
   },
   {
@@ -1632,9 +1319,7 @@
     "Location": "Room 103",
     "StartTime": "2016-01-23T16:30:00-08:00",
     "EndTime": "2016-01-23T17:30:00-08:00",
-    "Speakers": [
-      "Kyle Rankin"
-    ],
+    "Speakers": "Kyle Rankin",
     "Topic": "Security"
   },
   {
@@ -1643,9 +1328,7 @@
     "Location": "Ballroom F",
     "StartTime": "2016-01-23T16:30:00-08:00",
     "EndTime": "2016-01-23T17:30:00-08:00",
-    "Speakers": [
-      "Victor Gajendran"
-    ],
+    "Speakers": "Victor Gajendran",
     "Topic": "New to SCALE"
   },
   {
@@ -1654,9 +1337,7 @@
     "Location": "Room 212",
     "StartTime": "2016-01-23T16:30:00-08:00",
     "EndTime": "2016-01-23T17:30:00-08:00",
-    "Speakers": [
-      "Caleb Lettieri"
-    ],
+    "Speakers": "Caleb Lettieri",
     "Topic": "Youth"
   },
   {
@@ -1665,9 +1346,7 @@
     "Location": "Ballroom C",
     "StartTime": "2016-01-23T16:30:00-08:00",
     "EndTime": "2016-01-23T17:30:00-08:00",
-    "Speakers": [
-      "Nick Isaacs"
-    ],
+    "Speakers": "Nick Isaacs",
     "Topic": "Developer"
   },
   {
@@ -1676,9 +1355,7 @@
     "Location": "Room 104",
     "StartTime": "2016-01-23T16:30:00-08:00",
     "EndTime": "2016-01-23T17:30:00-08:00",
-    "Speakers": [
-      "Ken Eshelby"
-    ],
+    "Speakers": "Ken Eshelby",
     "Topic": "Embedded Linux"
   },
   {
@@ -1687,9 +1364,7 @@
     "Location": "Room 107",
     "StartTime": "2016-01-23T16:30:00-08:00",
     "EndTime": "2016-01-23T17:30:00-08:00",
-    "Speakers": [
-      "Eduardo Silva"
-    ],
+    "Speakers": "Eduardo Silva",
     "Topic": "Hot Applications"
   },
   {
@@ -1698,9 +1373,7 @@
     "Location": "Ballroom G",
     "StartTime": "2016-01-23T16:30:00-08:00",
     "EndTime": "2016-01-23T17:30:00-08:00",
-    "Speakers": [
-      "Jim Salter"
-    ],
+    "Speakers": "Jim Salter",
     "Topic": "General"
   },
   {
@@ -1709,9 +1382,7 @@
     "Location": "Ballroom A",
     "StartTime": "2016-01-23T16:30:00-08:00",
     "EndTime": "2016-01-23T17:30:00-08:00",
-    "Speakers": [
-      "Parker Abercrombie"
-    ],
+    "Speakers": "Parker Abercrombie",
     "Topic": "Cloud"
   },
   {
@@ -1720,9 +1391,7 @@
     "Location": "Ballroom H",
     "StartTime": "2016-01-23T16:30:00-08:00",
     "EndTime": "2016-01-23T17:30:00-08:00",
-    "Speakers": [
-      "Jono Bacon"
-    ],
+    "Speakers": "Jono Bacon",
     "Topic": "General"
   },
   {
@@ -1731,9 +1400,7 @@
     "Location": "Room 106",
     "StartTime": "2016-01-23T16:30:00-08:00",
     "EndTime": "2016-01-23T17:30:00-08:00",
-    "Speakers": [
-      "Jos Poortvliet"
-    ],
+    "Speakers": "Jos Poortvliet",
     "Topic": "Mentoring"
   },
   {
@@ -1742,9 +1409,7 @@
     "Location": "Ballroom B",
     "StartTime": "2016-01-23T16:30:00-08:00",
     "EndTime": "2016-01-23T17:30:00-08:00",
-    "Speakers": [
-      "Brandon Philips"
-    ],
+    "Speakers": "Brandon Philips",
     "Topic": "Container and Orchestrators"
   },
   {
@@ -1753,9 +1418,7 @@
     "Location": "Ballroom H",
     "StartTime": "2016-01-23T18:00:00-08:00",
     "EndTime": "2016-01-23T19:00:00-08:00",
-    "Speakers": [
-      "Nathan Haines"
-    ],
+    "Speakers": "Nathan Haines",
     "Topic": "General"
   },
   {
@@ -1764,9 +1427,7 @@
     "Location": "Room 103",
     "StartTime": "2016-01-23T18:00:00-08:00",
     "EndTime": "2016-01-23T19:00:00-08:00",
-    "Speakers": [
-      "Imran Shaikh"
-    ],
+    "Speakers": "Imran Shaikh",
     "Topic": "Security"
   },
   {
@@ -1775,9 +1436,7 @@
     "Location": "Room 101",
     "StartTime": "2016-01-23T18:00:00-08:00",
     "EndTime": "2016-01-23T19:00:00-08:00",
-    "Speakers": [
-      "David Boucha"
-    ],
+    "Speakers": "David Boucha",
     "Topic": "SysAdmin"
   },
   {
@@ -1786,9 +1445,7 @@
     "Location": "Ballroom B",
     "StartTime": "2016-01-23T18:00:00-08:00",
     "EndTime": "2016-01-23T19:00:00-08:00",
-    "Speakers": [
-      "Adrian Otto"
-    ],
+    "Speakers": "Adrian Otto",
     "Topic": "Container and Orchestrators"
   },
   {
@@ -1797,9 +1454,7 @@
     "Location": "Ballroom F",
     "StartTime": "2016-01-23T18:00:00-08:00",
     "EndTime": "2016-01-23T19:00:00-08:00",
-    "Speakers": [
-      "Douglas DeMaio"
-    ],
+    "Speakers": "Douglas DeMaio",
     "Topic": "New to SCALE"
   },
   {
@@ -1808,12 +1463,7 @@
     "Location": "Room 212",
     "StartTime": "2016-01-23T18:00:00-08:00",
     "EndTime": "2016-01-23T19:00:00-08:00",
-    "Speakers": [
-      "Roger Powell",
-      "Melissa Sparks",
-      "Daniele Ramsey",
-      "Carrie Raleigh"
-    ],
+    "Speakers": "Roger Powell, Melissa Sparks, Daniele Ramsey, Carrie Raleigh",
     "Topic": "Youth"
   },
   {
@@ -1822,9 +1472,7 @@
     "Location": "Room 106",
     "StartTime": "2016-01-23T18:00:00-08:00",
     "EndTime": "2016-01-23T19:00:00-08:00",
-    "Speakers": [
-      "Jeremy Kitchen"
-    ],
+    "Speakers": "Jeremy Kitchen",
     "Topic": "Mentoring"
   },
   {
@@ -1833,9 +1481,7 @@
     "Location": "Ballroom G",
     "StartTime": "2016-01-23T18:00:00-08:00",
     "EndTime": "2016-01-23T19:00:00-08:00",
-    "Speakers": [
-      "Jason Hibbets"
-    ],
+    "Speakers": "Jason Hibbets",
     "Topic": "General"
   },
   {
@@ -1844,10 +1490,7 @@
     "Location": "Ballroom C",
     "StartTime": "2016-01-23T18:00:00-08:00",
     "EndTime": "2016-01-23T19:00:00-08:00",
-    "Speakers": [
-      "Herman Radtke",
-      "Joel Salas"
-    ],
+    "Speakers": "Herman Radtke, Joel Salas",
     "Topic": "Developer"
   },
   {
@@ -1856,9 +1499,7 @@
     "Location": "Room 107",
     "StartTime": "2016-01-23T18:00:00-08:00",
     "EndTime": "2016-01-23T19:00:00-08:00",
-    "Speakers": [
-      "Florian Drescher"
-    ],
+    "Speakers": "Florian Drescher",
     "Topic": "Hot Applications"
   },
   {
@@ -1867,9 +1508,7 @@
     "Location": "Ballroom A",
     "StartTime": "2016-01-23T18:00:00-08:00",
     "EndTime": "2016-01-23T19:00:00-08:00",
-    "Speakers": [
-      "Rami AlGhanmi"
-    ],
+    "Speakers": "Rami AlGhanmi",
     "Topic": "Cloud"
   },
   {
@@ -1878,9 +1517,7 @@
     "Location": "Room 211",
     "StartTime": "2016-01-23T18:00:00-08:00",
     "EndTime": "2016-01-23T19:00:00-08:00",
-    "Speakers": [
-      "Mark Fasheh"
-    ],
+    "Speakers": "Mark Fasheh",
     "Topic": "Kernel"
   },
   {
@@ -1889,9 +1526,7 @@
     "Location": "Room 101",
     "StartTime": "2016-01-23T19:00:00-08:00",
     "EndTime": "2016-01-23T20:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -1900,9 +1535,7 @@
     "Location": "Room 103",
     "StartTime": "2016-01-23T19:00:00-08:00",
     "EndTime": "2016-01-23T20:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -1911,9 +1544,7 @@
     "Location": "Room 104",
     "StartTime": "2016-01-23T19:00:00-08:00",
     "EndTime": "2016-01-23T20:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -1922,9 +1553,7 @@
     "Location": "Room 106",
     "StartTime": "2016-01-23T19:00:00-08:00",
     "EndTime": "2016-01-23T20:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -1933,9 +1562,7 @@
     "Location": "Room 107",
     "StartTime": "2016-01-23T19:00:00-08:00",
     "EndTime": "2016-01-23T20:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -1944,9 +1571,7 @@
     "Location": "Room 209",
     "StartTime": "2016-01-23T19:00:00-08:00",
     "EndTime": "2016-01-23T20:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -1955,9 +1580,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2016-01-23T20:00:00-08:00",
     "EndTime": "2016-01-23T21:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Entertainment"
   },
   {
@@ -1966,9 +1589,7 @@
     "Location": "Exhibit Hall",
     "StartTime": "2016-01-23T20:00:00-08:00",
     "EndTime": "2016-01-23T21:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Entertainment"
   },
   {
@@ -1977,9 +1598,7 @@
     "Location": "Ballroom I",
     "StartTime": "2016-01-23T20:00:00-08:00",
     "EndTime": "2016-01-23T21:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Entertainment"
   },
   {
@@ -1988,9 +1607,7 @@
     "Location": "Ballroom J",
     "StartTime": "2016-01-23T20:00:00-08:00",
     "EndTime": "2016-01-23T21:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Entertainment"
   },
   {
@@ -1999,9 +1616,7 @@
     "Location": "Room 103",
     "StartTime": "2016-01-23T20:00:00-08:00",
     "EndTime": "2016-01-23T21:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "BoFs"
   },
   {
@@ -2010,9 +1625,7 @@
     "Location": "Exhibit Hall",
     "StartTime": "2016-01-23T21:00:00-08:00",
     "EndTime": "2016-01-23T23:30:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Entertainment"
   },
   {
@@ -2021,9 +1634,7 @@
     "Location": "Ballroom I",
     "StartTime": "2016-01-23T21:00:00-08:00",
     "EndTime": "2016-01-23T23:30:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Entertainment"
   },
   {
@@ -2032,9 +1643,7 @@
     "Location": "Ballroom J",
     "StartTime": "2016-01-23T21:00:00-08:00",
     "EndTime": "2016-01-23T23:30:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Entertainment"
   },
   {
@@ -2043,9 +1652,7 @@
     "Location": "Room 106",
     "StartTime": "2016-01-23T21:00:00-08:00",
     "EndTime": "2016-01-23T22:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": ""
   },
   {
@@ -2054,9 +1661,7 @@
     "Location": "Ballroom DE",
     "StartTime": "2016-01-24T10:00:00-08:00",
     "EndTime": "2016-01-24T11:00:00-08:00",
-    "Speakers": [
-      "Sarah Sharp"
-    ],
+    "Speakers": "Sarah Sharp",
     "Topic": "Keynote"
   },
   {
@@ -2065,9 +1670,7 @@
     "Location": "Room 209",
     "StartTime": "2016-01-24T10:00:00-08:00",
     "EndTime": "2016-01-24T17:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": "Beginner Tutorials"
   },
   {
@@ -2076,9 +1679,7 @@
     "Location": "Ballroom I",
     "StartTime": "2016-01-24T11:00:00-08:00",
     "EndTime": "2016-01-24T12:30:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": ""
   },
   {
@@ -2087,9 +1688,7 @@
     "Location": "Ballroom J",
     "StartTime": "2016-01-24T11:00:00-08:00",
     "EndTime": "2016-01-24T15:00:00-08:00",
-    "Speakers": [
-      ""
-    ],
+    "Speakers": "",
     "Topic": ""
   },
   {
@@ -2098,9 +1697,7 @@
     "Location": "Room 106",
     "StartTime": "2016-01-24T11:30:00-08:00",
     "EndTime": "2016-01-24T12:30:00-08:00",
-    "Speakers": [
-      "Brian Proffitt"
-    ],
+    "Speakers": "Brian Proffitt",
     "Topic": "Mentoring"
   },
   {
@@ -2109,9 +1706,7 @@
     "Location": "Ballroom F",
     "StartTime": "2016-01-24T11:30:00-08:00",
     "EndTime": "2016-01-24T12:30:00-08:00",
-    "Speakers": [
-      "Cassidy Blaede"
-    ],
+    "Speakers": "Cassidy Blaede",
     "Topic": "New to SCALE"
   },
   {
@@ -2120,9 +1715,7 @@
     "Location": "Room 104",
     "StartTime": "2016-01-24T11:30:00-08:00",
     "EndTime": "2016-01-24T12:30:00-08:00",
-    "Speakers": [
-      "Tom Callaway"
-    ],
+    "Speakers": "Tom Callaway",
     "Topic": "Open Source Software In Education"
   },
   {
@@ -2131,9 +1724,7 @@
     "Location": "Ballroom A",
     "StartTime": "2016-01-24T11:30:00-08:00",
     "EndTime": "2016-01-24T12:30:00-08:00",
-    "Speakers": [
-      "Stormy Peters"
-    ],
+    "Speakers": "Stormy Peters",
     "Topic": "Cloud"
   },
   {
@@ -2142,9 +1733,7 @@
     "Location": "Ballroom C",
     "StartTime": "2016-01-24T11:30:00-08:00",
     "EndTime": "2016-01-24T12:30:00-08:00",
-    "Speakers": [
-      "Randal Schwartz"
-    ],
+    "Speakers": "Randal Schwartz",
     "Topic": "Developer"
   },
   {
@@ -2153,9 +1742,7 @@
     "Location": "Ballroom H",
     "StartTime": "2016-01-24T11:30:00-08:00",
     "EndTime": "2016-01-24T12:30:00-08:00",
-    "Speakers": [
-      "Robert Reselman"
-    ],
+    "Speakers": "Robert Reselman",
     "Topic": "General"
   },
   {
@@ -2164,9 +1751,7 @@
     "Location": "Room 107",
     "StartTime": "2016-01-24T11:30:00-08:00",
     "EndTime": "2016-01-24T12:30:00-08:00",
-    "Speakers": [
-      "Aaron Wolf"
-    ],
+    "Speakers": "Aaron Wolf",
     "Topic": ""
   },
   {
@@ -2175,9 +1760,7 @@
     "Location": "Ballroom G",
     "StartTime": "2016-01-24T11:30:00-08:00",
     "EndTime": "2016-01-24T12:30:00-08:00",
-    "Speakers": [
-      "Ruth Suehle"
-    ],
+    "Speakers": "Ruth Suehle",
     "Topic": "General"
   },
   {
@@ -2186,10 +1769,7 @@
     "Location": "Room 211",
     "StartTime": "2016-01-24T11:30:00-08:00",
     "EndTime": "2016-01-24T12:30:00-08:00",
-    "Speakers": [
-      "Jorge Castro",
-      "Kevin Monroe"
-    ],
+    "Speakers": "Jorge Castro, Kevin Monroe",
     "Topic": "Big Data"
   },
   {
@@ -2198,9 +1778,7 @@
     "Location": "Room 103",
     "StartTime": "2016-01-24T11:30:00-08:00",
     "EndTime": "2016-01-24T12:30:00-08:00",
-    "Speakers": [
-      "Carlos Meza"
-    ],
+    "Speakers": "Carlos Meza",
     "Topic": "Security"
   },
   {
@@ -2209,9 +1787,7 @@
     "Location": "Ballroom B",
     "StartTime": "2016-01-24T11:30:00-08:00",
     "EndTime": "2016-01-24T12:30:00-08:00",
-    "Speakers": [
-      "Thomas Cameron"
-    ],
+    "Speakers": "Thomas Cameron",
     "Topic": "Container and Orchestrators"
   },
   {
@@ -2220,10 +1796,7 @@
     "Location": "Room 101",
     "StartTime": "2016-01-24T11:30:00-08:00",
     "EndTime": "2016-01-24T12:30:00-08:00",
-    "Speakers": [
-      "Jonah Horowitz",
-      "Albert Tobey"
-    ],
+    "Speakers": "Jonah Horowitz, Albert Tobey",
     "Topic": "SysAdmin"
   },
   {
@@ -2232,9 +1805,7 @@
     "Location": "Room 101",
     "StartTime": "2016-01-24T13:30:00-08:00",
     "EndTime": "2016-01-24T14:30:00-08:00",
-    "Speakers": [
-      "Owen DeLong"
-    ],
+    "Speakers": "Owen DeLong",
     "Topic": "SysAdmin"
   },
   {
@@ -2243,9 +1814,7 @@
     "Location": "Room 103",
     "StartTime": "2016-01-24T13:30:00-08:00",
     "EndTime": "2016-01-24T14:30:00-08:00",
-    "Speakers": [
-      "John Wilson"
-    ],
+    "Speakers": "John Wilson",
     "Topic": "Security"
   },
   {
@@ -2254,9 +1823,7 @@
     "Location": "Ballroom G",
     "StartTime": "2016-01-24T13:30:00-08:00",
     "EndTime": "2016-01-24T14:30:00-08:00",
-    "Speakers": [
-      "Andrew Grangaard"
-    ],
+    "Speakers": "Andrew Grangaard",
     "Topic": "General"
   },
   {
@@ -2265,9 +1832,7 @@
     "Location": "Ballroom A",
     "StartTime": "2016-01-24T13:30:00-08:00",
     "EndTime": "2016-01-24T14:30:00-08:00",
-    "Speakers": [
-      "Mark Hinkle"
-    ],
+    "Speakers": "Mark Hinkle",
     "Topic": "Cloud"
   },
   {
@@ -2276,9 +1841,7 @@
     "Location": "Ballroom B",
     "StartTime": "2016-01-24T13:30:00-08:00",
     "EndTime": "2016-01-24T14:30:00-08:00",
-    "Speakers": [
-      "John Willis"
-    ],
+    "Speakers": "John Willis",
     "Topic": "Container and Orchestrators"
   },
   {
@@ -2287,9 +1850,7 @@
     "Location": "Ballroom F",
     "StartTime": "2016-01-24T13:30:00-08:00",
     "EndTime": "2016-01-24T14:30:00-08:00",
-    "Speakers": [
-      "Steve Holmes"
-    ],
+    "Speakers": "Steve Holmes",
     "Topic": "New to SCALE"
   },
   {
@@ -2298,9 +1859,7 @@
     "Location": "Room 106",
     "StartTime": "2016-01-24T13:30:00-08:00",
     "EndTime": "2016-01-24T14:30:00-08:00",
-    "Speakers": [
-      "Stephen Walli"
-    ],
+    "Speakers": "Stephen Walli",
     "Topic": "Mentoring"
   },
   {
@@ -2309,9 +1868,7 @@
     "Location": "Room 107",
     "StartTime": "2016-01-24T13:30:00-08:00",
     "EndTime": "2016-01-24T14:30:00-08:00",
-    "Speakers": [
-      "Nick Shadrin"
-    ],
+    "Speakers": "Nick Shadrin",
     "Topic": "Hot Applications"
   },
   {
@@ -2320,9 +1877,7 @@
     "Location": "Room 104",
     "StartTime": "2016-01-24T13:30:00-08:00",
     "EndTime": "2016-01-24T14:30:00-08:00",
-    "Speakers": [
-      "Gina Likins"
-    ],
+    "Speakers": "Gina Likins",
     "Topic": "Open Source Software In Education"
   },
   {
@@ -2331,9 +1886,7 @@
     "Location": "Ballroom C",
     "StartTime": "2016-01-24T13:30:00-08:00",
     "EndTime": "2016-01-24T14:30:00-08:00",
-    "Speakers": [
-      "John Billings"
-    ],
+    "Speakers": "John Billings",
     "Topic": "Developer"
   },
   {
@@ -2342,10 +1895,7 @@
     "Location": "Room 211",
     "StartTime": "2016-01-24T13:30:00-08:00",
     "EndTime": "2016-01-24T14:30:00-08:00",
-    "Speakers": [
-      "Ashish Thusoo",
-      "Rob Griesmeyer"
-    ],
+    "Speakers": "Ashish Thusoo, Rob Griesmeyer",
     "Topic": "Big Data"
   },
   {
@@ -2354,9 +1904,7 @@
     "Location": "Ballroom H",
     "StartTime": "2016-01-24T13:30:00-08:00",
     "EndTime": "2016-01-24T14:30:00-08:00",
-    "Speakers": [
-      "Brendan Gregg"
-    ],
+    "Speakers": "Brendan Gregg",
     "Topic": "General"
   },
   {
@@ -2365,9 +1913,7 @@
     "Location": "Room 103",
     "StartTime": "2016-01-24T15:00:00-08:00",
     "EndTime": "2016-01-24T16:00:00-08:00",
-    "Speakers": [
-      "Daniel Walsh"
-    ],
+    "Speakers": "Daniel Walsh",
     "Topic": "Security"
   },
   {
@@ -2376,9 +1922,7 @@
     "Location": "Ballroom H",
     "StartTime": "2016-01-24T15:00:00-08:00",
     "EndTime": "2016-01-24T16:00:00-08:00",
-    "Speakers": [
-      "Scott Suehle"
-    ],
+    "Speakers": "Scott Suehle",
     "Topic": "General"
   },
   {
@@ -2387,9 +1931,7 @@
     "Location": "Room 101",
     "StartTime": "2016-01-24T15:00:00-08:00",
     "EndTime": "2016-01-24T16:00:00-08:00",
-    "Speakers": [
-      "Josh Berkus"
-    ],
+    "Speakers": "Josh Berkus",
     "Topic": "SysAdmin"
   },
   {
@@ -2398,9 +1940,7 @@
     "Location": "Room 211",
     "StartTime": "2016-01-24T15:00:00-08:00",
     "EndTime": "2016-01-24T16:00:00-08:00",
-    "Speakers": [
-      "Peter Czanik"
-    ],
+    "Speakers": "Peter Czanik",
     "Topic": "Big Data"
   },
   {
@@ -2409,9 +1949,7 @@
     "Location": "Room 104",
     "StartTime": "2016-01-24T15:00:00-08:00",
     "EndTime": "2016-01-24T16:00:00-08:00",
-    "Speakers": [
-      "jeremy Schwartz"
-    ],
+    "Speakers": "jeremy Schwartz",
     "Topic": "Open Source Software In Education"
   },
   {
@@ -2420,9 +1958,7 @@
     "Location": "Ballroom A",
     "StartTime": "2016-01-24T15:00:00-08:00",
     "EndTime": "2016-01-24T16:00:00-08:00",
-    "Speakers": [
-      "Lars Kurth"
-    ],
+    "Speakers": "Lars Kurth",
     "Topic": "Cloud"
   },
   {
@@ -2431,9 +1967,7 @@
     "Location": "Ballroom F",
     "StartTime": "2016-01-24T15:00:00-08:00",
     "EndTime": "2016-01-24T16:00:00-08:00",
-    "Speakers": [
-      "Amye Scavarda"
-    ],
+    "Speakers": "Amye Scavarda",
     "Topic": "New to SCALE"
   },
   {
@@ -2442,9 +1976,7 @@
     "Location": "Room 107",
     "StartTime": "2016-01-24T15:00:00-08:00",
     "EndTime": "2016-01-24T16:00:00-08:00",
-    "Speakers": [
-      "Lance Albertson"
-    ],
+    "Speakers": "Lance Albertson",
     "Topic": "Hot Applications"
   },
   {
@@ -2453,9 +1985,7 @@
     "Location": "Room 106",
     "StartTime": "2016-01-24T15:00:00-08:00",
     "EndTime": "2016-01-24T16:00:00-08:00",
-    "Speakers": [
-      "Deb Nicholson"
-    ],
+    "Speakers": "Deb Nicholson",
     "Topic": "Mentoring"
   },
   {
@@ -2464,9 +1994,7 @@
     "Location": "Ballroom C",
     "StartTime": "2016-01-24T15:00:00-08:00",
     "EndTime": "2016-01-24T16:00:00-08:00",
-    "Speakers": [
-      "Herman Radtke"
-    ],
+    "Speakers": "Herman Radtke",
     "Topic": "Developer"
   },
   {
@@ -2475,10 +2003,7 @@
     "Location": "Ballroom G",
     "StartTime": "2016-01-24T15:00:00-08:00",
     "EndTime": "2016-01-24T16:00:00-08:00",
-    "Speakers": [
-      "Eva Gantz",
-      "Duane O'Brien"
-    ],
+    "Speakers": "Eva Gantz, Duane O'Brien",
     "Topic": "General"
   },
   {
@@ -2487,9 +2012,7 @@
     "Location": "Ballroom B",
     "StartTime": "2016-01-24T15:00:00-08:00",
     "EndTime": "2016-01-24T16:00:00-08:00",
-    "Speakers": [
-      "Chet Burgess"
-    ],
+    "Speakers": "Chet Burgess",
     "Topic": "Container and Orchestrators"
   },
   {
@@ -2498,9 +2021,7 @@
     "Location": "Room 212",
     "StartTime": "2016-01-24T15:00:00-08:00",
     "EndTime": "2016-01-24T17:00:00-08:00",
-    "Speakers": [
-      "Ron Evans"
-    ],
+    "Speakers": "Ron Evans",
     "Topic": "ScaleU"
   },
   {
@@ -2509,9 +2030,7 @@
     "Location": "Room 103",
     "StartTime": "2016-01-24T16:30:00-08:00",
     "EndTime": "2016-01-24T17:30:00-08:00",
-    "Speakers": [
-      "Chris VanTuin"
-    ],
+    "Speakers": "Chris VanTuin",
     "Topic": "Security"
   },
   {
@@ -2520,9 +2039,7 @@
     "Location": "Ballroom C",
     "StartTime": "2016-01-24T16:30:00-08:00",
     "EndTime": "2016-01-24T17:30:00-08:00",
-    "Speakers": [
-      "Corey Quinn"
-    ],
+    "Speakers": "Corey Quinn",
     "Topic": "Developer"
   },
   {
@@ -2531,9 +2048,7 @@
     "Location": "Room 107",
     "StartTime": "2016-01-24T16:30:00-08:00",
     "EndTime": "2016-01-24T17:30:00-08:00",
-    "Speakers": [
-      "Bryan Reinero"
-    ],
+    "Speakers": "Bryan Reinero",
     "Topic": "Hot Applications"
   },
   {
@@ -2542,9 +2057,7 @@
     "Location": "Ballroom A",
     "StartTime": "2016-01-24T16:30:00-08:00",
     "EndTime": "2016-01-24T17:30:00-08:00",
-    "Speakers": [
-      "Sandro Mathys"
-    ],
+    "Speakers": "Sandro Mathys",
     "Topic": "Cloud"
   },
   {
@@ -2553,9 +2066,7 @@
     "Location": "Room 101",
     "StartTime": "2016-01-24T16:30:00-08:00",
     "EndTime": "2016-01-24T17:30:00-08:00",
-    "Speakers": [
-      "der hans"
-    ],
+    "Speakers": "der hans",
     "Topic": "SysAdmin"
   },
   {
@@ -2564,9 +2075,7 @@
     "Location": "Ballroom H",
     "StartTime": "2016-01-24T16:30:00-08:00",
     "EndTime": "2016-01-24T17:30:00-08:00",
-    "Speakers": [
-      "Eric Schultz"
-    ],
+    "Speakers": "Eric Schultz",
     "Topic": "General"
   },
   {
@@ -2575,9 +2084,7 @@
     "Location": "Ballroom G",
     "StartTime": "2016-01-24T16:30:00-08:00",
     "EndTime": "2016-01-24T17:30:00-08:00",
-    "Speakers": [
-      "Dustin Kirkland"
-    ],
+    "Speakers": "Dustin Kirkland",
     "Topic": "General"
   },
   {
@@ -2586,9 +2093,7 @@
     "Location": "Room 211",
     "StartTime": "2016-01-24T16:30:00-08:00",
     "EndTime": "2016-01-24T17:30:00-08:00",
-    "Speakers": [
-      "Don Marti"
-    ],
+    "Speakers": "Don Marti",
     "Topic": "Big Data"
   },
   {
@@ -2597,9 +2102,7 @@
     "Location": "Room 106",
     "StartTime": "2016-01-24T16:30:00-08:00",
     "EndTime": "2016-01-24T17:30:00-08:00",
-    "Speakers": [
-      "John Hawley"
-    ],
+    "Speakers": "John Hawley",
     "Topic": "Mentoring"
   },
   {
@@ -2608,9 +2111,7 @@
     "Location": "Room 104",
     "StartTime": "2016-01-24T16:30:00-08:00",
     "EndTime": "2016-01-24T17:30:00-08:00",
-    "Speakers": [
-      "Yolanda Kol"
-    ],
+    "Speakers": "Yolanda Kol",
     "Topic": "Open Source Software In Education"
   },
   {
@@ -2619,9 +2120,7 @@
     "Location": "Ballroom B",
     "StartTime": "2016-01-24T16:30:00-08:00",
     "EndTime": "2016-01-24T17:30:00-08:00",
-    "Speakers": [
-      "Amit Shah"
-    ],
+    "Speakers": "Amit Shah",
     "Topic": "Container and Orchestrators"
   }
 ]

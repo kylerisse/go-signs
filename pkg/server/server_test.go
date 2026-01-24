@@ -13,38 +13,33 @@ import (
 	"github.com/kylerisse/go-signs/pkg/schedule"
 )
 
-// TestServer validates that the server functions correctly with a test XML file
+// TestServer validates that the server functions correctly with a test JSON file
 func TestServer(t *testing.T) {
 	// Use a fixed port for local testing
 	port := "7102"
-	testXMLPath := filepath.Join("testdata", "sign.xml")
 	testJSONPath := filepath.Join("testdata", "sign.json")
 
-	// Create a file server to serve the test XML and JSON
+	// Create a file server to serve the test JSON
 	localServer := http.NewServeMux()
-	localServer.HandleFunc("/sign.xml", func(w http.ResponseWriter, r *http.Request) {
-		http.ServeFile(w, r, testXMLPath)
-	})
 	localServer.HandleFunc("/sign.json", func(w http.ResponseWriter, r *http.Request) {
 		http.ServeFile(w, r, testJSONPath)
 	})
 
-	// Start the XML server on a different port
+	// Start the server on a different port
 	localPort := "7103"
 	go func() {
 		err := http.ListenAndServe(":"+localPort, localServer)
 		if err != nil {
-			t.Logf("XML server stopped: %v", err)
+			t.Logf("test server stopped: %v", err)
 		}
 	}()
 
-	// Give the XML server time to start
+	// Give the server time to start
 	time.Sleep(2 * time.Second)
 
-	// Configure the main server to use our local XML server
-	xmlURL := fmt.Sprintf("http://localhost:%s/sign.xml", localPort)
+	// Configure the main server to use our local server
 	jsonURL := fmt.Sprintf("http://localhost:%s/sign.json", localPort)
-	conf, err := NewConfig(port, jsonURL, xmlURL, 1)
+	conf, err := NewConfig(port, jsonURL, 1)
 	if err != nil {
 		t.Fatalf("❌ Failed to create server config (%v)", err)
 	}
