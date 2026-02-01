@@ -1,0 +1,1 @@
+export { ColocatedView } from './ColocatedView';

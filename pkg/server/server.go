@@ -2,6 +2,7 @@ package server
 
 import (
 	"context"
+	"fmt"
 	"log"
 	"net/http"
 	"os"
@@ -21,8 +22,11 @@ type Server struct {
 }
 
 // NewServer sets up the cron runs for schedule and sponsors returns the *Server
-func NewServer(c Config) *Server {
-	sch := schedule.NewSchedule(c.ScheduleJSONurl)
+func NewServer(c Config) (*Server, error) {
+	sch, err := schedule.NewScheduleWithPersistence(c.ScheduleJSONurl, c.PersistPath)
+	if err != nil {
+		return nil, fmt.Errorf("failed to create schedule: %w", err)
+	}
 
 	// Channels for coordinating shutdown
 	stopRefresh := make(chan struct{})
@@ -61,7 +65,7 @@ func NewServer(c Config) *Server {
 		httpd:       srv,
 		stopRefresh: stopRefresh,
 		refreshDone: refreshDone,
-	}
+	}, nil
 }
 
 // ListenAndServe starts the server and sets up graceful shutdown

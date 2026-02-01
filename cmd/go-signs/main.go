@@ -8,8 +8,11 @@ import (
 )
 
 func run(c server.Config) error {
-	server := server.NewServer(c)
-	err := server.ListenAndServe()
+	server, err := server.NewServer(c)
+	if err != nil {
+		return err
+	}
+	err = server.ListenAndServe()
 	if err != nil {
 		return err
 	}
@@ -20,10 +23,11 @@ func main() {
 	listenPort := flag.String("port", "2017", "Port to listen on (1-65535)")
 	jsonEndpoint := flag.String("json", "https://www.socallinuxexpo.org/scale/23x/signs", "URL to Drupal JSON endpoint (must be http or https)")
 	refreshInterval := flag.Int("refresh", 5, "Schedule refresh interval in minutes (minimum 1)")
+	persistPath := flag.String("persist", "", "Optional path to BoltDB file for schedule persistence (empty = disabled)")
 	flag.Parse()
 
 	// Create config with validation
-	conf, err := server.NewConfig(*listenPort, *jsonEndpoint, *refreshInterval)
+	conf, err := server.NewConfig(*listenPort, *jsonEndpoint, *refreshInterval, *persistPath)
 	if err != nil {
 		// Show usage on validation error
 		flag.Usage()

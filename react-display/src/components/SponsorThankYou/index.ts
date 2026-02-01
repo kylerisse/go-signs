@@ -1,0 +1,1 @@
+export { SponsorThankYou } from './SponsorThankYou';

@@ -121,7 +121,7 @@ func TestNewConfig(t *testing.T) {
 	// Run tests
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			config, err := NewConfig(tt.port, tt.jsonEndpoint, tt.refreshInterval)
+			config, err := NewConfig(tt.port, tt.jsonEndpoint, tt.refreshInterval, "")
 
 			// Check if error was expected
 			if tt.wantErr {
