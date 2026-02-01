@@ -64,7 +64,7 @@ inputs.nixpkgs.lib.genAttrs systems
     {
       scale-simulator = pkgs.buildGoModule rec {
         pname = "scale-simulator";
-        version = "unstable";
+        version = "0.3.0";
         src = builtins.path { path = ../.; };
         goPackagePath = "github.com/kylerisse/go-signs";
         vendorHash = goSumSha;
@@ -95,7 +95,7 @@ inputs.nixpkgs.lib.genAttrs systems
 
       go-signs = pkgs.buildGoModule rec {
         pname = "go-signs";
-        version = "unstable";
+        version = "0.3.0";
         src = builtins.path { path = ../.; };
         goPackagePath = "github.com/kylerisse/go-signs";
         vendorHash = goSumSha;
