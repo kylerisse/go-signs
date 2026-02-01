@@ -6,12 +6,12 @@ export interface Presentation {
 	Location: string;
 	StartTime: string;
 	EndTime: string;
-	Speakers: string[];
-	Topic: string;
+	Speakers: string[] | null;
+	Topic: string | null;
 }
 
 export interface ScheduleData {
-	Presentations: Presentation[];
+	Presentations: Presentation[] | null;
 	lastUpdateTime: string;
 	lastRefreshTime: string;
 	contentHash: string;

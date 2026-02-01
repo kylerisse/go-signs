@@ -19,6 +19,7 @@ type Schedule struct {
 	SessionCount    int            `json:"sessionCount"`    // Number of presentations
 	mutex           *sync.RWMutex  `json:"-"`               // Don't include in JSON
 	jsonURL         string         `json:"-"`               // Don't include in JSON
+	persistence     *Persistence   `json:"-"`               // Optional persistence
 }
 
 // Event is basic scheduling primitive
@@ -42,9 +43,34 @@ func NewSchedule(jsonUrl string) *Schedule {
 	sch := Schedule{
 		jsonURL:     jsonUrl,
 		ContentHash: "",
+		persistence: nil,
 	}
 	sch.mutex = &sync.RWMutex{}
 	return &sch
+}
+
+// NewScheduleWithPersistence creates a new Schedule with optional persistence
+func NewScheduleWithPersistence(jsonUrl string, persistPath string) (*Schedule, error) {
+	sch := NewSchedule(jsonUrl)
+
+	if persistPath != "" {
+		persist, err := NewPersistence(persistPath)
+		if err != nil {
+			return nil, err
+		}
+		sch.persistence = persist
+
+		// Try to load from persistence
+		if loaded, err := persist.Load(); err == nil && loaded != nil && len(loaded.Presentations) > 0 {
+			sch.mutex.Lock()
+			sch.Presentations = loaded.Presentations
+			sch.SessionCount = loaded.SessionCount
+			sch.mutex.Unlock()
+			log.Printf("Restored %d presentations from persistence", len(loaded.Presentations))
+		}
+	}
+
+	return sch, nil
 }
 
 // calculateContentHash generates a SHA-256 hash of content
@@ -118,6 +144,13 @@ func (s *Schedule) UpdateFromJSON() {
 	s.mutex.Unlock()
 
 	s.updateSchedule(ps)
+
+	// Persist if enabled
+	if s.persistence != nil {
+		if err := s.persistence.Save(s); err != nil {
+			log.Printf("Warning: Failed to persist schedule: %v", err)
+		}
+	}
 }
 
 // HandleScheduleAll serves the complete schedule as JSON

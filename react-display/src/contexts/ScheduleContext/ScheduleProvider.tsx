@@ -53,7 +53,7 @@ export function ScheduleProvider({
 			// Update the schedule state and hash
 			console.log(
 				`Updating schedule: ${String(
-					data.Presentations.length || 0
+					data.Presentations?.length ?? 0
 				)} sessions, hash: ${data.contentHash}`
 			);
 			setSchedule(data);

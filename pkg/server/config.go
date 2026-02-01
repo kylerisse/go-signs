@@ -13,10 +13,11 @@ type Config struct {
 	Address         string
 	ScheduleJSONurl string
 	RefreshInterval time.Duration
+	PersistPath     string // Optional path to BoltDB file for persistence (empty = disabled)
 }
 
 // NewConfig creates a new Config with validation
-func NewConfig(listenPort string, jsonEndpoint string, refreshInterval int) (Config, error) {
+func NewConfig(listenPort string, jsonEndpoint string, refreshInterval int, persistPath string) (Config, error) {
 	// Validate port
 	if err := validatePort(listenPort); err != nil {
 		return Config{}, fmt.Errorf("invalid port: %w", err)
@@ -36,6 +37,7 @@ func NewConfig(listenPort string, jsonEndpoint string, refreshInterval int) (Con
 		Address:         fmt.Sprintf(":%v", listenPort),
 		ScheduleJSONurl: jsonEndpoint,
 		RefreshInterval: time.Duration(refreshInterval) * time.Minute,
+		PersistPath:     persistPath,
 	}, nil
 }
 

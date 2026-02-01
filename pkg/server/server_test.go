@@ -39,13 +39,16 @@ func TestServer(t *testing.T) {
 
 	// Configure the main server to use our local server
 	jsonURL := fmt.Sprintf("http://localhost:%s/sign.json", localPort)
-	conf, err := NewConfig(port, jsonURL, 1)
+	conf, err := NewConfig(port, jsonURL, 1, "")
 	if err != nil {
 		t.Fatalf("❌ Failed to create server config (%v)", err)
 	}
 
 	// Create a new server instance
-	server := NewServer(conf)
+	server, err := NewServer(conf)
+	if err != nil {
+		t.Fatalf("❌ Failed to create server (%v)", err)
+	}
 
 	// Start the server in a goroutine
 	go func() {

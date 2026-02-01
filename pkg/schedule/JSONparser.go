@@ -15,7 +15,7 @@ type DrupalNode struct {
 	Location    string
 	StartTime   string
 	EndTime     string
-	Speakers    string
+	Speakers    interface{} // Can be string (Drupal) or []string (simulator)
 	Topic       string
 	Description string
 }
@@ -67,8 +67,7 @@ func toPresentation(dn DrupalNode) (Presentation, error) {
 	}
 	p.EndTime = et
 
-	p.Speakers = extractSpeakers(
-		html.UnescapeString(dn.Speakers))
+	p.Speakers = extractSpeakersFromInterface(dn.Speakers)
 
 	p.Topic = html.UnescapeString(dn.Topic)
 
@@ -80,10 +79,36 @@ func toPresentation(dn DrupalNode) (Presentation, error) {
 	return p, nil
 }
 
+// extractSpeakersFromInterface handles both string (Drupal) and []string (simulator) formats
+func extractSpeakersFromInterface(speakers interface{}) []string {
+	switch v := speakers.(type) {
+	case string:
+		// Drupal format: comma-separated string
+		return extractSpeakers(html.UnescapeString(v))
+	case []interface{}:
+		// Simulator format: array of strings
+		var rs []string
+		for _, s := range v {
+			if str, ok := s.(string); ok {
+				cleaned := cleanupNewlinesAndSpaces(html.UnescapeString(str))
+				if cleaned != "" {
+					rs = append(rs, cleaned)
+				}
+			}
+		}
+		return rs
+	default:
+		return []string{}
+	}
+}
+
 func extractSpeakers(speakers string) []string {
 	var rs []string
 	for _, s := range strings.Split(speakers, ",") {
-		rs = append(rs, cleanupNewlinesAndSpaces(s))
+		cleaned := cleanupNewlinesAndSpaces(s)
+		if cleaned != "" {
+			rs = append(rs, cleaned)
+		}
 	}
 	return rs
 }
