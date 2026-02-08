@@ -85,7 +85,7 @@ export function ScheduleCarousel({
 		Location: '',
 		StartTime: new Date().toISOString(),
 		EndTime: new Date().toISOString(),
-		Speakers: [],
+		Speakers: '',
 		Topic: '',
 		status: {
 			isInProgress: false,

@@ -33,8 +33,8 @@ type Event struct {
 // Presentation is an extension of event with speakers and a topic
 type Presentation struct {
 	Event
-	Speakers []string `json:"Speakers"`
-	Topic    string   `json:"Topic"`
+	Speakers string `json:"Speakers"`
+	Topic    string `json:"Topic"`
 }
 
 // NewSchedule produces a new Schedule
