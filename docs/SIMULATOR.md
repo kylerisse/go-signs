@@ -66,17 +66,16 @@ When first run, the simulator will:
 
 ## API Endpoints
 
-| Endpoint     | Method | Description                                                                  |
-| ------------ | ------ | ---------------------------------------------------------------------------- |
-| `/health`    | GET    | Health check endpoint returning status and current time                      |
-| `/`          | GET    | Returns the schedule as JSON (main endpoint for the go-signs frontend)       |
-| `/sign.json` | GET    | Returns the schedule as JSON (main Drupal endpoint for the go-signs backend) |
+| Endpoint     | Method | Description                                                     |
+| ------------ | ------ | --------------------------------------------------------------- |
+| `/health`    | GET    | Health check endpoint returning status and current time         |
+| `/`          | GET    | Returns the schedule as JSON (main Drupal endpoint for go-signs |
 
 ## Use Cases
 
 ### Demo Site
 
-The `go-signs` [DEMO](https://demo.go-signs.org) site leverages an always running instance of the Simulator's [JSON endpoint](https://simulator.go-signs.org/sign.json).
+The `go-signs` [DEMO](https://demo.go-signs.org) site leverages an always running instance of the Simulator's [JSON endpoint](https://simulator.go-signs.org/).
 
 ### Local Development
 
