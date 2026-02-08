@@ -47,20 +47,24 @@ func checkOrCreateSimulationBucket(db *bolt.DB) error {
 
 		// If not resetting due to date, check if there are any running or upcoming presentations
 		if !resetNeeded {
-			presentationsBytes := bucket.Get([]byte("presentations"))
-			if presentationsBytes == nil {
+			mockJSONBytes := bucket.Get([]byte("mockJSON"))
+			if mockJSONBytes == nil {
 				resetNeeded = true
-				log.Println("No presentations found in simulation bucket, will reset")
+				log.Println("No mockJSON found in simulation bucket, will reset")
 			} else {
-				// Check if there are any running or upcoming presentations
-				hasEvents, err := hasRunningOrUpcomingEvents(presentationsBytes, today)
+				// Parse and check if there are any running or upcoming events
+				presentations, err := schedule.DrupalToPresentations(mockJSONBytes)
 				if err != nil {
-					log.Printf("Error checking for events: %v", err)
-				} else if !hasEvents {
+					log.Printf("Error parsing presentations: %v", err)
 					resetNeeded = true
-					log.Println("No running or upcoming events in simulation, will reset")
 				} else {
-					log.Println("Simulation has running or upcoming events, no reset needed")
+					hasEvents := hasRunningOrUpcomingEvents(presentations, today)
+					if !hasEvents {
+						resetNeeded = true
+						log.Println("No running or upcoming events in simulation, will reset")
+					} else {
+						log.Println("Simulation has running or upcoming events, no reset needed")
+					}
 				}
 			}
 		}
@@ -95,36 +99,28 @@ func checkOrCreateSimulationBucket(db *bolt.DB) error {
 
 // hasRunningOrUpcomingEvents checks if there are any presentations that are either
 // currently running or will start within the next 24 hours
-func hasRunningOrUpcomingEvents(presentationsJSON []byte, now time.Time) (bool, error) {
-	var presentations []schedule.Presentation
-	if err := json.Unmarshal(presentationsJSON, &presentations); err != nil {
-		return false, fmt.Errorf("failed to parse presentations JSON: %w", err)
-	}
-
+func hasRunningOrUpcomingEvents(presentations []schedule.Presentation, now time.Time) bool {
 	// Set a cutoff time of 24 hours from now
 	cutoff := now.Add(24 * time.Hour)
 
 	for _, p := range presentations {
-		// The StartTime and EndTime in the Presentation struct are already time.Time values,
-		// so we don't need to parse them
-
 		// Check if the presentation is currently running
 		if now.After(p.StartTime) && now.Before(p.EndTime) {
 			log.Printf("Found currently running presentation: %s", p.Name)
-			return true, nil
+			return true
 		}
 
 		// Check if the presentation will start within the next 24 hours
 		if p.StartTime.After(now) && p.StartTime.Before(cutoff) {
 			log.Printf("Found upcoming presentation within 24h: %s at %s",
 				p.Name, p.StartTime.Format("2006-01-02 15:04:05"))
-			return true, nil
+			return true
 		}
 	}
 
 	// No running or upcoming events found
 	log.Println("No running or upcoming events found in the next 24 hours")
-	return false, nil
+	return false
 }
 
 // createSimulatedConferenceData randomly selects and modifies a conference schedule
@@ -181,7 +177,6 @@ func createSimulatedConferenceData(tx *bolt.Tx, today time.Time) error {
 
 	// Now merge in all the other conferences with their original dates
 	for _, key := range jsonKeys {
-
 		// Get the JSON data for this conference
 		jsonData := jsonBucket.Get([]byte(key))
 		if jsonData == nil {
@@ -209,33 +204,13 @@ func createSimulatedConferenceData(tx *bolt.Tx, today time.Time) error {
 		return fmt.Errorf("error marshaling merged JSON: %w", err)
 	}
 
-	// Store the modified and merged JSON in the simulation bucket
+	// Store the merged JSON in the simulation bucket
 	if err := simBucket.Put([]byte("mockJSON"), finalJSON); err != nil {
 		return fmt.Errorf("failed to store mockJSON: %w", err)
 	}
 
 	log.Printf("Created mockJSON from %s with date-shifted sessions plus original sessions from other conferences",
 		selectedKey)
-
-	// Now use the schedule.BytesToPresentations function to parse the JSON
-	// and store the result in the presentations key
-	presentations, err := schedule.DrupalToPresentations(finalJSON)
-	if err != nil {
-		return fmt.Errorf("failed to parse presentations from JSON: %w", err)
-	}
-
-	// Serialize the presentations to JSON
-	presentationsJSON, err := json.Marshal(presentations)
-	if err != nil {
-		return fmt.Errorf("failed to serialize presentations: %w", err)
-	}
-
-	// Store the presentations in the simulation bucket
-	if err := simBucket.Put([]byte("presentations"), presentationsJSON); err != nil {
-		return fmt.Errorf("failed to store presentations: %w", err)
-	}
-
-	log.Printf("Parsed and stored %d presentations in simulation bucket", len(presentations))
 
 	return nil
 }
