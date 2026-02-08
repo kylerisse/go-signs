@@ -205,8 +205,8 @@ func openDatabase(dbPath string) (*bolt.DB, error) {
 
 // setupRoutes configures all routes for the application
 func setupRoutes(r *gin.Engine, db *bolt.DB, server *Server) {
-	// Health check endpoint
-	r.GET("/health", func(c *gin.Context) {
+	// Status check endpoint
+	r.GET("/", func(c *gin.Context) {
 		schedulerStatus := "Never run"
 
 		if !server.lastScheduleRun.IsZero() {
@@ -214,10 +214,22 @@ func setupRoutes(r *gin.Engine, db *bolt.DB, server *Server) {
 				server.lastScheduleRun.Format("2006-01-02 15:04:05"))
 		}
 
+		endDate := "not set"
+		db.View(func(tx *bolt.Tx) error {
+			bucket := tx.Bucket([]byte("simulation"))
+			if bucket != nil {
+				endDateBytes := bucket.Get([]byte("endDate"))
+				if endDateBytes != nil {
+					endDate = string(endDateBytes)
+				}
+			}
+			return nil
+		})
+
 		c.JSON(http.StatusOK, gin.H{
-			"status":    "ok",
 			"time":      time.Now().Format(time.RFC3339),
 			"scheduler": schedulerStatus,
+			"endDate":   endDate,
 		})
 	})
 
@@ -249,35 +261,6 @@ func setupRoutes(r *gin.Engine, db *bolt.DB, server *Server) {
 		c.Header("Content-Type", "application/json")
 		// Write the JSON data directly
 		c.Writer.Write(jsonData)
-	})
-
-	// Main endpoint to serve schedule JSON
-	r.GET("/", func(c *gin.Context) {
-		// Access the database to get presentations
-		var presentations []byte
-		err := db.View(func(tx *bolt.Tx) error {
-			bucket := tx.Bucket([]byte("simulation"))
-			if bucket == nil {
-				return fmt.Errorf("simulation bucket not found")
-			}
-			presentations = bucket.Get([]byte("presentations"))
-			if presentations == nil {
-				return fmt.Errorf("presentations not found in simulation bucket")
-			}
-			return nil
-		})
-
-		if err != nil {
-			c.JSON(http.StatusInternalServerError, gin.H{
-				"error": err.Error(),
-			})
-			return
-		}
-
-		// Set the content type to application/json
-		c.Header("Content-Type", "application/json")
-		// Write the presentations JSON directly
-		c.Writer.Write(presentations)
 	})
 
 	// Endpoint to serve the data
