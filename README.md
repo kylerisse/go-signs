@@ -55,7 +55,7 @@ This feature is extremely useful for testing various schedule states like "in pr
 
 ## Contributing
 
-see [CONTRIBUTING](./CONTRIBUTING.md)
+see [CONTRIBUTING](./CONTRIBUTING.md) and [AI POLICY](./docs/AI_POLICY.md)
 
 ## Releases
 
