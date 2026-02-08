@@ -57,6 +57,10 @@ This feature is extremely useful for testing various schedule states like "in pr
 
 see [CONTRIBUTING](./CONTRIBUTING.md)
 
+## Releases
+
+see [RELEASES](./docs/RELEASES.md)
+
 ## Project Structure
 
 ```
