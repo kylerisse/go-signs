@@ -66,11 +66,12 @@ When first run, the simulator will:
 
 ## API Endpoints
 
-| Endpoint     | Method | Description                                                                  |
-| ------------ | ------ | ---------------------------------------------------------------------------- |
-| `/health`    | GET    | Health check endpoint returning status and current time                      |
-| `/`          | GET    | Returns the schedule as JSON (main endpoint for the go-signs frontend)       |
-| `/sign.json` | GET    | Returns the schedule as JSON (main Drupal endpoint for the go-signs backend) |
+| Endpoint      | Method | Description                                                                     |
+| ------------- | ------ | ------------------------------------------------------------------------------- |
+| `/health`     | GET    | Health check endpoint returning status and current time                         |
+| `/`           | GET    | Returns the schedule as JSON (main endpoint for the go-signs frontend)          |
+| `/sign.json`  | GET    | Returns the simulation as JSON (main Drupal endpoint for the go-signs backend)  |
+| `/archive/$x` | GET    | Returns any schedule from a specific scale, where `$x` is ex: `13x`, `23x`, etc |
 
 ## Use Cases
 

@@ -221,7 +221,35 @@ func setupRoutes(r *gin.Engine, db *bolt.DB, server *Server) {
 		})
 	})
 
-	r.StaticFS("/archive", http.FS(server.archiveDir))
+	r.GET("/archive/:version", func(c *gin.Context) {
+		version := c.Param("version")
+
+		// Access the database to get the conference data
+		var jsonData []byte
+		err := db.View(func(tx *bolt.Tx) error {
+			bucket := tx.Bucket([]byte("jsonData"))
+			if bucket == nil {
+				return fmt.Errorf("jsonData bucket not found")
+			}
+			jsonData = bucket.Get([]byte(version))
+			if jsonData == nil {
+				return fmt.Errorf("version %s not found", version)
+			}
+			return nil
+		})
+
+		if err != nil {
+			c.JSON(http.StatusNotFound, gin.H{
+				"error": fmt.Sprintf("Conference data not found: %v", err),
+			})
+			return
+		}
+
+		// Set the content type to application/json
+		c.Header("Content-Type", "application/json")
+		// Write the JSON data directly
+		c.Writer.Write(jsonData)
+	})
 
 	// Main endpoint to serve schedule JSON
 	r.GET("/", func(c *gin.Context) {
