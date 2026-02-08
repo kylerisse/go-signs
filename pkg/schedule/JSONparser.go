@@ -67,8 +67,7 @@ func toPresentation(dn DrupalNode) (Presentation, error) {
 	}
 	p.EndTime = et
 
-	p.Speakers = extractSpeakers(
-		html.UnescapeString(dn.Speakers))
+	p.Speakers = html.UnescapeString(dn.Speakers)
 
 	p.Topic = html.UnescapeString(dn.Topic)
 
@@ -78,14 +77,6 @@ func toPresentation(dn DrupalNode) (Presentation, error) {
 	p.Location = html.UnescapeString(dn.Location)
 
 	return p, nil
-}
-
-func extractSpeakers(speakers string) []string {
-	var rs []string
-	for _, s := range strings.Split(speakers, ",") {
-		rs = append(rs, cleanupNewlinesAndSpaces(s))
-	}
-	return rs
 }
 
 func cleanupNewlinesAndSpaces(s string) string {

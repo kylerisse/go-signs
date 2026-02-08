@@ -217,26 +217,6 @@ func createSimulatedConferenceData(tx *bolt.Tx, today time.Time) error {
 	log.Printf("Created mockJSON from %s with date-shifted sessions plus original sessions from other conferences",
 		selectedKey)
 
-	// Now use the schedule.BytesToPresentations function to parse the JSON
-	// and store the result in the presentations key
-	presentations, err := schedule.DrupalToPresentations(finalJSON)
-	if err != nil {
-		return fmt.Errorf("failed to parse presentations from JSON: %w", err)
-	}
-
-	// Serialize the presentations to JSON
-	presentationsJSON, err := json.Marshal(presentations)
-	if err != nil {
-		return fmt.Errorf("failed to serialize presentations: %w", err)
-	}
-
-	// Store the presentations in the simulation bucket
-	if err := simBucket.Put([]byte("presentations"), presentationsJSON); err != nil {
-		return fmt.Errorf("failed to store presentations: %w", err)
-	}
-
-	log.Printf("Parsed and stored %d presentations in simulation bucket", len(presentations))
-
 	return nil
 }
 

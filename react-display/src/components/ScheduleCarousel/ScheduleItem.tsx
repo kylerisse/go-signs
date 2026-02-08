@@ -72,7 +72,7 @@ export function ScheduleItem({ session, isEmpty = false }: ScheduleItemProps) {
 						)}
 						{/* Speaker names */}
 						<span className='text-xl text-white font-bold italic mb-1 break-words py-1'>
-							{session.Speakers.join(', ')}
+							{session.Speakers}
 						</span>
 					</div>
 				</div>

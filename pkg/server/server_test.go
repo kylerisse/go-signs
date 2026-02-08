@@ -21,7 +21,7 @@ func TestServer(t *testing.T) {
 
 	// Create a file server to serve the test JSON
 	localServer := http.NewServeMux()
-	localServer.HandleFunc("/sign.json", func(w http.ResponseWriter, r *http.Request) {
+	localServer.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		http.ServeFile(w, r, testJSONPath)
 	})
 
@@ -38,7 +38,7 @@ func TestServer(t *testing.T) {
 	time.Sleep(2 * time.Second)
 
 	// Configure the main server to use our local server
-	jsonURL := fmt.Sprintf("http://localhost:%s/sign.json", localPort)
+	jsonURL := fmt.Sprintf("http://localhost:%s/", localPort)
 	conf, err := NewConfig(port, jsonURL, 1)
 	if err != nil {
 		t.Fatalf("❌ Failed to create server config (%v)", err)

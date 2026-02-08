@@ -223,37 +223,8 @@ func setupRoutes(r *gin.Engine, db *bolt.DB, server *Server) {
 
 	r.StaticFS("/archive", http.FS(server.archiveDir))
 
-	// Main endpoint to serve schedule JSON
+	// Main endpoint to serve mock JSON
 	r.GET("/", func(c *gin.Context) {
-		// Access the database to get presentations
-		var presentations []byte
-		err := db.View(func(tx *bolt.Tx) error {
-			bucket := tx.Bucket([]byte("simulation"))
-			if bucket == nil {
-				return fmt.Errorf("simulation bucket not found")
-			}
-			presentations = bucket.Get([]byte("presentations"))
-			if presentations == nil {
-				return fmt.Errorf("presentations not found in simulation bucket")
-			}
-			return nil
-		})
-
-		if err != nil {
-			c.JSON(http.StatusInternalServerError, gin.H{
-				"error": err.Error(),
-			})
-			return
-		}
-
-		// Set the content type to application/json
-		c.Header("Content-Type", "application/json")
-		// Write the presentations JSON directly
-		c.Writer.Write(presentations)
-	})
-
-	// Endpoint to serve the data
-	r.GET("/sign.json", func(c *gin.Context) {
 		// Access the database to get mockJSON
 		var jsonData []byte
 		err := db.View(func(tx *bolt.Tx) error {

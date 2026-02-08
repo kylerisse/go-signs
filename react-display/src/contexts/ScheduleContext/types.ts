@@ -6,7 +6,7 @@ export interface Presentation {
 	Location: string;
 	StartTime: string;
 	EndTime: string;
-	Speakers: string[];
+	Speakers: string;
 	Topic: string;
 }
 
