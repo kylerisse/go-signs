@@ -205,8 +205,8 @@ func openDatabase(dbPath string) (*bolt.DB, error) {
 
 // setupRoutes configures all routes for the application
 func setupRoutes(r *gin.Engine, db *bolt.DB, server *Server) {
-	// Health check endpoint
-	r.GET("/health", func(c *gin.Context) {
+	// Status check endpoint
+	r.GET("/", func(c *gin.Context) {
 		schedulerStatus := "Never run"
 
 		if !server.lastScheduleRun.IsZero() {
@@ -214,42 +214,53 @@ func setupRoutes(r *gin.Engine, db *bolt.DB, server *Server) {
 				server.lastScheduleRun.Format("2006-01-02 15:04:05"))
 		}
 
+		endDate := "not set"
+		db.View(func(tx *bolt.Tx) error {
+			bucket := tx.Bucket([]byte("simulation"))
+			if bucket != nil {
+				endDateBytes := bucket.Get([]byte("endDate"))
+				if endDateBytes != nil {
+					endDate = string(endDateBytes)
+				}
+			}
+			return nil
+		})
+
 		c.JSON(http.StatusOK, gin.H{
-			"status":    "ok",
 			"time":      time.Now().Format(time.RFC3339),
 			"scheduler": schedulerStatus,
+			"endDate":   endDate,
 		})
 	})
 
-	r.StaticFS("/archive", http.FS(server.archiveDir))
+	r.GET("/archive/:version", func(c *gin.Context) {
+		version := c.Param("version")
 
-	// Main endpoint to serve schedule JSON
-	r.GET("/", func(c *gin.Context) {
-		// Access the database to get presentations
-		var presentations []byte
+		// Access the database to get the conference data
+		var jsonData []byte
 		err := db.View(func(tx *bolt.Tx) error {
-			bucket := tx.Bucket([]byte("simulation"))
+			bucket := tx.Bucket([]byte("jsonData"))
 			if bucket == nil {
-				return fmt.Errorf("simulation bucket not found")
+				return fmt.Errorf("jsonData bucket not found")
 			}
-			presentations = bucket.Get([]byte("presentations"))
-			if presentations == nil {
-				return fmt.Errorf("presentations not found in simulation bucket")
+			jsonData = bucket.Get([]byte(version))
+			if jsonData == nil {
+				return fmt.Errorf("version %s not found", version)
 			}
 			return nil
 		})
 
 		if err != nil {
-			c.JSON(http.StatusInternalServerError, gin.H{
-				"error": err.Error(),
+			c.JSON(http.StatusNotFound, gin.H{
+				"error": fmt.Sprintf("Conference data not found: %v", err),
 			})
 			return
 		}
 
 		// Set the content type to application/json
 		c.Header("Content-Type", "application/json")
-		// Write the presentations JSON directly
-		c.Writer.Write(presentations)
+		// Write the JSON data directly
+		c.Writer.Write(jsonData)
 	})
 
 	// Endpoint to serve the data
