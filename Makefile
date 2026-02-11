@@ -6,7 +6,7 @@ test: build-react
 	go test -count=1 --race -v ./...
 
 build-react:
-	cd react-display && npm install && npm run build
+	cd react-display && npm --no-fund install && npm run build
 
 build-go:
 	go build -o out/scale-simulator cmd/scale-simulator/main.go

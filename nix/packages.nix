@@ -28,7 +28,7 @@ inputs.nixpkgs.lib.genAttrs systems
 
         # React lint
         cd react-display
-        npm ci --cache="$npm_config_cache" --prefer-offline --no-audit --progress=false
+        npm ci --no-fund --cache="$npm_config_cache" --prefer-offline --no-audit --progress=false
         node node_modules/.bin/eslint . --max-warnings=0
         cd ..
 
@@ -52,7 +52,7 @@ inputs.nixpkgs.lib.genAttrs systems
 
         # build the React bundle
         cd react-display
-        npm ci --cache="$npm_config_cache" --prefer-offline --no-audit --progress=false
+        npm ci --no-fund --cache="$npm_config_cache" --prefer-offline --no-audit --progress=false
 
         # invoke tsc & vite via node
         node node_modules/.bin/tsc -b
