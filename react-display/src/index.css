@@ -1,1 +1,6 @@
 @import 'tailwindcss';
+
+/* Kiosk mode: hide mouse cursor */
+* {
+	cursor: none !important;
+}
