@@ -20,7 +20,7 @@ inputs.nixpkgs.lib.genAttrs systems
         hash = "sha256-WSDNwSGtCf+J380XmbgR1lFEyDhUz0BqICoQhkUH66g=";
       };
 
-      goSumSha = "sha256-irYEvgito9EKDQZAQ0r9q1BMmFZbuEBWTbVKFvpYLOc=";
+      goSumSha = "sha256-/P+jK3JCT7SAQWiYZCVo1hXYpBq35xoDfwm3S1Ly8rE=";
 
       commonCheckPhase = ''
         # point npm at the offline cache
