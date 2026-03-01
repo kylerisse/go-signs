@@ -17,7 +17,7 @@ inputs.nixpkgs.lib.genAttrs systems
       # prefetch-npm-deps react-display/package-lock.json
       npmDeps = pkgs.fetchNpmDeps {
         src = builtins.path { path = ../react-display; };
-        hash = "sha256-WSDNwSGtCf+J380XmbgR1lFEyDhUz0BqICoQhkUH66g=";
+        hash = "sha256-M4/nzZR7n+ZDznn+a0NDYJsjmaaJNqJjt08ppHF1LPc=";
       };
 
       goSumSha = "sha256-/P+jK3JCT7SAQWiYZCVo1hXYpBq35xoDfwm3S1Ly8rE=";
