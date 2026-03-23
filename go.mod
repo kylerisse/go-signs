@@ -1,3 +1,4 @@
+// Deprecated: use github.com/socallinuxexpo/scale-signs instead.
 module github.com/kylerisse/go-signs
 
 go 1.25

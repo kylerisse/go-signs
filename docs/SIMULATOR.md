@@ -76,7 +76,7 @@ When first run, the simulator will:
 
 ### Demo Site
 
-The `go-signs` [DEMO](https://demo.go-signs.org) site leverages an always running instance of the Simulator's [JSON endpoint](https://simulator.go-signs.org/sign.json).
+The `go-signs` [DEMO](https://signs.scalenoc.org) site leverages an always running instance of the Simulator's [JSON endpoint](https://simulator.scalenoc.org/sign.json).
 
 ### Local Development
 
